@@ -152,7 +152,7 @@ export default function Home() {
           </div>
 
           <div className="group flex justify-between items-center relative bg-gray-600/5 dark:shadow-2xl overflow-hidden border border-gray-500/25 hover:border-primary hover:shadow-xl rounded-lg overflow-hidden p-2.5 transition-all duration-200">
-            <img src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png" width="32" height="32" className="bg-white/5 p-1 w-[32px] h-[32px] rounded-md " />
+            <img src="https://cdn.worldvectorlogo.com/logos/tailwind-css-2.svg" width="32" height="32" className="bg-white/5 p-1 w-[32px] h-[32px] rounded-md " />
             <div className="relative">
               <h2 className="font-display text-xl font-medium text-black dark:text-white">Tailwind CSS</h2>
             </div>
@@ -166,28 +166,28 @@ export default function Home() {
           </div>
 
           <div className="group flex justify-between items-center relative bg-gray-600/5 dark:shadow-2xl overflow-hidden border border-gray-500/25 hover:border-primary hover:shadow-xl rounded-lg overflow-hidden p-2.5 transition-all duration-200">
-            <img src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png" width="32" height="32" className="bg-white/5 p-1 w-[32px] h-[32px] rounded-md " />
+            <img src="https://cdn.worldvectorlogo.com/logos/react-2.svg" width="32" height="32" className="bg-white/5 p-1 w-[32px] h-[32px] rounded-md " />
             <div className="relative">
               <h2 className="font-display text-xl font-medium text-black dark:text-white">React</h2>
             </div>
           </div>
 
           <div className="group flex justify-between items-center relative bg-gray-600/5 dark:shadow-2xl overflow-hidden border border-gray-500/25 hover:border-primary hover:shadow-xl rounded-lg overflow-hidden p-2.5 transition-all duration-200">
-            <img src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png" width="32" height="32" className="bg-white/5 p-1 w-[32px] h-[32px] rounded-md " />
+            <img src="https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg" width="32" height="32" className="bg-white/5 p-1 w-[32px] h-[32px] rounded-md " />
             <div className="relative">
               <h2 className="font-display text-xl font-medium text-black dark:text-white">Node</h2>
             </div>
           </div>
 
           <div className="group flex justify-between items-center relative bg-gray-600/5 dark:shadow-2xl overflow-hidden border border-gray-500/25 hover:border-primary hover:shadow-xl rounded-lg overflow-hidden p-2.5 transition-all duration-200">
-            <img src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png" width="32" height="32" className="bg-white/5 p-1 w-[32px] h-[32px] rounded-md " />
+            <img src="https://cdn.worldvectorlogo.com/logos/mysql-6.svg" width="32" height="32" className="bg-white/5 p-1 w-[32px] h-[32px] rounded-md " />
             <div className="relative">
               <h2 className="font-display text-xl font-medium text-black dark:text-white">MySQL</h2>
             </div>
           </div>
 
           <div className="group flex justify-between items-center relative bg-gray-600/5 dark:shadow-2xl overflow-hidden border border-gray-500/25 hover:border-primary hover:shadow-xl rounded-lg overflow-hidden p-2.5 transition-all duration-200">
-            <img src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png" width="32" height="32" className="bg-white/5 p-1 w-[32px] h-[32px] rounded-md " />
+            <img src="https://cdn.worldvectorlogo.com/logos/adobe-photoshop-2.svg" width="32" height="32" className="bg-white/5 p-1 w-[32px] h-[32px] rounded-md " />
             <div className="relative">
               <h2 className="font-display text-xl font-medium text-black dark:text-white">Photoshop</h2>
             </div>

@@ -16,8 +16,9 @@ export default function About() {
             <div className="flex flex-col lg:flex-row justify-between w-full h-full py-24 gap-24">
                 <div>
                     <h1 className="text-4xl font-bold">¿Quién <span className="relative whitespace-nowrap text-primary">soy?</span>?</h1>
-                    <p className="text-xl mt-1">
-                        soy tu padre! <i className="fa fa-heart" />
+                    <p className="text-xl mt-1">    
+                        Soy un tipo que conozco como hablar en <span className="relative whitespace-nowrap text-english">inglés</span>
+                        y actualmente estoy iniciando a aprender <span className="relative whitespace-nowrap text-portugues">portugues</span> <i className="fa fa-heart" />
                     </p>
                     
                 </div>
