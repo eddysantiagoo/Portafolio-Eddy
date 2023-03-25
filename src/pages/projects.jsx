@@ -41,12 +41,12 @@ export default function Projects() {
             >
               <div className="h-36 w-full relative rounded-lg shadow-xl overflow-hidden">
                 <img
-                  src="https://i.imgur.com/MGvRqz5.png"
+                  src="https://imgbox.io/ib/KDG5E8wdcl.png"
                   className="absolute w-full h-full object-cover "
                 />
               </div>
               <div className="mt-4">
-                <p className="text-xl font-semibold">Papa's Burger</p>
+                <p className="text-xl font-semibold">Papa's Burgeria</p>
                 <p className="text-sm max-h-24 h-24 overflow-auto font-normal text-gray-500">
                   Landing page creado bajo un mockup para
                   el uso de un restaurente de hamburgesas.  
