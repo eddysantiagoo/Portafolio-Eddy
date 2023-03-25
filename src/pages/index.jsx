@@ -18,7 +18,7 @@ export default function Home() {
 
   return (
     <>
-      <div className="h-[40rem] flex flex-col justify-center items-center mb-72">
+      <div className="h-[40rem] flex flex-col justify-center items-center mb-20">
         <h1 className="mx-auto max-w-5xl font-display text-5xl font-medium sm:text-7xl text-black dark:text-white text-center">
           Hola, soy{" "}
           <span className="relative whitespace-nowrap text-primary">
@@ -59,6 +59,26 @@ export default function Home() {
             </p>
           </div>
         </div>
+        <div class="mt-7 flex flex-row items-center text-center justify-center ">
+        <a>
+          <svg
+            stroke="currentColor"
+            fill="currentColor"
+            stroke-width="0"
+            viewBox="0 0 20 20"
+            class="animate-bounce"
+            height="30"
+            width="30"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M16.707 10.293a1 1 0 010 1.414l-6 6a1 1 0 01-1.414 0l-6-6a1 1 0 111.414-1.414L9 14.586V3a1 1 0 012 0v11.586l4.293-4.293a1 1 0 011.414 0z"
+              clip-rule="evenodd"
+            ></path>
+          </svg>
+        </a>
+      </div>
       </div>
 
       {/* SECCION REPOS */}
@@ -342,7 +362,7 @@ export default function Home() {
       </div>
 
       {/* SECCION IDIOMAS */}
-      
+
       <div className="mx-auto max-w-7xl my-24">
         <h1 className="font-display text-5xl font-medium sm:text-7xl text-black dark:text-white text-left">
           {"Idio"}
@@ -382,14 +402,12 @@ export default function Home() {
             />
             <div className="relative">
               <h2 className="font-display text-xl font-medium text-black dark:text-white">
-              Portugués - A1
+                Portugués - A1
               </h2>
             </div>
           </div>
-
         </div>
       </div>
-
     </>
   );
 }

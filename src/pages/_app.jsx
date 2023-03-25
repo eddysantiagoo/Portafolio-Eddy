@@ -16,7 +16,7 @@ function MyApp({ Component, pageProps }) {
       <PageProvider>
         <main>
           <head>
-            <title>Eddy | Desarrollador de Software Junior</title>
+            <title>Eddy | Desarrollador Junior</title>
           </head>
           <CustomCursor />
           <ContextMenu
