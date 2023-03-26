@@ -65,16 +65,17 @@ export default function Navbar() {
 
   return (
     <>
-      <div className="max-w-7xl mx-auto py-12 w-full px-6 lg:px-0">
+    <nav className="sticky top-0 z-10 bg-[#060510] backdrop-filter backdrop-blur-lg bg-opacity-30">
+      <div className="max-w-8xl py-5 w-full px-6 lg:px-0">
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-4">
             <Link href="/">
-              <a className="text-2xl font-bold transition-all duration-200">
+              <a className="text-2xl mx-8 font-bold transition-all duration-200">
                 {clquConfig.name}
               </a>
             </Link>
           </div>
-          <div className="flex items-center gap-4">
+          <div className="flex items-center gap-4 mx-9 mt-5">
             <i
               onClick={() => setIsOpen(true)}
               className="fas fa-bars text-2xl text-zinc-400 hover:text-black hover:dark:text-white cursor-pointer bg-gray-500/5 w-12 h-12 flex items-center justify-center rounded-lg transition-all duration-200"
@@ -92,6 +93,7 @@ export default function Navbar() {
           </div>
         </div>
       </div>
+    </nav>
 
       <Transition show={isOpen} appear>
         <Transition.Child
