@@ -70,7 +70,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-4">
             <Link href="/">
-              <a className="text-2xl mx-8 font-bold transition-all duration-200">
+              <a className="text-2xl text-slate-100 mx-8 font-bold transition-all duration-200">
                 {eddyConfig.navbar}
               </a>
             </Link>
@@ -78,11 +78,11 @@ export default function Navbar() {
           <div className="flex items-center gap-4 mx-9 my-2 ">
             <i
               onClick={() => setIsOpen(true)}
-              className="fas fa-bars text-2xl text-zinc-400 hover:text-black hover:dark:text-white text-slate-100 cursor-pointer border border-gray-500/25 bg-gray-500/5 w-12 h-12 flex items-center justify-center rounded-lg transition-all duration-200"
+              className="fas fa-bars text-2xl text-zinc-400 hover:text-black hover:dark:text-white text-slate-100 cursor-pointer border border-gray-600/25 bg-gray-400/5 w-12 h-12 flex items-center justify-center rounded-lg transition-all duration-200"
             />
             <div
               onClick={() => toggleTheme()}
-              className="text-2xl text-zinc-400 border border-gray-500/25 hover:text-black hover:dark:text-white text-slate-100 cursor-pointer bg-gray-500/5 w-12 h-12 flex items-center justify-center rounded-lg transition-all duration-200"
+              className="text-2xl text-zinc-400 border border-gray-600/25 hover:text-black hover:dark:text-white text-slate-100 cursor-pointer bg-gray-400/5 w-12 h-12 flex items-center justify-center rounded-lg transition-all duration-200"
             >
               {isTheme === "dark" ? (
                 <i className="fas fa-moon " />
@@ -182,7 +182,7 @@ export default function Navbar() {
                 </Link>
               </div>
               <div>
-                <Link href="https://www.instagram.com/santi.xoo/">
+                <Link href="https://www.instagram.com/eddy.santiagoo/">
                   <a
                     onClick={() => setIsOpen(false)}
                     target="_blank"
@@ -203,19 +203,6 @@ export default function Navbar() {
                   >
                     <i className="fa-brands fa-spotify text-2xl" />
                     <p>Spotify</p>
-                  </a>
-                </Link>
-                <Link
-                  target="_blank"
-                  href="https://open.spotify.com/user/s4ntiag00"
-                >
-                  <a
-                    onClick={() => setIsOpen(false)}
-                    target="_blank"
-                    className="flex gap-2 px-4 items-center w-full h-12 bg-gray-500/5 rounded-lg hover:bg-gray-500/10 transition-all duration-200 text-zinc-400 hover:text-black hover:dark:text-white"
-                  >
-                    <i className="fa-brands fa-tumblr text-2xl" />
-                    <p>Tumblr</p>
                   </a>
                 </Link>
               </div>
