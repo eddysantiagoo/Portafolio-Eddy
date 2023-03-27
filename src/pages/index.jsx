@@ -378,7 +378,7 @@ export default function Home() {
           </span>
         </h1>
 
-        <div className="grid grid-cols-1 justify-center sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-2 gap-4 mt-12">
+        <div className="grid grid-cols-1 justify-center sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-4 mt-12">
           <div className="group flex justify-between items-center relative bg-gray-600/5 dark:shadow-2xl overflow-hidden border border-gray-500/25 hover:border-primary hover:shadow-xl rounded-lg overflow-hidden p-2.5 transition-all duration-200">
             <img
               src="https://images.emojiterra.com/twitter/512px/1f1ec-1f1e7.png"

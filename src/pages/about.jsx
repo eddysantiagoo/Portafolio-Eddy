@@ -39,47 +39,45 @@ export default function About() {
         {/* SECCION EDUCACIÓN */}
 
         <div className="mx-auto max-w-7xl mb-8">
-        <h1 className="mt-1 text-4xl font-bold">
-              {"Educación"}
-              <span className="relative whitespace-nowrap text-primary">
-                {/* VACIO */}
-              </span>
-            </h1>
-        
-        <div className="grid grid-cols-1 justify-start sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-2 gap-4 mt-8">
-          <div className="group flex items-center relative bg-gray-600/5 dark:shadow-2xl overflow-hidden border border-gray-500/25 hover:border-primary hover:shadow-xl rounded-lg overflow-hidden p-2.5 transition-all duration-200">
-            <img
-              src="https://media.licdn.com/dms/image/C4E0BAQHMgYEnxoVtxw/company-logo_200_200/0/1651508107143?e=2147483647&v=beta&t=ueYquiqI1_dejh2VyS1XzZ2D8Q2W4WjWw2VDBNC5OYU"
-              width="65"
-              height="65"
-              className="bg-white/5 p-1 w-[65px] h-[65px] rounded-md "
-            />
-            <div className="relative">
-              <h2 className="ml-4 font-display text-xl font-medium text-black dark:text-white">
-              Institución Universitaria Digital de Antioquia 2020 -
-              </h2>
+          <h1 className="mt-1 text-4xl font-bold">
+            {"Educación"}
+            <span className="relative whitespace-nowrap text-primary">
+              {/* VACIO */}
+            </span>
+          </h1>
+
+          <div className="grid grid-cols-1 justify-start sm:grid-cols-2 md:grid-cols-1 lg:grid-cols-2 gap-4 mt-8">
+            <div className="group flex items-center relative bg-gray-600/5 dark:shadow-2xl overflow-hidden border border-gray-500/25 hover:border-primary hover:shadow-xl rounded-lg overflow-hidden p-2.5 transition-all duration-200">
+              <img
+                src="https://media.licdn.com/dms/image/C4E0BAQHMgYEnxoVtxw/company-logo_200_200/0/1651508107143?e=2147483647&v=beta&t=ueYquiqI1_dejh2VyS1XzZ2D8Q2W4WjWw2VDBNC5OYU"
+                width="65"
+                height="65"
+                className="bg-white/5 p-1 w-[65px] h-[65px] rounded-md "
+              />
+              <div className="relative">
+                <h2 className="ml-4 font-display text-xl font-medium text-black dark:text-white">
+                  Institución Universitaria Digital de Antioquia - Tecnologia en
+                  desarrollo de Software ( 2020 -
+                </h2>
+              </div>
             </div>
           </div>
-
-        </div>
-        <div className="grid grid-cols-1 justify-start sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-2 gap-4 mt-8">
-          <div className="group flex items-center relative bg-gray-600/5 dark:shadow-2xl overflow-hidden border border-gray-500/25 hover:border-primary hover:shadow-xl rounded-lg overflow-hidden p-2.5 transition-all duration-200">
-            <img
-              src="https://media.licdn.com/dms/image/C4E0BAQHMgYEnxoVtxw/company-logo_200_200/0/1651508107143?e=2147483647&v=beta&t=ueYquiqI1_dejh2VyS1XzZ2D8Q2W4WjWw2VDBNC5OYU"
-              width="65"
-              height="65"
-              className="bg-white/5 p-1 w-[65px] h-[65px] rounded-md "
-            />
-            <div className="relative">
-              <h2 className="ml-4 justify-start font-display text-xl font-medium text-black dark:text-white">
-                Diplomado en programación web 2022
-              </h2>
+          <div className="grid grid-cols-1 justify-start sm:grid-cols-2 md:grid-cols-1 lg:grid-cols-2 gap-4 mt-8">
+            <div className="group flex items-center relative bg-gray-600/5 dark:shadow-2xl overflow-hidden border border-gray-500/25 hover:border-primary hover:shadow-xl rounded-lg overflow-hidden p-2.5 transition-all duration-200">
+              <img
+                src="https://media.licdn.com/dms/image/C4E0BAQHMgYEnxoVtxw/company-logo_200_200/0/1651508107143?e=2147483647&v=beta&t=ueYquiqI1_dejh2VyS1XzZ2D8Q2W4WjWw2VDBNC5OYU"
+                width="65"
+                height="65"
+                className="bg-white/5 p-1 w-[65px] h-[65px] rounded-md "
+              />
+              <div className="relative">
+                <h2 className="ml-4 justify-start font-display text-xl font-medium text-black dark:text-white">
+                  Diplomado en programación web (2022)
+                </h2>
+              </div>
             </div>
           </div>
-
         </div>
-      </div>
-
       </div>
     </>
   );
