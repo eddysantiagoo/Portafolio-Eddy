@@ -5,7 +5,7 @@ import useSWR from "hooks/useSWR";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import { Fragment, useState } from "react";
-import clquConfig from "../../../eddy.config";
+import eddyConfig from "../../../eddy.config";
 
 export default function Navbar() {
   const router = useRouter();
@@ -13,6 +13,8 @@ export default function Navbar() {
 
   const { isTheme, toggleTheme } = useTheme();
 
+  // RUTAS
+  
   const pages = [
     {
       link: "/",
@@ -64,26 +66,26 @@ export default function Navbar() {
   return (
     <>
     <nav className="sticky top-0 z-10 bg-[#060510] backdrop-filter backdrop-blur-lg bg-opacity-30">
-      <div className="max-w-8xl py-2 w-full px-6 lg:px-0">
+      <div className="max-w-8xl py-2 w-full px-4 lg:px-0">
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-4">
             <Link href="/">
               <a className="text-2xl mx-8 font-bold transition-all duration-200">
-                {clquConfig.name}
+                {eddyConfig.navbar}
               </a>
             </Link>
           </div>
-          <div className="flex items-center gap-4 mx-9 mt-5">
+          <div className="flex items-center gap-4 mx-9 my-2 ">
             <i
               onClick={() => setIsOpen(true)}
-              className="fas fa-bars text-2xl text-zinc-400 hover:text-black hover:dark:text-white cursor-pointer bg-gray-500/5 w-12 h-12 flex items-center justify-center rounded-lg transition-all duration-200"
+              className="fas fa-bars text-2xl text-zinc-400 hover:text-black hover:dark:text-white text-slate-100 cursor-pointer border border-gray-500/25 bg-gray-500/5 w-12 h-12 flex items-center justify-center rounded-lg transition-all duration-200"
             />
             <div
               onClick={() => toggleTheme()}
-              className="text-2xl text-zinc-400 hover:text-black hover:dark:text-white cursor-pointer bg-gray-500/5 w-12 h-12 flex items-center justify-center rounded-lg transition-all duration-200"
+              className="text-2xl text-zinc-400 border border-gray-500/25 hover:text-black hover:dark:text-white text-slate-100 cursor-pointer bg-gray-500/5 w-12 h-12 flex items-center justify-center rounded-lg transition-all duration-200"
             >
               {isTheme === "dark" ? (
-                <i className="fas fa-moon" />
+                <i className="fas fa-moon " />
               ) : (
                 <i className="fas fa-sun" />
               )}
@@ -116,7 +118,7 @@ export default function Navbar() {
         >
           <div style={{ zIndex: 999 }}>
             <div className="flex justify-between w-full items-center">
-              <p className="text-2xl font-semibold">{clquConfig.name}</p>
+              <p className="text-2xl font-semibold">{eddyConfig.name}</p>
               <i
                 onClick={() => setIsOpen(false)}
                 className="fa fa-times w-12 h-12 hover:bg-gray-500/5 text-xl flex items-center justify-center transition-all duration-200 rounded-lg "

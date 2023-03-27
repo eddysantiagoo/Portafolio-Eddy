@@ -1,5 +1,6 @@
 module.exports = {
     name: 'Eddy Santiago',
+    navbar: 'EDDY',
     version: '1.0.0',
     githubName: 'eddysantiagoo',
     githubKey: process.env.GITHUB_KEY,
