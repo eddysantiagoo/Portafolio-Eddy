@@ -10,8 +10,6 @@ import clquConfig from "../../../eddy.config";
 export default function Navbar() {
   const router = useRouter();
   let [isOpen, setMenu] = useState(false);
-  const { data: $socials } = useSWR("/api/socials");
-  const socials = $socials?.data;
 
   const { isTheme, toggleTheme } = useTheme();
 
@@ -66,7 +64,7 @@ export default function Navbar() {
   return (
     <>
     <nav className="sticky top-0 z-10 bg-[#060510] backdrop-filter backdrop-blur-lg bg-opacity-30">
-      <div className="max-w-8xl py-5 w-full px-6 lg:px-0">
+      <div className="max-w-8xl py-2 w-full px-6 lg:px-0">
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-4">
             <Link href="/">

@@ -1,0 +1,23 @@
+{
+    "entradas": [
+      {
+        "id": 1,
+        "title": "Mi primera entrada",
+        "description": "Este es el contenido de mi primera entrada.",
+        "createdAt": "15 de noviembre",
+        "viewers": "41",
+        "minutes": "15"
+      },
+      {
+        "index": 2,
+        "titulo": "Mi segunda entrada",
+        "contenido": "Este es el contenido de mi segunda entrada."
+      },
+      {
+        "id": 3,
+        "titulo": "Mi tercera entrada",
+        "contenido": "Este es el contenido de mi tercera entrada."
+      }
+    ]
+  }
+  
