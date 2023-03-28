@@ -48,13 +48,14 @@ export default function Projects() {
               <div className="mt-4">
                 <p className="text-xl font-semibold">Papa's Burgeria</p>
                 <p className="text-sm max-h-24 h-24 overflow-auto font-normal text-gray-500">
-                  Landing page creado bajo un mockup para
-                  el uso de un restaurente de hamburgesas.  
+                  Landing page, funciones con JavaScript, estilos y animaciones con CSS,
+                  maquetado con HTML, diseño responsive.
                 </p>
-                <i class="fa-brands fa-react fa-xl fa-pull-left"></i>
-                <i class="fa-brands fa-html5 fa-xl fa-pull-left"></i>
-                <i class="fa-brands fa-css3-alt fa-xl fa-pull-left"></i>
-                <i class="fa-brands fa-js fa-xl fa-pull-left"></i>
+                <div className="mt-1">
+                  <i class="fa-brands fa-html5 fa-xl fa-pull-left"></i>
+                  <i class="fa-brands fa-css3-alt fa-xl fa-pull-left"></i>
+                  <i class="fa-brands fa-js fa-xl fa-pull-left"></i>
+                </div>
               </div>
 
               <p className="text-xs italic mt-6">
