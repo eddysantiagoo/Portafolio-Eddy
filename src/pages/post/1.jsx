@@ -12,9 +12,9 @@ function EjemploRuta(){
       <div className="max-w-7xl mx-auto py-12 w-full px-6 lg:px-0">
         <div className="relative h-96 w-full">
           <img
-            src="https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/blte002b5f67a4cd5a8/60dd28f276a3de39ad1aee79/918da727f3f3faa1831f875fbe4f34c7e0e537d8.jpg"
-            alt="{data.title}"
-            className="rounded-lg absolute h-full w-full"
+            src="https://i.imgur.com/zfMBgr0.jpg"
+            alt="Imagen Andres iniesta"
+            className="rounded-xl absolute h-full w-full object-cover object-center sm:object-contain"
           />
           <div className="absolute bottom-0 left-0 w-full h-full dark:bg-black/50 shadow-xl" />
         </div>

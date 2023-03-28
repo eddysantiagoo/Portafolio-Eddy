@@ -24,8 +24,8 @@ export default function Posts() {
                         <Link href={`/post/1`}>
                             <a key={""} className="cursor-pointer w-full bg-gray-500/5 p-4 rounded-lg transition-all duration-200 hover:bg-gray-500/10">
                                 <div>
-                                    <p className="text-xl font-semibold">Prueba Post</p>
-                                    <p className="text-sm font-normal text-gray-500">Este post es una prueba</p>
+                                    <p className="text-xl font-semibold">Andrés Iniesta Luján</p>
+                                    <p className="text-sm font-normal text-gray-500">El mago de Fuentealbilla</p>
                                 </div>
 
                                 <div className="flex items-center gap-4">
@@ -33,10 +33,10 @@ export default function Posts() {
                                         <i className="fal fa-calendar mr-1" />15 minutitos
                                     </p>
                                     <p className="text-xs space-x-2 mt-6">
-                                        <i className="fal fa-eye mr-1" /> 777
+                                        <i className="fal fa-eye mr-1" /> 112
                                     </p>
                                     <p className="text-xs space-x-2 mt-6">
-                                        <i className="fal fa-clock mr-1" />1 minuto de
+                                        <i className="fal fa-clock mr-1" />1 minuto de lectura
                                     </p>
                                 </div>
                             </a>
