@@ -48,7 +48,7 @@ export default function Projects() {
               <div className="mt-4">
                 <p className="text-xl font-semibold">Papa's Burgeria</p>
                 <p className="text-sm max-h-24 h-24 overflow-auto font-normal text-gray-500">
-                  Landing page, funciones con JavaScript, estilos y animaciones con CSS,
+                  Landing page, funciones con JavaScript, estilos y animaciones con CSS y JS,
                   maquetado con HTML, diseño responsive.
                 </p>
                 <div className="mt-1">
