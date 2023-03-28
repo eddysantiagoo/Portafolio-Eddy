@@ -18,11 +18,11 @@ function EjemploRuta() {
       </div>
 
       <div className="mt-8">
-        <p className="text-4xl font-bold mt-8">Iniesta</p>
+        <p className="text-4xl font-bold mt-8">Don Iniesta</p>
         <div className="flex items-center gap-4 mt-2">
           <div>
             <i className="fas fa-clock text-zinc-400" />
-            <span className="text-zinc-400 ml-2">1 minuto de lectura</span>
+            <span className="text-zinc-400 ml-2">3 minutos de lectura</span>
           </div>
           <div>
             <i className="fas fa-calendar-alt text-zinc-400" />
@@ -70,8 +70,8 @@ function EjemploRuta() {
           Club destacan:
           <ul>
             <li>4 Champions League (2006, 2009, 2011, 2015)</li>
-            <li>3 Mundiales de clubes (20010, 2012, 2016)</li>
-            <li>3 Supercopas de Europa (2009,2011, 2015)</li>
+            <li>3 Mundiales de clubes (2009, 2011, 2015)</li>
+            <li>3 Supercopas de Europa (2009, 2011, 2015)</li>
             <li>9 de Ligas de España</li>
             <li>6 Copas del Rey</li>
             <li>7 Supercoas de España</li>
@@ -90,10 +90,11 @@ function EjemploRuta() {
           <h3 className="text-[#BA2123]">Seleccion Española de Futbol</h3>
           No me olvido yo de lo que paso en Sudáfrica, año 2010 11 de Julio,
           minuto 116, Estado Soccer City, ciudad Johannesburgo la llamada "Volea
-          de iniesta", jugada iniciada por Jesús Navas, y con la ayuda de
+          de iniesta", jugada iniciada por Jesús Navas, y que con la ayuda de
           Fernando Torres, y Cesc Fàbregas quien es quien le da la asistencia a
           don Andrés Iniesta para asi hacer su respectiva volea y mandar la
-          pelotita hacia el fondo de la escuadra, epico señores.
+          pelotita hacia el fondo de la escuadra, dandole con este gol su primera
+          y hasta el momento unica copa del mundo a España, epico señores.
           <img
             src="https://media2.giphy.com/media/SJGIKDvFojqn022kFU/giphy.gif?cid=ecf05e47ti6wl08bmxslv8v21jxiw0e0b5upra7c8gie0x83&rid=giphy.gif&ct=g"
             alt=""
@@ -106,9 +107,10 @@ function EjemploRuta() {
           </ul>
           <strong>
             Actualemente Iniesta juega en Japón en el Vissel Kobe, al momento de
-            escribir este articulo aún sigue en activo, muchas gracias por tu
+            escribir este pequeño articulo aún sigue en activo, muchas gracias por tu
             juego con la pelotita don Andrés Iniesta Luján, siempre te llevare
-            en mis memorias y en mi kokoro <i class="fa-solid fa-heart text-red-400"></i>
+            en mis memorias y en mi kokoro{" "}
+            <i class="fa-solid fa-heart text-red-400"></i>
           </strong>
         </article>
       </div>
