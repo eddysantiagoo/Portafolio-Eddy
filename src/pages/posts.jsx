@@ -30,7 +30,7 @@ export default function Posts() {
 
                                 <div className="flex items-center gap-4">
                                     <p className="text-xs space-x-2 mt-6">
-                                        <i className="fal fa-calendar mr-1" />15 minutitos
+                                        <i className="fal fa-calendar mr-1" />28 de Marzo del 2023
                                     </p>
                                     <p className="text-xs space-x-2 mt-6">
                                         <i className="fal fa-eye mr-1" /> 112
