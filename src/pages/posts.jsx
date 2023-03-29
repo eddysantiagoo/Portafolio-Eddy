@@ -13,8 +13,6 @@ import { useState } from "react";
 export default function Posts() {
   const { page } = usePage();
 
-  const { data: $posts } = useSWR("/api/posts");
-  const posts = $posts?.data;
   const [count, setCount] = useState(0);
 
   const handleClick = () => {
@@ -61,10 +59,11 @@ export default function Posts() {
                     28 de Marzo del 2023
                   </p>
                   <p className="text-xs space-x-2 mt-6">
-                    <i className="fal fa-eye mr-1" />112
+                    <i className="fal fa-eye mr-1" />
+                    112
                   </p>
                   <p className="text-xs space-x-2 mt-6">
-                    <i className="fal fa-clock mr-1" />3 minutitos de lectura
+                    <i className="fal fa-clock mr-1" />4 minutitos de lectura
                   </p>
                 </div>
               </a>

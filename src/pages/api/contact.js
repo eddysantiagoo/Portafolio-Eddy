@@ -5,7 +5,7 @@ export default (req, res) => {
     if (!name || !email || !message) {
         res.status(400).json({
             success: true,
-            message: "All fields are required",
+            message: "Todos los campos son requeridos",
             data: null
         });
     }
@@ -14,10 +14,10 @@ export default (req, res) => {
     let mailSubject = "Contact Form Submission";
 
     let mailBody = `
-        <h1>Contact Form Submission</h1>
-        <p><strong>Name:</strong> ${name}</p>
-        <p><strong>Email:</strong> ${email}</p>
-        <p><strong>Message:</strong> ${message}</p>
+        Contact Form Submission
+        Name: ${name}
+        Email: ${email}
+        Message: ${message}
     `;
 
     let mailOptions = {

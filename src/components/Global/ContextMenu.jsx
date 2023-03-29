@@ -51,7 +51,7 @@ const ContextMenu = ({ content, children }) => {
             window.location.reload();
         },
         viewSource: () => {
-            window.open("Locos", "_blank");
+            window.open("https://github.com/eddysantiagoo/Portafolio-Eddy", "_blank");
         }
     };
 

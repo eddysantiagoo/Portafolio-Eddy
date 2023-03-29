@@ -4,7 +4,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { Transition, Dialog } from '@headlessui/react'
 import { Fragment, useState } from 'react'
-import clquConfig from '../../eddy.config'
+import eddyConfig from '../../eddy.config'
 import Button from 'components/Global/Button'
 import Carousel from "react-multi-carousel";
 import Input from 'components/Global/Input'
@@ -35,7 +35,7 @@ export default function About() {
                     let subject = data.data.subject;
                     let body = data.data.body;
 
-                    window.open(`mailto:${clquConfig.email}?subject=${subject}&body=${body}`, '_blank', 'noopener,noreferrer')
+                    window.open(`mailto:${eddyConfig.email}?subject=${subject}&body=${body}`, '_blank', 'noopener,noreferrer')
                 } else {
                     setSuccess(false);
                     setError(data.message);
@@ -54,14 +54,14 @@ export default function About() {
             <div className="flex justify-between w-full h-full py-24 gap-24">
                 <div className="w-full">
                     <form onSubmit={Submit}>
-                        <h1 className="text-4xl font-bold">Contact</h1>
+                        <h1 className="text-4xl font-bold">Contacto</h1>
                         <p className="text-sm mt-1 text-gray-500">
-                            <i className="fa fa-envelope" /> {clquConfig.email}
+                            <i className="fa fa-envelope" /> {eddyConfig.email}
                         </p>
                         <div className="flex flex-col gap-4 mt-4">
-                            <Input name="name" placeholder="Username" startsWith={<i className="fa fa-user" />} />
-                            <Input name="email" placeholder="Email" startsWith={<i className="fa fa-envelope" />} />
-                            <Input name="message" wrapper="textarea" placeholder="Message" startsWith={<i className="fa fa-comment" />} />
+                            <Input name="name" placeholder="Tu nombre" startsWith={<i className="fa fa-user" />} />
+                            <Input name="email" placeholder="Tu correo" startsWith={<i className="fa fa-envelope" />} />
+                            <Input name="message" wrapper="textarea" placeholder="Tu mensaje" startsWith={<i className="fa fa-comment" />} />
                         </div>
 
                         <div className="flex items-center gap-4 justify-between mt-4">
@@ -72,7 +72,7 @@ export default function About() {
                             </p>}
                             {success && <p className="bg-green-500/5 px-4 py-2 rounded-lg shadow-xl text-green-500 italic flex items-center gap-2">
                                 <i className="fa fa-check-circle" />
-                                Message sent successfully
+                                Mensaje redactado correctamente :) 
                                 </p>}
 
                             <Button disabled={loading} className={`flex items-center gap-4 ${loading && 'opacity-50 cursor-not-allowed'}`}>
@@ -80,7 +80,7 @@ export default function About() {
                                 {!loading && (
                                     <>
                                         <i className="fa fa-paper-plane" />
-                                        Send
+                                        Enviar :)
                                     </>
                                 )}
                             </Button>
