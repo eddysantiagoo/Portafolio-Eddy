@@ -3,10 +3,12 @@ import Link from "next/link";
 import { useRouter } from "next/router"
 import { useState } from "react";
 import clquConfig from "../../../eddy.config";
-import 'animate.css';
+import 'animate.css'
+
+
 
 export default function Footer() {
-    const router = useRouter();
+    
 
     let [heartColor, setHeartColor] = useState('#4F3DFE');
 
@@ -20,6 +22,7 @@ export default function Footer() {
     }
 
     return <>
+    
         <div className="max-w-7xl mx-auto py-12 border-t border-gray-500/10">
             <div className="flex flex-col lg:flex-row items-center justify-between gap-4">
                 <p className="text-lg text-zinc-400 text-center">© {new Date().getFullYear()} {clquConfig.name}. Todos los derechos reservados </p>

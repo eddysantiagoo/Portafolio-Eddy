@@ -37,7 +37,7 @@ export default function Home() {
           Desarrollador de Software Junior
         </p>
 
-        <div className="w-full lg:w-auto grid grid-cols-1 lg:grid-cols-3 gap-4 mt-24">
+        <div className="w-full lg:w-auto grid grid-cols-1 lg:grid-cols-3 gap-4 mt-20 ">
           <div className="rounded-lg border-2 border-gray-500/10 border-dotted px-4 py-2 text-center">
             <span className="text-primary uppercase">Tecnologias</span>
             <p className="text-gray-500 dark:text-gray-300 font-semibold text-xl">
@@ -59,24 +59,8 @@ export default function Home() {
           </div>
         </div>
         <div class="mt-7 flex flex-row items-center text-center justify-center ">
-          <a>
-            <svg
-              stroke="currentColor"
-              fill="currentColor"
-              stroke-width="0"
-              viewBox="0 0 20 20"
-              class="animate-bounce"
-              height="30"
-              width="30"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                fill-rule="evenodd"
-                d="M16.707 10.293a1 1 0 010 1.414l-6 6a1 1 0 01-1.414 0l-6-6a1 1 0 111.414-1.414L9 14.586V3a1 1 0 012 0v11.586l4.293-4.293a1 1 0 011.414 0z"
-                clip-rule="evenodd"
-              ></path>
-            </svg>
-          </a>
+        <div class="down-arrow"></div>
+    
         </div>
       </div>
 
