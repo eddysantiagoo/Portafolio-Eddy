@@ -14,7 +14,7 @@ export default function Navbar() {
   const { isTheme, toggleTheme } = useTheme();
 
   // RUTAS
-  
+
   const pages = [
     {
       link: "/",
@@ -65,35 +65,35 @@ export default function Navbar() {
 
   return (
     <>
-    <nav className="sticky top-0 z-10 bg-[#060510] backdrop-filter backdrop-blur-lg bg-opacity-30">
-      <div className="max-w-8xl py-2 w-full px-4 lg:px-0">
-        <div className="flex items-center justify-between">
-          <div className="flex items-center gap-4">
-            <Link href="/">
-              <a className="text-2xl text-slate-100 mx-8 font-bold transition-all duration-200">
-                {eddyConfig.navbar}
-              </a>
-            </Link>
-          </div>
-          <div className="flex items-center gap-4 mx-9 my-2 ">
-            <i
-              onClick={() => setIsOpen(true)}
-              className="fas fa-bars text-2xl text-zinc-400 hover:text-black hover:dark:text-white text-slate-100 cursor-pointer border border-gray-600/25 bg-gray-400/5 w-12 h-12 flex items-center justify-center rounded-lg transition-all duration-200"
-            />
-            <div
-              onClick={() => toggleTheme()}
-              className="text-2xl text-zinc-400 border border-gray-600/25 hover:text-black hover:dark:text-white text-slate-100 cursor-pointer bg-gray-400/5 w-12 h-12 flex items-center justify-center rounded-lg transition-all duration-200"
-            >
-              {isTheme === "dark" ? (
-                <i className="fas fa-moon " />
-              ) : (
-                <i className="fas fa-sun" />
-              )}
+      <nav className="sticky top-0 z-10 bg-[#060510] backdrop-filter backdrop-blur-lg bg-opacity-30">
+        <div className="max-w-8xl py-2 w-full px-4 lg:px-0">
+          <div className="flex items-center justify-between">
+            <div className="flex items-center gap-4">
+              <Link href="/">
+                <a className="text-2xl text-slate-100 mx-8 font-bold transition-all duration-200">
+                  {eddyConfig.navbar}
+                </a>
+              </Link>
+            </div>
+            <div className="flex items-center gap-4 mx-9 my-2 text-[#edf3fc] ">
+              <i
+                onClick={() => setIsOpen(true)}
+                className="fas fa-bars text-2xl  text-zinc-400 hover:text-black hover:dark:text-white cursor-pointer border border-gray-600/25 bg-gray-400/5 w-12 h-12 flex items-center justify-center rounded-lg transition-all duration-200"
+              />
+              <div
+                onClick={() => toggleTheme()}
+                className="text-2xl text-zinc-400 text-[#edf3fc] border border-gray-600/25 hover:text-black hover:dark:text-white cursor-pointer bg-gray-400/5 w-12 h-12 flex items-center justify-center rounded-lg transition-all duration-200"
+              >
+                {isTheme === "dark" ? (
+                  <i className="fas fa-moon " />
+                ) : (
+                  <i className="fas fa-sun" />
+                )}
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </nav>
+      </nav>
 
       <Transition show={isOpen} appear>
         <Transition.Child
@@ -170,6 +170,13 @@ export default function Navbar() {
                   rel="noreferrer"
                 >
                   <i className="fa-brands fa-linkedin fab fa-$ text-2xl text-zinc-400 hover:text-black hover:dark:text-white transition-all duration-200 w-12 h-12 flex justify-center items-center bg-gray-500/5 rounded-lg hover:bg-gray-500/10" />
+                </a>
+                <a
+                  href="https://www.github.com/eddysantiagoo"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <i className="fa-brands fa-github fab fa-$ text-2xl text-zinc-400 hover:text-black hover:dark:text-white transition-all duration-200 w-12 h-12 flex justify-center items-center bg-gray-500/5 rounded-lg hover:bg-gray-500/10" />
                 </a>
                 <Link href="/contact">
                   <a
