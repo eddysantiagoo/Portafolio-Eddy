@@ -110,7 +110,7 @@ function EjemploRuta() {
             escribir este pequeño articulo aún sigue en activo, muchas gracias por tu
             juego con la pelotita don Andrés Iniesta Luján, siempre te llevare
             en mis memorias y en mi kokoro{" "}
-            <i class="fa-solid fa-heart text-red-400"></i>
+            <i class="fa-solid fa-heart text-red-400 "></i>
           </strong>
         </article>
       </div>
