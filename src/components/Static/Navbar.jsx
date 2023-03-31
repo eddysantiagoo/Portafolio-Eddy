@@ -66,7 +66,7 @@ export default function Navbar() {
   return (
     <>
       <nav className="sticky top-0 z-10 bg-[#060510] backdrop-filter backdrop-blur-lg bg-opacity-30">
-        <div className="max-w-8xl py-2 w-full px-4 lg:px-0">
+        <div className="max-w-8xl py-5 w-full px-6 lg:px-0">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-4">
               <Link href="/">
@@ -75,7 +75,7 @@ export default function Navbar() {
                 </a>
               </Link>
             </div>
-            <div className="flex items-center gap-4 mx-9 my-2 text-[#edf3fc] ">
+            <div className="flex items-center gap-4 mx-9 ">
               <i
                 onClick={() => setIsOpen(true)}
                 className="fas fa-bars text-2xl  text-zinc-400 hover:text-black hover:dark:text-white cursor-pointer border border-gray-600/25 bg-gray-400/5 w-12 h-12 flex items-center justify-center rounded-lg transition-all duration-200"

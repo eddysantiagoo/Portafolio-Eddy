@@ -142,7 +142,7 @@ function EjemploRuta() {
       </div>
       <div>
         <i class="fa-sharp fa-solid fa-ghost mr-2 mt-10 fa-xl" />
-            Articulo escrito por un FIFA
+            Articulo redactado por un FIFA
         </div>
     </div>
   );
