@@ -33,11 +33,11 @@ export default function Home() {
           </span>
           .
         </h1>
-        <p className="mx-auto max-w-5xl font-display text-3xl text-gray-600/50 text-center">
+        <p className="mx-auto max-w-5xl font-display text-3xl text-gray-600/50 mt-2 text-center">
           Desarrollador de Software Junior
         </p>
 
-        <div className="w-full lg:w-auto grid grid-cols-1 lg:grid-cols-3 gap-4 mt-20 ">
+        <div className="w-full lg:w-auto grid grid-cols-1 lg:grid-cols-3 gap-4 mt-16 ">
           <div className="rounded-lg border-2 border-gray-500/10 border-dotted px-4 py-2 text-center">
             <span className="text-primary uppercase">Tecnologias</span>
             <p className="text-gray-500 dark:text-gray-300 font-semibold text-xl">
