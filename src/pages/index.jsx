@@ -52,9 +52,9 @@ export default function Home() {
 
         <div className="w-full lg:w-auto grid grid-cols-1 lg:grid-cols-3 gap-4 mt-16 ">
           <div className="rounded-lg border-2 border-gray-500/10 border-dotted px-4 py-2 text-center">
-            <span className="text-primary uppercase">Tecnologias</span>
+            <span className="text-primary uppercase">TecnologÍas</span>
             <p className="text-gray-500 dark:text-gray-300 font-semibold text-xl">
-              +8
+              10+
             </p>
           </div>
           <div className="rounded-lg border-2 border-gray-500/10 border-dotted px-4 py-2 text-center">
@@ -212,6 +212,20 @@ export default function Home() {
             <div className="relative">
               <h2 className="font-display text-xl font-medium text-black dark:text-white">
                 MongoDB
+              </h2>
+            </div>
+          </div>
+
+          <div className="group flex justify-between items-center relative bg-gray-600/5 dark:shadow-2xl overflow-hidden border border-gray-500/25 hover:border-primary hover:shadow-xl rounded-lg overflow-hidden p-2.5 transition-all duration-200">
+            <img
+              src="https://static.figma.com/app/icon/1/icon-192.png"
+              width="32"
+              height="32"
+              className="bg-white/5 p-1 w-[32px] h-[32px] rounded-md "
+            />
+            <div className="relative">
+              <h2 className="font-display text-xl font-medium text-black dark:text-white">
+                Figma
               </h2>
             </div>
           </div>
