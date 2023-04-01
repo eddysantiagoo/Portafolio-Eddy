@@ -21,7 +21,7 @@ export default function Posts() {
 
   return (
     <>
-      <div className="max-w-7xl mx-auto">
+      <div className="max-w-7xl mx-auto ">
         <div className="py-24">
           <h1 className="font-display text-5xl font-medium sm:text-7xl text-black dark:text-white">
             Mi{" "}
@@ -37,7 +37,7 @@ export default function Posts() {
               <span className="relative">blog</span>
             </span>
           </h1>
-          <div className="grid grid-cols-1 gap-8 mt-16">
+          <div className="grid grid-cols-1 gap-8 mt-16 ">
             <Link href={`/post/1`}>
               <a
                 key={""}

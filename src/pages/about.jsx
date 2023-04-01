@@ -15,7 +15,7 @@ export default function About() {
     <>
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-col lg:flex-row justify-between w-full h-full py-24 gap-24">
-          <div>
+          <div clas>
             <h1 className="text-5xl font-bold">
               ¿Quién{" "}
               <span className="relative whitespace-nowrap text-primary">
@@ -23,26 +23,25 @@ export default function About() {
               </span>
               ?
             </h1>
-            <p className="text-xl mt-5">
-              Mi nombre es Eddy Santiago y actualmente resido en Colombia, desde
-              que era un niño siempre estuve muy interesado en la tecnología,
-              recuerdo que me gustaba mucho manipular teléfonos y experimentar
-              con su Software <span className="text-[#e9ad03]"> y también recuerdo que era muy fanático de hacer hasta
-              lo imposible para conseguir monedas ilimitadas en los videojuegos que
-              disfrutaba en esos tiempos.</span>
+            <p className="text-xl mt-4">
+              Mi nombre es <span className="text-primary"> Eddy Santiago </span>
+              y actualmente resido en Colombia. En general, mi interés por la
+              tecnología se remonta a cuando era un niño, tenía unos 12 o 13
+              años. Recuerdo desde esos momentos estar muy interesado y con
+              mucha curiosidad sobre el cómo funcionan muchos de los elementos
+              que la componen, como la internet, la ciberseguridad, los
+              dispositivos móviles, los videjuegos y las computadoras.
               <br />
               <br />
-              En el año 2020 tuve la oportunidad de estudiar profesionalmente
-              Desarrollo de Software a lo cual no dude en tomar la oportunidad y
-              hasta el día de hoy siento que no me equivoque en mi elección.
-              Disfruto mucho el desarrollo, más allá de que hay algunos
-              altibajos y como cualquier profesión del mundo está repleta de
-              estrés, en mi vida trato de aplicar la comunicación asertiva, la
-              capacidad de planificar y administrar mi tiempo de manera
-              efectiva, busco estar actualizado sobre las últimas tecnologías,
-              veo los problemas como oportunidades para crear soluciones y sobre
-              todo trabajo día a día en convertirme en la persona que quiero
-              ser.
+              En el año 2020, tuve la oportunidad de estudiar Desarrollo de
+              Software de manera profesional, la cual no dudé en tomar y hasta
+              el día de hoy, siento que no me equivoqué en mi elección. Disfruto
+              mucho del desarrollo, aunque como cualquier profesión en el mundo, tiene sus
+              altibajos y puede ser estresante. En mi vida, aplico la
+              comunicación asertiva, la capacidad de planificación y administración efectiva
+              del tiempo, busco estar actualizado sobre las últimas tecnologías,
+              veo los problemas como oportunidades para crear soluciones y sobre todo
+              trabajo día a día para convertirme en la persona que deseo ser.
             </p>
           </div>
 
