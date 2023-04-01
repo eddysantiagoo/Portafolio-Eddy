@@ -15,7 +15,7 @@ export default function About() {
     <>
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-col lg:flex-row justify-between w-full h-full py-24 gap-24">
-          <div clas>
+          <div>
             <h1 className="text-5xl font-bold">
               ¿Quién{" "}
               <span className="relative whitespace-nowrap text-primary">
@@ -23,7 +23,7 @@ export default function About() {
               </span>
               ?
             </h1>
-            <p className="text-xl mt-4">
+            <p className="text-xl mt-4 animate__animated animate__fadeIn">
               Mi nombre es <span className="text-primary"> Eddy Santiago </span>
               y actualmente resido en Colombia. En general, mi interés por la
               tecnología se remonta a cuando era un niño, tenía unos 12 o 13
@@ -45,7 +45,7 @@ export default function About() {
             </p>
           </div>
 
-          <div className="relative flex-shrink-0">
+          <div className="relative flex-shrink-0 animate__animated animate__fadeInRight animate__delay-2s">
             <img
               src="https://media.licdn.com/dms/image/C4D03AQHjfcoCEEJjBA/profile-displayphoto-shrink_800_800/0/1648781520004?e=2147483647&v=beta&t=_6pd5ybebM6yUx5sAfAXqb-RLqncTwmTxXCCf3xC2yE"
               style={{ zIndex: 1 }}

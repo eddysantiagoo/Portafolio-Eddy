@@ -8,6 +8,7 @@ import clquConfig from "../../eddy.config";
 import Button from "components/Global/Button";
 import Carousel from "react-multi-carousel";
 
+
 export default function Projects() {
   const { page } = usePage();
 
@@ -32,7 +33,7 @@ export default function Projects() {
               <span className="relative">proyectos</span>
             </span>
           </h1>
-          <div className="grid grid-cols-1 lg:grid-cols-4 gap-8 mt-16">
+          <div className="grid grid-cols-1 lg:grid-cols-4 gap-8 mt-16 animate__animated animate__fadeIn animate__delay-1s">
             <a
               href="https://web-restaurante-enfasis.vercel.app"
               target="_blank"
@@ -41,8 +42,7 @@ export default function Projects() {
             >
               <div className="h-36 w-full relative rounded-lg shadow-xl overflow-hidden">
                 <img
-                  src="https://imgbox.io/ib/KDG5E8wdcl.png"
-                  className="absolute w-full h-full object-cover "
+                  src="https://imgbox.io/ib/vy2bhIZlIl.png"
                 />
               </div>
               <div className="mt-4">
