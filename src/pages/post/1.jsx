@@ -2,12 +2,36 @@ import axios from "axios";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import { useRouter } from "next/router";
+import { NextSeo } from "next-seo";
 
 function EjemploRuta() {
   const router = useRouter();
 
   return (
     <div className="max-w-7xl mx-auto py-12 w-full px-6 lg:px-0">
+      {/* SEO CON NEXT */}
+
+      <NextSeo
+        title="Articulo sobre Don Iniesta"
+        titleTemplate=" Eddy | %s"
+        description="Descubre la historia del legendario jugador de fútbol Don Andrés Iniesta Luján y su carrera en el campo. Desde sus primeros días en las divisiones inferiores hasta sus logros más notables en la Selección Nacional de España, este artículo te llevará a través de su viaje y su impacto en el mundo del fútbol"
+        // canonical="https://www.misitioweb.com/" "canonical" es una etiqueta que se utiliza en SEO para indicar a los motores de búsqueda la URL canónica de una página. Esto significa que se establece una URL preferida para una página específica, que ayuda a evitar contenido duplicado y mejora la clasificación en los motores de búsqueda. En este caso, "canonical=https://www.misitioweb.com/" significa que se está indicando que la URL canónica de la página es https://www.misitioweb.com/.
+        keywords={["iniesta eddy santiago", "articulo de eddy santiago", "articulo eddy iniesta"]}
+        openGraph={{
+          type: "website",
+          title: "Eddy | Desarrollador Junior",
+          description:
+            "Articulo sobre Don Iniesta",
+          images: [
+            {
+              url: "https://imgbox.io/ib/OnF4MYSLgD.png",
+              width: 1200,
+              height: 630,
+              alt: "Imagen de la pagina de inicio de mi portafolio",
+            },
+          ],
+        }}
+      />
       <div className="relative h-96 w-full">
         <img
           src="https://i.imgur.com/zfMBgr0.jpg"
@@ -142,8 +166,8 @@ function EjemploRuta() {
       </div>
       <div>
         <i class="fa-sharp fa-solid fa-ghost mr-2 mt-10 fa-xl" />
-            Articulo redactado por un FIFA
-        </div>
+        Articulo redactado por un FIFA
+      </div>
     </div>
   );
 }

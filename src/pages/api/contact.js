@@ -10,11 +10,10 @@ export default (req, res) => {
         });
     }
 
-    let mailTo = "me@clqu.live";
-    let mailSubject = "Contact Form Submission";
+    let mailTo = "";
+    let mailSubject = "Formulario de Contacto";
 
     let mailBody = `
-        Contact Form Submission
         Name: ${name}
         Email: ${email}
         Message: ${message}
@@ -29,7 +28,7 @@ export default (req, res) => {
 
     res.status(200).json({
         success: true,
-        message: "Message sent successfully",
+        message: "Respuesata en el .json, mensaje enviado correctamente",
         data: {
             subject: mailSubject,
             body: mailBody

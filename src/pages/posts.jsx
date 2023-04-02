@@ -9,6 +9,7 @@ import Button from "components/Global/Button";
 import Carousel from "react-multi-carousel";
 import Link from "next/link";
 import { useState } from "react";
+import { NextSeo } from "next-seo";
 
 export default function Posts() {
   const { page } = usePage();
@@ -21,6 +22,30 @@ export default function Posts() {
 
   return (
     <>
+      {/* SEO CON NEXT */}
+
+      <NextSeo
+        title="Mi blog"
+        titleTemplate=" Eddy | %s"
+        description="Mi blog - Portafolio de Desarrollador de Software Junior"
+        // canonical="https://www.misitioweb.com/" "canonical" es una etiqueta que se utiliza en SEO para indicar a los motores de búsqueda la URL canónica de una página. Esto significa que se establece una URL preferida para una página específica, que ayuda a evitar contenido duplicado y mejora la clasificación en los motores de búsqueda. En este caso, "canonical=https://www.misitioweb.com/" significa que se está indicando que la URL canónica de la página es https://www.misitioweb.com/.
+        keywords={["blog de eddy santiago", "eddy santiago", "blog de un fifa"]}
+        openGraph={{
+          type: "website",
+          title: "Eddy | Desarrollador Junior",
+          description:
+            "Mi blog - Portafolio de Desarrollador de Software Junior",
+          images: [
+            {
+              url: "https://imgbox.io/ib/OnF4MYSLgD.png",
+              width: 1200,
+              height: 630,
+              alt: "Imagen de la pagina de inicio de mi portafolio",
+            },
+          ],
+        }}
+      />
+
       <div className="max-w-7xl mx-auto ">
         <div className="py-24">
           <h1 className="font-display text-5xl font-medium sm:text-7xl text-black dark:text-white">

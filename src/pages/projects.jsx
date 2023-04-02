@@ -7,7 +7,7 @@ import { Fragment } from "react";
 import clquConfig from "../../eddy.config";
 import Button from "components/Global/Button";
 import Carousel from "react-multi-carousel";
-
+import { NextSeo } from "next-seo";
 
 export default function Projects() {
   const { page } = usePage();
@@ -17,6 +17,33 @@ export default function Projects() {
 
   return (
     <>
+      {/* SEO CON NEXT */}
+
+      <NextSeo
+        title="Mis proyectos"
+        titleTemplate=" Eddy | %s"
+        description="Mis proyectos - Portafolio de Desarrollador de Software Junior"
+        // canonical="https://www.misitioweb.com/" "canonical" es una etiqueta que se utiliza en SEO para indicar a los motores de búsqueda la URL canónica de una página. Esto significa que se establece una URL preferida para una página específica, que ayuda a evitar contenido duplicado y mejora la clasificación en los motores de búsqueda. En este caso, "canonical=https://www.misitioweb.com/" significa que se está indicando que la URL canónica de la página es https://www.misitioweb.com/.
+        keywords={[
+          "proyectos eddy santiago",
+          "eddy santiago",
+        ]}
+        openGraph={{
+          type: "website",
+          title: "Eddy | Desarrollador Junior",
+          description:
+            "Mis proyectos - Portafolio de Desarrollador de Software Junior",
+          images: [
+            {
+              url: "https://imgbox.io/ib/OnF4MYSLgD.png",
+              width: 1200,
+              height: 630,
+              alt: "Imagen de la pagina de inicio de mi portafolio",
+            },
+          ],
+        }}
+      />
+
       <div className="max-w-7xl mx-auto">
         <div className="py-24">
           <h1 className="font-display text-5xl font-medium sm:text-7xl text-black dark:text-white">
@@ -41,15 +68,13 @@ export default function Projects() {
               className="cursor-pointer w-full bg-gray-500/5 p-4 rounded-lg transition-all duration-200 hover:bg-gray-500/10"
             >
               <div className="h-36 w-full relative rounded-lg shadow-xl overflow-hidden">
-                <img
-                  src="https://imgbox.io/ib/vy2bhIZlIl.png"
-                />
+                <img src="https://imgbox.io/ib/vy2bhIZlIl.png" />
               </div>
               <div className="mt-4">
                 <p className="text-xl font-semibold">Papa's Burgeria</p>
                 <p className="text-sm max-h-24 h-24 overflow-auto font-normal text-gray-500">
-                  Landing page, funciones con JavaScript, estilos y animaciones con CSS y JS,
-                  maquetado con HTML, diseño responsive.
+                  Landing page, funciones con JavaScript, estilos y animaciones
+                  con CSS y JS, maquetado con HTML, diseño responsive.
                 </p>
                 <div className="mt-1">
                   <i class="fa-brands fa-html5 fa-xl fa-pull-left"></i>

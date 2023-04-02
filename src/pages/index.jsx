@@ -8,6 +8,7 @@ import eddyConfig from "../../eddy.config";
 import Button from "components/Global/Button";
 import Carousel from "react-multi-carousel";
 import { TypeAnimation } from "react-type-animation";
+import { NextSeo } from "next-seo";
 
 export default function Home() {
   const { page } = usePage();
@@ -15,11 +16,42 @@ export default function Home() {
   //Uso API GIT HUB
   const { data: $repositories } = useSWR("/api/repos");
   const repositories = $repositories?.data;
-  const CURSOR_CLASS_NAME = "custom-type-animation-cursor";
+
+  {
+    /* INICIO WEB */
+  }
 
   return (
     <>
-      {/* INICIO WEB */}
+      {/* SEO CON NEXT */}
+
+      <NextSeo
+        title="Desarrollador Junior"
+        titleTemplate=" Eddy | %s"
+        description="Inicio - Portafolio de Desarrollador de Software Junior"
+        // canonical="https://www.misitioweb.com/" "canonical" es una etiqueta que se utiliza en SEO para indicar a los motores de búsqueda la URL canónica de una página. Esto significa que se establece una URL preferida para una página específica, que ayuda a evitar contenido duplicado y mejora la clasificación en los motores de búsqueda. En este caso, "canonical=https://www.misitioweb.com/" significa que se está indicando que la URL canónica de la página es https://www.misitioweb.com/.
+        keywords={[
+          "portafolio",
+          "portafolio eddy santiago",
+          "portafolio eddy desarrollador",
+          "eddy santiago",
+          "eddy santiago giraldo",
+        ]}
+        openGraph={{
+          type: "website",
+          title: "Eddy | Desarrollador Junior",
+          description:
+            "Inicio - Portafolio de Desarrollador de Software Junior",
+          images: [
+            {
+              url: "https://imgbox.io/ib/OnF4MYSLgD.png",
+              width: 1200,
+              height: 630,
+              alt: "Imagen de la pagina de inicio de mi portafolio",
+            },
+          ],
+        }}
+      />
 
       <div className="sm:h-[40rem] h-[42rem] flex flex-col justify-center items-center mb-20">
         <h1 className="mx-auto max-w-5xl font-display text-4xl font-medium sm:text-7xl text-black dark:text-white text-center">
