@@ -4,8 +4,8 @@ module.exports = {
     version: '1.0.0',
     githubName: 'eddysantiagoo',
     githubKey: process.env.GITHUB_KEY,
-    softwareerKey: process.env.SOFTWAREER_KEY,
-    email: 'Por definirse',
+    email: 'eddysantiagogh@gmail.com',
+    messageContact: 'Al presionar "enviar" se ejecutara tu sistema de correos :)',
     errors: {
         404: "Esta pagina no ha sido encontrada :(",
         500: "Ocurrio un error mientras procesabamos su solicitud :("

@@ -17,6 +17,8 @@ export default function About() {
   let [success, setSuccess] = useState(false);
   let [loading, setLoading] = useState(false);
 
+  //Funciona para envio de correo
+
   const Submit = async (e) => {
     e.preventDefault();
     const form = e.target;
@@ -89,7 +91,7 @@ export default function About() {
             <form onSubmit={Submit}>
               <h1 className="text-4xl font-bold">Contacto</h1>
               <p className="text-sm mt-1 text-gray-500">
-                <i className="fa fa-envelope" /> {eddyConfig.email}
+                <i className="fa fa-envelope" /> {eddyConfig.messageContact}
               </p>
               <div className="flex flex-col gap-4 mt-4">
                 <Input
