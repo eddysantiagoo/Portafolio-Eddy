@@ -92,7 +92,7 @@ export default function Home() {
           <div className="rounded-lg border-2 border-gray-500/10 border-dotted px-4 py-2 text-center">
             <span className="text-primary uppercase">Años de experiencia</span>
             <p className="text-gray-500 dark:text-gray-300 font-semibold text-xl">
-              1+
+              2+
             </p>
           </div>
 
