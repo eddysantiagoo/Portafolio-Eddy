@@ -8,6 +8,7 @@ import clquConfig from "../../eddy.config";
 import Button from "components/Global/Button";
 import Carousel from "react-multi-carousel";
 import { NextSeo } from "next-seo";
+import { ReactMarkdown } from "react-markdown/lib/react-markdown";
 
 export default function About() {
   const { page } = usePage();
@@ -75,7 +76,7 @@ export default function About() {
             </p>
           </div>
 
-          <div className="relative flex-shrink-0 animate__animated animate__fadeInRight animate__delay-2s">
+          <div className="relative flex-shrink-0 animate__animated animate__fadeIn animate__delay-4s">
             <img
               src="https://media.licdn.com/dms/image/C4D03AQHjfcoCEEJjBA/profile-displayphoto-shrink_800_800/0/1648781520004?e=2147483647&v=beta&t=_6pd5ybebM6yUx5sAfAXqb-RLqncTwmTxXCCf3xC2yE"
               style={{ zIndex: 1 }}
