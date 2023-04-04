@@ -8,6 +8,7 @@ import clquConfig from "../../eddy.config";
 import Button from "components/Global/Button";
 import Carousel from "react-multi-carousel";
 import { NextSeo } from "next-seo";
+import { SiNextdotjs, SiTailwindcss } from "react-icons/si";
 
 export default function Projects() {
   const { page } = usePage();
@@ -24,10 +25,7 @@ export default function Projects() {
         titleTemplate=" Eddy | %s"
         description="Mis proyectos - Portafolio de Desarrollador de Software Junior"
         // canonical="https://www.misitioweb.com/" "canonical" es una etiqueta que se utiliza en SEO para indicar a los motores de búsqueda la URL canónica de una página. Esto significa que se establece una URL preferida para una página específica, que ayuda a evitar contenido duplicado y mejora la clasificación en los motores de búsqueda. En este caso, "canonical=https://www.misitioweb.com/" significa que se está indicando que la URL canónica de la página es https://www.misitioweb.com/.
-        keywords={[
-          "proyectos eddy santiago",
-          "eddy santiago",
-        ]}
+        keywords={["proyectos eddy santiago", "eddy santiago"]}
         openGraph={{
           type: "website",
           title: "Eddy | Desarrollador Junior",
@@ -60,6 +58,9 @@ export default function Projects() {
               <span className="relative">proyectos</span>
             </span>
           </h1>
+
+          {/* SECCION PROYECTOS */}
+
           <div className="grid grid-cols-1 lg:grid-cols-4 gap-8 mt-16 animate__animated animate__fadeIn animate__delay-1s">
             <a
               href="https://web-restaurante-enfasis.vercel.app"
@@ -67,7 +68,7 @@ export default function Projects() {
               rel="noreferrer"
               className="cursor-pointer w-full bg-gray-500/5 p-4 rounded-lg transition-all duration-200 hover:bg-gray-500/10"
             >
-              <div className="h-36 w-full relative rounded-lg shadow-xl overflow-hidden">
+              <div className="h-30 w-full relative rounded-lg shadow-xl overflow-hidden object-cover object-center sm:object-contain">
                 <img src="https://imgbox.io/ib/vy2bhIZlIl.png" />
               </div>
               <div className="mt-4">
@@ -84,6 +85,47 @@ export default function Projects() {
               </div>
 
               <p className="text-xs italic mt-6">
+                <i className="fal fa-globe mr-1" />
+                https://web-restaurante-enfasis.vercel.app/
+              </p>
+            </a>
+
+            <a
+              href="https://web-restaurante-enfasis.vercel.app"
+              target="_blank"
+              rel="noreferrer"
+              className="cursor-pointer w-full bg-gray-500/5 p-4 rounded-lg transition-all duration-200 hover:bg-gray-500/10"
+            >
+              <div className="h-30 w-full relative rounded-lg shadow-xl overflow-hidden object-cover object-center sm:object-contain">
+                <img src="https://imgbox.io/ib/OnF4MYSLgD.png" />
+              </div>
+              <div className="mt-4">
+                <p className="text-xl font-semibold">Portafolio Personal</p>
+                <p className="text-sm max-h-24 h-24 overflow-auto font-normal text-gray-500">
+                  Manejo de rutas dinamicas, manejo de componentes, consumo de
+                  APIS, estilos con Tailwind, manejo de errores http, SEO
+                  basico, animaciones con librerias externas, diseño responsive.
+                </p>
+                <div className="mt-6">
+                  <i class="fa-brands fa-react fa-xl fa-pull-left"></i>
+                  <i class="fa-brands fa-js fa-xl fa-pull-left"></i>
+                  <i class="fa-brands fa-css3-alt fa-xl fa-pull-left"></i>
+                  <i class="fa-brands fa-font-awesome fa-xl fa-pull-left"></i>
+                  <i class="fa-brands fa-node fa-xl fa-pull-left"></i>
+                </div>
+                <div
+                  style={{
+                    display: "inline-block",
+                    height: "1.6em",
+                    marginTop: "-22px",
+                    verticalAlign: "middle",
+                  }}
+                >
+                  <SiNextdotjs size="1.5em" />
+                </div>
+              </div>
+
+              <p className="text-xs italic mt-1">
                 <i className="fal fa-globe mr-1" />
                 https://web-restaurante-enfasis.vercel.app/
               </p>

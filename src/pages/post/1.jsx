@@ -32,6 +32,7 @@ function EjemploRuta() {
           ],
         }}
       />
+      
       <div className="relative h-96 w-full">
         <img
           src="https://i.imgur.com/zfMBgr0.jpg"
