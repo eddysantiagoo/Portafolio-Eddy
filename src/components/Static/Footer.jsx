@@ -10,7 +10,7 @@ import 'animate.css'
 export default function Footer() {
     
 
-    let [heartColor, setHeartColor] = useState('#4F3DFE');
+    let [heartColor, setHeartColor] = useState('#b7b78a');
 
     function randomColor() {
         let color = '#';
@@ -27,7 +27,7 @@ export default function Footer() {
             <div className="flex flex-col lg:flex-row items-center justify-between gap-4">
                 <p className="text-lg text-zinc-400 text-center">© {new Date().getFullYear()} {clquConfig.name}. Todos los derechos reservados </p>
                 <div className="text-right">
-                    <p className="text-lg text-zinc-400 select-none">Adaptado con <i onClick={() => { setHeartColor(randomColor()) }} className="fas fa-heart animate__animated animate__heartBeat animate__infinite"  style={{ color: heartColor, cursor: 'pointer' } } /> por <a href="https://youtu.be/dQw4w9WgXcQ" target={"_blank"} className="text-zinc-400 hover:text-primary hover:dark:text-white">Eddy</a></p>
+                    <p className="text-lg text-zinc-400 select-none">Adaptado con <i onClick={() => { setHeartColor(randomColor()) }} className="fas fa-heart animate__animated animate__heartBeat animate__infinite"  style={{ color: heartColor, cursor: 'pointer' } } /> por <a href="https://youtu.be/dQw4w9WgXcQ" target={"_blank"} className="text-secondary hover:text-primary hover:dark:text-white">Eddy</a></p>
                </div>
             </div>
         </div>
