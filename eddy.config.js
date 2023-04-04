@@ -5,7 +5,7 @@ module.exports = {
     githubName: 'eddysantiagoo',
     githubKey: process.env.GITHUB_KEY,
     email: 'eddysantiagogh@gmail.com',
-    imageWeb: 'https://i.ibb.co/mGXLs7Z/el-sachi.png',
+    imageWeb: 'https://imgbox.io/ib/8OasTn0796.png',
     messageContact: 'Al presionar "enviar" se ejecutara tu sistema de correos (No olvides rellenar todos los campos porfa) :)',
     errors: {
         404: "Esta pagina no ha sido encontrada :(",

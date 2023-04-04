@@ -76,7 +76,7 @@ export default function About() {
             "Mi blog - Portafolio de Desarrollador de Software Junior",
           images: [
             {
-              url: "https://imgbox.io/ib/OnF4MYSLgD.png",
+              url: eddyConfig.imageWeb,
               width: 1200,
               height: 630,
               alt: "Imagen de la pagina de inicio de mi portafolio",

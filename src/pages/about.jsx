@@ -4,7 +4,7 @@ import Head from "next/head";
 import Image from "next/image";
 import { Transition, Dialog } from "@headlessui/react";
 import { Fragment } from "react";
-import clquConfig from "../../eddy.config";
+import eddyConfig from "../../eddy.config";
 import Button from "components/Global/Button";
 import Carousel from "react-multi-carousel";
 import { NextSeo } from "next-seo";
@@ -34,7 +34,7 @@ export default function About() {
             "Sobre mi - Portafolio de Desarrollador de Software Junior",
           images: [
             {
-              url: "https://imgbox.io/ib/OnF4MYSLgD.png",
+              url: eddyConfig.imageWeb,
               width: 1200,
               height: 630,
               alt: "Imagen de la pagina de inicio de mi portafolio",
@@ -51,7 +51,6 @@ export default function About() {
               <span className="relative whitespace-nowrap text-primary">
                 soy?
               </span>
-              ?
             </h1>
             <p className="text-xl mt-4 animate__animated animate__fadeIn">
               Mi nombre es <span className="text-primary"> Eddy Santiago </span>

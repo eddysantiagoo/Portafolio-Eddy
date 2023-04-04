@@ -4,7 +4,7 @@ import Head from "next/head";
 import Image from "next/image";
 import { Transition, Dialog } from "@headlessui/react";
 import { Fragment } from "react";
-import clquConfig from "../../eddy.config";
+import eddyConfig from "../../eddy.config";
 import Button from "components/Global/Button";
 import Carousel from "react-multi-carousel";
 import { NextSeo } from "next-seo";
@@ -33,7 +33,7 @@ export default function Projects() {
             "Mis proyectos - Portafolio de Desarrollador de Software Junior",
           images: [
             {
-              url: "https://imgbox.io/ib/OnF4MYSLgD.png",
+              url: eddyConfig.imageWeb,
               width: 1200,
               height: 630,
               alt: "Imagen de la pagina de inicio de mi portafolio",
@@ -86,18 +86,20 @@ export default function Projects() {
 
               <p className="text-xs italic mt-6">
                 <i className="fal fa-globe mr-1" />
-                https://web-restaurante-enfasis.vercel.app/
+                https://web-restaurante-enfasis.vercel.app
               </p>
             </a>
 
+            {/* PROYECTO 2 */}
+
             <a
-              href="https://web-restaurante-enfasis.vercel.app"
+              href="https://eddy-portafolio.vercel.app/"
               target="_blank"
               rel="noreferrer"
               className="cursor-pointer w-full bg-gray-500/5 p-4 rounded-lg transition-all duration-200 hover:bg-gray-500/10"
             >
               <div className="h-30 w-full relative rounded-lg shadow-xl overflow-hidden object-cover object-center sm:object-contain">
-                <img src="https://imgbox.io/ib/OnF4MYSLgD.png" />
+                <img src="https://imgbox.io/ib/8OasTn0796.png" />
               </div>
               <div className="mt-4">
                 <p className="text-xl font-semibold">Portafolio Personal</p>
@@ -127,7 +129,7 @@ export default function Projects() {
 
               <p className="text-xs italic mt-1">
                 <i className="fal fa-globe mr-1" />
-                https://web-restaurante-enfasis.vercel.app/
+                https://eddy-portafolio.vercel.app
               </p>
             </a>
           </div>
