@@ -75,7 +75,7 @@ body {
 
 .layout-purple {
     top: 25%;
-    background: radial-gradient(at 0% 150%, rgb(146, 146, 151) 0, transparent 50%);
+    background: radial-gradient(at 0% 150%, #A9A6EB 0, transparent 50%);
 }
 
 .down-arrow {
