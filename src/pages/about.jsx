@@ -44,7 +44,7 @@ export default function About() {
       />
 
       <div className="max-w-7xl mx-auto">
-        <div className="flex flex-col lg:flex-row justify-between w-full h-full py-24 gap-24">
+        <div className="flex flex-col lg:flex-row justify-between w-full h-full py-14 gap-24 pb-6">
           <div>
             <h1 className="text-5xl font-bold">
               ¿Quién{" "}
@@ -83,6 +83,12 @@ export default function About() {
             />
             <div className="-right-3 top-3 absolute w-full h-full lg:h-64 top-0 right-0 border-4 rounded-full lg:rounded-lg border-primary bg-gradient-to-t from-primary" />
           </div>
+        </div>
+
+        <div>
+          <ReactMarkdown className="blockquote text-2xl text-primary pb-6">
+            The security in there, but for how *long*? **- Eddy Santiago**
+          </ReactMarkdown>
         </div>
 
         {/* SECCION EDUCACIÓN */}
