@@ -87,7 +87,7 @@ export default function About() {
 
         <div>
           <ReactMarkdown className="blockquote text-2xl text-primary pb-6">
-            The security in there, but for how *long*? **- Eddy Santiago**
+            The security is there, but for how *long*? **- Eddy Santiago**
           </ReactMarkdown>
         </div>
 

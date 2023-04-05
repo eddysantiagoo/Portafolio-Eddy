@@ -6,6 +6,7 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import { Fragment, useState } from "react";
 import eddyConfig from "../../../eddy.config";
+import Image from "next/image";
 
 export default function Navbar() {
   const router = useRouter();
@@ -66,14 +67,15 @@ export default function Navbar() {
   return (
     <>
       <nav className="sticky top-0 z-10 bg-[#060510] backdrop-filter backdrop-blur-lg bg-opacity-30">
-        <div className="max-w-8xl py-5 w-full px-6 lg:px-0">
+        <div className="max-w-8xl py-5 w-full px-0 lg:px-0">
           <div className="flex items-center justify-between">
-            <div className="flex items-center gap-4">
+            <div className="flex items-center">
               <Link href="/">
-                <a className="text-2xl text-slate-100 mx-8 font-bold transition-all duration-200">
+                <a className="text-2xl text-slate-100 mx-8 font-bold mr-1 transition-all duration-200">
                   {eddyConfig.navbar}
                 </a>
               </Link>
+          <Image src="/images/GifPalomaPNG.gif" width={40} height={40} alt="Cargando..." />
             </div>
             <div className="flex items-center gap-4 mx-9 ">
               <i
