@@ -22,7 +22,7 @@ function MyApp({ Component, pageProps }) {
           <ContextMenu
             content={event => <>
               <div>
-                {event.hasBack && (<Item icon={<i className="fa fa-arrow-left" />} text="Regrezar" kbd={["Alt", "◀"]} onClick={event.goBack} />)}
+                {event.hasBack && (<Item icon={<i className="fa fa-arrow-left" />} text="Regresar" kbd={["Alt", "◀"]} onClick={event.goBack} />)}
                 {event.hasForward && (<Item icon={<i className="fa fa-arrow-right" />} text="Adelantar" kbd={["Alt", "▶"]} onClick={event.goForward} />)}
                 <Item icon={<i className="fa fa-redo" />} text="Refrescar" kbd={["Ctrl", "R"]} onClick={event.refreshPage} />
               </div>

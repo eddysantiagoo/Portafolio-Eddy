@@ -112,7 +112,7 @@ export default function About() {
               <div className="relative">
                 <h2 className="ml-4 font-display text-xl font-medium text-black dark:text-white">
                   Institución Universitaria Digital de Antioquia - Tecnologia en
-                  desarrollo de Software ( 2020 -
+                  Desarrollo de Software ( 2020 -
                 </h2>
               </div>
             </div>
