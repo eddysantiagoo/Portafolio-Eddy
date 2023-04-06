@@ -9,7 +9,6 @@ import Button from "components/Global/Button";
 import Carousel from "react-multi-carousel";
 import { TypeAnimation } from "react-type-animation";
 import { NextSeo } from "next-seo";
-import Loader from "../components/Global/Loader";
 
 export default function Home() {
   const { page } = usePage();
