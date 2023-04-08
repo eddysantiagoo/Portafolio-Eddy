@@ -59,7 +59,7 @@ export default function About() {
               años. Recuerdo desde esos momentos estar muy interesado y con
               mucha curiosidad sobre el cómo funcionan muchos de los elementos
               que la componen, como la internet, la ciberseguridad, los
-              dispositivos móviles, los videjuegos y las computadoras.
+              dispositivos móviles, los videojuegos y las computadoras.
               <br />
               <br />
               En el año 2020, tuve la oportunidad de estudiar Desarrollo de
