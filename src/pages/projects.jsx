@@ -69,7 +69,10 @@ export default function Projects() {
               className="cursor-pointer w-full bg-gray-500/5 p-4 rounded-lg transition-all duration-200 hover:bg-gray-500/10"
             >
               <div className="h-30 w-full relative rounded-lg shadow-xl overflow-hidden object-cover object-center sm:object-contain">
-                <img src="https://imgbox.io/ib/vy2bhIZlIl.png" />
+                <img
+                  src="https://imgbox.io/ib/vy2bhIZlIl.png"
+                  alt="Imagen proyecto Papas Burgeria"
+                />
               </div>
               <div className="mt-4">
                 <p className="text-xl font-semibold">Papa's Burgeria</p>
@@ -99,7 +102,10 @@ export default function Projects() {
               className="cursor-pointer w-full bg-gray-500/5 p-4 rounded-lg transition-all duration-200 hover:bg-gray-500/10"
             >
               <div className="h-30 w-full relative rounded-lg shadow-xl overflow-hidden object-cover object-center sm:object-contain">
-                <img src="https://imgbox.io/ib/8OasTn0796.png" />
+                <img
+                  src="https://imgbox.io/ib/8OasTn0796.png"
+                  alt="Imagen proyecto portafolio personal"
+                />
               </div>
               <div className="mt-4">
                 <p className="text-xl font-semibold">Portafolio Personal</p>

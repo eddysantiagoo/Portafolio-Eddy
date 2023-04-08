@@ -16,12 +16,15 @@ function EjemploRuta() {
         titleTemplate=" Eddy | %s"
         description="Descubre la historia del legendario jugador de fútbol Don Andrés Iniesta Luján y su carrera en el campo. Desde sus primeros días en las divisiones inferiores hasta sus logros más notables en la Selección Nacional de España, este artículo te llevará a través de su viaje y su impacto en el mundo del fútbol"
         // canonical="https://www.misitioweb.com/" "canonical" es una etiqueta que se utiliza en SEO para indicar a los motores de búsqueda la URL canónica de una página. Esto significa que se establece una URL preferida para una página específica, que ayuda a evitar contenido duplicado y mejora la clasificación en los motores de búsqueda. En este caso, "canonical=https://www.misitioweb.com/" significa que se está indicando que la URL canónica de la página es https://www.misitioweb.com/.
-        keywords={["iniesta eddy santiago", "articulo de eddy santiago", "articulo eddy iniesta"]}
+        keywords={[
+          "iniesta eddy santiago",
+          "articulo de eddy santiago",
+          "articulo eddy iniesta",
+        ]}
         openGraph={{
           type: "website",
           title: "Eddy | Desarrollador Junior",
-          description:
-            "Articulo sobre Don Iniesta",
+          description: "Articulo sobre Don Iniesta",
           images: [
             {
               url: "https://imgbox.io/ib/OnF4MYSLgD.png",
@@ -32,7 +35,7 @@ function EjemploRuta() {
           ],
         }}
       />
-      
+
       <div className="relative h-96 w-full">
         <img
           src="https://i.imgur.com/zfMBgr0.jpg"
@@ -67,7 +70,7 @@ function EjemploRuta() {
           su formación como fútbolista profesional. <br />
           <img
             src="https://img.vavel.com/b/Iniesta-as-child-andres-iniesta-lujan-16541072-452-615-1.jpg"
-            alt=""
+            alt="Imagen de Iniesta cuando era Joven"
           />
           Su paso por el club Blaugrana fue espectacular, pero el mismo Andrés
           Iniesta ha confesado mas de una vez que al principio no fue sencillo,
@@ -83,7 +86,7 @@ function EjemploRuta() {
           Iniesta para mostrar de que estaba hecho y el resto ya es historia.
           <img
             src="https://pictures.trbna.com/image/27f1b446-0f37-4c0b-aa81-9837fe15dbdf"
-            alt=""
+            alt="Imagen de Andres Iniesta Debutando con el FC Barcelona"
           />
           <h2 className="text-[#A50044]">Su trayectoria</h2>
           <strong>
@@ -154,7 +157,10 @@ function EjemploRuta() {
             de Sudáfrica 2010) fue el año en el que su amigo Dani Jarque,
             jugador del Espanyol, murió a causa de un infarto.
           </p>
-          <img src="https://i.imgur.com/cdTQEEB.jpg" alt="" />
+          <img
+            src="https://i.imgur.com/cdTQEEB.jpg"
+            alt="Imagen de iniesta con el nombre de Dani Harker en su camiseta"
+          />
           <hr />
           <strong>
             Actualmente Iniesta juega en Japón en el Vissel Kobe, al momento de

@@ -231,6 +231,7 @@ export default function Home() {
               <div className="group flex justify-between items-center relative bg-gray-600/5 dark:shadow-2xl overflow-hidden border border-gray-500/25 hover:border-primary hover:shadow-xl rounded-lg overflow-hidden p-2.5 transition-all duration-200">
                 <img
                   src="https://cdn.worldvectorlogo.com/logos/mongodb-icon-1.svg"
+                  alt="Logo de mongo DB"
                   width="32"
                   height="32"
                   className="bg-white/5 p-1 w-[32px] h-[32px] rounded-md "
@@ -245,6 +246,7 @@ export default function Home() {
               <div className="group flex justify-between items-center relative bg-gray-600/5 dark:shadow-2xl overflow-hidden border border-gray-500/25 hover:border-primary hover:shadow-xl rounded-lg overflow-hidden p-2.5 transition-all duration-200">
                 <img
                   src="https://static.figma.com/app/icon/1/icon-192.png"
+                  alt="Logo de Figma"
                   width="32"
                   height="32"
                   className="bg-white/5 p-1 w-[32px] h-[32px] rounded-md "
@@ -259,6 +261,7 @@ export default function Home() {
               <div className="group flex justify-between items-center relative bg-gray-600/5 dark:shadow-2xl overflow-hidden border border-gray-500/25 hover:border-primary hover:shadow-xl rounded-lg overflow-hidden p-2.5 transition-all duration-200">
                 <img
                   src="https://cdn.worldvectorlogo.com/logos/arduino-logo.svg"
+                  alt="Logo de Arduino"
                   width="32"
                   height="32"
                   className="bg-white/5 p-1 w-[32px] h-[32px] rounded-md "
@@ -273,6 +276,7 @@ export default function Home() {
               <div className="group flex justify-between items-center relative bg-gray-600/5 dark:shadow-2xl overflow-hidden border border-gray-500/25 hover:border-primary hover:shadow-xl rounded-lg overflow-hidden p-2.5 transition-all duration-200">
                 <img
                   src="https://cdn.worldvectorlogo.com/logos/logo-javascript.svg"
+                  alt="Logo de JavaScript"
                   width="32"
                   height="32"
                   className="bg-white/5 p-1 w-[32px] h-[32px] rounded-md "
@@ -287,6 +291,7 @@ export default function Home() {
               <div className="group flex justify-between items-center relative bg-gray-600/5 dark:shadow-2xl overflow-hidden border border-gray-500/25 hover:border-primary hover:shadow-xl rounded-lg overflow-hidden p-2.5 transition-all duration-200">
                 <img
                   src="https://cdn.worldvectorlogo.com/logos/html-1.svg"
+                  alt="Logo de HTML5"
                   width="32"
                   height="32"
                   className="bg-white/5 p-1 w-[32px] h-[32px] rounded-md "
@@ -301,6 +306,7 @@ export default function Home() {
               <div className="group flex justify-between items-center relative bg-gray-600/5 dark:shadow-2xl overflow-hidden border border-gray-500/25 hover:border-primary hover:shadow-xl rounded-lg overflow-hidden p-2.5 transition-all duration-200">
                 <img
                   src="https://cdn.worldvectorlogo.com/logos/tailwind-css-2.svg"
+                  alt="Logo de Tailwind"
                   width="32"
                   height="32"
                   className="bg-white/5 p-1 w-[32px] h-[32px] rounded-md "
@@ -315,6 +321,7 @@ export default function Home() {
               <div className="group flex justify-between items-center relative bg-gray-600/5 dark:shadow-2xl overflow-hidden border border-gray-500/25 hover:border-primary hover:shadow-xl rounded-lg overflow-hidden p-2.5 transition-all duration-200">
                 <img
                   src="https://cdn.worldvectorlogo.com/logos/css-3.svg"
+                  alt="Logo de CSS"
                   width="32"
                   height="32"
                   className="bg-white/5 p-1 w-[32px] h-[32px] rounded-md "
@@ -329,6 +336,7 @@ export default function Home() {
               <div className="group flex justify-between items-center relative bg-gray-600/5 dark:shadow-2xl overflow-hidden border border-gray-500/25 hover:border-primary hover:shadow-xl rounded-lg overflow-hidden p-2.5 transition-all duration-200">
                 <img
                   src="https://cdn.worldvectorlogo.com/logos/react-2.svg"
+                  alt="Logo de React"
                   width="32"
                   height="32"
                   className="bg-white/5 p-1 w-[32px] h-[32px] rounded-md "
@@ -343,6 +351,7 @@ export default function Home() {
               <div className="group flex justify-between items-center relative bg-gray-600/5 dark:shadow-2xl overflow-hidden border border-gray-500/25 hover:border-primary hover:shadow-xl rounded-lg overflow-hidden p-2.5 transition-all duration-200">
                 <img
                   src="https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg"
+                  alt="Logo de Node.js"
                   width="32"
                   height="32"
                   className="bg-white/5 p-1 w-[32px] h-[32px] rounded-md "
@@ -357,6 +366,7 @@ export default function Home() {
               <div className="group flex justify-between items-center relative bg-gray-600/5 dark:shadow-2xl overflow-hidden border border-gray-500/25 hover:border-primary hover:shadow-xl rounded-lg overflow-hidden p-2.5 transition-all duration-200">
                 <img
                   src="https://cdn.worldvectorlogo.com/logos/mysql-6.svg"
+                  alt="Logo de MySQL"
                   width="32"
                   height="32"
                   className="bg-white/5 p-1 w-[32px] h-[32px] rounded-md "
@@ -371,6 +381,7 @@ export default function Home() {
               <div className="group flex justify-between items-center relative bg-gray-600/5 dark:shadow-2xl overflow-hidden border border-gray-500/25 hover:border-primary hover:shadow-xl rounded-lg overflow-hidden p-2.5 transition-all duration-200">
                 <img
                   src="https://cdn.worldvectorlogo.com/logos/adobe-photoshop-2.svg"
+                  alt="Logo de Photoshop"
                   width="32"
                   height="32"
                   className="bg-white/5 p-1 w-[32px] h-[32px] rounded-md "
@@ -385,6 +396,7 @@ export default function Home() {
               <div className="group flex justify-between items-center relative bg-gray-600/5 dark:shadow-2xl overflow-hidden border border-gray-500/25 hover:border-primary hover:shadow-xl rounded-lg overflow-hidden p-2.5 transition-all duration-200">
                 <img
                   src="https://cdn.worldvectorlogo.com/logos/premiere-pro-cc.svg"
+                  alt="Logo de Premiere"
                   width="32"
                   height="32"
                   className="bg-white/5 p-1 w-[32px] h-[32px] rounded-md "
@@ -420,6 +432,7 @@ export default function Home() {
               <div className="group flex justify-between items-center relative bg-gray-600/5 dark:shadow-2xl overflow-hidden border border-gray-500/25 hover:border-primary hover:shadow-xl rounded-lg overflow-hidden p-2.5 transition-all duration-200">
                 <img
                   src="https://images.emojiterra.com/twitter/512px/1f1ec-1f1e7.png"
+                  alt="Bandera de Reino Unido"
                   width="32"
                   height="32"
                   className="bg-white/5 p-1 w-[32px] h-[32px] rounded-md "
@@ -434,6 +447,7 @@ export default function Home() {
               <div className="group flex justify-between items-center relative bg-gray-600/5 dark:shadow-2xl overflow-hidden border border-gray-500/25 hover:border-primary hover:shadow-xl rounded-lg overflow-hidden p-2.5 transition-all duration-200">
                 <img
                   src="https://images.emojiterra.com/twitter/512px/1f1e7-1f1f7.png"
+                  alt="Bandera de Brazil"
                   width="32"
                   height="32"
                   className="bg-white/5 p-1 w-[32px] h-[32px] rounded-md "

@@ -78,6 +78,7 @@ export default function About() {
           <div className="relative flex-shrink-0 animate__animated animate__fadeIn animate__delay-4s">
             <img
               src="https://media.licdn.com/dms/image/C4D03AQHjfcoCEEJjBA/profile-displayphoto-shrink_800_800/0/1648781520004?e=2147483647&v=beta&t=_6pd5ybebM6yUx5sAfAXqb-RLqncTwmTxXCCf3xC2yE"
+              alt="Imagen de Eddy Santiago"
               style={{ zIndex: 1 }}
               className="relative shadow-xl z-1 w-full lg:w-64 h-full lg:h-64 rounded-full lg:rounded-lg"
             />
@@ -105,6 +106,7 @@ export default function About() {
             <div className="group flex items-center relative bg-gray-600/5 dark:shadow-2xl overflow-hidden border border-gray-500/25 hover:border-primary hover:shadow-xl rounded-lg overflow-hidden p-2.5 transition-all duration-200">
               <img
                 src="https://media.licdn.com/dms/image/C4E0BAQHMgYEnxoVtxw/company-logo_200_200/0/1651508107143?e=2147483647&v=beta&t=ueYquiqI1_dejh2VyS1XzZ2D8Q2W4WjWw2VDBNC5OYU"
+                alt="Logo de la IU Digital de Antioquia"
                 width="65"
                 height="65"
                 className="bg-white/5 p-1 w-[65px] h-[65px] rounded-md "
@@ -121,6 +123,7 @@ export default function About() {
             <div className="group flex items-center relative bg-gray-600/5 dark:shadow-2xl overflow-hidden border border-gray-500/25 hover:border-primary hover:shadow-xl rounded-lg overflow-hidden p-2.5 transition-all duration-200">
               <img
                 src="https://media.licdn.com/dms/image/C4E0BAQHMgYEnxoVtxw/company-logo_200_200/0/1651508107143?e=2147483647&v=beta&t=ueYquiqI1_dejh2VyS1XzZ2D8Q2W4WjWw2VDBNC5OYU"
+                alt="Logo de la IU Digital de Antioquia"
                 width="65"
                 height="65"
                 className="bg-white/5 p-1 w-[65px] h-[65px] rounded-md "
