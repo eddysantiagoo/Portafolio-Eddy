@@ -36,11 +36,11 @@ function EjemploRuta() {
         }}
       />
 
-      <div className="relative h-96 w-full">
+      <div className="relative h-96 w-96">
         <img
           src="https://i.imgur.com/zfMBgr0.jpg"
           alt="Imagen Andrés iniesta"
-          className="rounded-xl absolute h-full w-full object-cover object-center sm:object-contain"
+          className="object-cover object-center sm:object-contain"
         />
         <div className="absolute bottom-0 left-0 w-full h-full dark:bg-black/50 shadow-xl" />
       </div>
