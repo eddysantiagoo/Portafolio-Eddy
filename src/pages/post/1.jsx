@@ -3,6 +3,7 @@ import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import { useRouter } from "next/router";
 import { NextSeo } from "next-seo";
+import Image from "next/image";
 
 function EjemploRuta() {
   const router = useRouter();
@@ -36,11 +37,11 @@ function EjemploRuta() {
         }}
       />
 
-      <div className="relative h-96 w-96">
+      <div className="relative h-96 w-full">
         <img
           src="https://i.imgur.com/zfMBgr0.jpg"
           alt="Imagen Andrés iniesta"
-          className="object-cover object-center sm:object-contain"
+          className="rounded-xl absolute h-full w-full object-cover object-center sm:object-contain"
         />
         <div className="absolute bottom-0 left-0 w-full h-full dark:bg-black/50 shadow-xl" />
       </div>
