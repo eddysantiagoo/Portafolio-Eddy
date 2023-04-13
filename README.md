@@ -33,5 +33,3 @@
 
 * Despliegue: [Desplegado eddy-portafolio.vercel.app](https://eddy-portafolio.vercel.app)
 #### Version: '1.0.1', //Ultima revision el 8 de abril del 2023
-
-eddy-portafolio.vercel.app
