@@ -44,7 +44,7 @@ function EjemploRuta() {
           alt="Imagen Andrés iniesta"
           className="rounded-xl absolute h-full w-full object-cover object-center sm:object-contain"
         />
-        <div className="absolute bottom-0 left-0 w-full h-full dark:bg-black/50 shadow-xl" />
+        <div className="absolute bottom-0 left-0 w-full h-full dark:bg-black/10 shadow-xl" />
       </div>
 
       <div className="mt-8">
@@ -64,16 +64,16 @@ function EjemploRuta() {
         <article className="mt-12 prose prose-sm lg:prose-lg dark:prose-invert prose-img:rounded-lg prose-a:text-blue-500 prose-a:no-underline">
           En el año 2020, después de ahorrar mucho tiempo, tuve la oportunidad
           de comprarme mi PlayStation 4. A pesar de que fue una experiencia
-          curiosa (ya que casi no me la enviaron), finalmente la consola llegó.
+          curiosa (ya que casi no me la envian), finalmente la consola llegó.
           Cuando la abrí, aún recuerdo que por suerte venía mi consola y no un
           ladrillo. Además de la consola en sí, también venía un videojuego del
           cual no tenía ni idea cuál era. En ese momento, no había acordado nada
           con el vendedor sobre la compra de algún juego, pero bueno, ese
-          videojuego es del que les quier contar hoy.
+          videojuego es del que les quiero contar hoy.
           <br />
           <br />
           Desarrollado por Quantic Dream y publicado en el 2018{" "}
-          <strong>Detroit: Become Human</strong> es aventura una gráfica que
+          <strong>Detroit: Become Human</strong> es una aventura gráfica que
           plantea una interesante reflexión sobre el futuro de la inteligencia
           artificial y su impacto en la sociedad. A través de una trama
           cautivadora y la toma de decisiones importantes que influyen en el
@@ -95,7 +95,7 @@ function EjemploRuta() {
             <li>
               PL600: Modelo comercial de androide diseñado para asistencia
               doméstica como el mantenimiento del hogar y la supervisión de
-              niños.
+              niños
             </li>
             <li>
               GJ200: Modelo comercial de androide diseñado para simular la
@@ -103,13 +103,13 @@ function EjemploRuta() {
             </li>
             <li>
               ST300: Modelo comercial de androide diseñado para ser una
-              recepcionista.
+              recepcionista
             </li>
             <li>
               El HR400 y WR400 "Traci": Son el diseño más avanzado de parejas
               sexuales masculinas y femeninas, diseñados para participar en
               actividades sexuales desde las formas más simples hasta las más
-              fantasiosas.
+              fantasiosas
             </li>
             <li>RT600: Primer androide en pasar el Test de Turing</li>
             <a
@@ -117,7 +117,7 @@ function EjemploRuta() {
               target="_blank"
             >
               Existen muchos otros modelos de androides, si te interesa saber
-              mas puede ingresar a la lista completa dando click aquí :)
+              mas puedes ingresar a la lista completa dando click aquí :)
             </a>
           </ul>
           Los androides de los cuales seremos lideres en sus decisiones se
