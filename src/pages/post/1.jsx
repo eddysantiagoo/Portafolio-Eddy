@@ -29,7 +29,7 @@ function EjemploRuta() {
           images: [
             {
               // https://imgbox.io/ib/OnF4MYSLgD.png
-              url: "https://imgbox.io/ib/w35gZgMZfq.png",
+              url: "https://imgbox.io/ib/RpTPU1Yjzi.png",
               width: 1440,
               height: 661,
               alt: "Imagen del blog",

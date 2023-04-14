@@ -29,7 +29,7 @@ function EjemploRuta() {
             "Articulo sobre la aventura gráfica de Detroit: Become Human",
           images: [
             {
-              url: "https://imgbox.io/ib/PyeoUADhOM.png",
+              url: "https://imgbox.io/ib/w35gZgMZfq.png",
               width: 1440,
               height: 661,
               alt: "Imagen del blog",
