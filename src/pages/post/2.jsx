@@ -13,8 +13,8 @@ function EjemploRuta() {
       {/* SEO CON NEXT */}
 
       <NextSeo
-        title="Blog personal Detroit"
-        titleTemplate=" Eddy | %s"
+        title="Detroit"
+        titleTemplate="Eddy | Blog personal %s"
         description="Este artículo de reseña del videojuego Detroit: Become Human presenta una visión general del juego, enfocándose en su trama y en las características que lo hacen único en su género."
         // canonical="https://www.misitioweb.com/" "canonical" es una etiqueta que se utiliza en SEO para indicar a los motores de búsqueda la URL canónica de una página. Esto significa que se establece una URL preferida para una página específica, que ayuda a evitar contenido duplicado y mejora la clasificación en los motores de búsqueda. En este caso, "canonical=https://www.misitioweb.com/" significa que se está indicando que la URL canónica de la página es https://www.misitioweb.com/.
         keywords={[
@@ -30,8 +30,8 @@ function EjemploRuta() {
           images: [
             {
               url: "https://imgbox.io/ib/PyeoUADhOM.png",
-              width: 1200,
-              height: 630,
+              width: 1440,
+              height: 661,
               alt: "Imagen del blog",
             },
           ],

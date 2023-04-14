@@ -13,9 +13,9 @@ function EjemploRuta() {
       {/* SEO CON NEXT */}
 
       <NextSeo
-        title="Articulo sobre Don Iniesta"
-        titleTemplate=" Eddy | %s"
-        description="Descubre la historia del legendario jugador de fútbol Don Andrés Iniesta Luján y su carrera en el campo. Desde sus primeros días en las divisiones inferiores hasta sus logros más notables en la Selección Nacional de España, este artículo te llevará a través de su viaje y su impacto en el mundo del fútbol"
+        title="Iniesta"
+        titleTemplate="Eddy | Blog personal %s"
+        description="Descubre la historia del legendario jugador de fútbol Don Andrés Iniesta Luján y su carrera en el campo. Desde sus primeros días en las divisiones inferiores hasta sus logros más notables en la Selección Nacional de España."
         // canonical="https://www.misitioweb.com/" "canonical" es una etiqueta que se utiliza en SEO para indicar a los motores de búsqueda la URL canónica de una página. Esto significa que se establece una URL preferida para una página específica, que ayuda a evitar contenido duplicado y mejora la clasificación en los motores de búsqueda. En este caso, "canonical=https://www.misitioweb.com/" significa que se está indicando que la URL canónica de la página es https://www.misitioweb.com/.
         keywords={[
           "iniesta eddy santiago",
@@ -24,14 +24,15 @@ function EjemploRuta() {
         ]}
         openGraph={{
           type: "website",
-          title: "Eddy | Desarrollador Junior",
-          description: "Articulo sobre Don Iniesta",
+          title: "Eddy | Blog personal articulo Iniesta",
+          description: "Articulo sobre Don Andrés Iniesta Luján",
           images: [
             {
-              url: "https://imgbox.io/ib/OnF4MYSLgD.png",
-              width: 1200,
-              height: 630,
-              alt: "Imagen de la pagina de inicio de mi portafolio",
+              // https://imgbox.io/ib/OnF4MYSLgD.png
+              url: "https://imgbox.io/ib/w35gZgMZfq.png",
+              width: 1440,
+              height: 661,
+              alt: "Imagen del blog",
             },
           ],
         }}
@@ -43,7 +44,7 @@ function EjemploRuta() {
           alt="Imagen Andrés iniesta"
           className="rounded-xl absolute h-full w-full object-cover object-center sm:object-contain"
         />
-        <div className="absolute bottom-0 left-0 w-full h-full dark:bg-black/50 shadow-xl" />
+        <div className="absolute bottom-0 left-0 w-full h-full dark:bg-black/10 shadow-xl" />
       </div>
 
       <div className="mt-8">
