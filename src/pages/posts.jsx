@@ -62,7 +62,43 @@ export default function Posts() {
               <span className="relative">blog</span>
             </span>
           </h1>
+
           <div className="grid grid-cols-1 gap-8 mt-16 ">
+            <Link href={`/post/2`}>
+              <a
+                key={""}
+                className="cursor-pointer w-full bg-gray-500/5 p-4 rounded-lg transition-all duration-200 hover:bg-gray-500/10"
+                onClick={handleClick}
+              >
+                <div>
+                  <p className="text-xl font-semibold">
+                    Explorando la Inteligencia Artificial en Detroit: Become
+                    Human, un videojuego recomendado
+                  </p>
+                  <p className="text-sm font-normal text-gray-500">
+                    En este artículo se presentará la recomendación del
+                    videojuego "Detroit Become Human", una aventura gráfica que
+                    plantea una interesante reflexión sobre el futuro de la
+                    inteligencia artificial y su impacto en la sociedad.
+                  </p>
+                </div>
+
+                <div className="flex items-center gap-4">
+                  <p className="text-xs space-x-2 mt-6">
+                    <i className="fal fa-calendar mr-1" />13 de abril de 2023
+                    
+                  </p>
+                  <p className="text-xs space-x-2 mt-6">
+                    <i className="fal fa-eye mr-1" />113
+                    
+                  </p>
+                  <p className="text-xs space-x-2 mt-6">
+                    <i className="fal fa-clock mr-1" />4 minutitos de lectura
+                  </p>
+                </div>
+              </a>
+            </Link>
+
             <Link href={`/post/1`}>
               <a
                 key={""}
@@ -81,14 +117,14 @@ export default function Posts() {
                 <div className="flex items-center gap-4">
                   <p className="text-xs space-x-2 mt-6">
                     <i className="fal fa-calendar mr-1" />
-                    28 de Marzo del 2023
+                    28 de marzo del 2023
                   </p>
                   <p className="text-xs space-x-2 mt-6">
                     <i className="fal fa-eye mr-1" />
                     112
                   </p>
                   <p className="text-xs space-x-2 mt-6">
-                    <i className="fal fa-clock mr-1" />4 minutitos de lectura
+                    <i className="fal fa-clock mr-1" />6 minutitos de lectura
                   </p>
                 </div>
               </a>

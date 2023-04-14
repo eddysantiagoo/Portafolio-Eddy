@@ -51,11 +51,11 @@ function EjemploRuta() {
         <div className="flex items-center gap-4 mt-2">
           <div>
             <i className="fas fa-clock text-zinc-400" />
-            <span className="text-zinc-400 ml-2">4 minutos de lectura</span>
+            <span className="text-zinc-400 ml-2">6 minutos de lectura</span>
           </div>
           <div>
             <i className="fas fa-calendar-alt text-zinc-400" />
-            <span className="text-zinc-400 ml-2">28 de Marzo de 2023</span>
+            <span className="text-zinc-400 ml-2">28 de marzo de 2023</span>
           </div>
         </div>
         <article className="mt-12 prose prose-sm lg:prose-lg dark:prose-invert prose-img:rounded-lg prose-a:text-blue-500 prose-a:no-underline">
