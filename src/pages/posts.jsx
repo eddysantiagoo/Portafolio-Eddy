@@ -141,8 +141,7 @@ export default function Posts() {
                     Primer que todo: ¿Por qué este blog?
                   </p>
                   <p className="text-sm font-normal text-gray-500">
-                    Razon, motivo el porque tengo esta pequeña seccion en el
-                    gran mundo de la internet.
+                    La razón y el motivo del por qué.
                   </p>
                 </div>
 
