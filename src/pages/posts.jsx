@@ -85,12 +85,12 @@ export default function Posts() {
 
                 <div className="flex items-center gap-4">
                   <p className="text-xs space-x-2 mt-6">
-                    <i className="fal fa-calendar mr-1" />13 de abril de 2023
-                    
+                    <i className="fal fa-calendar mr-1" />
+                    13 de abril de 2023
                   </p>
                   <p className="text-xs space-x-2 mt-6">
-                    <i className="fal fa-eye mr-1" />113
-                    
+                    <i className="fal fa-eye mr-1" />
+                    113
                   </p>
                   <p className="text-xs space-x-2 mt-6">
                     <i className="fal fa-clock mr-1" />4 minutitos de lectura
@@ -125,6 +125,38 @@ export default function Posts() {
                   </p>
                   <p className="text-xs space-x-2 mt-6">
                     <i className="fal fa-clock mr-1" />6 minutitos de lectura
+                  </p>
+                </div>
+              </a>
+            </Link>
+
+            <Link href={`/post/0`}>
+              <a
+                key={""}
+                className="cursor-pointer w-full bg-gray-500/5 p-4 rounded-lg transition-all duration-200 hover:bg-gray-500/10"
+                onClick={handleClick}
+              >
+                <div>
+                  <p className="text-xl font-semibold">
+                    Primer que todo: ¿Por qué este blog?
+                  </p>
+                  <p className="text-sm font-normal text-gray-500">
+                    Razon, motivo el porque tengo esta pequeña seccion en el
+                    gran mundo de la internet.
+                  </p>
+                </div>
+
+                <div className="flex items-center gap-4">
+                  <p className="text-xs space-x-2 mt-6">
+                    <i className="fal fa-calendar mr-1" />
+                    25 de marzo del 2023
+                  </p>
+                  <p className="text-xs space-x-2 mt-6">
+                    <i className="fal fa-eye mr-1" />
+                    20
+                  </p>
+                  <p className="text-xs space-x-2 mt-6">
+                    <i className="fal fa-clock mr-1" />2 minutitos de lectura
                   </p>
                 </div>
               </a>
