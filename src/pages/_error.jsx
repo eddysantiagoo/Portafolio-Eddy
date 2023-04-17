@@ -1,7 +1,7 @@
 import eddyConfig from "../../eddy.config";
 
 export default function Error({ statusCode }) {
-  return (
+  return (  
     <div className="flex flex-col items-center justify-center py-10">
       <h1 className="text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-tr from-primary to-white">
         {statusCode}

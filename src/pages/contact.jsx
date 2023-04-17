@@ -91,7 +91,8 @@ export default function About() {
             <form onSubmit={Submit}>
               <h1 className="text-4xl font-bold">Contacto</h1>
               <p className="text-sm mt-1 text-gray-500">
-                <i className="fa fa-envelope" /> {eddyConfig.messageContact}
+                <i className="fa fa-envelope" /> {eddyConfig.messageContact}{" "}
+                <strong>(No olvides rellenar todos los campos porfa) :)</strong>
               </p>
               <div className="flex flex-col gap-4 mt-4">
                 <Input

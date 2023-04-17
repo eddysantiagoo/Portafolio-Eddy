@@ -107,10 +107,10 @@ export default function Posts() {
               >
                 <div>
                   <p className="text-xl font-semibold">
-                    Don Andrés Iniesta Luján
+                    Andrés Iniesta Luján
                   </p>
                   <p className="text-sm font-normal text-gray-500">
-                    Pequeño articulo sobre el mago de Fuentealbilla
+                    Pequeño articulo sobre el mago de Fuentealbilla.
                   </p>
                 </div>
 
@@ -138,7 +138,7 @@ export default function Posts() {
               >
                 <div>
                   <p className="text-xl font-semibold">
-                    Primer que todo: ¿Por qué este blog?
+                    Primero que todo: ¿Por qué este blog?
                   </p>
                   <p className="text-sm font-normal text-gray-500">
                     La razón y el motivo del por qué.
