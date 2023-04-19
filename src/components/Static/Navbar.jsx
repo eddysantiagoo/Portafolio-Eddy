@@ -172,11 +172,11 @@ export default function Navbar() {
               </div>
               <div className="flex items-center gap-2">
                 <a
-                  href="https://open.spotify.com/collection/tracks"
+                  href="https://twitter.com/eddysantiagooo"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <i className="fa-brands fa-spotify fab fa-$ text-2xl text-zinc-400 hover:text-black hover:dark:text-white transition-all duration-200 w-12 h-12 flex justify-center items-center bg-gray-500/5 rounded-lg hover:bg-gray-500/10" />
+                  <i className="fa-brands fa-twitter fab fa-$ text-2xl text-zinc-400 hover:text-black hover:dark:text-white transition-all duration-200 w-12 h-12 flex justify-center items-center bg-gray-500/5 rounded-lg hover:bg-gray-500/10" />
                 </a>
                 <a
                   href="https://www.linkedin.com/in/eddysantiagoo/"
@@ -213,14 +213,14 @@ export default function Navbar() {
                     <p>Instagram</p>
                   </a>
                 </Link>
-                <Link href="https://letterboxd.com/eddysantiago">
+                <Link href="https://open.spotify.com/user/s4ntiag00">
                   <a
                     onClick={() => setIsOpen(false)}
                     target="_blank"
                     className="flex gap-2 px-4 items-center w-full h-12 bg-gray-500/5 rounded-lg hover:bg-gray-500/10 transition-all duration-200 text-zinc-400 hover:text-black hover:dark:text-white"
                   >
-                    <i className="fa-solid fa-clapperboard-play text-2xl" />
-                    <p>Letterboxd</p>
+                    <i className="fa-brands fa-spotify text-2xl" />
+                    <p>Spotify</p>
                   </a>
                 </Link>
               </div>

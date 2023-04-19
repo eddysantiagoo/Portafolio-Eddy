@@ -1,9 +1,9 @@
-import clquConfig from "../../../eddy.config";
+import eddyConfig from "../../../eddy.config";
 
 export default async (req, res) => {
-    let _ = await (await fetch('https://api.github.com/users/' + clquConfig.githubName + '/repos', {
+    let _ = await (await fetch('https://api.github.com/users/' + eddyConfig.githubName + '/repos', {
         headers: {
-            Authorization: 'token '+ clquConfig.githubKey
+            Authorization: 'token '+ eddyConfig.githubKey
         }
     })).json();
 
