@@ -164,6 +164,62 @@ body {
   transform: rotateZ(45deg);
 }
 
+.animate-gradient-text {
+  background-image: linear-gradient(120deg, #ff4500, #ff8c00, #ffbf00);
+  background-size: 200%;
+  
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  animation: animated-gradient 5s ease-in-out infinite;
+}
+
+.button {
+  background: linear-gradient(90deg, #2B2B2B, #000000);
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 6px 22px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 8px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  background-size: 200% auto;
+  animation: gradientAnimation 3s ease infinite;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.button:hover {
+  background-position: -100% center;
+  transition: background-position 0.5s ease;
+}
+
+
+
+@keyframes animated-gradient {
+  0%,
+  100% {
+    background-position: 0 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
 @keyframes jumpInfinite {
   0% {
     margin-top: 0;

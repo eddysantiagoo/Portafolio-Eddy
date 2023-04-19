@@ -5,6 +5,7 @@ import { useRouter } from "next/router";
 import { NextSeo } from "next-seo";
 import Image from "next/image";
 
+
 function EjemploRuta() {
   const router = useRouter();
 
@@ -41,7 +42,7 @@ function EjemploRuta() {
       <div className="relative h-96 w-full">
         <img
           src="/images/Detroit.jpg"
-          alt="Imagen Andrés iniesta"
+          alt="Imagen Logo Detroit"
           className="rounded-xl absolute h-full w-full object-cover object-center sm:object-contain"
         />
         <div className="absolute bottom-0 left-0 w-full h-full dark:bg-black/10 shadow-xl" />
@@ -68,10 +69,11 @@ function EjemploRuta() {
           Cuando la abrí, aún recuerdo que por suerte venía mi consola y no un
           ladrillo. Además de la consola en sí, también venía un videojuego del
           cual no tenía ni idea cuál era. En ese momento, no había acordado nada
-          con el vendedor sobre la compra de algún juego, pero bueno, ese
-          videojuego es del que les quiero contar hoy.
+          con el vendedor sobre la compra de algún juego extra, pero bueno, ese es el
+          titulo del que les quiero contar hoy.
           <br />
           <br />
+          
           Desarrollado por Quantic Dream y publicado en el 2018{" "}
           <strong>Detroit: Become Human</strong> es una aventura gráfica que
           plantea una interesante reflexión sobre el futuro de la inteligencia
@@ -154,7 +156,7 @@ function EjemploRuta() {
           gráficos, por los avances tecnológicos que estamos presenciando y por
           su jugabilidad que se puede adaptar para casi cualquier persona, les
           recomiendo este bello videojuego.{" "}
-          <strong>(Abajo esta el trailer denle un vistazo, es bello)</strong>
+          <strong>(Abajo esta el trailer denle un vistazo)</strong>
           <iframe
             className="rounded-xl max-w-7xl mx-auto pt-3 w-full lg:px-0"
             width="676"

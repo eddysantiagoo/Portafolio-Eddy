@@ -75,7 +75,12 @@ export default function Navbar() {
                   {eddyConfig.navbar}
                 </a>
               </Link>
-          <Image src="/images/GifPalomaPNG.gif" width={40} height={40} alt="Cargando..." />
+              <Image
+                src="/images/GifPalomaPNG.gif"
+                width={40}
+                height={40}
+                alt="Cargando..."
+              />
             </div>
             <div className="flex items-center gap-4 mx-9 ">
               <i
@@ -158,7 +163,7 @@ export default function Navbar() {
               })}
             </div>
 
-            <div className="mt-8 space-y-2">
+            <div className="mt-6 space-y-2">
               <div className="flex items-center gap-2">
                 <p className="text-xs font-medium uppercase text-black/50 dark:text-white/10">
                   Redes Sociales
@@ -166,6 +171,13 @@ export default function Navbar() {
                 <div className="w-full h-0.5 bg-black/50 dark:bg-white/10" />
               </div>
               <div className="flex items-center gap-2">
+                <a
+                  href="https://open.spotify.com/collection/tracks"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <i className="fa-brands fa-spotify fab fa-$ text-2xl text-zinc-400 hover:text-black hover:dark:text-white transition-all duration-200 w-12 h-12 flex justify-center items-center bg-gray-500/5 rounded-lg hover:bg-gray-500/10" />
+                </a>
                 <a
                   href="https://www.linkedin.com/in/eddysantiagoo/"
                   target="_blank"
@@ -201,17 +213,14 @@ export default function Navbar() {
                     <p>Instagram</p>
                   </a>
                 </Link>
-                <Link
-                  target="_blank"
-                  href="https://open.spotify.com/user/s4ntiag00"
-                >
+                <Link href="https://letterboxd.com/eddysantiago">
                   <a
                     onClick={() => setIsOpen(false)}
                     target="_blank"
                     className="flex gap-2 px-4 items-center w-full h-12 bg-gray-500/5 rounded-lg hover:bg-gray-500/10 transition-all duration-200 text-zinc-400 hover:text-black hover:dark:text-white"
                   >
-                    <i className="fa-brands fa-spotify text-2xl" />
-                    <p>Spotify</p>
+                    <i className="fa-solid fa-clapperboard-play text-2xl" />
+                    <p>Letterboxd</p>
                   </a>
                 </Link>
               </div>
