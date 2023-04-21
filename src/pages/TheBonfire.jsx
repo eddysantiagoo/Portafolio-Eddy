@@ -1,5 +1,6 @@
 import React from "react";
 import { useState } from "react";
+import Image from "next/image";
 
 const TheBonfire = () => {
   const [playing, setPlaying] = useState(false);
@@ -37,19 +38,21 @@ const TheBonfire = () => {
           src="https://64.media.tumblr.com/3b5440683e71e2d39f998c6ed99c3feb/tumblr_ord7ll2peg1sx56xso1_1280.gif"
           alt=""
         />
-        <button className=" mb-8 button" onClick={togglePlay}>
+
+        <button
+          className=" mb-8 button  bg-gray-600/5 dark:shadow-2xl overflow-hidden border border-gray-500/25 hover:border-primary hover:shadow-xl rounded-lg overflow-hidden p-2.5 transition-all duration-200"
+          onClick={togglePlay}
+        >
           {playing ? "Pause" : "Click here to turn on the bonfire"}
         </button>
         <p className="text-lg mb-0 text-zinc-400 select-none">
           This 3 songs was provided by:
         </p>
-        <a
-          className="text-[#28679c] hover:text-white"
-          href="https://www.dropbox.com/home"
-          target="_blank"
-        >
-          Dropbox
-        </a>
+        <img
+          src="/images/LogoDropbox.png"
+          alt=""
+          className="w-42 h-12 mx-auto mt-0"
+        />
       </article>
     </div>
   );
