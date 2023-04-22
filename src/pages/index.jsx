@@ -7,6 +7,7 @@ import { Transition, Dialog } from "@headlessui/react";
 import eddyConfig from "../../eddy.config";
 import Button from "components/Global/Button";
 import Carousel from "react-multi-carousel";
+import ScrollArrow from "components/Global/ScrollArrow";
 import { TypeAnimation } from "react-type-animation";
 import { NextSeo } from "next-seo";
 
@@ -460,6 +461,8 @@ export default function Home() {
               </div>
             </div>
           </div>
+
+          <ScrollArrow />
         </>
   );
 }

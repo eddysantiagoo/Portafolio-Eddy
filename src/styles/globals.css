@@ -132,6 +132,50 @@ body {
   font-style: italic;
 }
 
+.scrollArrow {
+  position: fixed;
+  bottom: 6rem;
+  right: 2rem;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 35%;
+  background-color: #000000;
+  opacity: 0.5;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+	box-shadow: 0 2px 25px rgb(255, 255, 255);
+  animation: arrow-up 2s infinite;
+  transition: opacity 0.4s ease-in-out;
+}
+
+@media screen and (max-width: 640px) {
+  .scrollArrow{
+    bottom: 4rem;
+  }
+}
+
+@keyframes arrow-up {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.scrollArrow:hover {
+  opacity: 1;
+}
+
+.arrowIcon {
+  color: #fff;
+  font-size: 1.5rem;
+}
+
 .down-arrow {
   position: absolute;
   width: 0;
@@ -139,16 +183,6 @@ body {
   border: 2px solid;
   border-radius: 2px;
   animation: jumpInfinite 1.5s infinite;
-}
-
-.custom-type-animation-cursor::after {
-  content: "|";
-  animation: cursor 1.1s infinite step-start;
-}
-@keyframes cursor {
-  50% {
-    opacity: 50;
-  }
 }
 
 .down-arrow:after {
@@ -164,10 +198,33 @@ body {
   transform: rotateZ(45deg);
 }
 
+@keyframes jumpInfinite {
+  0% {
+    margin-top: 0;
+  }
+  50% {
+    margin-top: 50px;
+  }
+  100% {
+    margin-top: 0;
+  }
+}
+
+.custom-type-animation-cursor::after {
+  content: "|";
+  animation: cursor 1.1s infinite step-start;
+}
+
+@keyframes cursor {
+  50% {
+    opacity: 50;
+  }
+}
+
 .animate-gradient-text {
   background-image: linear-gradient(120deg, #ff4500, #ff8c00, #ffbf00);
   background-size: 200%;
-  
+
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
@@ -175,8 +232,8 @@ body {
 }
 
 .button {
-  background: linear-gradient(90deg, #2B2B2B, #000000);
-  color: #FFFFFF;
+  background: linear-gradient(90deg, #2b2b2b, #000000);
+  color: #ffffff;
   font-size: 16px;
   font-weight: bold;
   padding: 6px 22px;
@@ -207,8 +264,6 @@ body {
   transition: background-position 0.5s ease;
 }
 
-
-
 @keyframes animated-gradient {
   0%,
   100% {
@@ -217,17 +272,5 @@ body {
 
   50% {
     background-position: 100% 50%;
-  }
-}
-
-@keyframes jumpInfinite {
-  0% {
-    margin-top: 0;
-  }
-  50% {
-    margin-top: 50px;
-  }
-  100% {
-    margin-top: 0;
   }
 }
