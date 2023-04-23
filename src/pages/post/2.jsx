@@ -4,7 +4,7 @@ import remarkGfm from "remark-gfm";
 import { useRouter } from "next/router";
 import { NextSeo } from "next-seo";
 import Image from "next/image";
-
+import ScrollArrow from "components/Global/ScrollArrow";
 
 function EjemploRuta() {
   const router = useRouter();
@@ -69,11 +69,10 @@ function EjemploRuta() {
           Cuando la abrí, aún recuerdo que por suerte venía mi consola y no un
           ladrillo. Además de la consola en sí, también venía un videojuego del
           cual no tenía ni idea cuál era. En ese momento, no había acordado nada
-          con el vendedor sobre la compra de algún juego extra, pero bueno, ese es el
-          titulo del que les quiero contar hoy.
+          con el vendedor sobre la compra de algún juego extra, pero bueno, ese
+          es el titulo del que les quiero contar hoy.
           <br />
           <br />
-          
           Desarrollado por Quantic Dream y publicado en el 2018{" "}
           <strong>Detroit: Become Human</strong> es una aventura gráfica que
           plantea una interesante reflexión sobre el futuro de la inteligencia
@@ -176,6 +175,8 @@ function EjemploRuta() {
           en Steam también a ese precio.
         </article>
       </div>
+
+      <ScrollArrow />
     </div>
   );
 }
