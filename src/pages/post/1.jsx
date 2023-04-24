@@ -4,6 +4,7 @@ import remarkGfm from "remark-gfm";
 import { useRouter } from "next/router";
 import { NextSeo } from "next-seo";
 import Image from "next/image";
+import ScrollArrow from "components/Global/ScrollArrow";
 
 function EjemploRuta() {
   const router = useRouter();
@@ -167,15 +168,12 @@ function EjemploRuta() {
           <strong>
             Actualmente Iniesta juega en Japón en el Vissel Kobe, al momento de
             escribir este pequeño artículo aún sigue en activo, muchas gracias
-            por tu juego con la pelotita don Andrés Iniesta Luján, siempre te
-            llevaré en mis memorias y en mi kokoro{" "}
+            por tu juego Iniesta, siempre te llevaré en mis memorias y en mi
+            kokoro{" "}
             <i class="fa-solid fa-heart text-red-400 animate__animated animate__heartBeat animate__infinite"></i>
           </strong>
         </article>
-      </div>
-      <div>
-        <i class="fa-sharp fa-solid fa-ghost mr-2 mt-10 fa-xl" />
-        Articulo redactado por un FIFA
+        <ScrollArrow />
       </div>
     </div>
   );
