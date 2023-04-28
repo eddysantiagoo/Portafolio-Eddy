@@ -2475,6 +2475,11 @@ react-multi-carousel@^2.8.2:
   resolved "https://registry.yarnpkg.com/react-multi-carousel/-/react-multi-carousel-2.8.2.tgz#4bbd7a9656d8e49e081745331593e5500eefdbe4"
   integrity sha512-M9Y7DfAp8bA/r6yexttU6RLA7uyppje4c0ELRuCHZWswH+u7nr0uVP6qHNPjc4XGOEY1MYFOb5nBg7JvoKutuQ==
 
+react-parallax-tilt@^1.7.131:
+  version "1.7.131"
+  resolved "https://registry.yarnpkg.com/react-parallax-tilt/-/react-parallax-tilt-1.7.131.tgz#f6413ee07d75b6881e4b8b781a02214df3a6f1f8"
+  integrity sha512-bhR0DVaQxJyCDFJ3arlkimm3178HxH29D9bV1j5zJ3LL1TsY74QXw4iIWXUeFhEZs49DN1rV1xoNawWE81NffQ==
+
 react-type-animation@^3.0.1:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/react-type-animation/-/react-type-animation-3.0.1.tgz#ba8d8d53dc51313c3ce9152865684f6297adcf71"

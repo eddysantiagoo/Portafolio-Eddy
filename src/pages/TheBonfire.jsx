@@ -1,5 +1,6 @@
 import React from "react";
 import { useState } from "react";
+import Tilt from "react-parallax-tilt";
 import Image from "next/image";
 
 const TheBonfire = () => {
@@ -33,12 +34,13 @@ const TheBonfire = () => {
         <h3 className="animate-gradient-text">
           You are in the bonfire, just chill
         </h3>
-        <img
-          class="rounded-xl mx-auto my-4"
-          src="https://64.media.tumblr.com/3b5440683e71e2d39f998c6ed99c3feb/tumblr_ord7ll2peg1sx56xso1_1280.gif"
-          alt=""
-        />
-
+        <Tilt tiltReverse={true}>
+          <img
+            className="rounded-xl mx-auto my-4"
+            src="https://64.media.tumblr.com/3b5440683e71e2d39f998c6ed99c3feb/tumblr_ord7ll2peg1sx56xso1_1280.gif"
+            alt="Gif Dark souls with the bonfire!"
+          />
+        </Tilt>
         <button
           className=" mb-8 button  bg-gray-600/5 dark:shadow-2xl overflow-hidden border border-gray-500/25 hover:border-primary hover:shadow-xl rounded-lg overflow-hidden p-2.5 transition-all duration-200"
           onClick={togglePlay}
