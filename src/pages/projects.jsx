@@ -61,7 +61,9 @@ export default function Projects() {
 
           {/* SECCION PROYECTOS */}
 
-          <div className="grid grid-cols-1 lg:grid-cols-4 gap-8 mt-16 animate__animated animate__fadeIn animate__delay-1s">
+          <div className="grid grid-cols-1 lg:grid-cols-4 gap-8 overflow-y-hidden  mt-16 animate__animated animate__fadeIn animate__delay-1s">
+            {/* PROYECTO 1 */}
+
             <a
               href="https://web-restaurante-enfasis.vercel.app"
               target="_blank"
@@ -76,18 +78,19 @@ export default function Projects() {
               </div>
               <div className="mt-4">
                 <p className="text-xl font-semibold">Papa's Burgeria</p>
-                <p className="text-sm max-h-24 h-24 overflow-auto font-normal text-gray-500">
-                  Landing page, funciones con JavaScript, estilos y animaciones
-                  con CSS y JS, maquetado con HTML, diseño responsive.
+                <p className="text-sm max-h-24 h-24 font-normal text-gray-500">
+                  Landing page para restaurante, funciones con JavaScript,
+                  estilos y animaciones con CSS y JS, maquetado con HTML y
+                  diseño responsive.
                 </p>
-                <div className="mt-1">
+                <div className="mt-5">
                   <i class="fa-brands fa-html5 fa-xl fa-pull-left"></i>
                   <i class="fa-brands fa-css3-alt fa-xl fa-pull-left"></i>
                   <i class="fa-brands fa-js fa-xl fa-pull-left"></i>
                 </div>
               </div>
 
-              <p className="text-xs italic mt-6">
+              <p className="text-xs italic mt-9">
                 <i className="fal fa-globe mr-1" />
                 https://web-restaurante-enfasis.vercel.app
               </p>
@@ -109,10 +112,11 @@ export default function Projects() {
               </div>
               <div className="mt-4">
                 <p className="text-xl font-semibold">Portafolio Personal</p>
-                <p className="text-sm max-h-24 h-24 overflow-auto font-normal text-gray-500">
+                <p className="text-sm max-h-24 h-24 font-normal text-gray-500">
                   Manejo de rutas dinamicas, manejo de componentes, consumo de
                   APIS, estilos con Tailwind, manejo de errores http, SEO
-                  basico, animaciones con librerias externas, diseño responsive.
+                  basico, animaciones con librerias externas y diseño
+                  responsive.
                 </p>
                 <div className="mt-6">
                   <i class="fa-brands fa-react fa-xl fa-pull-left"></i>

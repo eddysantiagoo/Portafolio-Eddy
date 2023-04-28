@@ -224,28 +224,33 @@ body {
 .animate-gradient-text {
   background-image: linear-gradient(120deg, #ff4500, #ff8c00, #ffbf00);
   background-size: 200%;
-
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
   animation: animated-gradient 5s ease-in-out infinite;
 }
 
-.button {
-  background: linear-gradient(90deg, #2b2b2b, #000000);
-  color: #ffffff;
-  font-size: 16px;
-  font-weight: bold;
-  padding: 6px 22px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  border-radius: 8px;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+.button1 {
+  color: #ff4500;
+  border: 6px solid #ff4500;
+  padding: 8px;
+  border-radius: 0.75rem;
+  font-size: 15px;
+  font-family: "Lexend Deca", sans-serif;
   cursor: pointer;
-  background-size: 200% auto;
-  animation: gradientAnimation 3s ease infinite;
+  font-weight: bold;
+  filter: drop-shadow(0 0 15px #ff4500) drop-shadow(0 0 50px #ff4500) contrast(2) brightness(2);
+  transition: .6s;
 }
+
+.button1:hover {
+  color: black;
+  background-color: #ff4500;
+  font-size: 16px;
+  filter: drop-shadow(0 0 20px #ff4500) contrast(2) brightness(2);
+}
+
+
 
 @keyframes gradientAnimation {
   0% {
