@@ -142,6 +142,40 @@ export default function Projects() {
                 https://eddy-portafolio.vercel.app
               </p>
             </a>
+
+            {/* PROYECTO 3 */}
+            <a
+              href="https://spotify-dynamic-readme.vercel.app"
+              target="_blank"
+              rel="noreferrer"
+              className="cursor-pointer w-full bg-gray-500/5 p-4 rounded-lg transition-all duration-200 hover:bg-gray-500/10"
+            >
+              <div className="h-30 w-full relative rounded-lg shadow-xl overflow-hidden object-cover object-center sm:object-contain">
+                <img
+                  src="https://imgbox.io/ib/YCLTJ8791p.jpg"
+                  alt="Imagen proyecto Spotify Widget"
+                />
+              </div>
+              <div className="mt-4">
+                <p className="text-xl font-semibold">Spotify Widget</p>
+                <p className="text-sm max-h-24 h-24 overflow-auto font-normal text-gray-500">
+                  Proyecto basado en código Open Source, widget SVG para
+                  consumir la API de Spotify y mostrar datos del usuario
+                  dinámicamante.
+                </p>
+                <div className="mt-1">
+                  <i class="fa-brands fa-python fa-xl fa-pull-left"></i>
+                  <i class="fa-brands fa-js fa-xl fa-pull-left"></i>
+                  <i class="fa-brands fa-html5 fa-xl fa-pull-left"></i>
+                  <i class="fa-brands fa-css3-alt fa-xl fa-pull-left"></i>
+                </div>
+              </div>
+
+              <p className="text-xs italic mt-6">
+                <i className="fal fa-globe mr-1" />
+                https://spotify-dynamic-readme.vercel.app
+              </p>
+            </a>
           </div>
         </div>
       </div>

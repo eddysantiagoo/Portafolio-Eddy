@@ -72,7 +72,7 @@ const bonfire = () => {
         <button class="button1" onClick={togglePlay}>
           {playing ? "Pause" : "Click here to turn on the bonfire"}
         </button>
-        <h4 className="text-xl mb-0 text-zinc-100 select-none">
+        <h4 className="text-xl mb-4 text-zinc-100 select-none">
           What is the bonfire?
         </h4>
         <p className="text-lg mb-0 mx-auto lg:mx-28 text-zinc-400">
