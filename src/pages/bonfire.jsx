@@ -70,13 +70,13 @@ const bonfire = () => {
           />
         </Tilt>
         <button class="button1" onClick={togglePlay}>
-          {playing ? "Pause" : "Click here to turn on the bonfire"}
+          {playing ? "Stop and continue with the next soundtrack" : "Click here to turn on the bonfire"}
         </button>
         <h4 className="text-xl mb-4 text-zinc-100 select-none">
           What is the bonfire?
         </h4>
         <p className="text-lg mb-0 mx-auto lg:mx-28 text-zinc-400">
-          The bonfire is a simple radio to show and hear the esthetic of the
+          The bonfire it's a simple music player to show and hear the esthetic of the
           Dark Souls video game accompanied of a few soundtracks from the series
           (DS1, DS2 and DS3), I think that the power of music is amazing, and
           sometimes the power of the soundtrack music of movies, series,

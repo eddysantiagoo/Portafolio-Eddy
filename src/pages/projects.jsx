@@ -63,7 +63,6 @@ export default function Projects() {
 
           <div className="grid grid-cols-1 lg:grid-cols-4 gap-8 overflow-y-hidden  mt-16 animate__animated animate__fadeIn animate__delay-1s">
             {/* PROYECTO 1 */}
-
             <a
               href="https://web-restaurante-enfasis.vercel.app"
               target="_blank"
@@ -90,14 +89,12 @@ export default function Projects() {
                 </div>
               </div>
 
-              <p className="text-xs italic mt-9">
-                <i className="fal fa-globe mr-1" />
+              <p className="text-xs italic mt-10">
+                <i class="fa-solid fa-link mr-1"/>
                 https://web-restaurante-enfasis.vercel.app
               </p>
             </a>
-
             {/* PROYECTO 2 */}
-
             <a
               href="https://eddy-portafolio.vercel.app/"
               target="_blank"
@@ -138,11 +135,10 @@ export default function Projects() {
               </div>
 
               <p className="text-xs italic mt-1">
-                <i className="fal fa-globe mr-1" />
+                <i class="fa-solid fa-link mr-1"/>
                 https://eddy-portafolio.vercel.app
               </p>
             </a>
-
             {/* PROYECTO 3 */}
             <a
               href="https://spotify-dynamic-readme.vercel.app"
@@ -172,8 +168,39 @@ export default function Projects() {
               </div>
 
               <p className="text-xs italic mt-6">
-                <i className="fal fa-globe mr-1" />
+                <i class="fa-solid fa-link mr-1"/>
                 https://spotify-dynamic-readme.vercel.app
+              </p>
+            </a>
+            {/* PROYECTO 4*/}
+            <a
+              href="https://eddy-portafolio.vercel.app/bonfire"
+              target="_blank"
+              rel="noreferrer"
+              className="cursor-pointer w-full bg-gray-500/5 p-4 rounded-lg transition-all duration-200 hover:bg-gray-500/10"
+            >
+              <div className="h-30 w-full relative rounded-lg shadow-xl overflow-hidden object-cover object-center sm:object-contain">
+                <img
+                  src="/images/the-bonfire-preview.jpg"
+                  alt="Imagen proyecto The Bonfire"
+                />
+              </div>
+              <div className="mt-4">
+                <p className="text-xl font-semibold">The Bonfire</p>
+                <p className="text-sm max-h-24 h-24 font-normal text-gray-500">
+                  Reproductor de musica ambientado con una estetica del
+                  videojuego Dark Souls, el reproductor reproduce algunos de los
+                  sountracks oficiales de algunos de los juegos de la saga.
+                </p>
+                <div className="mt-5">
+                  <i class="fa-brands fa-js fa-xl fa-pull-left"></i>
+                  <i class="fa-brands fa-react fa-xl fa-pull-left"></i>
+                </div>
+              </div>
+
+              <p className="text-xs italic mt-10">
+              <i class="fa-solid fa-link mr-1"/>
+                https://eddy-portafolio.vercel.app/bonfire
               </p>
             </a>
           </div>
