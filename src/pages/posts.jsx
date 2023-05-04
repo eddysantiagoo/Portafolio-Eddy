@@ -64,6 +64,38 @@ export default function Posts() {
           </h1>
 
           <div className="grid grid-cols-1 gap-8 mt-16 ">
+            <Link href={`/post/3`}>
+              <a
+                key={""}
+                className="cursor-pointer w-full bg-gray-500/5 p-4 rounded-lg transition-all duration-200 hover:bg-gray-500/10"
+                onClick={handleClick}
+              >
+                <div>
+                  <p className="text-xl font-semibold">
+                    5 + 1 Podcasts recomendados
+                  </p>
+                  <p className="text-sm font-normal text-gray-500">
+                    Ultimamente ha habido un boooom del formato podcast, así que
+                    aquí comparto algunos que son de mi gusto.
+                  </p>
+                </div>
+
+                <div className="flex items-center gap-4">
+                  <p className="text-xs space-x-2 mt-6">
+                    <i className="fal fa-calendar mr-1" />
+                    2 de mayo de 2023
+                  </p>
+                  <p className="text-xs space-x-2 mt-6">
+                    <i className="fal fa-eye mr-1" />
+                    75
+                  </p>
+                  <p className="text-xs space-x-2 mt-6">
+                    <i className="fal fa-clock mr-1" />3 minutitos de lectura
+                  </p>
+                </div>
+              </a>
+            </Link>
+
             <Link href={`/post/2`}>
               <a
                 key={""}
@@ -106,9 +138,7 @@ export default function Posts() {
                 onClick={handleClick}
               >
                 <div>
-                  <p className="text-xl font-semibold">
-                    Andrés Iniesta Luján
-                  </p>
+                  <p className="text-xl font-semibold">Andrés Iniesta Luján</p>
                   <p className="text-sm font-normal text-gray-500">
                     Pequeño articulo sobre el mago de Fuentealbilla.
                   </p>
