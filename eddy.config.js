@@ -1,7 +1,7 @@
 module.exports = {
     name: 'Eddy Santiago',
     navbar: 'EDDY',
-    version: '1.0.1', //Ultima revision el 8 de Abril del 2023
+    version: '1.2', //Ultima revision el 4 de mayo del 2023
     githubName: 'eddysantiagoo',
     githubKey: process.env.GITHUB_KEY,
     email: 'eddysantiagogh@gmail.com',
