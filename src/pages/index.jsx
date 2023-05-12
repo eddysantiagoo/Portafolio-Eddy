@@ -75,7 +75,7 @@ export default function Home() {
         <p className="mx-auto max-w-5xl font-display text-3xl text-gray-600/50 mt-2 text-center">
           Desarrollador de Software Junior
         </p>
-        <div className="w-full lg:w-auto grid grid-cols-1 lg:grid-cols-3 gap-4 mt-16 ">
+        <div className="w-full lg:w-auto grid grid-cols-1 lg:grid-cols-4 gap-4 mt-16 ">
           <div className="rounded-lg border-2 border-gray-500/10 border-dotted px-4 py-2 text-center">
             <span className="text-primary uppercase">TecnologÍas</span>
             <p className="text-gray-500 dark:text-gray-300 font-semibold text-xl">
@@ -88,14 +88,23 @@ export default function Home() {
               1+
             </p>
           </div>
-
           <div className="rounded-lg border-2 border-gray-500/10 border-dotted px-4 py-2 text-center">
             <span className="text-primary uppercase">Repositorios</span>
             <p className="text-gray-500 dark:text-gray-300 font-semibold text-xl">
               {repositories?.length}+
             </p>
           </div>
+          <a
+            href="https://drive.google.com/file/d/1Jdq-dbLBCk86g6c0Gwr0vGS4Ly64d5_V/view?usp=share_link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div className="rounded-lg border-2 border-zinc-600 border-dotted border hover:border-gray-500/10 transition duration-300  py-5 text-center">
+              <span className="text-primary uppercase">mi curriculum</span>
+            </div>
+          </a>
         </div>
+
         <div class="mt-7 flex flex-row items-center text-center justify-center ">
           <div class="down-arrow"></div>
         </div>
