@@ -28,10 +28,10 @@ function EjemploRuta() {
           description: "Podcasts recomendados.",
           images: [
             {
-              url: "https://imgbox.io/ib/WzLfGfVADa.png",
+              url: "/images/5+1-Podcast.jpg",
               width: 1440,
               height: 661,
-              alt: "Imagen del blog",
+              alt: "Imagen del post de podcast",
             },
           ],
         }}
@@ -39,7 +39,7 @@ function EjemploRuta() {
 
       <div className="relative h-96 w-full">
         <img
-          src="/images/Pendiente.jpg"
+          src="/images/5+1-Podcast.jpg"
           alt="Imagen podcast"
           className="rounded-xl absolute h-full w-full object-cover object-center sm:object-contain"
         />
@@ -59,9 +59,9 @@ function EjemploRuta() {
           </div>
         </div>
         <article className="mt-12 prose prose-sm lg:prose-lg dark:prose-invert prose-img:rounded-lg prose-a:text-blue-500 prose-a:no-underline">
-          Ultimante este formato de podcast ha dado mucho de que hablar y debido
+          Últimamente este formato de podcast ha dado mucho de que hablar y debido
           al boom de este se ha empezado a popularizar mucho. Aquí comparto 5 +
-          1 podcasts que son de mi gusto y podrian llegar a interesarte.
+          1 podcasts que son de mi gusto y podrían llegar a interesarte.
           <br />
           <div>
             <h4>
@@ -83,8 +83,8 @@ function EjemploRuta() {
               <p>
                 El primer podcast que escuche en toda mi vida y al cual le
                 guardo mucho cariño, fue en el año 2021 y sin duda este podcaste
-                te sumerge en un ambiente de misterio y suspenso. En todo el mundo
-                se habla mucho de las sectas pero, ¿qué es lo que sucede
+                te sumerge en un ambiente de misterio y suspenso. En todo el
+                mundo se habla mucho de las sectas pero, ¿qué es lo que sucede
                 realmente dentro de las sectas? Más específicamente, ¿qué sucede
                 en la mente de la gente que se une a las sectas y los líderes
                 que las comienzan? Averigualo en este podcast.
@@ -211,11 +211,11 @@ function EjemploRuta() {
               />
               <p>
                 La conocida Diana Uribe comparte con nosotros en este espacio
-                sus experiencias de vida, reflexiones, anécdotas
-                sobre cine, viajes y cultura, y también nos deleita con su
-                pasión por la música. ¿Existe algún tema del que no hable Diana
-                Uribe? En sus propias palabras, "vamos a continuar la
-                conversación que empezó en la radio hace 20 años".
+                sus experiencias de vida, reflexiones, anécdotas sobre cine,
+                viajes y cultura, y también nos deleita con su pasión por la
+                música. ¿Existe algún tema del que no hable Diana Uribe? En sus
+                propias palabras, "vamos a continuar la conversación que empezó
+                en la radio hace 20 años".
               </p>
             </section>
           </div>
