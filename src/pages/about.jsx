@@ -75,12 +75,12 @@ export default function About() {
             </p>
           </div>
 
-          <div className="relative flex-shrink-0 animate__animated animate__fadeIn animate__delay-4s">
+          <div className="relative flex-shrink-0 animate__animated animate__fadeIn animate__delay-4s grayscale hover:grayscale-0 transition duration-300 ease-in-out">
             <img
               src="https://media.licdn.com/dms/image/C4D03AQHjfcoCEEJjBA/profile-displayphoto-shrink_800_800/0/1648781520004?e=2147483647&v=beta&t=_6pd5ybebM6yUx5sAfAXqb-RLqncTwmTxXCCf3xC2yE"
               alt="Imagen de Eddy Santiago"
               style={{ zIndex: 1 }}
-              className="relative shadow-xl z-1 w-full lg:w-64 h-full lg:h-64 rounded-full lg:rounded-lg"
+              className="shadow-lg relative z-1 w-full lg:w-64 h-full lg:h-64 rounded-full lg:rounded-lg"
             />
             <div className="-right-3 top-3 absolute w-full h-full lg:h-64 top-0 right-0 border-4 rounded-full lg:rounded-lg border-primary bg-gradient-to-t from-primary" />
           </div>
