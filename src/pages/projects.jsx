@@ -71,7 +71,7 @@ export default function Projects() {
             >
               <div className="h-30 w-full relative rounded-lg shadow-xl overflow-hidden object-cover object-center sm:object-contain">
                 <img
-                  src="images/Papas-burgeria.jpg"
+                  src="images/Proyecto-PapasBurgeria.jpg"
                   alt="Imagen proyecto Papas Burgeria"
                 />
               </div>
@@ -103,7 +103,7 @@ export default function Projects() {
             >
               <div className="h-30 w-full relative rounded-lg shadow-xl overflow-hidden object-cover object-center sm:object-contain">
                 <img
-                  src="https://imgbox.io/ib/8OasTn0796.png"
+                  src="images/Proyecto-PortafolioPersonal.jpg"
                   alt="Imagen proyecto portafolio personal"
                 />
               </div>
