@@ -71,7 +71,7 @@ export default function Projects() {
             >
               <div className="h-30 w-full relative rounded-lg shadow-xl overflow-hidden object-cover object-center sm:object-contain">
                 <img
-                  src="https://imgbox.io/ib/vy2bhIZlIl.png"
+                  src="images/Papas-burgeria.png"
                   alt="Imagen proyecto Papas Burgeria"
                 />
               </div>
