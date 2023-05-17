@@ -148,7 +148,7 @@ export default function Projects() {
             >
               <div className="h-30 w-full relative rounded-lg shadow-xl overflow-hidden object-cover object-center sm:object-contain">
                 <img
-                  src="https://imgbox.io/ib/YCLTJ8791p.jpg"
+                  src="images/Spotify-Widget.jpg"
                   alt="Imagen proyecto Spotify Widget"
                 />
               </div>
