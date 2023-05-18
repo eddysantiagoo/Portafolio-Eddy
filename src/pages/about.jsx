@@ -44,7 +44,7 @@ export default function About() {
       />
 
       <div className="max-w-7xl mx-auto">
-        <div className="flex flex-col lg:flex-row justify-between w-full h-full py-14 gap-24 pb-6">
+        <div className="flex flex-col lg:flex-row justify-between w-full h-full py-14 gap-24 pb-2">
           <div>
             <h1 className="text-5xl font-bold">
               ¿Quién{" "}
@@ -82,19 +82,43 @@ export default function About() {
               style={{ zIndex: 1 }}
               className="shadow-lg relative z-1 w-full lg:w-64 h-full lg:h-64 rounded-full lg:rounded-lg"
             />
+
             <div className="-right-3 top-3 absolute w-full h-full lg:h-64 top-0 right-0 border-4 rounded-full lg:rounded-lg border-primary bg-gradient-to-t from-primary" />
           </div>
         </div>
 
         <div>
-          <ReactMarkdown className="blockquote text-2xl text-primary pb-6">
-            The security is there, but for how *long*? **- Eddy Santiago**
+          <ReactMarkdown className="blockquote text-primary text-2xl">
+            The security is there, but for how long? **- Eddy Santiago**
           </ReactMarkdown>
         </div>
 
         {/* SECCION EDUCACIÓN */}
 
-        <div className="mx-auto max-w-7xl mb-8">
+        <div className="mx-auto max-w-7xl mt-8 mb-8">
+          <h1 className="mt-1 text-4xl font-bold">
+            {"Mi "}
+            <span className="relative whitespace-nowrap text-primary">
+              Curriculum
+            </span>
+          </h1>
+
+          <a
+            href="https://drive.google.com/file/d/1Jdq-dbLBCk86g6c0Gwr0vGS4Ly64d5_V/view"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div className="grid-cols-1 justify-start md:grid-cols-1 lg:grid-cols-2 gap-4 my-4 chroma">
+              <div className="group flex items-center relative bg-gray-600/5 dark:shadow-2xl overflow-hidden border border-gray-500/25 hover:border-primary hover:shadow-xl rounded-lg overflow-hidden p-2.5 transition-all duration-200">
+                <div className="relative">
+                  <h2 className="ml-2 font-display text-lg sm:text-xl font-medium text-black dark:text-white">
+                    ¿Quieres conocer más sobre mí? Revisa mi CV aquí :)
+                  </h2>
+                </div>
+              </div>
+            </div>
+          </a>
+
           <h1 className="mt-1 text-4xl font-bold">
             {"Educación"}
             <span className="relative whitespace-nowrap text-primary">
@@ -102,7 +126,7 @@ export default function About() {
             </span>
           </h1>
 
-          <div className="grid-cols-1 justify-start md:grid-cols-1 lg:grid-cols-2 gap-4 mt-8">
+          <div className="grid-cols-1 justify-start md:grid-cols-1 lg:grid-cols-2 gap-4 my-4">
             <div className="group flex items-center relative bg-gray-600/5 dark:shadow-2xl overflow-hidden border border-gray-500/25 hover:border-primary hover:shadow-xl rounded-lg overflow-hidden p-2.5 transition-all duration-200">
               <img
                 src="https://media.licdn.com/dms/image/C4E0BAQHMgYEnxoVtxw/company-logo_200_200/0/1651508107143?e=2147483647&v=beta&t=ueYquiqI1_dejh2VyS1XzZ2D8Q2W4WjWw2VDBNC5OYU"
@@ -114,12 +138,12 @@ export default function About() {
               <div className="relative">
                 <h2 className="ml-4 font-display text-lg sm:text-xl font-medium text-black dark:text-white">
                   Institución Universitaria Digital de Antioquia - Tecnologia en
-                  Desarrollo de Software ( 2020 -
+                  Desarrollo de Software ( 2020 - Actualmente )
                 </h2>
               </div>
             </div>
           </div>
-          <div className="grid-cols-1 justify-start md:grid-cols-1 lg:grid-cols-2 gap-4 mt-8">
+          <div className="grid-cols-1 justify-start md:grid-cols-1 lg:grid-cols-2 gap-4 my-4">
             <div className="group flex items-center relative bg-gray-600/5 dark:shadow-2xl overflow-hidden border border-gray-500/25 hover:border-primary hover:shadow-xl rounded-lg overflow-hidden p-2.5 transition-all duration-200">
               <img
                 src="https://media.licdn.com/dms/image/C4E0BAQHMgYEnxoVtxw/company-logo_200_200/0/1651508107143?e=2147483647&v=beta&t=ueYquiqI1_dejh2VyS1XzZ2D8Q2W4WjWw2VDBNC5OYU"
