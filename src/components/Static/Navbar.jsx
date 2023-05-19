@@ -85,10 +85,10 @@ export default function Navbar() {
             <div className="flex items-center gap-4 mx-9 ">
               <i
                 onClick={() => setIsOpen(true)}
-                className="fas fa-bars text-slate-300 text-2xl  text-zinc-400 hover:text-black hover:dark:text-white cursor-pointer border border-gray-600/25 bg-gray-400/5 w-12 h-12 flex items-center justify-center rounded-lg transition-all duration-200 "
+                className="fas fa-bars text-slate-300 text-2xl text-zinc-400 hover:text-black hover:dark:text-white cursor-pointer border border-gray-600/25 bg-gray-400/5 w-12 h-12 flex items-center justify-center rounded-lg transition-all duration-200 "
               />
               <div
-                onClick={() => toggleTheme()}
+                // onClick={() => toggleTheme()}
                 className="text-2xl text-slate-300 text-zinc-400 border border-gray-600/25 hover:text-black hover:dark:text-white cursor-pointer bg-gray-400/5 w-12 h-12 flex items-center justify-center rounded-lg transition-all duration-200"
               >
                 {isTheme === "dark" ? (
