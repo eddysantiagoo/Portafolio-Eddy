@@ -35,7 +35,7 @@ export default function Home() {
         ]}
         openGraph={{
           type: "website",
-          title: "Eddy | Desarrollador Junior",
+          title: "Eddy | Desarrollador",
           description:
             "Inicio - Portafolio de Desarrollador de Software Junior",
           images: [
@@ -73,19 +73,19 @@ export default function Home() {
           </span>
         </h1>
         <p className="mx-auto max-w-5xl font-display text-3xl text-gray-600/50 mt-2 text-center">
-          Desarrollador de Software Junior
+          Desarrollador de Software
         </p>
         <div className="w-full lg:w-auto grid grid-cols-1 lg:grid-cols-4 gap-4 mt-16 ">
           <div className="rounded-lg border-2 border-gray-500/10 border-dotted px-4 py-2 text-center">
             <span className="text-primary uppercase">TecnologÍas</span>
             <p className="text-gray-500 dark:text-gray-300 font-semibold text-xl">
-              10+
+              12
             </p>
           </div>
           <div className="rounded-lg border-2 border-gray-500/10 border-dotted px-4 py-2 text-center">
             <span className="text-primary uppercase">Años de experiencia</span>
             <p className="text-gray-500 dark:text-gray-300 font-semibold text-xl">
-              1+
+              2
             </p>
           </div>
           <div className="rounded-lg border-2 border-gray-500/10 border-dotted px-4 py-2 text-center">
