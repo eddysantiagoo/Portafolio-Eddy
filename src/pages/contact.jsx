@@ -65,15 +65,15 @@ export default function About() {
 
       <NextSeo
         title="Contacto"
-        titleTemplate=" Eddy | %s"
-        description="Contacto - Portafolio de Desarrollador de Software Junior"
+        titleTemplate=" Eddy Santiago | %s"
+        description="Contacto - Web Eddy Santiago"
         // canonical="https://www.misitioweb.com/" "canonical" es una etiqueta que se utiliza en SEO para indicar a los motores de búsqueda la URL canónica de una página. Esto significa que se establece una URL preferida para una página específica, que ayuda a evitar contenido duplicado y mejora la clasificación en los motores de búsqueda. En este caso, "canonical=https://www.misitioweb.com/" significa que se está indicando que la URL canónica de la página es https://www.misitioweb.com/.
         keywords={["contacto de eddy santiago", "eddy santiago"]}
         openGraph={{
           type: "website",
-          title: "Eddy | Desarrollador Junior",
+          title: "Eddy Santiago | Desarrollador",
           description:
-            "Mi blog - Portafolio de Desarrollador de Software Junior",
+            "Mi blog - Web Eddy Santiago",
           images: [
             {
               url: eddyConfig.imageWeb,

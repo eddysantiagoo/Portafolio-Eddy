@@ -1,3 +1,5 @@
+import eddyConfig from "../../../eddy.config";
+
 export default (req, res) => {
   let { name, email, message } = req.body;
   if (!name || !email || !message) {
@@ -8,7 +10,7 @@ export default (req, res) => {
     });
   }
 
-  let mailTo = "eddysantiagogh@gmail.com";
+  let mailTo = eddyConfig.email;
   let mailSubject = "Formulario de Contacto";
 
   let mailBody = `Hola, soy ${name} y este es mi correo ${email}. ${message}`;
