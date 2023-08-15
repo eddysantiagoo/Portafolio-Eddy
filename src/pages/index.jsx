@@ -118,26 +118,27 @@ export default function Home() {
           </span>
         </h1>
 
-        {/* Secciones reponsives */}
-        <div className="relative">
+        {/* Seccion del carrusel de repositorios */}
+      <div className="relative overflow-hidden mx-[-32px] md:mx-[0px] before:absolute before:left-0 before:top-0 before:z-[2] before:h-full before:w-[100px] before:bg-[linear-gradient(to_right,#050505_0%,rgba(255,255,255,0)_100%)]  before:content-[''] after:absolute after:right-0 after:top-0 after:z-[2] after:h-full after:w-[100px] after:-scale-x-100 after:bg-[linear-gradient(to_right,#050505_0%,rgba(255,255,255,0)_100%)] after:content-['']">
+        <div className="relative animate-infinite-slider w-[calc(550px*10)] ">
           {repositories && (
             <Carousel
               responsive={{
                 desktop: {
                   breakpoint: { max: 3000, min: 1024 },
-                  items: 3.5,
+                  items: repositories?.length,
                 },
                 tablet: {
                   breakpoint: { max: 1024, min: 464 },
-                  items: 2,
+                  items: repositories?.length,
                 },
                 mobile: {
                   breakpoint: { max: 464, min: 0 },
-                  items: 1,
+                  items: repositories?.length,
                 },
               }}
-              containerClass="mt-12 relative "
-              itemClass="lg:pr-4"
+              containerClass="mt-12 relative"
+              itemClass="pr-4"
               renderButtonGroupOutside={true}
             >
               {repositories
@@ -188,6 +189,7 @@ export default function Home() {
                 ))}
             </Carousel>
           )}
+          </div>
 
           {/* <div className="absolute right-0 bottom-0 h-full w-48 bg-gradient-to-l from-[#050505]" />
         <div className="absolute left-0 bottom-0 h-full w-48 bg-gradient-to-r from-[#050505]" /> */}
