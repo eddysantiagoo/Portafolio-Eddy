@@ -122,8 +122,8 @@ export default function Home() {
         </h1>
 
         {/* Seccion del carrusel de repositorios */}
-        <div className="relative overflow-hidden before:absolute before:left-0 before:top-0 before:z-[2] before:h-full before:w-[100px] before:bg-[linear-gradient(to_right,#050505_0%,rgba(255,255,255,0)_100%)]  before:content-[''] after:absolute after:right-0 after:top-0 after:z-[2] after:h-full after:w-[100px] after:-scale-x-100 after:bg-[linear-gradient(to_right,#050505_0%,rgba(255,255,255,0)_100%)] after:content-['']">
-          <div className="relative animate-infinite-slider w-[calc(550px*10)] ">
+        <div className="relative overflow-hidden before:absolute before:left-0 before:top-12 before:z-[2] before:h-48 before:w-[100px] before:bg-[linear-gradient(to_right,#050505_0%,rgba(255,255,255,0)_100%)]  before:content-[''] after:absolute after:right-0 after:top-12 after:z-[2] after:h-full after:w-[100px] after:-scale-x-100 after:bg-[linear-gradient(to_right,#050505_0%,rgba(255,255,255,0)_100%)] after:content-['']">
+          <div className="relative animate-infinite-slider w-[calc(578px*10)] ">
             {repositories && (
               <Carousel
                 responsive={{
@@ -198,7 +198,7 @@ export default function Home() {
         <div className="absolute left-0 bottom-0 h-full w-48 bg-gradient-to-r from-[#050505]" /> */}
         </div>
 
-        <div className="flex justify-end">
+        <div className="flex justify-end mt-6">
           <a
             href={`https://github.com/${eddyConfig.githubName}`}
             target="_blank"
@@ -419,9 +419,8 @@ export default function Home() {
           </div>
         </div>
       </div>
-
+    
       {/* SECCION IDIOMAS */}
-
       <div className="mx-auto max-w-7xl my-24">
         <h1 className="font-display text-5xl font-medium sm:text-7xl text-black dark:text-white text-left">
           {"Idio"}

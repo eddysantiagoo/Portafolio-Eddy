@@ -7,6 +7,7 @@ import { useEffect } from 'react';
 import Footer from 'components/Static/Footer';
 import CustomCursor from 'components/Global/Cursor';
 import ContextMenu, { Item } from 'components/Global/ContextMenu';
+import Background from 'components/Global/background';
 import Key from 'components/Global/Key';
 
 function MyApp({ Component, pageProps }) {
@@ -35,12 +36,11 @@ function MyApp({ Component, pageProps }) {
             <Navbar />
             <main className="min-h-[67vh] px-6 lg:px-0">
               <Component {...pageProps} />
+              <Background />
             </main>
             <Footer />
           </ContextMenu>
-
-          <div className="color-layout layout-purple position-right-top" />
-          <div className="color-layout layout-blue position-left-bottom" />
+         
         </main>
       </PageProvider>
     </ThemeProvider>
