@@ -64,22 +64,23 @@ export default function Home() {
         <p className="mx-auto max-w-5xl font-display text-3xl text-gray-400/50 mt-2 text-center">
           Desarrollador de Software
         </p>
+        {/* Seccion de los botones de tecnologias, repositorios etc... */}
         <div className="w-full lg:w-auto grid grid-cols-1 lg:grid-cols-4 gap-4 mt-16 ">
-          <div className="rounded-xl border-2 border-zinc-800 hover:bg-[#111111]  px-4 py-2 text-center transition duration-700">
-            <span className="text-primary uppercase">TecnologÍas</span>
-            <p className="text-gray-500 dark:text-gray-300 font-semibold text-xl">
+          <div className="rounded-xl border border-zinc-700 hover:bg-[#111111]  px-4 py-2 text-center transition duration-700">
+            <span className="text-white uppercase">TecnologÍas</span>
+            <p className="text-gray-500 dark:text-primary font-semibold text-xl">
               12
             </p>
           </div>
-          <div className="rounded-xl border-2 border-zinc-800 hover:bg-[#111111]  px-4 py-2 text-center transition duration-700">
-            <span className="text-primary uppercase">Años de experiencia</span>
-            <p className="text-gray-500 dark:text-gray-300 font-semibold text-xl">
+          <div className="rounded-xl border border-zinc-700 hover:bg-[#111111]  px-4 py-2 text-center transition duration-700">
+            <span className="text-white uppercase">Años de experiencia</span>
+            <p className="text-gray-500 dark:text-primary font-semibold text-xl">
               2
             </p>
           </div>
-          <div className="rounded-xl border-2 border-zinc-800 hover:bg-[#111111] transition duration-700 px-4 py-2 text-center">
-            <span className="text-primary uppercase">Repositorios</span>
-            <p className="text-gray-500 dark:text-gray-300 font-semibold text-xl">
+          <div className="rounded-xl border border-zinc-700 hover:bg-[#111111] transition duration-700 px-4 py-2 text-center">
+            <span className="text-gray uppercase">Repositorios</span>
+            <p className="text-gray-500 dark:text-primary font-semibold text-xl">
               {repositories?.length}+
             </p>
           </div>
@@ -88,8 +89,11 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <div className="rounded-xl border-2 border-zinc-800 hover:bg-[#111111] border transition duration-700  py-5 text-center">
-              <span className="text-primary uppercase">mi curriculum</span>
+            <div className="rounded-xl border border-zinc-700 hover:underline hover:bg-[#111111] border transition duration-700  py-3 text-center">
+              <span className="text-white uppercase">mi curriculum</span>
+              <p className="text-gray-500 dark:text-primary  font-semibold text-sm">
+              Revisa mi CV aquí
+            </p>
             </div>
           </a>
         </div>

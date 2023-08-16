@@ -8,7 +8,7 @@ module.exports = {
         ["infinite-slider"]: "infiniteSlider 60s linear infinite",
       },
       colors: {
-        primary: "rgb(183, 183, 138)",
+        primary: "rgb(120, 120, 120)",
         secondary: "rgb(152,105,49)",
       },
     },
