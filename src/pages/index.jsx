@@ -35,8 +35,7 @@ export default function Home() {
         openGraph={{
           type: "website",
           title: "Eddy Santiago | Desarrollador",
-          description:
-            "Inicio - Sitio web personal",
+          description: "Inicio - Sitio web personal",
           images: [
             {
               url: eddyConfig.imageWeb,
@@ -66,19 +65,19 @@ export default function Home() {
           Desarrollador de Software
         </p>
         <div className="w-full lg:w-auto grid grid-cols-1 lg:grid-cols-4 gap-4 mt-16 ">
-          <div className="rounded-lg border-2 border-gray-500/10 border-dotted px-4 py-2 text-center">
+          <div className="rounded-xl border-2 border-zinc-800 hover:bg-[#111111]  px-4 py-2 text-center transition duration-700">
             <span className="text-primary uppercase">TecnologÍas</span>
             <p className="text-gray-500 dark:text-gray-300 font-semibold text-xl">
               12
             </p>
           </div>
-          <div className="rounded-lg border-2 border-gray-500/10 border-dotted px-4 py-2 text-center">
+          <div className="rounded-xl border-2 border-zinc-800 hover:bg-[#111111]  px-4 py-2 text-center transition duration-700">
             <span className="text-primary uppercase">Años de experiencia</span>
             <p className="text-gray-500 dark:text-gray-300 font-semibold text-xl">
               2
             </p>
           </div>
-          <div className="rounded-lg border-2 border-gray-500/10 border-dotted px-4 py-2 text-center">
+          <div className="rounded-xl border-2 border-zinc-800 hover:bg-[#111111] transition duration-700 px-4 py-2 text-center">
             <span className="text-primary uppercase">Repositorios</span>
             <p className="text-gray-500 dark:text-gray-300 font-semibold text-xl">
               {repositories?.length}+
@@ -89,7 +88,7 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <div className="rounded-lg border-2 border-zinc-600 border-dotted border hover:border-gray-500/10 transition duration-300  py-5 text-center">
+            <div className="rounded-xl border-2 border-zinc-800 hover:bg-[#111111] border transition duration-700  py-5 text-center">
               <span className="text-primary uppercase">mi curriculum</span>
             </div>
           </a>
@@ -119,76 +118,76 @@ export default function Home() {
         </h1>
 
         {/* Seccion del carrusel de repositorios */}
-      <div className="relative overflow-hidden before:absolute before:left-0 before:top-0 before:z-[2] before:h-full before:w-[100px] before:bg-[linear-gradient(to_right,#050505_0%,rgba(255,255,255,0)_100%)]  before:content-[''] after:absolute after:right-0 after:top-0 after:z-[2] after:h-full after:w-[100px] after:-scale-x-100 after:bg-[linear-gradient(to_right,#050505_0%,rgba(255,255,255,0)_100%)] after:content-['']">
-        <div className="relative animate-infinite-slider w-[calc(550px*10)] ">
-          {repositories && (
-            <Carousel
-              responsive={{
-                desktop: {
-                  breakpoint: { max: 3000, min: 1024 },
-                  items: repositories?.length,
-                },
-                tablet: {
-                  breakpoint: { max: 1024, min: 464 },
-                  items: repositories?.length,
-                },
-                mobile: {
-                  breakpoint: { max: 464, min: 0 },
-                  items: repositories?.length,
-                },
-              }}
-              containerClass="mt-12 relative"
-              itemClass="pr-4"
-              renderButtonGroupOutside={true}
-            >
-              {repositories
-                ?.sort((a, b) => b.stargazers_count - a.stargazers_count)
-                .map((repo, index) => (
-                  <a
-                    key={index}
-                    className="py-4"
-                    href={repo.html_url}
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <div className="cursor-pointer group relative bg-gray-600/5 shadow-2xl overflow-hidden border border-gray-500/25 hover:border-primary hover:shadow-xl rounded-lg overflow-hidden p-4 transition-all duration-200">
-                      <div className="absolute w-full h-full top-0 right-0 transition-all duration-200">
-                        <img
-                          src={`https://opengraph.githubassets.com/15ced7abddd056302fa4e531c75f0c1e3510242eca654c93dd8a8f2b5cc92d44/${repo.full_name}`}
-                          alt="repo's image"
-                          className="opacity-50 group-hover:opacity-100 transition-all duration-200 w-full h-full rounded-lg"
-                        />
-                        <div className="absolute w-full h-full top-0 right-0 bg-gradient-to-t from-white dark:from-black to-white/50 dark:to-black/90" />
-                      </div>
-                      <div className="relative">
-                        <h2 className="font-display text-lg font-medium text-black dark:text-white">
-                          {repo.name}
-                        </h2>
-                        <p className="font-display h-10 text-sm text-gray-500 font-light mt-1">
-                          {repo.description}
-                        </p>
-                        <div className="flex items-center justify-between gap-4 mt-10">
-                          <div className="flex items-center">
-                            <i className="fal fa-code mr-2 w-5" />
-                            <p>{repo.language || "Plain/Text"}</p>
-                          </div>
-                          <div className="flex items-center gap-4">
+        <div className="relative overflow-hidden before:absolute before:left-0 before:top-0 before:z-[2] before:h-full before:w-[100px] before:bg-[linear-gradient(to_right,#050505_0%,rgba(255,255,255,0)_100%)]  before:content-[''] after:absolute after:right-0 after:top-0 after:z-[2] after:h-full after:w-[100px] after:-scale-x-100 after:bg-[linear-gradient(to_right,#050505_0%,rgba(255,255,255,0)_100%)] after:content-['']">
+          <div className="relative animate-infinite-slider w-[calc(550px*10)] ">
+            {repositories && (
+              <Carousel
+                responsive={{
+                  desktop: {
+                    breakpoint: { max: 3000, min: 1024 },
+                    items: repositories?.length,
+                  },
+                  tablet: {
+                    breakpoint: { max: 1024, min: 464 },
+                    items: repositories?.length,
+                  },
+                  mobile: {
+                    breakpoint: { max: 464, min: 0 },
+                    items: repositories?.length,
+                  },
+                }}
+                containerClass="mt-12 relative"
+                itemClass="pr-4"
+                renderButtonGroupOutside={true}
+              >
+                {repositories
+                  ?.sort((a, b) => b.stargazers_count - a.stargazers_count)
+                  .map((repo, index) => (
+                    <a
+                      key={index}
+                      className="py-4"
+                      href={repo.html_url}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <div className="cursor-pointer group relative bg-gray-600/5 shadow-2xl overflow-hidden border border-gray-500/25 hover:border-primary hover:shadow-xl rounded-lg overflow-hidden p-4 transition-all duration-200">
+                        <div className="absolute w-full h-full top-0 right-0 transition-all duration-200">
+                          <img
+                            src={`https://opengraph.githubassets.com/15ced7abddd056302fa4e531c75f0c1e3510242eca654c93dd8a8f2b5cc92d44/${repo.full_name}`}
+                            alt="repo's image"
+                            className="opacity-50 group-hover:opacity-100 transition-all duration-200 w-full h-full rounded-lg"
+                          />
+                          <div className="absolute w-full h-full top-0 right-0 bg-gradient-to-t from-white dark:from-black to-white/50 dark:to-black/90" />
+                        </div>
+                        <div className="relative">
+                          <h2 className="font-display text-lg font-medium text-black dark:text-white">
+                            {repo.name}
+                          </h2>
+                          <p className="font-display h-10 text-sm text-gray-500 font-light mt-1">
+                            {repo.description}
+                          </p>
+                          <div className="flex items-center justify-between gap-4 mt-10">
                             <div className="flex items-center">
-                              <i className="fal fa-star mr-2 w-5" />
-                              <p>{repo.stargazers_count || 0}</p>
+                              <i className="fal fa-code mr-2 w-5" />
+                              <p>{repo.language || "Plain/Text"}</p>
                             </div>
-                            <div className="flex items-center">
-                              <i className="fal fa-code-branch mr-2 w-5" />
-                              <p>{repo.forks_count || 0}</p>
+                            <div className="flex items-center gap-4">
+                              <div className="flex items-center">
+                                <i className="fal fa-star mr-2 w-5" />
+                                <p>{repo.stargazers_count || 0}</p>
+                              </div>
+                              <div className="flex items-center">
+                                <i className="fal fa-code-branch mr-2 w-5" />
+                                <p>{repo.forks_count || 0}</p>
+                              </div>
                             </div>
                           </div>
                         </div>
                       </div>
-                    </div>
-                  </a>
-                ))}
-            </Carousel>
-          )}
+                    </a>
+                  ))}
+              </Carousel>
+            )}
           </div>
 
           {/* <div className="absolute right-0 bottom-0 h-full w-48 bg-gradient-to-l from-[#050505]" />
@@ -199,13 +198,20 @@ export default function Home() {
           <a
             href={`https://github.com/${eddyConfig.githubName}`}
             target="_blank"
-            rel="noreferrer"
+            class="px-5 py-2.5 relative rounded-lg  group font-medium text-black font-medium inline-block"
           >
-            <Button className="mt-6 mb-12 flex items-center gap-2">
-              <i className="fab fa-github" />
-              Ir a todos los repositorios
-              <i className="fal fa-arrow-right -rotate-45 text-xs" />
-            </Button>
+            <button className="flex items-center gap-3 text-center">
+              <span class="absolute top-0 left-0 w-full h-full rounded-lg  opacity-50 filter blur-sm bg-white"></span>
+              <span class="h-full w-full inset-0 absolute mt-0.5 ml-0.5 bg-gradient-to-br filter group-active:opacity-0 rounded-lg opacity-50 from-gray-600 to-gray-500"></span>
+              <span class="absolute inset-0 w-full h-full transition-all duration-200 ease-out rounded-lg  shadow-xl bg-white filter group-active:opacity-0 group-hover:blur-sm from-gray-600 to-gray-500"></span>
+              <span class="absolute inset-0 w-full h-full transition duration-200 ease-out rounded-lg  bg-gradient-to-br bg-white "></span>
+              <span class="relative">
+                <i className="fab fa-github mr-2 text-black" />
+                Ir a todos los repositorios
+              </span>
+
+              <i className="fal fa-arrow-right -rotate-45" />
+            </button>
           </a>
         </div>
       </div>
