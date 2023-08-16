@@ -119,7 +119,7 @@ export default function Home() {
         </h1>
 
         {/* Seccion del carrusel de repositorios */}
-      <div className="relative overflow-hidden mx-[-32px] md:mx-[0px] before:absolute before:left-0 before:top-0 before:z-[2] before:h-full before:w-[100px] before:bg-[linear-gradient(to_right,#050505_0%,rgba(255,255,255,0)_100%)]  before:content-[''] after:absolute after:right-0 after:top-0 after:z-[2] after:h-full after:w-[100px] after:-scale-x-100 after:bg-[linear-gradient(to_right,#050505_0%,rgba(255,255,255,0)_100%)] after:content-['']">
+      <div className="relative overflow-hidden before:absolute before:left-0 before:top-0 before:z-[2] before:h-full before:w-[100px] before:bg-[linear-gradient(to_right,#050505_0%,rgba(255,255,255,0)_100%)]  before:content-[''] after:absolute after:right-0 after:top-0 after:z-[2] after:h-full after:w-[100px] after:-scale-x-100 after:bg-[linear-gradient(to_right,#050505_0%,rgba(255,255,255,0)_100%)] after:content-['']">
         <div className="relative animate-infinite-slider w-[calc(550px*10)] ">
           {repositories && (
             <Carousel
