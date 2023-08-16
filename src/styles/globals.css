@@ -94,7 +94,6 @@ body {
   top: 10%;
   height: 50vh;
   z-index: -1;
-  background: url("../../public/images/background-gradient.webp");
   filter: blur(100px) saturate(200%);
 }
 
