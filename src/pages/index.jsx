@@ -46,7 +46,7 @@ export default function Home() {
           ],
         }}
       />
-      <div className="sm:h-[40rem] h-[42rem] flex flex-col justify-center items-center mb-20 slide-cont-title-index">
+      <div className="sm:h-[40rem] h-[42em] flex flex-col justify-center items-center mb-20 animate-fade-up animate-once animate-fade-up animate-duration-400 animate-delay-200">
         <h1 className="mx-auto max-w-5xl font-display text-4xl font-medium sm:text-7xl text-black dark:text-white text-center">
           Hola, soy{" "}
           <span className="relative whitespace-nowrap text-nombre-eddy">
@@ -92,8 +92,8 @@ export default function Home() {
             <div className="rounded-xl border border-zinc-700 hover:underline hover:bg-[#111111] border transition duration-700  py-3 text-center">
               <span className="text-white uppercase">mi curriculum</span>
               <p className="text-gray-500 dark:text-primary  font-semibold text-sm">
-              Revisa mi CV aquí
-            </p>
+                Revisa mi CV aquí
+              </p>
             </div>
           </a>
         </div>
@@ -419,7 +419,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-    
+
       {/* SECCION IDIOMAS */}
       <div className="mx-auto max-w-7xl my-24">
         <h1 className="font-display text-5xl font-medium sm:text-7xl text-black dark:text-white text-left">
