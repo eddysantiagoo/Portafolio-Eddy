@@ -271,6 +271,21 @@ body {
   }
 }
 
+.slide-cont-title-index {
+	animation: slide-top 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+ @keyframes slide-top {
+  0% {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 .text-nombre-eddy{
   background: linear-gradient(to right, rgb(183, 183, 138) 20%, rgb(133, 133, 89) 30%, #babe83 70%, rgb(183, 183, 138) 80%);
   -webkit-background-clip: text;

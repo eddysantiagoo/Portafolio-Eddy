@@ -46,7 +46,7 @@ export default function Home() {
           ],
         }}
       />
-      <div className="sm:h-[40rem] h-[42rem] flex flex-col justify-center items-center mb-20">
+      <div className="sm:h-[40rem] h-[42rem] flex flex-col justify-center items-center mb-20 slide-cont-title-index">
         <h1 className="mx-auto max-w-5xl font-display text-4xl font-medium sm:text-7xl text-black dark:text-white text-center">
           Hola, soy{" "}
           <span className="relative whitespace-nowrap text-nombre-eddy">
