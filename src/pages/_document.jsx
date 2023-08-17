@@ -2,10 +2,10 @@ import { Html, Head, Main, NextScript } from 'next/document'
 
 export default function MyDocument() {
     return (
-        <Html lang="en">
+        <Html lang="en" className='dark'>
             <Head>
                 <meta charSet="utf-8" />
-                <meta name="theme-color" content="#4F3DFE" />
+                <meta name="theme-color" content="#000" />
                 <link href="https://pro.fontawesome.com/releases/v6.0.0-beta1/css/all.css" rel="stylesheet" />
                 <link rel="preconnect" href="https://fonts.googleapis.com" />
                 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
