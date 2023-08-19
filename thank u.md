@@ -1,4 +1,4 @@
-# Specially thanks to all persons that made possible make thinks like eddysantiago.dev with their contributions
+# Specially thanks to all persons that made possible make things like eddysantiago.dev with their contributions
 
 ## Resources used
 
