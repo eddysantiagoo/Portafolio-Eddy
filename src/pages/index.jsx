@@ -47,9 +47,9 @@ export default function Home() {
         }}
       />
       <div className="sm:h-[40rem] h-[42em] flex flex-col justify-center items-center mb-20 animate-fade-up animate-once animate-fade-up animate-duration-400 animate-delay-200">
-        <h1 className="mx-auto max-w-5xl font-display text-4xl font-medium sm:text-7xl text-black dark:text-white text-center">
+        <h1 className="mx-auto max-w-5xl font-display text-4xl font-medium font-secundary sm:text-7xl text-black dark:text-white text-center">
           Hola, soy{" "}
-          <span className="relative whitespace-nowrap text-nombre-eddy">
+          <span className="relative whitespace-nowrap text-nombre-eddy font-secundary">
             <svg
               aria-hidden="true"
               viewBox="0 0 418 42"

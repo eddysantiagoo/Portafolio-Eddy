@@ -46,9 +46,9 @@ export default function About() {
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-col lg:flex-row justify-between w-full h-full py-14 gap-24 pb-2">
           <div>
-            <h1 className="text-5xl font-bold">
+            <h1 className="text-5xl font-secundary">
               ¿Quién{" "}
-              <span className="relative whitespace-nowrap text-primary">
+              <span className="relative whitespace-nowrap font-secundary text-primary">
                 soy?
               </span>
             </h1>
@@ -96,9 +96,9 @@ export default function About() {
         {/* SECCION EDUCACIÓN */}
 
         <div className="mx-auto max-w-7xl mt-8 mb-8">
-          <h1 className="mt-1 text-4xl font-bold">
+          <h1 className="mt-1 text-4xl font-bold font-secundary">
             {"Mi "}
-            <span className="relative whitespace-nowrap text-primary">
+            <span className="relative whitespace-nowrap text-primary font-secundary">
               Curriculum
             </span>
           </h1>
@@ -119,7 +119,7 @@ export default function About() {
             </div>
           </a>
 
-          <h1 className="mt-1 text-4xl font-bold">
+          <h1 className="mt-1 text-4xl font-bold font-secundary">
             {"Educación"}
             <span className="relative whitespace-nowrap text-primary">
               {/* VACIO */}
