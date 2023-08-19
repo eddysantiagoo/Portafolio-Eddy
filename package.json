@@ -1,5 +1,5 @@
 {
-  "name": "personal-v6",
+  "name": "potafolio-personal",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,8 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@headlessui/react": "^1.7.2",
+    "@headlessui/react": "^1.7.17",
     "@softwareer/node": "^0.0.3",
+    "add": "^2.0.6",
     "animate.css": "^4.1.1",
     "axios": "^0.27.2",
     "next": "12.3.0",
