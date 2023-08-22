@@ -95,6 +95,11 @@ body {
   background-color: rgb(24, 24, 20);
 }
 
+.btn-new-bg{
+  background: linear-gradient(90deg,#fe9fb2,#d89ffe);
+  box-shadow: 0 0.25rem 2.5rem -0.875rem #d770c2;
+}
+
 .background-image-gradient {
   background-repeat: no-repeat;
   background-size: cover !important;

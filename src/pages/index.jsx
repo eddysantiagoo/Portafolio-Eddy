@@ -204,13 +204,9 @@ export default function Home() {
             target="_blank"
             class="px-5 py-2.5 relative rounded-lg  group font-medium text-black font-medium inline-block"
           >
-            <button className="flex items-center gap-3 text-center">
-              <span class="absolute top-0 left-0 w-full h-full rounded-lg  opacity-50 filter blur-sm bg-white"></span>
-              <span class="h-full w-full inset-0 absolute mt-0.5 ml-0.5 bg-gradient-to-br filter group-active:opacity-0 rounded-lg opacity-50 from-gray-600 to-gray-500"></span>
-              <span class="absolute inset-0 w-full h-full transition-all duration-200 ease-out rounded-lg  shadow-xl bg-white filter group-active:opacity-0 group-hover:blur-sm from-gray-600 to-gray-500"></span>
-              <span class="absolute inset-0 w-full h-full transition duration-200 ease-out rounded-lg  bg-gradient-to-br bg-white "></span>
+            <button className="flex items-center gap-3 text-center btn-new-bg p-3 rounded-lg">
               <span class="relative">
-                <i className="fab fa-github mr-2 text-black" />
+                <i className="fab fa-github mr-2 text-black " />
                 Ir a todos los repositorios
               </span>
 
