@@ -36,7 +36,6 @@ function MyApp({ Component, pageProps }) {
             <Navbar />
             <main className="min-h-[67vh] px-6 lg:px-0">
               <Component {...pageProps} />
-              <Background />
             </main>
             <Footer />
           </ContextMenu>
