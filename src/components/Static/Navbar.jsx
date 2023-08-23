@@ -66,7 +66,7 @@ export default function Navbar() {
 
   return (
     <>
-      <nav className="sticky top-4 z-10 bg-[#232226] rounded-3xl border-2 border-[rgba(51,57,71,.48)] mx-4 backdrop-filter backdrop-blur-lg bg-opacity-40">
+      <nav className="sticky top-2 md:top-4 z-10 bg-[#232226] rounded-3xl border-2 border-[rgba(51,57,71,.48)] mx-2 md:mx-4 backdrop-filter backdrop-blur-lg bg-opacity-40">
         <div className="max-w-8xl py-5 w-full px-0 lg:px-0">
           <div className="flex items-center justify-between">
             <div className="flex items-center">
