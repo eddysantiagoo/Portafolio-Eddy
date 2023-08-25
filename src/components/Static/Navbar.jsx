@@ -121,7 +121,7 @@ export default function Navbar() {
           leave="transition-all duration-200"
           leaveFrom="opacity-100 translate-x-0"
           leaveTo="opacity-0 translate-x-full"
-          className="fixed right-0 top-0 w-full lg:w-[30rem] h-full bg-[#f5f5f5] dark:bg-[#050505] lg:rounded-l-2xl p-6 z-[1000]"
+          className="fixed right-0 top-0 w-full lg:w-[30rem] h-full bg-[#f5f5f5] font-semibold dark:bg-[#050505] lg:rounded-l-2xl p-6 z-[1000]"
         >
           <div style={{ zIndex: 999 }}>
             <div className="flex justify-between w-full items-center">
@@ -191,7 +191,7 @@ export default function Navbar() {
                     className="flex gap-2 px-4 items-center w-full h-12 bg-gray-500/5 rounded-lg hover:bg-gray-500/10 transition-all duration-200 text-zinc-400 hover:text-black hover:dark:text-white"
                   >
                     <i className="fas fa-envelope text-2xl" />
-                    <p>Contacto</p>
+                    <p className="font-semibold" >Contacto</p>
                   </a>
                 </Link>
               </div>
