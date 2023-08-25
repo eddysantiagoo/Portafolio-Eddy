@@ -47,9 +47,9 @@ export default function Home() {
         }}
       />
       <div className="sm:h-[40rem] h-[42em] flex flex-col justify-center items-center mb-20 animate-fade-up animate-once animate-fade-up animate-duration-400 animate-delay-200">
-        <h1 className="mx-auto max-w-5xl font-display text-4xl font-medium font-secundary sm:text-7xl text-black dark:text-white text-center">
+        <h1 className="mx-auto max-w-5xl font-display text-4xl font-extrabold font-secundary sm:text-7xl text-black dark:text-white text-center">
           Hola, soy{" "}
-          <span className="relative whitespace-nowrap text-nombre-eddy font-secundary">
+          <span className="relative whitespace-nowrap text-nombre-eddy">
             <svg
               aria-hidden="true"
               viewBox="0 0 418 42"
@@ -61,26 +61,26 @@ export default function Home() {
             Eddy Santiago
           </span>
         </h1>
-        <p className="mx-auto max-w-5xl font-display text-3xl text-gray-400/50 mt-2 text-center">
+        <p className="mx-auto max-w-5xl font-display font-medium md:font-bold text-3xl text-gray-400/50 mt-2 text-center">
           Desarrollador de Software
         </p>
         {/* Seccion de los botones de tecnologias, repositorios etc... */}
         <div className="w-full lg:w-auto grid grid-cols-1 lg:grid-cols-4 gap-4 mt-16 ">
           <div className="rounded-xl border border-zinc-700 hover:bg-[#111111]  px-4 py-2 text-center transition duration-700">
-            <span className="text-white uppercase">TecnologÍas</span>
-            <p className="text-gray-500 dark:text-primary font-semibold text-xl">
+            <span className="text-white uppercase font-bold">TecnologÍas</span>
+            <p className="text-gray-500 dark:text-primary font-medium text-xl">
               12
             </p>
           </div>
           <div className="rounded-xl border border-zinc-700 hover:bg-[#111111]  px-4 py-2 text-center transition duration-700">
-            <span className="text-white uppercase">Años de experiencia</span>
-            <p className="text-gray-500 dark:text-primary font-semibold text-xl">
+            <span className="text-white uppercase font-bold">Años de experiencia</span>
+            <p className="text-gray-500 dark:text-primary font-medium text-xl">
               2
             </p>
           </div>
           <div className="rounded-xl border border-zinc-700 hover:bg-[#111111] transition duration-700 px-4 py-2 text-center">
-            <span className="text-gray uppercase">Repositorios</span>
-            <p className="text-gray-500 dark:text-primary font-semibold text-xl">
+            <span className="text-gray uppercase font-bold">Repositorios</span>
+            <p className="text-gray-500 dark:text-primary font-medium text-xl">
               {repositories?.length}+
             </p>
           </div>
@@ -90,8 +90,8 @@ export default function Home() {
             rel="noopener noreferrer"
           >
             <div className="rounded-xl border border-zinc-700 hover:underline hover:bg-[#111111] border transition duration-700  py-3 text-center">
-              <span className="text-white uppercase">mi curriculum</span>
-              <p className="text-gray-500 dark:text-primary  font-semibold text-sm">
+              <span className="text-white uppercase font-bold">mi curriculum</span>
+              <p className="text-gray-500 dark:text-primary font-medium text-sm">
                 Revisa mi CV aquí
               </p>
             </div>
@@ -106,7 +106,7 @@ export default function Home() {
       {/* SECCION REPOS */}
 
       <div className="mx-auto max-w-7xl my-10">
-        <h1 className="font-display text-5xl font-medium sm:text-7xl text-black dark:text-white">
+        <h1 className="font-display text-5xl font-bold sm:text-7xl text-black dark:text-white">
           Mis{" "}
           <span className="relative whitespace-nowrap text-primary">
             <svg
@@ -205,8 +205,9 @@ export default function Home() {
             class="relative rounded-lg  group font-medium text-black font-medium inline-block"
           >
             <button className="flex items-center gap-3 text-center btn-new-bg p-3 rounded-lg">
-              <span class="relative">
-                <i className="fab fa-github text-black " />
+            <i className="fab fa-github text-black" />
+              <span class="relative font-semibold">
+
                 Ir a todos los repositorios
               </span>
 
@@ -219,7 +220,7 @@ export default function Home() {
       {/* SECCION TODAS LAS SKILLS */}
 
       <div className="mx-auto max-w-7xl my-24">
-        <h1 className="font-display text-5xl font-medium sm:text-7xl text-black dark:text-white text-right">
+        <h1 className="font-display text-5xl font-bold sm:text-7xl text-black dark:text-white text-right">
           Mis{" "}
           <span className="relative whitespace-nowrap text-primary">
             <svg
@@ -418,7 +419,7 @@ export default function Home() {
 
       {/* SECCION IDIOMAS */}
       <div className="mx-auto max-w-7xl my-24">
-        <h1 className="font-display text-5xl font-medium sm:text-7xl text-black dark:text-white text-left">
+        <h1 className="font-display text-5xl font-bold sm:text-7xl text-black dark:text-white text-left">
           {"Idio"}
           <span className="relative whitespace-nowrap text-primary">
             <svg
