@@ -1,6 +1,7 @@
 import Navbar from 'components/Static/Navbar'
 import { PageProvider } from 'context/page'
 import { ThemeProvider } from 'context/theme'
+import toast, { Toaster } from 'react-hot-toast';
 import 'styles/globals.css'
 import "react-multi-carousel/lib/styles.css";
 import { useEffect } from 'react';

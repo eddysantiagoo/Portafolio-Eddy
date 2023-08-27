@@ -1,4 +1,5 @@
 import { Transition } from "@headlessui/react";
+import toast, { Toaster } from "react-hot-toast";
 import Button from "components/Global/Button";
 import { useTheme } from "context/theme";
 import useSWR from "hooks/useSWR";
@@ -64,8 +65,19 @@ export default function Navbar() {
     setMenu(value);
   };
 
+  const toastMessage = () => {
+    toast("Estoy trabajando en esto...", {
+      style: {
+        borderRadius: "10px",
+        background: "#333",
+        color: "#fff",
+      },
+    });
+  };
+
   return (
     <>
+      <Toaster position="bottom-center" />
       <nav className="sticky top-2 md:top-4 z-10 bg-[#232226] rounded-3xl border-2 border-[rgba(51,57,71,.48)] mx-2 md:mx-4 backdrop-filter backdrop-blur-lg bg-opacity-20">
         <div className="max-w-8xl py-5 w-full px-0 lg:px-0">
           <div className="flex items-center justify-between">
@@ -83,7 +95,8 @@ export default function Navbar() {
               />
             </div>
             <div className="flex items-center gap-4 mx-9 ">
-            <div
+              <div
+                onClick={() => toastMessage()}
                 // onClick={() => toggleTheme()}
                 className="text-2xl text-slate-300 text-zinc-400 border border-gray-600/25 hover:text-black hover:dark:text-white cursor-pointer bg-gray-400/5 w-12 h-12 flex items-center justify-center rounded-lg transition-all duration-200"
               >
@@ -191,7 +204,7 @@ export default function Navbar() {
                     className="flex gap-2 px-4 items-center w-full h-12 bg-gray-500/5 rounded-lg hover:bg-gray-500/10 transition-all duration-200 text-zinc-400 hover:text-black hover:dark:text-white"
                   >
                     <i className="fas fa-envelope text-2xl" />
-                    <p className="font-semibold" >Contacto</p>
+                    <p className="font-semibold">Contacto</p>
                   </a>
                 </Link>
               </div>
@@ -220,7 +233,6 @@ export default function Navbar() {
                       <g id="SVGRepo_iconCarrier">
                         {" "}
                         <title>instagram</title>{" "}
-
                         <path d="M21.25 14.188v-6.469c0-1.156-0.969-2.125-2.125-2.125h-17c-1.156 0-2.125 0.969-2.125 2.125v6.469h5.156c0.813-2.219 2.969-3.813 5.469-3.813s4.656 1.594 5.469 3.813h5.156zM21.25 16.063h-4.781v0.156c0 3.219-2.625 5.844-5.844 5.844s-5.844-2.625-5.844-5.844v-0.156h-4.781v8.656c0 1.156 0.969 2.125 2.125 2.125h17c1.156 0 2.125-0.969 2.125-2.125v-8.656zM1.844 7.469h1.063v4.875h-1.063v-4.875zM3.969 7.469h1.063v4.875h-1.063v-4.875zM6.094 7.469h1.063v3.063c-0.344 0.25-0.719 0.531-1.063 0.813v-3.875zM10.625 20.219c2.219 0 3.969-1.781 3.969-4s-1.75-3.969-3.969-3.969-4 1.75-4 3.969 1.781 4 4 4zM14.344 7.469h5.031v4.875h-3.375c-0.438-0.656-1.031-1.188-1.656-1.625v-3.25z"></path>{" "}
                       </g>
                     </svg>
