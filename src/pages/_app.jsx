@@ -5,7 +5,6 @@ import 'styles/globals.css'
 import "react-multi-carousel/lib/styles.css";
 import { useEffect } from 'react';
 import Footer from 'components/Static/Footer';
-import CustomCursor from 'components/Global/Cursor';
 import ContextMenu, { Item } from 'components/Global/ContextMenu';
 import Background from 'components/Global/background';
 import Key from 'components/Global/Key';
@@ -19,7 +18,6 @@ function MyApp({ Component, pageProps }) {
           <head>
             <title>Eddy Santiago | Desarrollador</title>
           </head>
-          <CustomCursor />
           <ContextMenu
             content={event => <>
               <div>
