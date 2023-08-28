@@ -97,6 +97,9 @@ export default function Home() {
             </div>
           </a>
         </div>
+        <span className="hero_Glow__wiAEk">
+          
+        </span>
 
         <div class="mt-7 flex flex-row items-center text-center justify-center ">
           <div class="down-arrow"></div>
