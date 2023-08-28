@@ -62,7 +62,8 @@ export default function About() {
             <p className="text-xl mt-4 animate__animated animate__fadeIn">
               Actualmente resido en Colombia. En general, mi interés por la
               tecnología se remonta a cuando era un niño, tenía unos 12 o 13
-              años. <br />
+              años. 
+              <br />
               <br />
               Recuerdo desde esos momentos estar muy interesado y con
               mucha curiosidad sobre el cómo funcionan muchos de los elementos

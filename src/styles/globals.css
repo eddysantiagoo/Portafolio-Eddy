@@ -104,7 +104,9 @@ body {
 
 .btn-new-bg{
   background: linear-gradient(90deg,#ffffff,#949494);
-  /* background: linear-gradient(90deg,#fe9fb2,#d89ffe); */
+  /* background: linear-gradient(90deg,#fe9fb2,#d89ffe); 
+  box-shadow: 0 0.25rem 2.5rem -0.875rem #d770c2;
+  */
   box-shadow: 0.6rem 0.25rem 3.5rem -0.875rem #ffffff;
 }
 
