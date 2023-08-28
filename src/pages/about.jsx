@@ -60,14 +60,15 @@ export default function About() {
               </span>
             </h1>
             <p className="text-xl mt-4 animate__animated animate__fadeIn">
-              Mi nombre es <span className="text-primary"> Eddy Santiago </span>
-              y actualmente resido en Colombia. En general, mi interés por la
+              Actualmente resido en Colombia. En general, mi interés por la
               tecnología se remonta a cuando era un niño, tenía unos 12 o 13
-              años. Recuerdo desde esos momentos estar muy interesado y con
+              años. <br />
+              <br />
+              Recuerdo desde esos momentos estar muy interesado y con
               mucha curiosidad sobre el cómo funcionan muchos de los elementos
               que la componen, como la internet, la ciberseguridad, los
               dispositivos móviles, los videojuegos y las computadoras.
-              <br />
+              {/* <br />
               <br />
               En el año 2020, tuve la oportunidad de estudiar Desarrollo de
               Software de manera profesional, la cual no dudé en tomar y hasta
@@ -78,32 +79,28 @@ export default function About() {
               administración efectiva del tiempo, busco estar actualizado sobre
               las últimas tecnologías, veo los problemas como oportunidades para
               crear soluciones y sobre todo trabajo día a día para convertirme
-              en la persona que deseo ser.
+              en la persona que deseo ser. */}
             </p>
+            <ReactMarkdown className="mt-4 text-primary text-2xl">
+              The security is there, but for how long? **- Eddy Santiago**
+            </ReactMarkdown>
           </div>
-
-          <div className="relative flex-shrink-0 animate__animated animate__fadeIn animate__delay-4s grayscale hover:grayscale-0 transition duration-300 ease-in-out">
+          
+          <div className="relative flex-shrink-0 animate__animated animate__fadeIn animate__delay-1s grayscale hover:grayscale-0 transition duration-300 ease-in-out">
             <img
               src="https://media.licdn.com/dms/image/C4D03AQHjfcoCEEJjBA/profile-displayphoto-shrink_800_800/0/1648781520004?e=2147483647&v=beta&t=_6pd5ybebM6yUx5sAfAXqb-RLqncTwmTxXCCf3xC2yE"
               alt="Imagen de Eddy Santiago"
               style={{ zIndex: 1 }}
-              className="shadow-lg relative z-1 w-full lg:w-64 h-full lg:h-64 rounded-full lg:rounded-lg"
+              className="shadow-lg relative z-1 w-full lg:w-64 h-full lg:h-64 rounded-full lg:rounded-2xl"
             />
-
-            <div className="-right-3 top-3 absolute w-full h-full lg:h-64 top-0 right-0 border-4 rounded-full lg:rounded-lg border-primary bg-gradient-to-t from-primary" />
           </div>
-        </div>
-
-        <div>
-          <ReactMarkdown className="blockquote text-primary text-2xl">
-            The security is there, but for how long? **- Eddy Santiago**
-          </ReactMarkdown>
+          
         </div>
 
         {/* SECCION EDUCACIÓN */}
 
         <div className="mx-auto max-w-7xl mt-8 mb-8">
-          <h1 className="mt-1 text-4xl font-bold font-secundary">
+          {/* <h1 className="mt-1 text-4xl font-bold font-secundary">
             {"Mi "}
             <span className="relative whitespace-nowrap text-primary font-secundary">
               Curriculum
@@ -123,8 +120,8 @@ export default function About() {
                   </h2>
                 </div>
               </div>
-            </div>
-          </a>
+            </div> 
+          </a>*/}
 
           <h1 className="mt-1 text-4xl font-bold font-secundary">
             {"Educación"}
@@ -133,7 +130,7 @@ export default function About() {
             </span>
           </h1>
 
-          <div className="grid-cols-1 justify-start md:grid-cols-1 lg:grid-cols-2 gap-4 my-4">
+          <div className="grid grid-cols-1 justify-start md:grid-cols-2 gap-4 my-4">
             <div className="group flex items-center relative bg-gray-600/5 dark:shadow-2xl overflow-hidden border border-gray-500/25 hover:border-primary hover:shadow-xl rounded-lg overflow-hidden p-2.5 transition-all duration-200">
               <img
                 src="https://media.licdn.com/dms/image/C4E0BAQHMgYEnxoVtxw/company-logo_200_200/0/1651508107143?e=2147483647&v=beta&t=ueYquiqI1_dejh2VyS1XzZ2D8Q2W4WjWw2VDBNC5OYU"
@@ -143,14 +140,12 @@ export default function About() {
                 className="bg-white/5 p-1 w-[65px] h-[65px] rounded-md "
               />
               <div className="relative">
-                <h2 className="ml-4 font-display text-lg sm:text-xl font-medium text-black dark:text-white">
+                <h2 className="ml-4 font-display text-xl md:text-lg font-medium text-black dark:text-white">
                   Institución Universitaria Digital de Antioquia - Tecnologia en
                   Desarrollo de Software ( 2020 - Actualmente )
                 </h2>
               </div>
             </div>
-          </div>
-          <div className="grid-cols-1 justify-start md:grid-cols-1 lg:grid-cols-2 gap-4 my-4">
             <div className="group flex items-center relative bg-gray-600/5 dark:shadow-2xl overflow-hidden border border-gray-500/25 hover:border-primary hover:shadow-xl rounded-lg overflow-hidden p-2.5 transition-all duration-200">
               <img
                 src="https://media.licdn.com/dms/image/C4E0BAQHMgYEnxoVtxw/company-logo_200_200/0/1651508107143?e=2147483647&v=beta&t=ueYquiqI1_dejh2VyS1XzZ2D8Q2W4WjWw2VDBNC5OYU"
@@ -160,7 +155,7 @@ export default function About() {
                 className="bg-white/5 p-1 w-[65px] h-[65px] rounded-md "
               />
               <div className="relative">
-                <h2 className="ml-4 justify-start font-display text-xl font-medium text-black dark:text-white">
+                <h2 className="ml-4 justify-start font-display text-xl md:text-lg font-medium text-black dark:text-white">
                   Diplomado en Desarrollo Web (2022)
                 </h2>
               </div>
