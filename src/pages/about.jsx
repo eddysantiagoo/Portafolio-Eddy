@@ -162,6 +162,23 @@ export default function About() {
               </div>
             </div>
           </div>
+
+          <div className="grid grid-cols-1 justify-start gap-4 my-4">
+            <div className="group flex items-center relative bg-gray-600/5 dark:shadow-2xl overflow-hidden border border-gray-500/25 hover:border-primary hover:shadow-xl rounded-lg overflow-hidden p-2.5 transition-all duration-200">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/9/97/Coursera-Logo_600x600.svg"
+                alt="Logo de la IU Digital de Antioquia"
+                width="65"
+                height="65"
+                className="bg-white/5 p-1 w-[65px] h-[65px] rounded-xl"
+              />
+              <div className="relative">
+                <h2 className="ml-4 font-display text-xl md:text-lg font-medium text-black dark:text-white">
+                  Certificado en diseño de experiencia del usuario (UX) de Google  (Mayo 2023 - Actualmente)
+                </h2>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </>
