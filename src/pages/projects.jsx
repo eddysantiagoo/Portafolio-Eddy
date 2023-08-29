@@ -29,8 +29,7 @@ export default function Projects() {
         openGraph={{
           type: "website",
           title: "Eddy Santiago | Desarrollador",
-          description:
-            "Mis proyectos - Sitio web personal",
+          description: "Mis proyectos - Sitio web personal",
           images: [
             {
               url: eddyConfig.imageWeb,
@@ -89,10 +88,22 @@ export default function Projects() {
                 </div>
               </div>
 
+              <div className="flex items-center mt-14">
+                <a
+                  target="_blank"
+                  class="flex w-full justify-center items-center gap-3 text-center btn-princ-white p-2 rounded-lg relative rounded-lg group font-medium text-black font-medium inline-block"
+                >
+                  <span class="relative font-semibold text-center">
+                    Visitar sitio
+                  </span>
+                  <i class="fa-solid fa-link" />
+                </a>
+              </div>
+{/* 
               <p className="text-xs italic mt-10">
                 <i class="fa-solid fa-link mr-1" />
                 https://web-restaurante-enfasis.vercel.app
-              </p>
+              </p> */}
             </a>
             {/* PROYECTO 2 */}
             <a
@@ -167,10 +178,17 @@ export default function Projects() {
                 </div>
               </div>
 
-              <p className="text-xs italic mt-6">
-                <i class="fa-solid fa-link mr-1" />
-                https://spotify-dynamic-readme.vercel.app
-              </p>
+              <div className="flex items-center mt-14">
+                <a
+                  target="_blank"
+                  class="flex w-full justify-center items-center gap-3 text-center btn-princ-white p-2 rounded-lg relative rounded-lg group font-medium text-black font-medium inline-block"
+                >
+                  <span class="relative font-semibold text-center">
+                    Visitar sitio
+                  </span>
+                  <i class="fa-solid fa-link" />
+                </a>
+              </div>
             </a>
             {/* PROYECTO 4*/}
             <a

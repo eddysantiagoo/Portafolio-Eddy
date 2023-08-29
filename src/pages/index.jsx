@@ -205,17 +205,13 @@ export default function Home() {
           <a
             href={`https://github.com/${eddyConfig.githubName}`}
             target="_blank"
-            class="relative rounded-lg  group font-medium text-black font-medium inline-block"
+            class="flex items-center gap-3 text-center btn-princ-white p-3 rounded-lg relative rounded-lg group font-medium text-black font-medium inline-block"
           >
-            <button className="flex items-center gap-3 text-center btn-new-bg p-3 rounded-lg">
             <i className="fab fa-github text-black" />
               <span class="relative font-semibold">
-
                 Ir a todos los repositorios
               </span>
-
               <i className="fal fa-arrow-right -rotate-45" />
-            </button>
           </a>
         </div>
       </div>
