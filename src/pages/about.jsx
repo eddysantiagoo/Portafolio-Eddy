@@ -138,7 +138,7 @@ export default function About() {
                 alt="Logo de la IU Digital de Antioquia"
                 width="65"
                 height="65"
-                className="bg-white/5 p-1 w-[65px] h-[65px] rounded-md "
+                className="bg-white/5 p-1 w-[65px] h-[65px] rounded-xl "
               />
               <div className="relative">
                 <h2 className="ml-4 font-display text-xl md:text-lg font-medium text-black dark:text-white">
@@ -153,7 +153,7 @@ export default function About() {
                 alt="Logo de la IU Digital de Antioquia"
                 width="65"
                 height="65"
-                className="bg-white/5 p-1 w-[65px] h-[65px] rounded-md "
+                className="bg-white/5 p-1 w-[65px] h-[65px] rounded-xl"
               />
               <div className="relative">
                 <h2 className="ml-4 justify-start font-display text-xl md:text-lg font-medium text-black dark:text-white">
