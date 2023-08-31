@@ -66,7 +66,7 @@ export default function Navbar() {
   };
 
   const toastMessage = () => {
-    toast("Estoy trabajando en esto...", {
+    toast("Proximamente...", {
       icon: "🌙",
       style: {
         borderRadius: "10px",

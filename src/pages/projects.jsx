@@ -99,7 +99,7 @@ export default function Projects() {
                   <i class="fa-solid fa-link" />
                 </a>
               </div>
-{/* 
+              {/* 
               <p className="text-xs italic mt-10">
                 <i class="fa-solid fa-link mr-1" />
                 https://web-restaurante-enfasis.vercel.app
@@ -132,23 +132,26 @@ export default function Projects() {
                   <i class="fa-brands fa-css3-alt fa-xl fa-pull-left"></i>
                   <i class="fa-brands fa-font-awesome fa-xl fa-pull-left"></i>
                   <i class="fa-brands fa-node fa-xl fa-pull-left"></i>
+                  <i
+                    class="fa-xl fa-pull-left"
+                    style={{ margin: "-11px -2px" }}
+                  >
+                    <SiNextdotjs />
+                  </i>
                 </div>
-                <div
-                  style={{
-                    display: "inline-block",
-                    height: "1.6em",
-                    marginTop: "-22px",
-                    verticalAlign: "middle",
-                  }}
-                >
-                  <SiNextdotjs size="1.5em" />
+
+                <div className="flex items-center mt-14">
+                  <a
+                    target="_blank"
+                    class="flex w-full justify-center items-center gap-3 text-center btn-princ-white p-2 rounded-lg relative rounded-lg group font-medium text-black font-medium inline-block"
+                  >
+                    <span class="relative font-semibold text-center">
+                      Ya estas aquí
+                    </span>
+                    <i class="fa-solid fa-link" />
+                  </a>
                 </div>
               </div>
-
-              <p className="text-xs italic mt-1">
-                <i class="fa-solid fa-link mr-1" />
-                https://eddy-portafolio.vercel.app
-              </p>
             </a>
             {/* PROYECTO 3 */}
             <a
@@ -216,10 +219,17 @@ export default function Projects() {
                 </div>
               </div>
 
-              <p className="text-xs italic mt-10">
-                <i class="fa-solid fa-link mr-1" />
-                https://eddy-portafolio.vercel.app/bonfire
-              </p>
+              <div className="flex items-center mt-14">
+                <a
+                  target="_blank"
+                  class="flex w-full justify-center items-center gap-3 text-center btn-princ-white p-2 rounded-lg relative rounded-lg group font-medium text-black font-medium inline-block"
+                >
+                  <span class="relative font-semibold text-center">
+                    Visitar sitio
+                  </span>
+                  <i class="fa-solid fa-link" />
+                </a>
+              </div>
             </a>
           </div>
         </div>
