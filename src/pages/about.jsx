@@ -59,16 +59,12 @@ export default function About() {
                 <span className="relative">soy?</span>
               </span>
             </h1>
-            <p className="text-xl mt-4 animate__animated animate__fadeIn">
+            <p className="text-xl mt-4">
               Actualmente resido en Colombia. En general, mi interés por la
-              tecnología se remonta a cuando era un niño, tenía unos 12 o 13
-              años. 
-              <br />
-              <br />
-              Recuerdo desde esos momentos estar muy interesado y con
-              mucha curiosidad sobre el cómo funcionan muchos de los elementos
-              que la componen, como la internet, la ciberseguridad, los
-              dispositivos móviles, los videojuegos y las computadoras.
+              tecnología se remonta a cuando era un niño.
+              Recuerdo desde esos momentos soñar con ser Youtuber y tambien con
+              mucha curiosidad por entender como funciona el inspeccionar elemento
+             
               {/* <br />
               <br />
               En el año 2020, tuve la oportunidad de estudiar Desarrollo de
@@ -87,7 +83,7 @@ export default function About() {
             </ReactMarkdown>
           </div>
           
-          <div className="relative flex-shrink-0 animate__animated animate__fadeIn animate__delay-1s grayscale hover:grayscale-0 transition duration-300 ease-in-out">
+          <div className="relative flex-shrink-0 grayscale hover:grayscale-0 transition duration-300 ease-in-out">
             <img
               src="https://media.licdn.com/dms/image/C4D03AQHjfcoCEEJjBA/profile-displayphoto-shrink_800_800/0/1648781520004?e=2147483647&v=beta&t=_6pd5ybebM6yUx5sAfAXqb-RLqncTwmTxXCCf3xC2yE"
               alt="Imagen de Eddy Santiago"

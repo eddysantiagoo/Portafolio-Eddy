@@ -85,15 +85,17 @@ export default function Navbar() {
             <div className="flex items-center">
               <Link href="/">
                 <a className="text-2xl text-slate-100 mx-8 font-bold mr-1 transition-all duration-200">
-                  {eddyConfig.navbar}
-                </a>
-              </Link>
-              <Image
-                src="/images/GifPalomaPNG.gif"
+                  
+                <Image
+                src="/images/palomaepica.png"
+                className="grayscale transition duration-800 ease-in-out hover:grayscale-0"
                 width={40}
                 height={40}
                 alt="Cargando..."
               />
+                  {/* {eddyConfig.navbar} */}
+                </a>
+              </Link>
             </div>
             <div className="flex items-center gap-4 mx-9 ">
               <div
