@@ -47,7 +47,7 @@ export default function Home() {
           ],
         }}
       />
-      <div className="sm:h-[40rem] h-[30em] flex flex-col justify-center items-center mb-20 animate-fade-up animate-once animate-fade-up animate-duration-400 animate-delay-200">
+      <div className="sm:h-[40rem] h-[36em] flex flex-col justify-center items-center mb-20 animate-fade-up animate-once animate-fade-up animate-duration-400 animate-delay-200">
         <h1 className="mx-auto max-w-5xl font-display text-4xl font-extrabold font-secundary tracking-tighter sm:text-7xl text-black dark:text-white text-center">
           Hola, soy{" "}
           <span className="relative whitespace-nowrap text-nombre-eddy">
@@ -144,7 +144,7 @@ export default function Home() {
           <a
             target="_blank"
             rel="noreferrer"
-            href="https://www.instagram.com/eddy.santiagooo"
+            href="https://www.instagram.com/eddy.santiagoo"
           >
             <div className="inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 hover:bg-[#27272a] h-22  w-9">
               <svg
