@@ -69,7 +69,7 @@ export default function Home() {
         <div className="w-full bg-red lg:w-auto grid grid-cols-1 lg:grid-cols-3 gap-6 mt-6 text-center">
           <Link href={`/about`}>
             <a href="">
-              <div className="rounded-md ring-gray-500/50  ring-1 hover:ring-0 hover:bg-[#27272a] px-11 py-3 text-center transition duration-200">
+              <div className="rounded-md ring-gray-500/50 ring-1 hover:ring-0 hover:bg-[#27272a] px-11 py-3 text-center transition duration-200">
                 <span className="font-medium">Sobre mi</span>
               </div>
             </a>
