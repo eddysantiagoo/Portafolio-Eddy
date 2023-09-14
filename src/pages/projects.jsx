@@ -60,7 +60,7 @@ export default function Projects() {
 
           {/* SECCION PROYECTOS */}
 
-          <div className="grid grid-cols-1 lg:grid-cols-4 gap-8 overflow-y-hidden  mt-16 animate__animated animate__fadeIn animate__delay-1s">
+          <div className="grid grid-cols-1 lg:grid-cols-4 gap-8 overflow-y-hidden mt-16">
             {/* PROYECTO 1 */}
             <a
               href="https://web-restaurante-enfasis.vercel.app"

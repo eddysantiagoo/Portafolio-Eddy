@@ -8,6 +8,7 @@ import eddyConfig from "../../eddy.config";
 import Button from "components/Global/Button";
 import Carousel from "react-multi-carousel";
 import ScrollArrow from "components/Global/ScrollArrow";
+import Link from "next/link";
 import { NextSeo } from "next-seo";
 
 export default function Home() {
@@ -65,41 +66,36 @@ export default function Home() {
           Desarrollador de Software
         </p>
         {/* Seccion de los botones de tecnologias, repositorios etc... */}
-        <div className="w-full lg:w-auto grid grid-cols-1 lg:grid-cols-4 gap-4 mt-16 ">
-          <div className="rounded-xl border border-zinc-700 hover:bg-[#111111]  px-4 py-2 text-center transition duration-700">
-            <span className="text-white uppercase font-bold">TecnologÍas</span>
-            <p className="text-gray-500 dark:text-primary font-medium text-xl">
-              12
-            </p>
-          </div>
-          <div className="rounded-xl border border-zinc-700 hover:bg-[#111111]  px-4 py-2 text-center transition duration-700">
-            <span className="text-white uppercase font-bold">Años de experiencia</span>
-            <p className="text-gray-500 dark:text-primary font-medium text-xl">
-              2
-            </p>
-          </div>
-          <div className="rounded-xl border border-zinc-700 hover:bg-[#111111] transition duration-700 px-4 py-2 text-center">
+        <div className="w-full bg-red lg:w-auto grid grid-cols-1 lg:grid-cols-3 gap-6 mt-6 text-center">
+          <Link href={`/about`}>
+            <a href="">
+              <div className="rounded-md ring-gray-500/50  ring-1 hover:ring-0 hover:bg-[#27272a] px-11 py-3 text-center transition duration-200">
+                <span className="font-medium">Sobre mi</span>
+              </div>
+            </a>
+          </Link>
+          <Link href={`/projects`}>
+            <a href="">
+              <div className="rounded-md ring-gray-500/50 ring-1 hover:ring-0 hover:bg-[#27272a]  py-3 text-center transition duration-200">
+                <span className="font-medium">Proyectos</span>
+              </div>
+            </a>
+          </Link>
+          <Link href={`/posts`}>
+            <a href="">
+              <div className="rounded-md ring-gray-500/50 ring-1 hover:ring-0 hover:bg-[#27272a] py-3 text-center transition duration-200">
+                <span className="font-medium">Mi blog</span>
+              </div>
+            </a>
+          </Link>
+          {/* <div className="rounded-xl border border-zinc-700 hover:bg-[#111111] transition duration-700 px-4 py-2 text-center">
             <span className="text-gray uppercase font-bold">Repositorios</span>
             <p className="text-gray-500 dark:text-primary font-medium text-xl">
               {repositories?.length}+
             </p>
-          </div>
-          <a
-            href="https://drive.google.com/file/d/1Jdq-dbLBCk86g6c0Gwr0vGS4Ly64d5_V/view?usp=share_link"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <div className="rounded-xl border border-zinc-700 hover:underline hover:bg-[#111111] border transition duration-700  py-3 text-center">
-              <span className="text-white uppercase font-bold">mi curriculum</span>
-              <p className="text-gray-500 dark:text-primary font-medium text-sm">
-                Revisa mi CV aquí
-              </p>
-            </div>
-          </a>
+          </div> */}
         </div>
-        <span className="hero_Glow__wiAEk">
-          
-        </span>
+        <span className="hero_Glow__wiAEk"></span>
 
         <div class="mt-7 flex flex-row items-center text-center justify-center ">
           <div class="down-arrow"></div>
@@ -208,10 +204,10 @@ export default function Home() {
             class="flex items-center gap-3 text-center btn-princ-white p-3 rounded-lg relative rounded-lg group font-medium text-black font-medium inline-block"
           >
             <i className="fab fa-github text-black" />
-              <span class="relative font-semibold">
-                Ir a todos los repositorios
-              </span>
-              <i className="fal fa-arrow-right -rotate-45" />
+            <span class="relative font-semibold">
+              Ir a todos los repositorios
+            </span>
+            <i className="fal fa-arrow-right -rotate-45" />
           </a>
         </div>
       </div>

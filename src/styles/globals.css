@@ -184,7 +184,7 @@ body {
   height: 30px;
   border: 2px solid;
   border-radius: 2px;
-  animation: jumpInfinite 1.5s infinite;
+  animation: jumpInfinite 9s infinite;
 }
 
 .down-arrow:after {
