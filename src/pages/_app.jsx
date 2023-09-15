@@ -9,6 +9,7 @@ import Footer from 'components/Static/Footer';
 import ContextMenu, { Item } from 'components/Global/ContextMenu';
 import Background from 'components/Global/background';
 import Key from 'components/Global/Key';
+import { Analytics } from '@vercel/analytics/react';
 
 function MyApp({ Component, pageProps }) {
 
@@ -35,6 +36,7 @@ function MyApp({ Component, pageProps }) {
             <Navbar />
             <main className="min-h-[67vh] px-6 lg:px-0">
               <Component {...pageProps} />
+              <Analytics />
             </main>
             <Footer />
           </ContextMenu>
