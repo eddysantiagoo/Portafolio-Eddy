@@ -66,10 +66,10 @@ export default function Home() {
           Desarrollador de Software
         </p>
         {/* Seccion de los botones de tecnologias, repositorios etc... */}
-        <div className="w-full bg-red lg:w-auto grid grid-cols-1 lg:grid-cols-3 gap-6 mt-6 text-center">
+        <div className="w-full bg-red lg:w-auto grid grid-cols-1 lg:grid-cols-4 gap-6 mt-6 text-center">
           <Link href={`/about`}>
             <a href="">
-              <div className="rounded-md ring-gray-500/50 ring-1 hover:ring-0 hover:bg-[#27272a] px-11 py-3 text-center transition duration-200">
+              <div className="rounded-md ring-gray-500/50 ring-1 hover:ring-0 hover:bg-[#27272a] px-8 py-3 text-center transition duration-200">
                 <span className="font-medium">Sobre mi</span>
               </div>
             </a>
@@ -78,6 +78,13 @@ export default function Home() {
             <a href="">
               <div className="rounded-md ring-gray-500/50 ring-1 hover:ring-0 hover:bg-[#27272a]  py-3 text-center transition duration-200">
                 <span className="font-medium">Proyectos</span>
+              </div>
+            </a>
+          </Link>
+          <Link href={`/designss`}>
+            <a href="">
+              <div className="rounded-md ring-gray-500/50 ring-1 hover:ring-0 hover:bg-[#27272a]  py-3 text-center transition duration-200">
+                <span className="font-medium">Diseños</span>
               </div>
             </a>
           </Link>
