@@ -14,6 +14,7 @@
 - TailwindCSS (https://github.com/tailwindlabs/tailwindcss)
 - Node.js (https://github.com/nodejs/node)
 - Yarn (https://github.com/yarnpkg/berry)
+- React Hot Toast (https://react-hot-toast.com/)
 
 
 ![](https://em-content.zobj.net/thumbs/160/whatsapp/273/bird_1f426.png) 
