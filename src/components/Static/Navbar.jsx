@@ -8,6 +8,11 @@ import { useRouter } from "next/router";
 import { Fragment, useState } from "react";
 import eddyConfig from "../../../eddy.config";
 import Image from "next/image";
+import Tippy from "@tippyjs/react";
+import { followCursor } from "tippy.js";
+import "tippy.js/dist/tippy.css";
+import "tippy.js/themes/light.css";
+import "tippy.js/animations/scale.css";
 
 export default function Navbar() {
   const router = useRouter();
@@ -83,20 +88,31 @@ export default function Navbar() {
         <div className="max-w-8xl py-5 w-full px-0 lg:px-0">
           <div className="flex items-center justify-between md:justify-around">
             <div className="flex items-center">
+            <Tippy
+                  content="Este es mi emoji favorito :p"
+                  interactive={true}
+                  followCursor={true}
+                  animation="scale"
+                  theme="light"
+                  plugins={[followCursor]}
+                >
               <Link href="/">
-                <a className="border border-gray-600/25 hover:text-black hover:dark:text-white cursor-pointer bg-gray-400/5 p-1 w-12 h-12 flex items-center justify-center rounded-lg md:rounded-full  mx-8 font-bold mr-1 transition duration-200 hover:scale-150">
-                  <Image
-                    src="/images/palomaepica.png"
-                    className="grayscale transition duration-800 ease-in-out hover:grayscale-0"
-                    width={40}
-                    height={40}
-                    alt="Fav emoji, the bird"
-                  />
-                  {/* {eddyConfig.navbar} */}
-                </a>
+                  <a className="border border-gray-600/25 hover:text-black hover:dark:text-white cursor-pointer bg-gray-400/5 p-1 w-12 h-12 flex items-center justify-center rounded-lg md:rounded-full mx-8 md:mx-0 font-bold mr-1 md:mr-0 transition duration-200 hover:scale-150">
+                    <Image
+                      src="/images/palomaepica.png"
+                      className="grayscale transition duration-800 ease-in-out hover:grayscale-0"
+                      width={40}
+                      height={40}
+                      alt="Fav emoji, the bird"
+                      id="singleElement"
+                    />
+                    {/* {eddyConfig.navbar} */}
+                  </a>
+               
               </Link>
+              </Tippy>
             </div>
-
+              {/* Menu de navegacion para pantallas grandes */}
             <div className="hidden md:flex sticky top-6 z-10 flex bg-black border-2 border-[rgba(72,72,72,0.48)] px-8 rounded-full py-3 items-center">
               <ul className="flex gap-8 transition transition-duration-300">
                 <li>
@@ -105,23 +121,23 @@ export default function Navbar() {
                       className="font-medium transition transition-duration-200  text-white/60 hover:text-white/80 focus:text-white focus:shadow-sm focus:shadow-white"
                       href=""
                     >
-                      Inicio  
+                      Inicio
                     </a>
                   </Link>
                 </li>
                 <li>
-                <Link href={`/about`}>
+                  <Link href={`/about`}>
                     <a
                       className="font-medium transition transition-duration-200  text-white/60 hover:text-white/80 focus:text-white focus:shadow-sm focus:shadow-white"
                       href=""
                     >
-                      Sobre mi 
+                      Sobre mi
                     </a>
                   </Link>
                 </li>
 
                 <li>
-                <Link href={`/projects`}>
+                  <Link href={`/projects`}>
                     <a
                       className="font-medium transition transition-duration-200  text-white/60 hover:text-white/80 focus:text-white focus:shadow-sm focus:shadow-white"
                       href=""
@@ -130,20 +146,29 @@ export default function Navbar() {
                     </a>
                   </Link>
                 </li>
-
+                <Tippy
+                  content="Esta seccion aun esta en desarrollo"
+                  interactive={true}
+                  placement="bottom"
+                  duration={0}
+                  animation="scale"
+                  theme="light"
+                  plugins={[followCursor]}
+                >
                 <li className="">
-                <Link href={`/desings`}>
+                  <Link href={`/desings`}>
                     <a
-                      className="font-medium transition transition-duration-300 text-white/60 hover:text-white/80 focus:text-white focus:shadow-sm focus:shadow-white focus:shadow-sm focus:shadow-white"
+                      className="font-medium transition transition-duration-300 text-white/30 hover:text- focus:text-white focus:shadow-sm focus:shadow-white focus:shadow-sm focus:shadow-white"
                       href=""
                     >
-                     Diseños 
+                      Diseños
                     </a>
                   </Link>
                 </li>
+                </Tippy>
 
                 <li>
-                <Link href={`/posts`}>
+                  <Link href={`/posts`}>
                     <a
                       className="font-medium transition transition-duration-200  text-white/60 hover:text-white/80 focus:text-white focus:shadow-sm focus:shadow-white"
                       href=""
@@ -155,7 +180,7 @@ export default function Navbar() {
               </ul>
             </div>
 
-            <div className="flex items-center gap-4 mx-9 ">
+            <div className="flex items-center gap-4 mx-9 md:mx-0 ">
               <div
                 onClick={() => toastMessage()}
                 // onClick={() => toggleTheme()}
