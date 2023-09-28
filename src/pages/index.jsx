@@ -81,7 +81,7 @@ export default function Home() {
               </div>
             </a>
           </Link>
-          <Link href={`/designss`}>
+          <Link href={`/desings`}>
             <a href="">
               <div className="rounded-md ring-gray-500/50 ring-1 hover:ring-0 hover:bg-[#27272a]  py-3 text-center transition duration-200">
                 <span className="font-medium">Diseños</span>

@@ -79,28 +79,87 @@ export default function Navbar() {
   return (
     <>
       <Toaster position="bottom-center" />
-      <nav className="sticky top-2 md:top-4 z-10 bg-[#232226] rounded-3xl border-2 border-[rgba(51,57,71,.48)] mx-2 md:mx-4 backdrop-filter backdrop-blur-lg bg-opacity-20">
+      <nav className="sticky top-2 md:top-4 z-10 bg-[#232226] md:bg-transparent rounded-3xl border-2 border-[rgba(51,57,71,.48)] md:border-0 mx-2 md:mx-4 backdrop-filter backdrop-blur-lg md:backdrop-blur-none bg-opacity-20">
         <div className="max-w-8xl py-5 w-full px-0 lg:px-0">
-          <div className="flex items-center justify-between">
+          <div className="flex items-center justify-between md:justify-around">
             <div className="flex items-center">
               <Link href="/">
-                <a className="text-2xl text-slate-100 mx-8 font-bold mr-1 transition duration-200 hover:scale-125">
+                <a className="border border-gray-600/25 hover:text-black hover:dark:text-white cursor-pointer bg-gray-400/5 p-1 w-12 h-12 flex items-center justify-center rounded-lg md:rounded-full  mx-8 font-bold mr-1 transition duration-200 hover:scale-150">
                   <Image
                     src="/images/palomaepica.png"
                     className="grayscale transition duration-800 ease-in-out hover:grayscale-0"
                     width={40}
                     height={40}
-                    alt="Home page"
+                    alt="Fav emoji, the bird"
                   />
                   {/* {eddyConfig.navbar} */}
                 </a>
               </Link>
             </div>
+
+            <div className="hidden md:flex sticky top-6 z-10 flex bg-black border-2 border-[rgba(72,72,72,0.48)] px-8 rounded-full py-3 items-center">
+              <ul className="flex gap-8 transition transition-duration-300">
+                <li>
+                  <Link href={`/`}>
+                    <a
+                      className="font-medium transition transition-duration-200  text-white/60 hover:text-white/80 focus:text-white focus:shadow-sm focus:shadow-white"
+                      href=""
+                    >
+                      Inicio  
+                    </a>
+                  </Link>
+                </li>
+                <li>
+                <Link href={`/about`}>
+                    <a
+                      className="font-medium transition transition-duration-200  text-white/60 hover:text-white/80 focus:text-white focus:shadow-sm focus:shadow-white"
+                      href=""
+                    >
+                      Sobre mi 
+                    </a>
+                  </Link>
+                </li>
+
+                <li>
+                <Link href={`/projects`}>
+                    <a
+                      className="font-medium transition transition-duration-200  text-white/60 hover:text-white/80 focus:text-white focus:shadow-sm focus:shadow-white"
+                      href=""
+                    >
+                      Proyectos
+                    </a>
+                  </Link>
+                </li>
+
+                <li className="">
+                <Link href={`/desings`}>
+                    <a
+                      className="font-medium transition transition-duration-300 text-white/60 hover:text-white/80 focus:text-white focus:shadow-sm focus:shadow-white focus:shadow-sm focus:shadow-white"
+                      href=""
+                    >
+                     Diseños 
+                    </a>
+                  </Link>
+                </li>
+
+                <li>
+                <Link href={`/posts`}>
+                    <a
+                      className="font-medium transition transition-duration-200  text-white/60 hover:text-white/80 focus:text-white focus:shadow-sm focus:shadow-white"
+                      href=""
+                    >
+                      Blog
+                    </a>
+                  </Link>
+                </li>
+              </ul>
+            </div>
+
             <div className="flex items-center gap-4 mx-9 ">
               <div
                 onClick={() => toastMessage()}
                 // onClick={() => toggleTheme()}
-                className="text-2xl text-slate-300 text-zinc-400 border border-gray-600/25 hover:text-black hover:dark:text-white cursor-pointer bg-gray-400/5 w-12 h-12 flex items-center justify-center rounded-lg transition-all duration-200"
+                className="text-2xl text-slate-300 text-zinc-400 border border-gray-600/25 hover:text-black hover:dark:text-white cursor-pointer bg-gray-400/5 w-12 h-12 flex items-center justify-center rounded-lg md:rounded-full transition-all duration-200"
               >
                 {isTheme === "dark" ? (
                   <i className="fas fa-moon " />
@@ -110,7 +169,7 @@ export default function Navbar() {
               </div>
               <i
                 onClick={() => setIsOpen(true)}
-                className="fas fa-bars text-slate-300 text-2xl text-zinc-400 hover:text-black hover:dark:text-white cursor-pointer border border-gray-600/25 bg-gray-400/5 w-12 h-12 flex items-center justify-center rounded-lg transition-all duration-200 "
+                className="visible md:hidden fas fa-bars text-slate-300 text-2xl text-zinc-400 hover:text-black hover:dark:text-white cursor-pointer border border-gray-600/25 bg-gray-400/5 w-12 h-12 flex items-center justify-center rounded-lg transition-all duration-200 "
               />
             </div>
           </div>
