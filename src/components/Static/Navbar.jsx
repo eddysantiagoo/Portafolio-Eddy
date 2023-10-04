@@ -10,9 +10,6 @@ import eddyConfig from "../../../eddy.config";
 import Image from "next/image";
 import Tippy from "@tippyjs/react";
 import { followCursor } from "tippy.js";
-import "tippy.js/dist/tippy.css";
-import "tippy.js/themes/light.css";
-import "tippy.js/animations/scale.css";
 
 export default function Navbar() {
   const router = useRouter();

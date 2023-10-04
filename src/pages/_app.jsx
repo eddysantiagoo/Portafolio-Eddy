@@ -10,6 +10,10 @@ import ContextMenu, { Item } from 'components/Global/ContextMenu';
 import Background from 'components/Global/background';
 import Key from 'components/Global/Key';
 import { Analytics } from '@vercel/analytics/react';
+import "tippy.js/dist/tippy.css";
+import "tippy.js/themes/light.css";
+import "tippy.js/animations/scale.css";
+
 
 function MyApp({ Component, pageProps }) {
 
