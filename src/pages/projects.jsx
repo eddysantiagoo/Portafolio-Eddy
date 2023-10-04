@@ -80,7 +80,7 @@ export default function Projects() {
                 </div>
                 <div className="mt-4">
                   <p className="text-xl font-semibold">The Bonfire</p>
-                  <p className="text-sm max-h-24 h-24 font-normal text-gray-500">
+                  <p className="text-sm md:text-lg max-h-24 h-24 font-normal text-gray-500">
                     Reproductor de música ambientado en el videojuego Dark
                     Souls. Además de su diseño, el reproductor cuenta con una
                     selección de soundtracks oficiales de varios juegos de la
@@ -119,10 +119,11 @@ export default function Projects() {
                 </div>
                 <div className="mt-4">
                   <p className="text-xl font-semibold">Papa's Burgeria</p>
-                  <p className="text-sm max-h-24 h-24 font-normal text-gray-500">
-                    Landing page para restaurante, funciones con JavaScript,
-                    estilos y animaciones con CSS y JS, maquetado con HTML y
-                    diseño responsive.
+                  <p className="text-sm md:text-lg max-h-24 h-24 font-normal text-gray-500">
+                    Diseño y desarrollo de una landing page para un restaurante,
+                    empleando JavaScript para la funcionalidad, CSS para
+                    estilos, y animaciones tanto con CSS como JavaScript, diseño
+                    responsive.
                   </p>
                   <div className="mt-5">
                     <i class="fa-brands fa-html5 fa-xl fa-pull-left"></i>
@@ -198,9 +199,8 @@ export default function Projects() {
                   <p className="text-xl font-semibold">Portafolio Personal</p>
                   <p className="text-sm max-h-24 h-24 font-normal text-gray-500">
                     Manejo de rutas dinamicas, manejo de componentes, consumo de
-                    APIS, estilos con Tailwind, manejo de errores http, SEO
-                    basico, animaciones con librerias externas y diseño
-                    responsive.
+                    APIS, estilos con Tailwind, manejo de errores http, SEO,
+                    animaciones con librerias externas y diseño responsive.
                   </p>
                   <div className="mt-6">
                     <i class="fa-brands fa-react fa-xl fa-pull-left"></i>
@@ -243,7 +243,7 @@ export default function Projects() {
                 </div>
                 <div className="mt-4">
                   <p className="text-xl font-semibold">Spotify Widget</p>
-                  <p className="text-sm max-h-24 h-24 overflow-auto font-normal text-gray-500">
+                  <p className="text-sm sm:text-lg max-h-24 h-24 overflow-auto font-normal text-gray-500">
                     Proyecto basado en código Open Source, widget SVG para
                     consumir la API de Spotify y mostrar datos del usuario
                     dinámicamante.
