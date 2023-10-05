@@ -51,7 +51,7 @@ export default function Home() {
       />
       <div className="sm:h-[40rem] h-[36em] flex flex-col justify-center items-center mb-20 animate-fade-up animate-once animate-fade-up animate-duration-400 animate-delay-200">
         <h1 className="mx-auto max-w-5xl font-display text-4xl font-extrabold font-secundary tracking-tighter sm:text-7xl text-black dark:text-white text-center">
-          Eddy {" "}
+          Eddy{" "}
           <span className="relative whitespace-nowrap text-nombre-eddy">
             <svg
               aria-hidden="true"
@@ -346,8 +346,8 @@ export default function Home() {
             <span className="relative text-nombre-eddy">habilidades</span>
           </span>
         </h1>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-12">
-          <div className="group flex justify-between items-center relative bg-gray-600/5 dark:shadow-2xl overflow-hidden border border-gray-500/25 hover:border-primary hover:shadow-xl rounded-lg overflow-hidden p-2.5 transition-all duration-200">
+        <div className="grid grid-cols-4 sm:grid-cols-6 lg:grid-cols-12 gap-4 mt-12">
+          <div className="group flex items-center relative bg-gray-600/5 dark:shadow-2xl overflow-hidden border border-gray-500/25 hover:border-primary hover:shadow-xl rounded-lg overflow-hidden p-2.5 transition-all duration-200 place-content-center">
             <img
               src="https://cdn.worldvectorlogo.com/logos/mongodb-icon-1.svg"
               alt="Logo de mongo DB"
@@ -355,44 +355,36 @@ export default function Home() {
               height="32"
               className="bg-white/5 p-1 w-[32px] h-[32px] rounded-md "
             />
-            <div className="relative">
+            {/* <div className="relative">
               <h2 className="font-display text-xl font-medium text-black dark:text-white">
                 MongoDB
               </h2>
-            </div>
+            </div> */}
           </div>
 
-          <div className="group flex justify-between items-center relative bg-gray-600/5 dark:shadow-2xl overflow-hidden border border-gray-500/25 hover:border-primary hover:shadow-xl rounded-lg overflow-hidden p-2.5 transition-all duration-200">
+          <div className="group flex items-center relative bg-gray-600/5 dark:shadow-2xl overflow-hidden border border-gray-500/25 hover:border-primary hover:shadow-xl rounded-lg overflow-hidden p-2.5 transition-all duration-200 place-content-center">
             <img
               src="https://static.figma.com/app/icon/1/icon-192.png"
               alt="Logo de Figma"
+              title="Figma"
               width="32"
               height="32"
               className="bg-white/5 p-1 w-[32px] h-[32px] rounded-md "
             />
-            <div className="relative">
-              <h2 className="font-display text-xl font-medium text-black dark:text-white">
-                Figma
-              </h2>
-            </div>
           </div>
 
-          <div className="group flex justify-between items-center relative bg-gray-600/5 dark:shadow-2xl overflow-hidden border border-gray-500/25 hover:border-primary hover:shadow-xl rounded-lg overflow-hidden p-2.5 transition-all duration-200">
+          <div className="group flex items-center relative bg-gray-600/5 dark:shadow-2xl overflow-hidden border border-gray-500/25 hover:border-primary hover:shadow-xl rounded-lg overflow-hidden p-2.5 transition-all duration-200 place-content-center">
             <img
               src="https://cdn.worldvectorlogo.com/logos/arduino-logo.svg"
               alt="Logo de Arduino"
+              title="Arduino"
               width="32"
               height="32"
               className="bg-white/5 p-1 w-[32px] h-[32px] rounded-md "
             />
-            <div className="relative">
-              <h2 className="font-display text-xl font-medium text-black dark:text-white">
-                Arduino
-              </h2>
-            </div>
           </div>
 
-          <div className="group flex justify-between items-center relative bg-gray-600/5 dark:shadow-2xl overflow-hidden border border-gray-500/25 hover:border-primary hover:shadow-xl rounded-lg overflow-hidden p-2.5 transition-all duration-200">
+          <div className="group flex items-center relative bg-gray-600/5 dark:shadow-2xl overflow-hidden border border-gray-500/25 hover:border-primary hover:shadow-xl rounded-lg overflow-hidden p-2.5 transition-all duration-200 place-content-center">
             <img
               src="https://cdn.worldvectorlogo.com/logos/logo-javascript.svg"
               alt="Logo de JavaScript"
@@ -400,14 +392,9 @@ export default function Home() {
               height="32"
               className="bg-white/5 p-1 w-[32px] h-[32px] rounded-md "
             />
-            <div className="relative">
-              <h2 className="font-display text-xl font-medium text-black dark:text-white">
-                JavaScript
-              </h2>
-            </div>
           </div>
 
-          <div className="group flex justify-between items-center relative bg-gray-600/5 dark:shadow-2xl overflow-hidden border border-gray-500/25 hover:border-primary hover:shadow-xl rounded-lg overflow-hidden p-2.5 transition-all duration-200">
+          <div className="group flex items-center relative bg-gray-600/5 dark:shadow-2xl overflow-hidden border border-gray-500/25 hover:border-primary hover:shadow-xl rounded-lg overflow-hidden p-2.5 transition-all duration-200 place-content-center">
             <img
               src="https://cdn.worldvectorlogo.com/logos/html-1.svg"
               alt="Logo de HTML5"
@@ -415,14 +402,9 @@ export default function Home() {
               height="32"
               className="bg-white/5 p-1 w-[32px] h-[32px] rounded-md "
             />
-            <div className="relative">
-              <h2 className="font-display text-xl font-medium text-black dark:text-white">
-                HTML
-              </h2>
-            </div>
           </div>
 
-          <div className="group flex justify-between items-center relative bg-gray-600/5 dark:shadow-2xl overflow-hidden border border-gray-500/25 hover:border-primary hover:shadow-xl rounded-lg overflow-hidden p-2.5 transition-all duration-200">
+          <div className="group flex items-center relative bg-gray-600/5 dark:shadow-2xl overflow-hidden border border-gray-500/25 hover:border-primary hover:shadow-xl rounded-lg overflow-hidden p-2.5 transition-all duration-200 place-content-center">
             <img
               src="https://cdn.worldvectorlogo.com/logos/tailwind-css-2.svg"
               alt="Logo de Tailwind"
@@ -430,14 +412,9 @@ export default function Home() {
               height="32"
               className="bg-white/5 p-1 w-[32px] h-[32px] rounded-md "
             />
-            <div className="relative">
-              <h2 className="font-display text-xl font-medium text-black dark:text-white">
-                Tailwind CSS
-              </h2>
-            </div>
           </div>
 
-          <div className="group flex justify-between items-center relative bg-gray-600/5 dark:shadow-2xl overflow-hidden border border-gray-500/25 hover:border-primary hover:shadow-xl rounded-lg overflow-hidden p-2.5 transition-all duration-200">
+          <div className="group flex items-center relative bg-gray-600/5 dark:shadow-2xl overflow-hidden border border-gray-500/25 hover:border-primary hover:shadow-xl rounded-lg overflow-hidden p-2.5 transition-all duration-200 place-content-center">
             <img
               src="https://cdn.worldvectorlogo.com/logos/css-3.svg"
               alt="Logo de CSS"
@@ -445,14 +422,9 @@ export default function Home() {
               height="32"
               className="bg-white/5 p-1 w-[32px] h-[32px] rounded-md "
             />
-            <div className="relative">
-              <h2 className="font-display text-xl font-medium text-black dark:text-white">
-                CSS
-              </h2>
-            </div>
           </div>
 
-          <div className="group flex justify-between items-center relative bg-gray-600/5 dark:shadow-2xl overflow-hidden border border-gray-500/25 hover:border-primary hover:shadow-xl rounded-lg overflow-hidden p-2.5 transition-all duration-200">
+          <div className="group flex items-center relative bg-gray-600/5 dark:shadow-2xl overflow-hidden border border-gray-500/25 hover:border-primary hover:shadow-xl rounded-lg overflow-hidden p-2.5 transition-all duration-200 place-content-center">
             <img
               src="https://cdn.worldvectorlogo.com/logos/react-2.svg"
               alt="Logo de React"
@@ -460,14 +432,9 @@ export default function Home() {
               height="32"
               className="bg-white/5 p-1 w-[32px] h-[32px] rounded-md "
             />
-            <div className="relative">
-              <h2 className="font-display text-xl font-medium text-black dark:text-white">
-                React
-              </h2>
-            </div>
           </div>
 
-          <div className="group flex justify-between items-center relative bg-gray-600/5 dark:shadow-2xl overflow-hidden border border-gray-500/25 hover:border-primary hover:shadow-xl rounded-lg overflow-hidden p-2.5 transition-all duration-200">
+          <div className="group flex items-center relative bg-gray-600/5 dark:shadow-2xl overflow-hidden border border-gray-500/25 hover:border-primary hover:shadow-xl rounded-lg overflow-hidden p-2.5 transition-all duration-200 place-content-center">
             <img
               src="https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg"
               alt="Logo de Node.js"
@@ -475,29 +442,20 @@ export default function Home() {
               height="32"
               className="bg-white/5 p-1 w-[32px] h-[32px] rounded-md "
             />
-            <div className="relative">
-              <h2 className="font-display text-xl font-medium text-black dark:text-white">
-                Node
-              </h2>
-            </div>
           </div>
 
-          <div className="group flex justify-between items-center relative bg-gray-600/5 dark:shadow-2xl overflow-hidden border border-gray-500/25 hover:border-primary hover:shadow-xl rounded-lg overflow-hidden p-2.5 transition-all duration-200">
+          <div className="group flex items-center relative bg-gray-600/5 dark:shadow-2xl overflow-hidden border border-gray-500/25 hover:border-primary hover:shadow-xl rounded-lg overflow-hidden p-2.5 transition-all duration-200 place-content-center">
             <img
               src="https://cdn.worldvectorlogo.com/logos/mysql-6.svg"
+              title="SQL"
               alt="Logo de MySQL"
               width="32"
               height="32"
               className="bg-white/5 p-1 w-[32px] h-[32px] rounded-md "
             />
-            <div className="relative">
-              <h2 className="font-display text-xl font-medium text-black dark:text-white">
-                MySQL
-              </h2>
-            </div>
           </div>
 
-          <div className="group flex justify-between items-center relative bg-gray-600/5 dark:shadow-2xl overflow-hidden border border-gray-500/25 hover:border-primary hover:shadow-xl rounded-lg overflow-hidden p-2.5 transition-all duration-200">
+          <div className="group flex items-center relative bg-gray-600/5 dark:shadow-2xl overflow-hidden border border-gray-500/25 hover:border-primary hover:shadow-xl rounded-lg overflow-hidden p-2.5 transition-all duration-200 place-content-center">
             <img
               src="https://cdn.worldvectorlogo.com/logos/adobe-photoshop-2.svg"
               alt="Logo de Photoshop"
@@ -505,26 +463,17 @@ export default function Home() {
               height="32"
               className="bg-white/5 p-1 w-[32px] h-[32px] rounded-md "
             />
-            <div className="relative">
-              <h2 className="font-display text-xl font-medium text-black dark:text-white">
-                Photoshop
-              </h2>
-            </div>
           </div>
 
-          <div className="group flex justify-between items-center relative bg-gray-600/5 dark:shadow-2xl overflow-hidden border border-gray-500/25 hover:border-primary hover:shadow-xl rounded-lg overflow-hidden p-2.5 transition-all duration-200">
+          <div className="group flex items-center relative bg-gray-600/5 dark:shadow-2xl overflow-hidden border border-gray-500/25 hover:border-primary hover:shadow-xl rounded-lg overflow-hidden p-2.5 transition-all duration-200 place-content-center">
             <img
               src="https://cdn.worldvectorlogo.com/logos/premiere-pro-cc.svg"
-              alt="Logo de Premiere"
+              alt="Logo de Premier"
+              title="Premiere"
               width="32"
               height="32"
               className="bg-white/5 p-1 w-[32px] h-[32px] rounded-md "
             />
-            <div className="relative">
-              <h2 className="font-display text-xl font-medium text-black dark:text-white">
-                Premiere
-              </h2>
-            </div>
           </div>
         </div>
       </div>
