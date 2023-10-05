@@ -375,6 +375,17 @@ export default function Home() {
 
           <div className="group flex items-center relative bg-gray-600/5 dark:shadow-2xl overflow-hidden border border-gray-500/25 hover:border-primary hover:shadow-xl rounded-lg overflow-hidden p-2.5 transition-all duration-200 place-content-center">
             <img
+              src="https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png"
+              alt="Logo de Bootstrap"
+              title="Bootstrap"
+              width="32"
+              height="32"
+              className="bg-white/5 p-1 w-[32px] h-[32px] rounded-md "
+            />
+          </div>
+
+          <div className="group flex items-center relative bg-gray-600/5 dark:shadow-2xl overflow-hidden border border-gray-500/25 hover:border-primary hover:shadow-xl rounded-lg overflow-hidden p-2.5 transition-all duration-200 place-content-center">
+            <img
               src="https://cdn.worldvectorlogo.com/logos/arduino-logo.svg"
               alt="Logo de Arduino"
               title="Arduino"
@@ -457,15 +468,16 @@ export default function Home() {
 
           <div className="group flex items-center relative bg-gray-600/5 dark:shadow-2xl overflow-hidden border border-gray-500/25 hover:border-primary hover:shadow-xl rounded-lg overflow-hidden p-2.5 transition-all duration-200 place-content-center">
             <img
-              src="https://cdn.worldvectorlogo.com/logos/adobe-photoshop-2.svg"
-              alt="Logo de Photoshop"
+              src="https://cdn.worldvectorlogo.com/logos/laravel-2.svg"
+              title="Laravel"
               width="32"
               height="32"
               className="bg-white/5 p-1 w-[32px] h-[32px] rounded-md "
             />
           </div>
-
-          <div className="group flex items-center relative bg-gray-600/5 dark:shadow-2xl overflow-hidden border border-gray-500/25 hover:border-primary hover:shadow-xl rounded-lg overflow-hidden p-2.5 transition-all duration-200 place-content-center">
+        </div>
+        <section className="grid grid-cols-2 gap-2 mt-4">
+          <div className="group flex items-center relative bg-gray-600/5 dark:shadow-2xl overflow-hidden border border-gray-500/25 hover:border-primary hover:shadow-xl rounded-lg overflow-hidden p-2.5 transition-all duration-200 w-full place-content-center">
             <img
               src="https://cdn.worldvectorlogo.com/logos/premiere-pro-cc.svg"
               alt="Logo de Premier"
@@ -475,7 +487,17 @@ export default function Home() {
               className="bg-white/5 p-1 w-[32px] h-[32px] rounded-md "
             />
           </div>
-        </div>
+
+          <div className="group flex items-center relative bg-gray-600/5 dark:shadow-2xl overflow-hidden border border-gray-500/25 hover:border-primary hover:shadow-xl rounded-lg overflow-hidden p-2.5 transition-all duration-200 place-content-center">
+            <img
+              src="https://cdn.worldvectorlogo.com/logos/adobe-photoshop-2.svg"
+              alt="Logo de Photoshop"
+              width="32"
+              height="32"
+              className="bg-white/5 p-1 w-[32px] h-[32px] rounded-md "
+            />
+          </div>
+        </section>
       </div>
 
       {/* SECCION IDIOMAS */}
