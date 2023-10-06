@@ -153,7 +153,7 @@ export default function Navbar() {
                   plugins={[followCursor]}
                 >
                 <li className="">
-                  <Link href={`/desings`}>
+                  <Link href={`/designs`}>
                     <a
                       className="font-medium transition transition-duration-300 text-white/30 hover:text- focus:text-white focus:shadow-sm focus:shadow-white focus:shadow-sm focus:shadow-white"
                       href=""

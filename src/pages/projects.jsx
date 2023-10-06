@@ -62,7 +62,7 @@ export default function Projects() {
 
           {/* SECCION PROYECTOS */}
 
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 overflow-y-hidden mt-16">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 p-4 gap-8 overflow-y-hidden mt-16">
             {/* PROYECTO 1 */}
 
             <div className="flex flex-col w-full gap-4 mx auto">
@@ -70,7 +70,7 @@ export default function Projects() {
                 href="https://eddy-portafolio.vercel.app/bonfire"
                 target="_blank"
                 rel="noreferrer"
-                className="border border-zinc-600 cursor-pointer w-full bg-gray-500/5 p-4 rounded-lg transition-all duration-200 hover:bg-gray-500/10"
+                className="transition-all hover:scale-105 h-auto border border-zinc-600 cursor-pointer w-full bg-gray-500/5 p-4 rounded-lg transition-all duration-200 hover:bg-gray-500/10"
               >
                 <div className="h-30 w-full relative rounded-lg shadow-xl overflow-hidden object-cover object-center sm:object-contain">
                   <img
@@ -80,7 +80,7 @@ export default function Projects() {
                 </div>
                 <div className="mt-4">
                   <p className="text-xl font-semibold">The Bonfire</p>
-                  <p className="text-sm md:text-lg max-h-24 h-24 font-normal text-gray-500">
+                  <p className="text-sm max-h-24 h-24 font-normal text-gray-500">
                     Reproductor de música ambientado en el videojuego Dark
                     Souls. Además de su diseño, el reproductor cuenta con una
                     selección de soundtracks oficiales de varios juegos de la
@@ -109,7 +109,7 @@ export default function Projects() {
                 href="https://web-restaurante-enfasis.vercel.app"
                 target="_blank"
                 rel="noreferrer"
-                className="border border-zinc-600 cursor-pointer w-full bg-gray-500/5 p-4 rounded-lg transition-all duration-200 hover:bg-gray-500/10"
+                className="transition-all hover:scale-105 border border-zinc-600 cursor-pointer w-full bg-gray-500/5 p-4 rounded-lg transition-all duration-200 hover:bg-gray-500/10"
               >
                 <div className="h-30 w-full relative rounded-lg shadow-xl overflow-hidden object-cover object-center sm:object-contain">
                   <img
@@ -119,7 +119,7 @@ export default function Projects() {
                 </div>
                 <div className="mt-4">
                   <p className="text-xl font-semibold">Papa's Burgeria</p>
-                  <p className="text-sm md:text-lg max-h-24 h-24 font-normal text-gray-500">
+                  <p className="text-sm max-h-24 h-24 font-normal text-gray-500">
                     Diseño y desarrollo de una landing page para un restaurante,
                     empleando JavaScript para la funcionalidad, CSS para
                     estilos, y animaciones tanto con CSS como JavaScript, diseño
@@ -187,7 +187,7 @@ export default function Projects() {
               <a
                 href="javascript:void(0)"
                 rel="noreferrer"
-                className="border border-zinc-600 cursor-pointer w-full bg-gray-500/5 p-4 rounded-lg transition-all duration-200 hover:bg-gray-500/10"
+                className="border transition-all hover:scale-105 border-zinc-600 cursor-pointer w-full bg-gray-500/5 p-4 rounded-lg transition-all duration-200 hover:bg-gray-500/10"
               >
                 <div className="h-30 w-full relative rounded-lg shadow-xl overflow-hidden object-cover object-center sm:object-contain">
                   {/* <img
@@ -228,12 +228,13 @@ export default function Projects() {
                   </div>
                 </div>
               </a>
-
-              <a
+            </div>
+            <div className="flex flex-col w-full">
+            <a
                 href="https://spotify-dynamic-readme.vercel.app"
                 target="_blank"
                 rel="noreferrer"
-                className="border border-zinc-600 cursor-pointer w-full bg-gray-500/5 p-4 rounded-lg transition-all duration-200 hover:bg-gray-500/10"
+                className="transition-all hover:scale-105 border border-zinc-600 cursor-pointer w-full bg-gray-500/5 p-4 rounded-lg transition-all duration-200 hover:bg-gray-500/10"
               >
                 <div className="h-30 w-full relative rounded-lg shadow-xl overflow-hidden object-cover object-center sm:object-contain">
                   <img
@@ -243,7 +244,7 @@ export default function Projects() {
                 </div>
                 <div className="mt-4">
                   <p className="text-xl font-semibold">Spotify Widget</p>
-                  <p className="text-sm sm:text-lg max-h-24 h-24 overflow-auto font-normal text-gray-500">
+                  <p className="text-sm md:text-lg h-24 md:h-52 overflow-auto font-normal text-gray-500">
                     Proyecto basado en código Open Source, widget SVG para
                     consumir la API de Spotify y mostrar datos del usuario
                     dinámicamante.
@@ -269,6 +270,7 @@ export default function Projects() {
                 </div>
               </a>
             </div>
+            
           </div>
         </div>
       </div>
