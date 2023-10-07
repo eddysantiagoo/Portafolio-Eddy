@@ -8,6 +8,7 @@ import eddyConfig from "../../eddy.config";
 import Button from "components/Global/Button";
 import Carousel from "react-multi-carousel";
 import { NextSeo } from "next-seo";
+import Link from "next/link";
 import { ReactMarkdown } from "react-markdown/lib/react-markdown";
 
 export default function About() {
@@ -59,10 +60,19 @@ export default function About() {
               />
             </h1>
             <p className="text-xl mt-4">
-              Actualmente resido en Colombia. En general, mi interés por la
-              tecnología se remonta a cuando era un niño. Recuerdo desde esos
-              momentos soñar con ser Youtuber y tambien con mucha curiosidad por
-              entender como funciona el inspeccionar elemento
+              Profesionalmente, actualmente resido en Colombia, desarrollador web enfocado en contruir sitios webs modernos,
+              accesibles y diseñados para ser intuitivos. <br /> <br />
+              <p>
+                Personalmente, soy un entusiasta del UX y UI, me gustan
+                los deportes, partidario del software de código abierto, un
+                lector más y un aficionado a los videojuegos. También tengo un
+                interés en las artes y a veces escribo algo en{" "}
+                <Link href={`/posts`}>
+                  <a className="text-[#f83b4c] hover:text-[#a12833] font-semibold underline">
+                    Mi Blog
+                  </a>
+                </Link>{" "}
+              </p>
               {/* <br />
               <br />
               En el año 2020, tuve la oportunidad de estudiar Desarrollo de

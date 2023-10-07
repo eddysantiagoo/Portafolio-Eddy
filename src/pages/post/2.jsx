@@ -153,8 +153,8 @@ function EjemploRuta() {
           <br />
           Por lo comentado antes, por su ciencia ficción, su narrativa, sus
           gráficos, por los avances tecnológicos que estamos presenciando y por
-          su jugabilidad que se puede adaptar para casi cualquier persona, les
-          recomiendo este bello videojuego.{" "}
+          su jugabilidad que se puede adaptar para casi cualquier persona, se los
+          recomiendo.{" "}
           <strong>(Abajo esta el trailer denle un vistazo)</strong>
           <iframe
             className="rounded-xl max-w-7xl mx-auto pt-3 w-full lg:px-0"
