@@ -52,6 +52,8 @@ export default function Home() {
       <div className="sm:h-[40rem] h-[36em] flex flex-col justify-center items-center mb-20 animate-fade-up animate-once animate-fade-up animate-duration-400 animate-delay-200">
         <h1 className="mx-auto max-w-5xl font-display text-4xl font-extrabold font-secundary tracking-tighter sm:text-7xl text-black dark:text-white text-center">
           Eddy{" "}
+        </h1>
+        <h1 className="mx-auto max-w-5xl font-display text-4xl font-extrabold font-secundary tracking-tighter sm:text-7xl text-black dark:text-white text-center">
           <span className="relative whitespace-nowrap text-nombre-eddy">
             <svg
               aria-hidden="true"
@@ -64,36 +66,51 @@ export default function Home() {
             Santiago
           </span>
         </h1>
+
         <p className="mx-auto max-w-5xl font-display font-medium md:font-bold text-2xl md:text-3xl text-gray-400/50 mt-2 text-center">
           Desarrollador de Software
         </p>
         {/* Seccion de los botones de tecnologias, repositorios etc... */}
-        <div className="md:hidden w-full bg-red lg:w-auto grid grid-cols-1 lg:grid-cols-4 gap-6 mt-6 text-center">
+        <div className="md:hidden w-full bg-red lg:w-auto grid grid-cols-2 lg:grid-cols-4 gap-2 mt-6 text-center">
           <Link href={`/about`}>
             <a href="">
-              <div className="rounded-md ring-gray-500/50 ring-1 hover:ring-0 hover:bg-[#27272a] px-8 py-3 text-center transition duration-200">
-                <span className="font-medium">Sobre mi</span>
+              <div className="rounded-md ring-gray-500/50  ring-1 hover:ring-0 hover:bg-[#27272a] px-8 py-3 text-center transition duration-200">
+                <span className="text-xl font-bold">Sobre mi</span>
               </div>
             </a>
           </Link>
+
           <Link href={`/projects`}>
             <a href="">
-              <div className="rounded-md ring-gray-500/50 ring-1 hover:ring-0 hover:bg-[#27272a]  py-3 text-center transition duration-200">
-                <span className="font-medium">Proyectos</span>
+              <div className="rounded-md ring-gray-500/50  ring-1 hover:ring-0 hover:bg-[#27272a]  py-3 text-center transition duration-200">
+                <span className="text-xl font-bold">Proyectos</span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                  aria-hidden="true"
+                  class="absolute right-4 top-7 w-6 text-text-light-100 dark:text-text-dark-1000"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M8.25 3.75H19.5a.75.75 0 01.75.75v11.25a.75.75 0 01-1.5 0V6.31L5.03 20.03a.75.75 0 01-1.06-1.06L17.69 5.25H8.25a.75.75 0 010-1.5z"
+                    clip-rule="evenodd"
+                  ></path>
+                </svg>
               </div>
             </a>
           </Link>
           <Link href={`/designs`}>
             <a href="">
-              <div className="rounded-md ring-gray-500/50 ring-1 hover:ring-0 hover:bg-[#27272a]  py-3 text-center transition duration-200">
-                <span className="font-medium">Diseños</span>
+              <div className="rounded-md ring-gray-500/50  ring-1 hover:ring-0 hover:bg-[#27272a]  py-3 text-center transition duration-200">
+                <span className="text-xl font-bold">Diseños</span>
               </div>
             </a>
           </Link>
           <Link href={`/posts`}>
             <a href="">
-              <div className="rounded-md ring-gray-500/50 ring-1 hover:ring-0 hover:bg-[#27272a] py-3 text-center transition duration-200">
-                <span className="font-medium">Mi blog</span>
+              <div className="rounded-md ring-gray-500/50  ring-1 hover:ring-0 hover:bg-[#27272a] py-3 text-center transition duration-200">
+                <span className="text-xl font-bold">Mi blog</span>
               </div>
             </a>
           </Link>
