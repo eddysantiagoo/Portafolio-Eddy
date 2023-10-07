@@ -185,7 +185,7 @@ export default function About() {
         <p class="text-base font-normal text-gray-500 dark:text-gray-400">All of the pages and components are first designed in Figma and we keep a parity between the two versions even as we update the project.</p>
     </li> */}
             <li class="mt-6 mb-10 ml-6">
-              <span class="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-white dark:ring-stone-100 dark:bg-stone-300">
+              <span class="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-4 ring-white dark:ring-stone-100 dark:bg-stone-300">
                 <svg
                   class="w-2.5 h-2.5 text-blue-800 dark:text-black"
                   aria-hidden="true"
@@ -263,6 +263,7 @@ export default function About() {
             </li>
           </ol>
         </div>
+        <span className="hero_Glow__wiAEk-about"></span>
       </div>
     </>
   );
