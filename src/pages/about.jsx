@@ -60,13 +60,14 @@ export default function About() {
               />
             </h1>
             <p className="text-xl mt-4">
-              Profesionalmente, actualmente resido en Colombia, desarrollador web enfocado en contruir sitios webs modernos,
-              accesibles y diseñados para ser intuitivos. <br /> <br />
+              Profesionalmente, actualmente resido en Colombia, desarrollador
+              web enfocado en contruir sitios webs modernos, accesibles y
+              diseñados para ser intuitivos. <br /> <br />
               <p>
-                Personalmente, soy un entusiasta del UX y UI, me gustan
-                los deportes, partidario del software de código abierto, un
-                lector más y un aficionado a los videojuegos. También tengo un
-                interés en las artes y a veces escribo algo en{" "}
+                Personalmente, soy un entusiasta del UX y UI, me gustan los
+                deportes, partidario del software de código abierto, me gusta
+                jugar videojuegos y leer. También tengo un interés en las artes y a veces
+                escribo algo en{" "}
                 <Link href={`/posts`}>
                   <a className="text-[#f83b4c] hover:text-[#a12833] font-semibold underline">
                     Mi Blog
