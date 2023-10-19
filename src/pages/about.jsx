@@ -222,7 +222,7 @@ export default function About() {
               </h3>
               <div className="grid md:flex items-center">
                 <time class="bg-[#313131] w-fit py-2 px-3 rounded-md text-sm font-normal leading-none text-gray-400 dark:text-white">
-                  Deste Julio del 2023 (4 Meses)
+                  Desde Julio del 2023 (4 Meses)
                 </time>
                 <span className="ml-2 text-sm">Medellín, Colombia (Hibrido)</span>
               </div>

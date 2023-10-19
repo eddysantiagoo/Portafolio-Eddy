@@ -135,9 +135,9 @@ export default function Projects() {
                     class="flex w-full justify-center items-center gap-3 text-center btn-princ-white p-2 rounded-lg relative rounded-lg group font-medium text-black font-medium inline-block"
                   >
                     <span class="relative font-semibold text-center">
-                      Visitar sitio text3
+                      Visitar sitio
                     </span>
-                    
+                    <i class="fa-solid fa-link" />
                   </a>
                 </div>
                 {/* 
