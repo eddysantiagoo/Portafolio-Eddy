@@ -65,9 +65,8 @@ export default function About() {
               diseñados para ser intuitivos. <br /> <br />
               <p>
                 Personalmente, soy un entusiasta del UX y UI, me gustan los
-                deportes, partidario del software de código abierto, me gusta
-                jugar videojuegos y leer. También tengo un interés en las artes y a veces
-                escribo algo en{" "}
+                deportes, el open source, me gusta jugar videojuegos y leer.
+                También tengo un interés en las artes y a veces escribo algo en{" "}
                 <Link href={`/posts`}>
                   <a className="text-[#f83b4c] hover:text-[#a12833] font-semibold underline">
                     Mi Blog
@@ -207,27 +206,33 @@ export default function About() {
                   <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z" />
                 </svg>
               </span>
-              <h3 class="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">
+              <h3 class="inline-block md:flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">
                 Desarrollador Frontend y Diseñador UI UX
+                <span className="mx-2">&#x2219;</span>
+                <a
+                  className="mr-2 font-bold underline underline-offset-2 hover:text-[#63ebbb]"
+                  href="https://principal.gestoru.com/"
+                  target="_blank"
+                >
+                  GestorU
+                </a>
                 <span class="bg-blue-100 text-blue-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-white dark:text-black border-2 ml-3">
                   Actual
                 </span>
               </h3>
-              <time class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-                <span className="font-bold underline underline-offset-1 hover:text-white">
-                  <a href="https://principal.gestoru.com/" target="_blank">
-                    GestorU,
-                  </a>
-                </span>{" "}
-                Deste Julio del 2023 (4 Meses)
-              </time>
+              <div className="grid md:flex items-center">
+                <time class="bg-[#313131] w-fit py-2 px-3 rounded-md text-sm font-normal leading-none text-gray-400 dark:text-white">
+                  Deste Julio del 2023 (4 Meses)
+                </time>
+                <span className="ml-2 text-sm">Medellín, Colombia (Hibrido)</span>
+              </div>
               <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
                 {/* Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
                 alias velit nostrum. Maxime debitis numquam reiciendis aperiam,
                 excepturi a, sapiente, quidem earum incidunt eaque possimus
                 nostrum accusamus rem architecto nemo? */}
               </p>
-              <div className="flex flex-wrap gap-4 md:gap-0">
+              <div className="flex flex-wrap gap-[6px] justify-left">
                 <span class="bg-blue-100 text-blue-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-black dark:text-white border-2 border-stone-400">
                   Laravel
                 </span>

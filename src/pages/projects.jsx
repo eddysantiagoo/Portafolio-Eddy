@@ -62,7 +62,7 @@ export default function Projects() {
 
           {/* SECCION PROYECTOS */}
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 p-4 gap-8 overflow-y-hidden mt-16">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 p-0 md:p-4 gap-8 overflow-y-hidden mt-16">
             {/* PROYECTO 1 */}
 
             <div className="flex flex-col w-full gap-4 mx auto">
@@ -112,10 +112,7 @@ export default function Projects() {
                 className="transition-all hover:scale-105 border border-zinc-600 cursor-pointer w-full bg-gray-500/5 p-4 rounded-lg transition-all duration-200 hover:bg-gray-500/10"
               >
                 <div className="h-30 w-full relative rounded-lg shadow-xl overflow-hidden object-cover object-center sm:object-contain">
-                  <img
-                    src="images/Proyecto-PapasBurgeria.jpg"
-                    alt="Imagen proyecto Papas Burgeria"
-                  />
+
                 </div>
                 <div className="mt-4">
                   <p className="text-xl font-semibold">Papa's Burgeria</p>
@@ -156,7 +153,7 @@ export default function Projects() {
               <a
                 href="javascript:void(0)"
                 rel="noreferrer"
-                className="border border-zinc-600 cursor-pointer w-full bg-gray-500/5 p-4 rounded-lg transition-all duration-200 hover:bg-gray-500/10"
+                className="border hidden md:block border-zinc-600 cursor-pointer w-full bg-gray-500/5 p-4 rounded-lg transition-all duration-200 hover:bg-gray-500/10"
               >
                 <div className="h-30 w-full relative rounded-lg shadow-xl overflow-hidden object-cover object-center sm:object-contain">
                   {/* <img
@@ -230,7 +227,7 @@ export default function Projects() {
               </a>
             </div>
             <div className="flex flex-col w-full">
-            <a
+              <a
                 href="https://spotify-dynamic-readme.vercel.app"
                 target="_blank"
                 rel="noreferrer"
