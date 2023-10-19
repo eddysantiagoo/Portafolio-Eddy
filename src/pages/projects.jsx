@@ -111,7 +111,9 @@ export default function Projects() {
                 rel="noreferrer"
                 className="transition-all hover:scale-100 md:hover:scale-105 border border-zinc-600 cursor-pointer w-full bg-gray-500/5 p-4 rounded-lg transition-all duration-200 hover:bg-gray-500/10"
               >
-                <div className="h-30 w-full  relative rounded-lg shadow-xl overflow-hidden object-cover object-center sm:object-contain"></div>
+                <div className="h-30 w-full  relative rounded-lg shadow-xl overflow-hidden object-cover object-center sm:object-contain">
+
+                </div>
                 <div className="mt-4">
                   <p className="text-xl font-semibold">Papa's Burgeria</p>
                   <p className="text-sm max-h-24 h-24 font-normal text-gray-500">
@@ -132,7 +134,9 @@ export default function Projects() {
                     target="_blank"
                     class="flex w-full justify-center items-center gap-3 text-center btn-princ-white p-2 rounded-lg relative rounded-lg group font-medium text-black font-medium inline-block"
                   >
-                    Visitar sitio fix
+                    <span class="relative font-semibold text-center">
+                      Visitar sitio fix2
+                    </span>
                     <i class="fa-solid fa-link" />
                   </a>
                 </div>
