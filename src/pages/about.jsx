@@ -54,7 +54,7 @@ export default function About() {
                 </span>
               </span>
               <img
-                src="https://media.licdn.com/dms/image/C4D03AQHjfcoCEEJjBA/profile-displayphoto-shrink_800_800/0/1648781520004?e=2147483647&v=beta&t=_6pd5ybebM6yUx5sAfAXqb-RLqncTwmTxXCCf3xC2yE"
+                src="/images/icono-200.webp"
                 alt="Imagen de Eddy Santiago"
                 className="shadow-lg relative z-1 h-12 md:h-24 rounded-full transition duration-150 hover:scale-125 ring-0 ring-gray-500/50 hover:ring-1 "
               />
@@ -194,19 +194,15 @@ export default function About() {
         <time class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Released on December 7th, 2021</time>
         <p class="text-base font-normal text-gray-500 dark:text-gray-400">All of the pages and components are first designed in Figma and we keep a parity between the two versions even as we update the project.</p>
     </li> */}
-            <li class="mt-6 mb-10 ml-6">
-              <span class="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-4 ring-white dark:ring-stone-100 dark:bg-stone-300">
-                <svg
-                  class="w-2.5 h-2.5 text-blue-800 dark:text-black"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="currentColor"
-                  viewBox="0 0 20 20"
-                >
-                  <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z" />
-                </svg>
+            <li class="mt-6 mb-10 ml-6 ">
+              <span class="absolute flex items-center justify-center w-6 h-6 bg-[#000924] p-1 rounded-full -left-3 ring-2 ring-white dark:ring-stone-100">
+                <img
+                  src="https://principal.gestoru.com/wp-content/uploads/2022/05/Gestoru-Favicon.png"
+                  alt=""
+                  srcset=""
+                />
               </span>
-              <h3 class="inline-block md:flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">
+              <h3 class="inline-block md:flex items-center mb-1 text-md lg:text-lg font-semibold text-gray-900 dark:text-white">
                 Desarrollador Frontend y Diseñador UI UX
                 <span className="mx-2">&#x2219;</span>
                 <a
@@ -224,7 +220,9 @@ export default function About() {
                 <time class="bg-[#313131] w-fit py-2 px-3 rounded-md text-sm font-normal leading-none text-gray-400 dark:text-white">
                   Desde Julio del 2023 (4 Meses)
                 </time>
-                <span className="ml-2 text-sm">Medellín, Colombia (Hibrido)</span>
+                <span className="ml-2 text-sm">
+                  Medellín, Colombia (Hibrido)
+                </span>
               </div>
               <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
                 {/* Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
@@ -232,12 +230,9 @@ export default function About() {
                 excepturi a, sapiente, quidem earum incidunt eaque possimus
                 nostrum accusamus rem architecto nemo? */}
               </p>
-              <div className="flex flex-wrap gap-[6px] justify-left">
+              <div className="flex flex-wrap gap-y-3 justify-left">
                 <span class="bg-blue-100 text-blue-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-black dark:text-white border-2 border-stone-400">
                   Laravel
-                </span>
-                <span class="bg-blue-100 text-blue-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-black dark:text-white border-2 border-stone-400">
-                  PHP
                 </span>
                 <span class="bg-blue-100 text-blue-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-black dark:text-white border-2 border-stone-400">
                   Figma
@@ -247,6 +242,9 @@ export default function About() {
                 </span>
                 <span class="bg-blue-100 text-blue-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-black dark:text-white border-2 border-stone-400">
                   CSS
+                </span>
+                <span class="bg-blue-100 text-blue-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-black dark:text-white border-2 border-stone-400">
+                  PHP
                 </span>
                 <span class="bg-blue-100 text-blue-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-black dark:text-white border-2 border-stone-400">
                   JavaScript
