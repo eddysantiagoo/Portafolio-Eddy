@@ -62,10 +62,10 @@ export default function Projects() {
 
           {/* SECCION PROYECTOS */}
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 p-0 md:p-4 gap-8 overflow-y-hidden mt-16">
+          <div className="grid grid-cols-1 lg:grid-cols-2 p-0 md:p-4 gap-8 overflow-y-hidden mt-16">
             {/* PROYECTO 1 */}
 
-            <div className="flex flex-col w-full gap-4 mx auto">
+            <div className="grid grid-cols-1 gap-y-4 place-content-baseline">
               <a
                 href="https://eddy-portafolio.vercel.app/bonfire"
                 target="_blank"
@@ -111,9 +111,7 @@ export default function Projects() {
                 rel="noreferrer"
                 className="transition-all hover:scale-100 md:hover:scale-105 border border-zinc-600 cursor-pointer w-full bg-gray-500/5 p-4 rounded-lg transition-all duration-200 hover:bg-gray-500/10"
               >
-                <div className="h-30 w-full  relative rounded-lg shadow-xl overflow-hidden object-cover object-center sm:object-contain">
-
-                </div>
+                <div className="h-30 w-full  relative rounded-lg shadow-xl overflow-hidden object-cover object-center sm:object-contain"></div>
                 <div className="mt-4">
                   <p className="text-xl font-semibold">Papa's Burgeria</p>
                   <p className="text-sm max-h-24 h-24 font-normal text-gray-500">
@@ -148,14 +146,13 @@ export default function Projects() {
               </a>
             </div>
 
-            {/* PROYECTO 2 */}
-            <div className="flex flex-col w-full gap-8 mx-auto">
+            <div className="grid grid-cols-1 gap-y-4 place-content-baseline">
               <a
-                href="javascript:void(0)"
+                href="https://multi-traductor.vercel.app/"
                 rel="noreferrer"
-                className="border hidden md:block border-zinc-600 cursor-pointer w-full bg-gray-500/5 p-4 rounded-lg transition-all duration-200 hover:bg-gray-500/10"
+                className="border h-fit border-zinc-600 cursor-pointer w-full bg-gray-500/5 p-4 rounded-lg transition-all duration-200 hover:bg-gray-500/10"
               >
-                <div className="h-30 w-full relative rounded-lg shadow-xl overflow-hidden object-cover object-center sm:object-contain">
+                <div className="h-auto w-full relative rounded-lg shadow-xl overflow-hidden object-cover object-center sm:object-contain">
                   {/* <img
                     src="images/Proyecto-PortafolioPersonal.jpg"
                     alt="Imagen proyecto portafolio personal"
@@ -171,12 +168,14 @@ export default function Projects() {
                   </p>
                   <div className="flex items-center mt-14">
                     <a
+                      href="https://multi-traductor.vercel.app/"
                       target="_blank"
-                      class="flex w-full justify-center items-center gap-3 text-center text-white border border-gray-500  p-2 rounded-lg relative rounded-lg group font-medium text-black font-medium inline-block"
+                      class="flex w-full justify-center items-center gap-3 text-center bg-gradient-to-r from-[#ff8a05] to-[#ff00c6]  p-2 rounded-lg relative rounded-lg group font-medium hover:from-[#ff00c6] transition duration-300 font-medium inline-block"
                     >
                       <span class="relative font-semibold text-center">
-                        Proximamente
+                        En Alpha
                       </span>
+                      <i class="fa-solid fa-lock-open"></i>
                     </a>
                   </div>
                 </div>
@@ -184,7 +183,7 @@ export default function Projects() {
               <a
                 href="javascript:void(0)"
                 rel="noreferrer"
-                className="border transition-all hover:scale-100 md:hover:scale-105 border-zinc-600 cursor-pointer w-full bg-gray-500/5 p-4 rounded-lg transition-all duration-200 hover:bg-gray-500/10"
+                className="border transition-all  hover:scale-100 md:hover:scale-105 border-zinc-600 cursor-pointer w-full h-fit bg-gray-500/5 p-4 rounded-lg transition-all duration-200 hover:bg-gray-500/10"
               >
                 <div className="h-30 w-full relative rounded-lg shadow-xl overflow-hidden object-cover object-center sm:object-contain">
                   {/* <img
@@ -216,7 +215,7 @@ export default function Projects() {
                   <div className="flex items-center mt-14">
                     <a
                       target="_blank"
-                      class="flex w-full justify-center items-center gap-3 opacity-50 text-center text-slate-200 border p-2 rounded-lg relative rounded-lg group font-medium text-black font-medium inline-block"
+                      class="flex w-full justify-center items-center cursor-not-allowed gap-3 opacity-50 text-center text-slate-200 border p-2 rounded-lg relative rounded-lg group font-medium text-black font-medium inline-block"
                     >
                       <span class="relative font-semibold text-center">
                         Ya estas aquí
@@ -225,13 +224,11 @@ export default function Projects() {
                   </div>
                 </div>
               </a>
-            </div>
-            <div className="flex flex-col w-full">
               <a
                 href="https://spotify-dynamic-readme.vercel.app"
                 target="_blank"
                 rel="noreferrer"
-                className="transition-all hover:scale-100 md:hover:scale-105 border border-zinc-600 cursor-pointer w-full bg-gray-500/5 p-4 rounded-lg transition-all duration-200 hover:bg-gray-500/10"
+                className="transition-all hover:scale-100 md:hover:scale-105 border border-zinc-600 cursor-pointer w-full h-fit bg-gray-500/5 p-4 rounded-lg transition-all duration-200 hover:bg-gray-500/10"
               >
                 <div className="h-30 w-full relative rounded-lg shadow-xl overflow-hidden object-cover object-center sm:object-contain">
                   <img
@@ -241,7 +238,7 @@ export default function Projects() {
                 </div>
                 <div className="mt-4">
                   <p className="text-xl font-semibold">Spotify Widget</p>
-                  <p className="text-sm md:text-lg h-24 md:h-52 overflow-auto font-normal text-gray-500">
+                  <p className="text-sm max-h-24 h-24 font-normal text-gray-500 overflow-auto font-normal text-gray-500">
                     Proyecto basado en código Open Source, widget SVG para
                     consumir la API de Spotify y mostrar datos del usuario
                     dinámicamante.
