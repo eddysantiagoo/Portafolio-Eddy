@@ -4,6 +4,7 @@ import Head from "next/head";
 import Image from "next/image";
 import { Transition, Dialog } from "@headlessui/react";
 import { Fragment } from "react";
+import { useState, useEffect } from "react";
 import eddyConfig from "../../eddy.config";
 import Button from "components/Global/Button";
 import Carousel from "react-multi-carousel";
@@ -13,6 +14,20 @@ import { ReactMarkdown } from "react-markdown/lib/react-markdown";
 
 export default function About() {
   const { page } = usePage();
+
+  const [diferenciaMeses, setdiferenciaMeses] = useState(0);
+
+  useEffect(() => {
+    let specificDate = new Date("2023-06-26");
+    let today = new Date();
+    let years = specificDate.getFullYear() - today.getFullYear();
+    let months = years * 12 + specificDate.getMonth() - today.getMonth();
+    months -= specificDate.getDate() < today.getDate() ? 1 : 0;
+
+    setdiferenciaMeses(Math.abs(months));
+  }, []);
+
+
 
   return (
     <>
@@ -42,6 +57,7 @@ export default function About() {
           ],
         }}
       />
+      
 
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-col lg:flex-row justify-between w-full h-full py-14 gap-24 pb-2">
@@ -176,6 +192,8 @@ export default function About() {
           </div>
         </div>
 
+        {/* SECCION EXPERIENCIA */}
+
         <div>
           <h1 className="mt-1 text-4xl font-bold font-secundary mb-4">
             {"Experiencia"}
@@ -183,7 +201,7 @@ export default function About() {
               {/* VACIO */}
             </span>
           </h1>
-          <ol class="relative border-l border-gray-200 dark:border-gray-700">
+          <ol class="relative border-l border-gray-200 dark:border-[#464B50]">
             {/* <li class="mb-10 ml-6">
         <span class="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
             <svg class="w-2.5 h-2.5 text-blue-800 dark:text-blue-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
@@ -194,8 +212,8 @@ export default function About() {
         <time class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Released on December 7th, 2021</time>
         <p class="text-base font-normal text-gray-500 dark:text-gray-400">All of the pages and components are first designed in Figma and we keep a parity between the two versions even as we update the project.</p>
     </li> */}
-            <li class="mt-6 mb-10 ml-6 ">
-              <span class="absolute flex items-center justify-center w-6 h-6 bg-[#000924] p-1 rounded-full -left-3 ring-2 ring-white dark:ring-stone-100">
+            <li class="mt-6 mb-10 ml-8 ">
+              <span class="absolute flex items-center justify-center w-8 h-8 bg-[#313131] p-[6px] rounded-md -left-4">
                 <img
                   src="https://principal.gestoru.com/wp-content/uploads/2022/05/Gestoru-Favicon.png"
                   alt=""
@@ -204,7 +222,7 @@ export default function About() {
               </span>
               <h3 class="inline-block md:flex items-center mb-1 text-md lg:text-lg font-semibold text-gray-900 dark:text-white">
                 Desarrollador Frontend y Diseñador UI UX
-                <span className="mx-2">&#x2219;</span>
+                <span className="mx-2">en</span>
                 <a
                   className="mr-2 font-bold underline underline-offset-2 hover:text-[#63ebbb]"
                   href="https://principal.gestoru.com/"
@@ -218,7 +236,7 @@ export default function About() {
               </h3>
               <div className="grid md:flex items-center">
                 <time class="bg-[#313131] w-fit py-2 px-3 rounded-md text-sm font-normal leading-none text-gray-400 dark:text-white">
-                  Desde Julio del 2023 (4 Meses)
+                  Desde Junio del 2023 ({diferenciaMeses} meses)
                 </time>
                 <span className="ml-2 text-sm">
                   Medellín, Colombia (Hibrido)
