@@ -70,7 +70,7 @@ export default function Projects() {
                 href="https://eddy-portafolio.vercel.app/bonfire"
                 target="_blank"
                 rel="noreferrer"
-                className="transition-all hover:scale-100 md:hover:scale-105 h-auto border border-zinc-600 cursor-pointer w-full bg-gray-500/5 p-4 rounded-lg transition-all duration-200 hover:bg-gray-500/10"
+                className="transition-all  h-auto border border-zinc-600 cursor-pointer w-full bg-gray-500/5 p-4 rounded-lg transition-all duration-200 hover:bg-gray-500/10"
               >
                 <div className="h-30 w-full relative rounded-lg shadow-xl overflow-hidden object-cover object-center sm:object-contain">
                   <img
@@ -109,7 +109,7 @@ export default function Projects() {
                 href="https://web-restaurante-enfasis.vercel.app"
                 target="_blank"
                 rel="noreferrer"
-                className="transition-all hover:scale-100 md:hover:scale-105 border border-zinc-600 cursor-pointer w-full bg-gray-500/5 p-4 rounded-lg transition-all duration-200 hover:bg-gray-500/10"
+                className="transition-all hover:scale-100 md: border border-zinc-600 cursor-pointer w-full bg-gray-500/5 p-4 rounded-lg transition-all duration-200 hover:bg-gray-500/10"
               >
                 <div className="h-30 w-full  relative rounded-lg shadow-xl overflow-hidden object-cover object-center sm:object-contain"></div>
                 <div className="mt-4">
@@ -183,7 +183,7 @@ export default function Projects() {
               <a
                 href="javascript:void(0)"
                 rel="noreferrer"
-                className="border transition-all  hover:scale-100 md:hover:scale-105 border-zinc-600 cursor-pointer w-full h-fit bg-gray-500/5 p-4 rounded-lg transition-all duration-200 hover:bg-gray-500/10"
+                className="border transition-all  hover:scale-100 md: border-zinc-600 cursor-pointer w-full h-fit bg-gray-500/5 p-4 rounded-lg transition-all duration-200 hover:bg-gray-500/10"
               >
                 <div className="h-30 w-full relative rounded-lg shadow-xl overflow-hidden object-cover object-center sm:object-contain">
                   {/* <img
@@ -228,7 +228,7 @@ export default function Projects() {
                 href="https://spotify-dynamic-readme.vercel.app"
                 target="_blank"
                 rel="noreferrer"
-                className="transition-all hover:scale-100 md:hover:scale-105 border border-zinc-600 cursor-pointer w-full h-fit bg-gray-500/5 p-4 rounded-lg transition-all duration-200 hover:bg-gray-500/10"
+                className="transition-all hover:scale-100 md: border border-zinc-600 cursor-pointer w-full h-fit bg-gray-500/5 p-4 rounded-lg transition-all duration-200 hover:bg-gray-500/10"
               >
                 <div className="h-30 w-full relative rounded-lg shadow-xl overflow-hidden object-cover object-center sm:object-contain">
                   <img
