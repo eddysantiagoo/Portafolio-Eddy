@@ -235,9 +235,9 @@ export default function Home() {
       {/* SECCION TODAS LAS SKILLS */}
 
       <section className="wrapper grid place-content-center">
-        <div className="layour-grid-cont w-screen max-w-7xl px-6 lg:px-0">
-          <div className="grid">
-            <div className="grid grid-cols-4 lg:grid-cols-6 gap-4">
+        <div className="wrapper__index-grid w-screen max-w-7xl px-6 lg:px-0">
+          <article className="grid">
+            <div className="grid grid-cols-4 lg:grid-cols-6 gap-2">
               <div className="group flex items-center relative bg-gray-600/5 dark:shadow-2xl overflow-hidden border border-gray-500/25 hover:border-primary hover:shadow-xl rounded-lg overflow-hidden p-2.5 transition-all duration-200 place-content-center">
                 <img
                   src="https://cdn.worldvectorlogo.com/logos/mongodb-icon-1.svg"
@@ -378,7 +378,7 @@ export default function Home() {
                 />
               </div>
             </div>
-            <section className="grid grid-cols-2 gap-2 mt-4">
+            <section className="grid grid-cols-2 gap-2 mt-2">
               <div className="group flex items-center relative bg-gray-600/5 dark:shadow-2xl overflow-hidden border border-gray-500/25 hover:border-primary hover:shadow-xl rounded-lg overflow-hidden p-2.5 transition-all duration-200 w-full place-content-center">
                 <img
                   src="https://cdn.worldvectorlogo.com/logos/premiere-pro-cc.svg"
@@ -400,12 +400,11 @@ export default function Home() {
                 />
               </div>
             </section>
-          </div>
-
-          {/* SECCION IDIOMAS */}
-          <div className="grid">
+          </article>
+          
+          <article className="grid">
             <div className="grid grid-cols-1 gap-2">
-              <article className="flex justify-evenly rounded-2xl items-center p-6 bg-[#191919]">
+              <article className="flex justify-evenly rounded-2xl items-center p-6 bg-[#1a1616]">
                 <span className="text-xl font-bold">Inglés (B2)</span>
                 <img
                   src="https://images.emojiterra.com/twitter/512px/1f1ec-1f1e7.png"
@@ -414,7 +413,7 @@ export default function Home() {
                   srcset=""
                 />
               </article>
-              <article className="flex justify-evenly rounded-2xl items-center p-6 bg-[#191919]">
+              <article className="flex justify-evenly rounded-2xl items-center p-6 bg-[#1a1616]">
                 <span className="text-xl font-bold">Portugués (A1)</span>
                 <img
                   src="https://images.emojiterra.com/twitter/512px/1f1e7-1f1f7.png"
@@ -424,7 +423,21 @@ export default function Home() {
                 />
               </article>
             </div>
-          </div>
+          </article>
+
+          <article className="grid gap-2">
+            <img src="https://spotify-dynamic-readme.vercel.app/spotify" />
+            <h1 className="font-semibold wrapper__index-grid--spotify bg-[#1a1616] hover:bg-[#1db954] hover:text-[#1a1616] transition px-4 py-2 text-center rounded-2xl">
+              ¿Quieres implementar este mismo SVG con tu cuenta de Spotify?
+              <a
+                href="https://spotify-dynamic-readme.vercel.app/"
+                target="_blank"
+                className="text-[#1dd15d] font-semibold underline mx-2 hover:text-[#1a1616]"
+              >
+                Revisa como
+              </a>
+            </h1>
+          </article>
         </div>
       </section>
 

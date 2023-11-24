@@ -369,32 +369,20 @@ body {
   margin-top: -6rem;
 }
 
-.layour-grid-cont{
+.wrapper__index-grid{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
   place-content: center;
-  gap: 1rem;
+  gap: 0.5rem;
 }
 
-.element-largo{
-  overflow: hidden;
-  background: linear-gradient(to right, #f83a3a, #f13dd4, #7000ff);
-  background-size: 200% 200%;
-  animation: moveGradient 5s linear infinite;
+.wrapper__index-grid--spotify:hover > a{
+  color: #191414;
+  transition: all 200ms ease;
 }
 
-@keyframes moveGradient {
-  0% {
-    background-position: 0% 50%;
-  }
 
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
+
 
 .text-deg-principal {
   background: linear-gradient(220deg, #f83a3a 10%, #f13dd4 50%, #7000ff 90%);
