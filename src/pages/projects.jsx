@@ -170,7 +170,7 @@ export default function Projects() {
                     <a
                       href="https://multi-traductor.vercel.app/"
                       target="_blank"
-                      class="flex w-full justify-center items-center gap-3 text-center bg-gradient-to-r from-[#ff8a05] to-[#ff00c6]  p-2 rounded-lg relative rounded-lg group font-medium hover:from-[#ff00c6] transition duration-300 font-medium inline-block"
+                      class="flex w-full justify-center items-center gap-3 text-center border border-2 border-neutral-400  p-2 rounded-lg relative rounded-lg group font-medium transition duration-300 font-medium inline-block"
                     >
                       <span class="relative font-semibold text-center">
                         En Alpha
