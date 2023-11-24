@@ -365,7 +365,13 @@ body {
   transition: background-position 0.5s ease;
 }
 
-.text-nombre-eddy {
+.layour-grid-cont{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  place-content: center;
+}
+
+.text-deg-principal {
   background: linear-gradient(220deg, #f83a3a 10%, #f13dd4 50%, #7000ff 90%);
   -webkit-background-clip: text;
   background-clip: text;

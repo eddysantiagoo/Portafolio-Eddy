@@ -65,7 +65,7 @@ export default function About() {
             <h1 className="font-display gap-2 md:gap-4 flex inline-flex items-center text-5xl font-bold sm:text-7xl text-black dark:text-white">
               ¿Quién
               <span className="relative whitespace-nowrap text-primary">
-                <span className="font-bold text-transparent bg-clip-text bg-gradient-to-tr from-primary to-white">
+                <span className="text-deg-principal">
                   soy?
                 </span>
               </span>
