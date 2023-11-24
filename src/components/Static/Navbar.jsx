@@ -94,7 +94,7 @@ export default function Navbar() {
                   plugins={[followCursor]}
                 >
               <Link href="/">
-                  <a className="border border-gray-600/25 hover:text-black hover:dark:text-white cursor-pointer bg-gray-400/5 p-1 w-12 h-12 flex items-center justify-center rounded-lg md:rounded-full mx-8 md:mx-0 font-bold mr-1 md:mr-0 transition duration-200 hover:scale-150">
+                  <a className="border border-gray-600/25 hover:text-black hover:dark:text-white cursor-pointer bg-gray-400/5 p-1 w-12 h-12 flex items-center justify-center rounded-lg md:rounded-full mx-8 md:mx-0 font-bold mr-1 md:mr-0 transition duration-200">
                     <Image
                       src="/images/palomaepica.png"
                       className="grayscale transition duration-800 ease-in-out hover:grayscale-0"

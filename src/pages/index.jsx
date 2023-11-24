@@ -235,7 +235,7 @@ export default function Home() {
       {/* SECCION TODAS LAS SKILLS */}
 
       <section className="wrapper grid place-content-center">
-        <div className="layour-grid-cont w-screen max-w-7xl">
+        <div className="layour-grid-cont w-screen max-w-7xl px-6 lg:px-0">
           <div className="grid">
             <div className="grid grid-cols-4 lg:grid-cols-6 gap-4">
               <div className="group flex items-center relative bg-gray-600/5 dark:shadow-2xl overflow-hidden border border-gray-500/25 hover:border-primary hover:shadow-xl rounded-lg overflow-hidden p-2.5 transition-all duration-200 place-content-center">
@@ -403,38 +403,26 @@ export default function Home() {
           </div>
 
           {/* SECCION IDIOMAS */}
-          <div className="grid gap-4">
-            <div className="element-largo rounded-full"></div>
-            <div className="grid grid-cols-1 justify-center sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-4">
-              <div className="group flex justify-between items-center relative bg-gray-600/5 dark:shadow-2xl overflow-hidden border border-gray-500/25 hover:border-primary hover:shadow-xl rounded-lg overflow-hidden p-2.5 transition-all duration-200">
+          <div className="grid">
+            <div className="grid grid-cols-1 gap-2">
+              <article className="flex justify-evenly rounded-2xl items-center p-6 bg-[#191919]">
+                <span className="text-xl font-bold">Inglés (B2)</span>
                 <img
                   src="https://images.emojiterra.com/twitter/512px/1f1ec-1f1e7.png"
-                  alt="Bandera de Reino Unido"
-                  width="32"
-                  height="32"
-                  className="bg-white/5 p-1 w-[32px] h-[32px] rounded-md "
+                  className="h-8"
+                  alt="No hay imagen"
+                  srcset=""
                 />
-                <div className="relative">
-                  <h2 className="font-display text-xl font-medium text-black dark:text-white">
-                    Ingles - B2
-                  </h2>
-                </div>
-              </div>
-
-              <div className="group flex justify-between items-center relative bg-gray-600/5 dark:shadow-2xl overflow-hidden border border-gray-500/25 hover:border-primary hover:shadow-xl rounded-lg overflow-hidden p-2.5 transition-all duration-200">
+              </article>
+              <article className="flex justify-evenly rounded-2xl items-center p-6 bg-[#191919]">
+                <span className="text-xl font-bold">Portugués (A1)</span>
                 <img
                   src="https://images.emojiterra.com/twitter/512px/1f1e7-1f1f7.png"
-                  alt="Bandera de Brazil"
-                  width="32"
-                  height="32"
-                  className="bg-white/5 p-1 w-[32px] h-[32px] rounded-md "
+                  className="h-8"
+                  alt="No hay imagen"
+                  srcset=""
                 />
-                <div className="relative">
-                  <h2 className="font-display text-xl font-medium text-black dark:text-white">
-                    Portugués - A1
-                  </h2>
-                </div>
-              </div>
+              </article>
             </div>
           </div>
         </div>
