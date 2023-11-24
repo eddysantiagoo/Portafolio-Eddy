@@ -404,7 +404,7 @@ export default function Home() {
           
           <article className="grid">
             <div className="grid grid-cols-1 gap-2">
-              <article className="flex justify-evenly rounded-2xl items-center p-6 bg-[#1a1616]">
+              <article className="relative flex justify-evenly rounded-2xl border border-zinc-700/80 items-center p-6 overflow-hidden wrapper__index-grid--lenguage-en">
                 <span className="text-xl font-bold">Inglés (B2)</span>
                 <img
                   src="https://images.emojiterra.com/twitter/512px/1f1ec-1f1e7.png"
@@ -413,7 +413,7 @@ export default function Home() {
                   srcset=""
                 />
               </article>
-              <article className="flex justify-evenly rounded-2xl items-center p-6 bg-[#1a1616]">
+              <article className="relative flex justify-evenly rounded-2xl border border-zinc-700/80 items-center p-6 overflow-hidden wrapper__index-grid--lenguage">
                 <span className="text-xl font-bold">Portugués (A1)</span>
                 <img
                   src="https://images.emojiterra.com/twitter/512px/1f1e7-1f1f7.png"

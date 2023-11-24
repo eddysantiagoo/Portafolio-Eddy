@@ -365,24 +365,66 @@ body {
   transition: background-position 0.5s ease;
 }
 
-.wrapper{
+.wrapper {
   margin-top: -6rem;
+  animation: slide-arriba 600ms ease;
 }
 
-.wrapper__index-grid{
+@keyframes slide-arriba {
+  0% {
+    transform: translateY(10px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+.wrapper__index-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   place-content: center;
   gap: 0.5rem;
 }
 
-.wrapper__index-grid--spotify:hover > a{
+.wrapper__index-grid--spotify:hover > a {
   color: #191414;
   transition: all 200ms ease;
 }
 
+.wrapper__index-grid--lenguage::before {
+  content: '';
+  display: block;
+  background: url(https://static.platzi.com/media/uploads/herobg_2x_90152916e2.png);
+  filter: hue-rotate(88deg) blur(14px);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  background-size: 600px;
+  z-index: -1;
+  background-position-x: 144px;
+  background-position-y: 266px;
+}
 
-
+.wrapper__index-grid--lenguage-en::before{
+  content: '';
+  display: block;
+  background: url(https://static.platzi.com/media/uploads/herobg_2x_90152916e2.png);
+  filter: blur(17px);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  background-size: 700px;
+  z-index: -1;
+  background-position-x: 171px;
+  background-position-y: -17px;
+}
 
 .text-deg-principal {
   background: linear-gradient(220deg, #f83a3a 10%, #f13dd4 50%, #7000ff 90%);
