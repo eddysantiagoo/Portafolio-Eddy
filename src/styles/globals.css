@@ -365,11 +365,35 @@ body {
   transition: background-position 0.5s ease;
 }
 
+.wrapper{
+  margin-top: -6rem;
+}
+
 .layour-grid-cont{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
   place-content: center;
   gap: 1rem;
+}
+
+.element-largo{
+  overflow: hidden;
+  background: linear-gradient(to right, #f83a3a, #f13dd4, #7000ff);
+  background-size: 200% 200%;
+  animation: moveGradient 5s linear infinite;
+}
+
+@keyframes moveGradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 .text-deg-principal {

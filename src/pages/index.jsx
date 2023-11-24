@@ -49,7 +49,7 @@ export default function Home() {
           ],
         }}
       />
-      <div className="sm:h-[40rem] h-[36em] flex flex-col justify-center items-center mb-20 animate-fade-up animate-once animate-fade-up animate-duration-400 animate-delay-200">
+      <div className="sm:h-[40rem] h-[36em] flex flex-col justify-center items-center">
         <h1 className="mx-auto max-w-5xl font-display text-4xl font-extrabold font-secundary tracking-tighter sm:text-7xl text-black dark:text-white text-center">
           Eddy{" "}
         </h1>
@@ -230,215 +230,210 @@ export default function Home() {
           </Tippy>
         </section>
         <span className="hero_Glow__wiAEk"></span>
-
-        <div class="mt-7 flex flex-row items-center text-center justify-center ">
-          <div class="down-arrow"></div>
-        </div>
       </div>
 
       {/* SECCION TODAS LAS SKILLS */}
 
-      <section className="layour-grid-cont">
-        <div className="grid max-w-7xl m-7">
-          <div className="grid grid-cols-4 lg:grid-cols-6 gap-4 mt-12">
-            <div className="group flex items-center relative bg-gray-600/5 dark:shadow-2xl overflow-hidden border border-gray-500/25 hover:border-primary hover:shadow-xl rounded-lg overflow-hidden p-2.5 transition-all duration-200 place-content-center">
-              <img
-                src="https://cdn.worldvectorlogo.com/logos/mongodb-icon-1.svg"
-                alt="Logo de mongo DB"
-                width="32"
-                height="32"
-                className="bg-white/5 p-1 w-[32px] h-[32px] rounded-md "
-              />
-              {/* <div className="relative">
+      <section className="wrapper grid place-content-center">
+        <div className="layour-grid-cont w-screen max-w-7xl">
+          <div className="grid">
+            <div className="grid grid-cols-4 lg:grid-cols-6 gap-4">
+              <div className="group flex items-center relative bg-gray-600/5 dark:shadow-2xl overflow-hidden border border-gray-500/25 hover:border-primary hover:shadow-xl rounded-lg overflow-hidden p-2.5 transition-all duration-200 place-content-center">
+                <img
+                  src="https://cdn.worldvectorlogo.com/logos/mongodb-icon-1.svg"
+                  alt="Logo de mongo DB"
+                  width="32"
+                  height="32"
+                  className="bg-white/5 p-1 w-[32px] h-[32px] rounded-md "
+                />
+                {/* <div className="relative">
               <h2 className="font-display text-xl font-medium text-black dark:text-white">
                 MongoDB
               </h2>
             </div> */}
-            </div>
+              </div>
 
-            <div className="group flex items-center relative bg-gray-600/5 dark:shadow-2xl overflow-hidden border border-gray-500/25 hover:border-primary hover:shadow-xl rounded-lg overflow-hidden p-2.5 transition-all duration-200 place-content-center">
-              <img
-                src="https://static.figma.com/app/icon/1/icon-192.png"
-                alt="Logo de Figma"
-                title="Figma"
-                width="32"
-                height="32"
-                className="bg-white/5 p-1 w-[32px] h-[32px] rounded-md "
-              />
-            </div>
+              <div className="group flex items-center relative bg-gray-600/5 dark:shadow-2xl overflow-hidden border border-gray-500/25 hover:border-primary hover:shadow-xl rounded-lg overflow-hidden p-2.5 transition-all duration-200 place-content-center">
+                <img
+                  src="https://static.figma.com/app/icon/1/icon-192.png"
+                  alt="Logo de Figma"
+                  title="Figma"
+                  width="32"
+                  height="32"
+                  className="bg-white/5 p-1 w-[32px] h-[32px] rounded-md "
+                />
+              </div>
 
-            <div className="group flex items-center relative bg-gray-600/5 dark:shadow-2xl overflow-hidden border border-gray-500/25 hover:border-primary hover:shadow-xl rounded-lg overflow-hidden p-2.5 transition-all duration-200 place-content-center">
-              <svg
-                fill="#ffffff"
-                width={30}
-                title="Next Js"
-                viewBox="0 0 32 32"
-                xmlns="http://www.w3.org/2000/svg"
-                stroke="#ffffff"
-              >
-                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-                <g
-                  id="SVGRepo_tracerCarrier"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                ></g>
-                <g id="SVGRepo_iconCarrier">
-                  {" "}
-                  <path d="M23.749 30.005c-0.119 0.063-0.109 0.083 0.005 0.025 0.037-0.015 0.068-0.036 0.095-0.061 0-0.021 0-0.021-0.1 0.036zM23.989 29.875c-0.057 0.047-0.057 0.047 0.011 0.016 0.036-0.021 0.068-0.041 0.068-0.047 0-0.027-0.016-0.021-0.079 0.031zM24.145 29.781c-0.057 0.047-0.057 0.047 0.011 0.016 0.037-0.021 0.068-0.043 0.068-0.048 0-0.025-0.016-0.020-0.079 0.032zM24.303 29.688c-0.057 0.047-0.057 0.047 0.009 0.015 0.037-0.020 0.068-0.041 0.068-0.047 0-0.025-0.016-0.020-0.077 0.032zM24.516 29.547c-0.109 0.073-0.147 0.12-0.047 0.068 0.067-0.041 0.181-0.131 0.161-0.131-0.043 0.016-0.079 0.043-0.115 0.063zM14.953 0.011c-0.073 0.005-0.292 0.025-0.484 0.041-4.548 0.412-8.803 2.86-11.5 6.631-1.491 2.067-2.459 4.468-2.824 6.989-0.129 0.88-0.145 1.14-0.145 2.333 0 1.192 0.016 1.448 0.145 2.328 0.871 6.011 5.147 11.057 10.943 12.927 1.043 0.333 2.136 0.563 3.381 0.704 0.484 0.052 2.577 0.052 3.061 0 2.152-0.24 3.969-0.771 5.767-1.688 0.276-0.14 0.328-0.177 0.291-0.208-0.88-1.161-1.744-2.323-2.609-3.495l-2.557-3.453-3.203-4.745c-1.068-1.588-2.14-3.172-3.229-4.744-0.011 0-0.025 2.109-0.031 4.681-0.011 4.505-0.011 4.688-0.068 4.792-0.057 0.125-0.151 0.229-0.276 0.287-0.099 0.047-0.188 0.057-0.661 0.057h-0.541l-0.141-0.088c-0.088-0.057-0.161-0.136-0.208-0.229l-0.068-0.141 0.005-6.271 0.011-6.271 0.099-0.125c0.063-0.077 0.141-0.14 0.229-0.187 0.131-0.063 0.183-0.073 0.724-0.073 0.635 0 0.74 0.025 0.907 0.208 1.296 1.932 2.588 3.869 3.859 5.812 2.079 3.152 4.917 7.453 6.312 9.563l2.537 3.839 0.125-0.083c1.219-0.813 2.328-1.781 3.285-2.885 2.016-2.308 3.324-5.147 3.767-8.177 0.129-0.88 0.145-1.141 0.145-2.333 0-1.193-0.016-1.448-0.145-2.328-0.871-6.011-5.147-11.057-10.943-12.928-1.084-0.343-2.199-0.577-3.328-0.697-0.303-0.031-2.371-0.068-2.631-0.041zM21.5 9.688c0.151 0.072 0.265 0.208 0.317 0.364 0.027 0.084 0.032 1.823 0.027 5.74l-0.011 5.624-0.989-1.52-0.995-1.521v-4.083c0-2.647 0.011-4.131 0.025-4.204 0.047-0.167 0.161-0.307 0.313-0.395 0.124-0.063 0.172-0.068 0.667-0.068 0.463 0 0.541 0.005 0.645 0.063z"></path>{" "}
-                </g>
-              </svg>
-            </div>
+              <div className="group flex items-center relative bg-gray-600/5 dark:shadow-2xl overflow-hidden border border-gray-500/25 hover:border-primary hover:shadow-xl rounded-lg overflow-hidden p-2.5 transition-all duration-200 place-content-center">
+                <svg
+                  fill="#ffffff"
+                  width={30}
+                  title="Next Js"
+                  viewBox="0 0 32 32"
+                  xmlns="http://www.w3.org/2000/svg"
+                  stroke="#ffffff"
+                >
+                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                  <g
+                    id="SVGRepo_tracerCarrier"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></g>
+                  <g id="SVGRepo_iconCarrier">
+                    {" "}
+                    <path d="M23.749 30.005c-0.119 0.063-0.109 0.083 0.005 0.025 0.037-0.015 0.068-0.036 0.095-0.061 0-0.021 0-0.021-0.1 0.036zM23.989 29.875c-0.057 0.047-0.057 0.047 0.011 0.016 0.036-0.021 0.068-0.041 0.068-0.047 0-0.027-0.016-0.021-0.079 0.031zM24.145 29.781c-0.057 0.047-0.057 0.047 0.011 0.016 0.037-0.021 0.068-0.043 0.068-0.048 0-0.025-0.016-0.020-0.079 0.032zM24.303 29.688c-0.057 0.047-0.057 0.047 0.009 0.015 0.037-0.020 0.068-0.041 0.068-0.047 0-0.025-0.016-0.020-0.077 0.032zM24.516 29.547c-0.109 0.073-0.147 0.12-0.047 0.068 0.067-0.041 0.181-0.131 0.161-0.131-0.043 0.016-0.079 0.043-0.115 0.063zM14.953 0.011c-0.073 0.005-0.292 0.025-0.484 0.041-4.548 0.412-8.803 2.86-11.5 6.631-1.491 2.067-2.459 4.468-2.824 6.989-0.129 0.88-0.145 1.14-0.145 2.333 0 1.192 0.016 1.448 0.145 2.328 0.871 6.011 5.147 11.057 10.943 12.927 1.043 0.333 2.136 0.563 3.381 0.704 0.484 0.052 2.577 0.052 3.061 0 2.152-0.24 3.969-0.771 5.767-1.688 0.276-0.14 0.328-0.177 0.291-0.208-0.88-1.161-1.744-2.323-2.609-3.495l-2.557-3.453-3.203-4.745c-1.068-1.588-2.14-3.172-3.229-4.744-0.011 0-0.025 2.109-0.031 4.681-0.011 4.505-0.011 4.688-0.068 4.792-0.057 0.125-0.151 0.229-0.276 0.287-0.099 0.047-0.188 0.057-0.661 0.057h-0.541l-0.141-0.088c-0.088-0.057-0.161-0.136-0.208-0.229l-0.068-0.141 0.005-6.271 0.011-6.271 0.099-0.125c0.063-0.077 0.141-0.14 0.229-0.187 0.131-0.063 0.183-0.073 0.724-0.073 0.635 0 0.74 0.025 0.907 0.208 1.296 1.932 2.588 3.869 3.859 5.812 2.079 3.152 4.917 7.453 6.312 9.563l2.537 3.839 0.125-0.083c1.219-0.813 2.328-1.781 3.285-2.885 2.016-2.308 3.324-5.147 3.767-8.177 0.129-0.88 0.145-1.141 0.145-2.333 0-1.193-0.016-1.448-0.145-2.328-0.871-6.011-5.147-11.057-10.943-12.928-1.084-0.343-2.199-0.577-3.328-0.697-0.303-0.031-2.371-0.068-2.631-0.041zM21.5 9.688c0.151 0.072 0.265 0.208 0.317 0.364 0.027 0.084 0.032 1.823 0.027 5.74l-0.011 5.624-0.989-1.52-0.995-1.521v-4.083c0-2.647 0.011-4.131 0.025-4.204 0.047-0.167 0.161-0.307 0.313-0.395 0.124-0.063 0.172-0.068 0.667-0.068 0.463 0 0.541 0.005 0.645 0.063z"></path>{" "}
+                  </g>
+                </svg>
+              </div>
 
-            <div className="group flex items-center relative bg-gray-600/5 dark:shadow-2xl overflow-hidden border border-gray-500/25 hover:border-primary hover:shadow-xl rounded-lg overflow-hidden p-2.5 transition-all duration-200 place-content-center">
-              <img
-                src="https://cdn.worldvectorlogo.com/logos/arduino-logo.svg"
-                alt="Logo de Arduino"
-                title="Arduino"
-                width="32"
-                height="32"
-                className="bg-white/5 p-1 w-[32px] h-[32px] rounded-md "
-              />
-            </div>
+              <div className="group flex items-center relative bg-gray-600/5 dark:shadow-2xl overflow-hidden border border-gray-500/25 hover:border-primary hover:shadow-xl rounded-lg overflow-hidden p-2.5 transition-all duration-200 place-content-center">
+                <img
+                  src="https://cdn.worldvectorlogo.com/logos/arduino-logo.svg"
+                  alt="Logo de Arduino"
+                  title="Arduino"
+                  width="32"
+                  height="32"
+                  className="bg-white/5 p-1 w-[32px] h-[32px] rounded-md "
+                />
+              </div>
 
-            <div className="group flex items-center relative bg-gray-600/5 dark:shadow-2xl overflow-hidden border border-gray-500/25 hover:border-primary hover:shadow-xl rounded-lg overflow-hidden p-2.5 transition-all duration-200 place-content-center">
-              <img
-                src="https://cdn.worldvectorlogo.com/logos/logo-javascript.svg"
-                alt="Logo de JavaScript"
-                width="32"
-                height="32"
-                className="bg-white/5 p-1 w-[32px] h-[32px] rounded-md "
-              />
-            </div>
+              <div className="group flex items-center relative bg-gray-600/5 dark:shadow-2xl overflow-hidden border border-gray-500/25 hover:border-primary hover:shadow-xl rounded-lg overflow-hidden p-2.5 transition-all duration-200 place-content-center">
+                <img
+                  src="https://cdn.worldvectorlogo.com/logos/logo-javascript.svg"
+                  alt="Logo de JavaScript"
+                  width="32"
+                  height="32"
+                  className="bg-white/5 p-1 w-[32px] h-[32px] rounded-md "
+                />
+              </div>
 
-            <div className="group flex items-center relative bg-gray-600/5 dark:shadow-2xl overflow-hidden border border-gray-500/25 hover:border-primary hover:shadow-xl rounded-lg overflow-hidden p-2.5 transition-all duration-200 place-content-center">
-              <img
-                src="https://cdn.worldvectorlogo.com/logos/html-1.svg"
-                alt="Logo de HTML5"
-                width="32"
-                height="32"
-                className="bg-white/5 p-1 w-[32px] h-[32px] rounded-md "
-              />
-            </div>
+              <div className="group flex items-center relative bg-gray-600/5 dark:shadow-2xl overflow-hidden border border-gray-500/25 hover:border-primary hover:shadow-xl rounded-lg overflow-hidden p-2.5 transition-all duration-200 place-content-center">
+                <img
+                  src="https://cdn.worldvectorlogo.com/logos/html-1.svg"
+                  alt="Logo de HTML5"
+                  width="32"
+                  height="32"
+                  className="bg-white/5 p-1 w-[32px] h-[32px] rounded-md "
+                />
+              </div>
 
-            <div className="group flex items-center relative bg-gray-600/5 dark:shadow-2xl overflow-hidden border border-gray-500/25 hover:border-primary hover:shadow-xl rounded-lg overflow-hidden p-2.5 transition-all duration-200 place-content-center">
-              <img
-                src="https://cdn.worldvectorlogo.com/logos/tailwind-css-2.svg"
-                alt="Logo de Tailwind"
-                width="32"
-                height="32"
-                className="bg-white/5 p-1 w-[32px] h-[32px] rounded-md "
-              />
-            </div>
+              <div className="group flex items-center relative bg-gray-600/5 dark:shadow-2xl overflow-hidden border border-gray-500/25 hover:border-primary hover:shadow-xl rounded-lg overflow-hidden p-2.5 transition-all duration-200 place-content-center">
+                <img
+                  src="https://cdn.worldvectorlogo.com/logos/tailwind-css-2.svg"
+                  alt="Logo de Tailwind"
+                  width="32"
+                  height="32"
+                  className="bg-white/5 p-1 w-[32px] h-[32px] rounded-md "
+                />
+              </div>
 
-            <div className="group flex items-center relative bg-gray-600/5 dark:shadow-2xl overflow-hidden border border-gray-500/25 hover:border-primary hover:shadow-xl rounded-lg overflow-hidden p-2.5 transition-all duration-200 place-content-center">
-              <img
-                src="https://cdn.worldvectorlogo.com/logos/css-3.svg"
-                alt="Logo de CSS"
-                width="32"
-                height="32"
-                className="bg-white/5 p-1 w-[32px] h-[32px] rounded-md "
-              />
-            </div>
+              <div className="group flex items-center relative bg-gray-600/5 dark:shadow-2xl overflow-hidden border border-gray-500/25 hover:border-primary hover:shadow-xl rounded-lg overflow-hidden p-2.5 transition-all duration-200 place-content-center">
+                <img
+                  src="https://cdn.worldvectorlogo.com/logos/css-3.svg"
+                  alt="Logo de CSS"
+                  width="32"
+                  height="32"
+                  className="bg-white/5 p-1 w-[32px] h-[32px] rounded-md "
+                />
+              </div>
 
-            <div className="group flex items-center relative bg-gray-600/5 dark:shadow-2xl overflow-hidden border border-gray-500/25 hover:border-primary hover:shadow-xl rounded-lg overflow-hidden p-2.5 transition-all duration-200 place-content-center">
-              <img
-                src="https://cdn.worldvectorlogo.com/logos/react-2.svg"
-                alt="Logo de React"
-                width="32"
-                height="32"
-                className="bg-white/5 p-1 w-[32px] h-[32px] rounded-md "
-              />
-            </div>
+              <div className="group flex items-center relative bg-gray-600/5 dark:shadow-2xl overflow-hidden border border-gray-500/25 hover:border-primary hover:shadow-xl rounded-lg overflow-hidden p-2.5 transition-all duration-200 place-content-center">
+                <img
+                  src="https://cdn.worldvectorlogo.com/logos/react-2.svg"
+                  alt="Logo de React"
+                  width="32"
+                  height="32"
+                  className="bg-white/5 p-1 w-[32px] h-[32px] rounded-md "
+                />
+              </div>
 
-            <div className="group flex items-center relative bg-gray-600/5 dark:shadow-2xl overflow-hidden border border-gray-500/25 hover:border-primary hover:shadow-xl rounded-lg overflow-hidden p-2.5 transition-all duration-200 place-content-center">
-              <img
-                src="https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg"
-                alt="Logo de Node.js"
-                width="32"
-                height="32"
-                className="bg-white/5 p-1 w-[32px] h-[32px] rounded-md "
-              />
-            </div>
+              <div className="group flex items-center relative bg-gray-600/5 dark:shadow-2xl overflow-hidden border border-gray-500/25 hover:border-primary hover:shadow-xl rounded-lg overflow-hidden p-2.5 transition-all duration-200 place-content-center">
+                <img
+                  src="https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg"
+                  alt="Logo de Node.js"
+                  width="32"
+                  height="32"
+                  className="bg-white/5 p-1 w-[32px] h-[32px] rounded-md "
+                />
+              </div>
 
-            <div className="group flex items-center relative bg-gray-600/5 dark:shadow-2xl overflow-hidden border border-gray-500/25 hover:border-primary hover:shadow-xl rounded-lg overflow-hidden p-2.5 transition-all duration-200 place-content-center">
-              <img
-                src="https://cdn.worldvectorlogo.com/logos/mysql-6.svg"
-                title="SQL"
-                alt="Logo de MySQL"
-                width="32"
-                height="32"
-                className="bg-white/5 p-1 w-[32px] h-[32px] rounded-md "
-              />
-            </div>
+              <div className="group flex items-center relative bg-gray-600/5 dark:shadow-2xl overflow-hidden border border-gray-500/25 hover:border-primary hover:shadow-xl rounded-lg overflow-hidden p-2.5 transition-all duration-200 place-content-center">
+                <img
+                  src="https://cdn.worldvectorlogo.com/logos/mysql-6.svg"
+                  title="SQL"
+                  alt="Logo de MySQL"
+                  width="32"
+                  height="32"
+                  className="bg-white/5 p-1 w-[32px] h-[32px] rounded-md "
+                />
+              </div>
 
-            <div className="group flex items-center relative bg-gray-600/5 dark:shadow-2xl overflow-hidden border border-gray-500/25 hover:border-primary hover:shadow-xl rounded-lg overflow-hidden p-2.5 transition-all duration-200 place-content-center">
-              <img
-                src="https://cdn.worldvectorlogo.com/logos/laravel-2.svg"
-                title="Laravel"
-                width="32"
-                height="32"
-                className="bg-white/5 p-1 w-[32px] h-[32px] rounded-md "
-              />
-            </div>
-          </div>
-          <section className="grid grid-cols-2 gap-2 mt-4">
-            <div className="group flex items-center relative bg-gray-600/5 dark:shadow-2xl overflow-hidden border border-gray-500/25 hover:border-primary hover:shadow-xl rounded-lg overflow-hidden p-2.5 transition-all duration-200 w-full place-content-center">
-              <img
-                src="https://cdn.worldvectorlogo.com/logos/premiere-pro-cc.svg"
-                alt="Logo de Premier"
-                title="Premiere"
-                width="32"
-                height="32"
-                className="bg-white/5 p-1 w-[32px] h-[32px] rounded-md "
-              />
-            </div>
-
-            <div className="group flex items-center relative bg-gray-600/5 dark:shadow-2xl overflow-hidden border border-gray-500/25 hover:border-primary hover:shadow-xl rounded-lg overflow-hidden p-2.5 transition-all duration-200 place-content-center">
-              <img
-                src="https://cdn.worldvectorlogo.com/logos/adobe-photoshop-2.svg"
-                alt="Logo de Photoshop"
-                width="32"
-                height="32"
-                className="bg-white/5 p-1 w-[32px] h-[32px] rounded-md "
-              />
-            </div>
-          </section>
-        </div>
-
-        {/* SECCION IDIOMAS */}
-        <div className="grid max-w-7xl m-7">
-            <div className="bg-red-400">
-
-
-            </div>
-          <div className="grid grid-cols-1 justify-center sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-4 mt-12">
-            <div className="group flex justify-between items-center relative bg-gray-600/5 dark:shadow-2xl overflow-hidden border border-gray-500/25 hover:border-primary hover:shadow-xl rounded-lg overflow-hidden p-2.5 transition-all duration-200">
-              <img
-                src="https://images.emojiterra.com/twitter/512px/1f1ec-1f1e7.png"
-                alt="Bandera de Reino Unido"
-                width="32"
-                height="32"
-                className="bg-white/5 p-1 w-[32px] h-[32px] rounded-md "
-              />
-              <div className="relative">
-                <h2 className="font-display text-xl font-medium text-black dark:text-white">
-                  Ingles - B2
-                </h2>
+              <div className="group flex items-center relative bg-gray-600/5 dark:shadow-2xl overflow-hidden border border-gray-500/25 hover:border-primary hover:shadow-xl rounded-lg overflow-hidden p-2.5 transition-all duration-200 place-content-center">
+                <img
+                  src="https://cdn.worldvectorlogo.com/logos/laravel-2.svg"
+                  title="Laravel"
+                  width="32"
+                  height="32"
+                  className="bg-white/5 p-1 w-[32px] h-[32px] rounded-md "
+                />
               </div>
             </div>
+            <section className="grid grid-cols-2 gap-2 mt-4">
+              <div className="group flex items-center relative bg-gray-600/5 dark:shadow-2xl overflow-hidden border border-gray-500/25 hover:border-primary hover:shadow-xl rounded-lg overflow-hidden p-2.5 transition-all duration-200 w-full place-content-center">
+                <img
+                  src="https://cdn.worldvectorlogo.com/logos/premiere-pro-cc.svg"
+                  alt="Logo de Premier"
+                  title="Premiere"
+                  width="32"
+                  height="32"
+                  className="bg-white/5 p-1 w-[32px] h-[32px] rounded-md "
+                />
+              </div>
 
-            <div className="group flex justify-between items-center relative bg-gray-600/5 dark:shadow-2xl overflow-hidden border border-gray-500/25 hover:border-primary hover:shadow-xl rounded-lg overflow-hidden p-2.5 transition-all duration-200">
-              <img
-                src="https://images.emojiterra.com/twitter/512px/1f1e7-1f1f7.png"
-                alt="Bandera de Brazil"
-                width="32"
-                height="32"
-                className="bg-white/5 p-1 w-[32px] h-[32px] rounded-md "
-              />
-              <div className="relative">
-                <h2 className="font-display text-xl font-medium text-black dark:text-white">
-                  Portugués - A1
-                </h2>
+              <div className="group flex items-center relative bg-gray-600/5 dark:shadow-2xl overflow-hidden border border-gray-500/25 hover:border-primary hover:shadow-xl rounded-lg overflow-hidden p-2.5 transition-all duration-200 place-content-center">
+                <img
+                  src="https://cdn.worldvectorlogo.com/logos/adobe-photoshop-2.svg"
+                  alt="Logo de Photoshop"
+                  width="32"
+                  height="32"
+                  className="bg-white/5 p-1 w-[32px] h-[32px] rounded-md "
+                />
+              </div>
+            </section>
+          </div>
+
+          {/* SECCION IDIOMAS */}
+          <div className="grid gap-4">
+            <div className="element-largo rounded-full"></div>
+            <div className="grid grid-cols-1 justify-center sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-4">
+              <div className="group flex justify-between items-center relative bg-gray-600/5 dark:shadow-2xl overflow-hidden border border-gray-500/25 hover:border-primary hover:shadow-xl rounded-lg overflow-hidden p-2.5 transition-all duration-200">
+                <img
+                  src="https://images.emojiterra.com/twitter/512px/1f1ec-1f1e7.png"
+                  alt="Bandera de Reino Unido"
+                  width="32"
+                  height="32"
+                  className="bg-white/5 p-1 w-[32px] h-[32px] rounded-md "
+                />
+                <div className="relative">
+                  <h2 className="font-display text-xl font-medium text-black dark:text-white">
+                    Ingles - B2
+                  </h2>
+                </div>
+              </div>
+
+              <div className="group flex justify-between items-center relative bg-gray-600/5 dark:shadow-2xl overflow-hidden border border-gray-500/25 hover:border-primary hover:shadow-xl rounded-lg overflow-hidden p-2.5 transition-all duration-200">
+                <img
+                  src="https://images.emojiterra.com/twitter/512px/1f1e7-1f1f7.png"
+                  alt="Bandera de Brazil"
+                  width="32"
+                  height="32"
+                  className="bg-white/5 p-1 w-[32px] h-[32px] rounded-md "
+                />
+                <div className="relative">
+                  <h2 className="font-display text-xl font-medium text-black dark:text-white">
+                    Portugués - A1
+                  </h2>
+                </div>
               </div>
             </div>
           </div>
