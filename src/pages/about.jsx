@@ -27,8 +27,6 @@ export default function About() {
     setdiferenciaMeses(Math.abs(months));
   }, []);
 
-
-
   return (
     <>
       {/* SEO CON NEXT */}
@@ -57,7 +55,6 @@ export default function About() {
           ],
         }}
       />
-      
 
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-col lg:flex-row justify-between w-full h-full py-14 gap-24 pb-2">
@@ -65,9 +62,7 @@ export default function About() {
             <h1 className="font-display gap-2 md:gap-4 flex inline-flex items-center text-5xl font-bold sm:text-7xl text-black dark:text-white">
               ¿Quién
               <span className="relative whitespace-nowrap text-primary">
-                <span className="text-deg-principal">
-                  soy?
-                </span>
+                <span className="text-deg-principal">soy?</span>
               </span>
               <img
                 src="/images/icono-200.webp"
@@ -110,8 +105,9 @@ export default function About() {
 
         {/* SECCION EDUCACIÓN */}
 
-        <div className="mx-auto max-w-7xl mt-8 mb-8">
-          {/* <h1 className="mt-1 text-4xl font-bold font-secundary">
+        <section className="grid lg:grid-cols-2 gap-12 mt-12">  
+          <div className="mx-auto max-w-7xl">
+            {/* <h1 className="mt-1 text-4xl font-bold font-secundary">
             {"Mi "}
             <span className="relative whitespace-nowrap text-primary font-secundary">
               Curriculum
@@ -134,75 +130,72 @@ export default function About() {
             </div> 
           </a>*/}
 
-          <h1 className="mt-1 text-4xl font-bold font-secundary">
-            {"Educación"}
-            <span className="relative whitespace-nowrap text-primary">
-              {/* VACIO */}
-            </span>
-          </h1>
+            <h1 className="mt-1 text-4xl font-bold font-secundary">
+              {"Educación"}
+              <span className="relative whitespace-nowrap text-primary">
+                {/* VACIO */}
+              </span>
+            </h1>
 
-          <div className="grid grid-cols-1 justify-start md:grid-cols-2 gap-4 my-4">
-            <div className="group flex items-center relative bg-gray-600/5 dark:shadow-2xl overflow-hidden border border-gray-500/25 hover:border-primary hover:shadow-xl rounded-lg overflow-hidden p-2.5 transition-all duration-200">
-              <img
-                src="https://media.licdn.com/dms/image/C4E0BAQHMgYEnxoVtxw/company-logo_200_200/0/1651508107143?e=2147483647&v=beta&t=ueYquiqI1_dejh2VyS1XzZ2D8Q2W4WjWw2VDBNC5OYU"
-                alt="Logo de la IU Digital de Antioquia"
-                width="65"
-                height="65"
-                className="bg-white/5 p-1 w-[65px] h-[65px] rounded-xl "
-              />
-              <div className="relative">
-                <h2 className="ml-4 font-display text-xl md:text-lg font-medium text-black dark:text-white">
-                  Institución Universitaria Digital de Antioquia - Tecnologia en
-                  Desarrollo de Software ( Ene 2020 - Sep 2023 )
-                </h2>
+            <div className="grid grid-cols-1 justify-start gap-4 my-4">
+              <div className="group flex items-center relative bg-gray-600/5 dark:shadow-2xl overflow-hidden border border-gray-500/25 hover:border-primary hover:shadow-xl rounded-lg overflow-hidden p-2.5 transition-all duration-200">
+                <img
+                  src="https://media.licdn.com/dms/image/C4E0BAQHMgYEnxoVtxw/company-logo_200_200/0/1651508107143?e=2147483647&v=beta&t=ueYquiqI1_dejh2VyS1XzZ2D8Q2W4WjWw2VDBNC5OYU"
+                  alt="Logo de la IU Digital de Antioquia"
+                  width="65"
+                  height="65"
+                  className="bg-white/5 p-1 w-[65px] h-[65px] rounded-xl "
+                />
+                <div className="relative">
+                  <h2 className="ml-4 font-display text-xl md:text-lg font-medium text-black dark:text-white">
+                    Institución Universitaria Digital de Antioquia - Tecnologia
+                    en Desarrollo de Software ( Ene 2020 - Sep 2023 )
+                  </h2>
+                </div>
+              </div>
+              <div className="group flex items-center relative bg-gray-600/5 dark:shadow-2xl overflow-hidden border border-gray-500/25 hover:border-primary hover:shadow-xl rounded-lg overflow-hidden p-2.5 transition-all duration-200">
+                <img
+                  src="https://media.licdn.com/dms/image/C4E0BAQHMgYEnxoVtxw/company-logo_200_200/0/1651508107143?e=2147483647&v=beta&t=ueYquiqI1_dejh2VyS1XzZ2D8Q2W4WjWw2VDBNC5OYU"
+                  alt="Logo de la IU Digital de Antioquia"
+                  width="65"
+                  height="65"
+                  className="bg-white/5 p-1 w-[65px] h-[65px] rounded-xl"
+                />
+                <div className="relative">
+                  <h2 className="ml-4 justify-start font-display text-xl md:text-lg font-medium text-black dark:text-white">
+                    Diplomado en Desarrollo Web (2022)
+                  </h2>
+                </div>
               </div>
             </div>
-            <div className="group flex items-center relative bg-gray-600/5 dark:shadow-2xl overflow-hidden border border-gray-500/25 hover:border-primary hover:shadow-xl rounded-lg overflow-hidden p-2.5 transition-all duration-200">
-              <img
-                src="https://media.licdn.com/dms/image/C4E0BAQHMgYEnxoVtxw/company-logo_200_200/0/1651508107143?e=2147483647&v=beta&t=ueYquiqI1_dejh2VyS1XzZ2D8Q2W4WjWw2VDBNC5OYU"
-                alt="Logo de la IU Digital de Antioquia"
-                width="65"
-                height="65"
-                className="bg-white/5 p-1 w-[65px] h-[65px] rounded-xl"
-              />
-              <div className="relative">
-                <h2 className="ml-4 justify-start font-display text-xl md:text-lg font-medium text-black dark:text-white">
-                  Diplomado en Desarrollo Web (2022)
-                </h2>
+
+            <div className="grid grid-cols-1 justify-start gap-4 my-4">
+              <div className="group flex items-center relative bg-gray-600/5 dark:shadow-2xl overflow-hidden border border-gray-500/25 hover:border-primary hover:shadow-xl rounded-lg overflow-hidden p-2.5 transition-all duration-200">
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/9/97/Coursera-Logo_600x600.svg"
+                  alt="Logo de la IU Digital de Antioquia"
+                  width="65"
+                  height="65"
+                  className="bg-white/5 p-1 w-[65px] h-[65px] rounded-xl"
+                />
+                <div className="relative">
+                  <h2 className="ml-4 font-display text-xl md:text-lg font-medium text-black dark:text-white">
+                    Certificado en diseño de experiencia del usuario (UX) de
+                    Google (Mayo 2023 - Actualmente)
+                  </h2>
+                </div>
               </div>
             </div>
           </div>
-
-          <div className="grid grid-cols-1 justify-start gap-4 my-4">
-            <div className="group flex items-center relative bg-gray-600/5 dark:shadow-2xl overflow-hidden border border-gray-500/25 hover:border-primary hover:shadow-xl rounded-lg overflow-hidden p-2.5 transition-all duration-200">
-              <img
-                src="https://upload.wikimedia.org/wikipedia/commons/9/97/Coursera-Logo_600x600.svg"
-                alt="Logo de la IU Digital de Antioquia"
-                width="65"
-                height="65"
-                className="bg-white/5 p-1 w-[65px] h-[65px] rounded-xl"
-              />
-              <div className="relative">
-                <h2 className="ml-4 font-display text-xl md:text-lg font-medium text-black dark:text-white">
-                  Certificado en diseño de experiencia del usuario (UX) de
-                  Google (Mayo 2023 - Actualmente)
-                </h2>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        {/* SECCION EXPERIENCIA */}
-
-        <div>
-          <h1 className="mt-1 text-4xl font-bold font-secundary mb-4">
-            {"Experiencia"}
-            <span className="relative whitespace-nowrap text-primar">
-              {/* VACIO */}
-            </span>
-          </h1>
-          <ol class="relative border-l border-gray-200 dark:border-[#464B50]">
-            {/* <li class="mb-10 ml-6">
+          <div>
+            <h1 className="mt-1 text-4xl font-bold font-secundary mb-4">
+              {"Experiencia"}
+              <span className="relative whitespace-nowrap text-primar">
+                {/* VACIO */}
+              </span>
+            </h1>
+            <ol class="relative border-l border-gray-200 dark:border-[#464B50]">
+              {/* <li class="mb-10 ml-6">
         <span class="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
             <svg class="w-2.5 h-2.5 text-blue-800 dark:text-blue-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
                 <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z"/>
@@ -212,89 +205,93 @@ export default function About() {
         <time class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Released on December 7th, 2021</time>
         <p class="text-base font-normal text-gray-500 dark:text-gray-400">All of the pages and components are first designed in Figma and we keep a parity between the two versions even as we update the project.</p>
     </li> */}
-            <li class="mt-6 mb-10 ml-8 ">
-              <span class="absolute flex items-center justify-center w-8 h-8 bg-[#313131] p-[6px] rounded-md -left-4">
-                <img
-                  src="https://principal.gestoru.com/wp-content/uploads/2022/05/Gestoru-Favicon.png"
-                  alt=""
-                  srcset=""
-                />
-              </span>
-              <h3 class="inline-block md:flex items-center mb-1 text-md lg:text-lg font-semibold text-gray-900 dark:text-white">
-                Desarrollador Frontend y Diseñador UI UX
-                <span className="mx-2">en</span>
-                <a
-                  className="mr-2 font-bold underline underline-offset-2 hover:text-[#63ebbb]"
-                  href="https://principal.gestoru.com/"
-                  target="_blank"
-                >
-                  GestorU
-                </a>
-                <span class="bg-blue-100 text-blue-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-white dark:text-black border-2 ml-3">
-                  Actual
+              <li class="mt-6 mb-10 ml-8 ">
+                <span class="absolute flex items-center justify-center w-8 h-8 bg-[#313131] p-[6px] rounded-md -left-4">
+                  <img
+                    src="https://principal.gestoru.com/wp-content/uploads/2022/05/Gestoru-Favicon.png"
+                    alt=""
+                    srcset=""
+                  />
                 </span>
-              </h3>
-              <div className="grid md:flex items-center">
-                <time class="bg-[#313131] w-fit py-2 px-3 rounded-md text-sm font-normal leading-none text-gray-400 dark:text-white">
-                  Desde Junio del 2023 ({diferenciaMeses} meses)
-                </time>
-                <span className="ml-2 text-sm">
-                  Medellín, Colombia (Hibrido)
-                </span>
-              </div>
-              <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
-                {/* Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
+                <h3 class="inline-block md:flex items-center mb-1 text-md lg:text-lg font-semibold text-gray-900 dark:text-white">
+                  Desarrollador Frontend y Diseñador UI UX
+                  <span className="mx-2">en</span>
+                  <a
+                    className="mr-2 font-bold underline underline-offset-2 hover:text-[#63ebbb]"
+                    href="https://principal.gestoru.com/"
+                    target="_blank"
+                  >
+                    GestorU
+                  </a>
+                  <span class="bg-blue-100 text-blue-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-white dark:text-black border-2 ml-3">
+                    Actual
+                  </span>
+                </h3>
+                <div className="grid md:flex items-center">
+                  <time class="bg-[#313131] w-fit py-2 px-3 rounded-md text-sm font-normal leading-none text-gray-400 dark:text-white">
+                    Desde Junio del 2023 ({diferenciaMeses} meses)
+                  </time>
+                  <span className="ml-2 text-sm">
+                    Medellín, Colombia (Hibrido)
+                  </span>
+                </div>
+                <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
+                  {/* Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
                 alias velit nostrum. Maxime debitis numquam reiciendis aperiam,
                 excepturi a, sapiente, quidem earum incidunt eaque possimus
                 nostrum accusamus rem architecto nemo? */}
-              </p>
-              <div className="flex flex-wrap gap-y-3 justify-left">
-                <span class="bg-blue-100 text-blue-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-black dark:text-white border-2 border-stone-400">
-                  Laravel
-                </span>
-                <span class="bg-blue-100 text-blue-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-black dark:text-white border-2 border-stone-400">
-                  Figma
-                </span>
-                <span class="bg-blue-100 text-blue-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-black dark:text-white border-2 border-stone-400">
-                  Tailwind
-                </span>
-                <span class="bg-blue-100 text-blue-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-black dark:text-white border-2 border-stone-400">
-                  CSS
-                </span>
-                <span class="bg-blue-100 text-blue-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-black dark:text-white border-2 border-stone-400">
-                  PHP
-                </span>
-                <span class="bg-blue-100 text-blue-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-black dark:text-white border-2 border-stone-400">
-                  JavaScript
-                </span>
-                <span class="bg-blue-100 text-blue-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-black dark:text-white border-2 border-stone-400">
-                  Bootstrap
-                </span>
-                <span class="bg-blue-100 text-blue-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-black dark:text-white border-2 border-stone-400">
-                  HTML
-                </span>
-              </div>
+                </p>
+                <div className="flex flex-wrap gap-y-3 justify-left">
+                  <span class="bg-blue-100 text-blue-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-black dark:text-white border-2 border-stone-400">
+                    Laravel
+                  </span>
+                  <span class="bg-blue-100 text-blue-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-black dark:text-white border-2 border-stone-400">
+                    Figma
+                  </span>
+                  <span class="bg-blue-100 text-blue-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-black dark:text-white border-2 border-stone-400">
+                    Tailwind
+                  </span>
+                  <span class="bg-blue-100 text-blue-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-black dark:text-white border-2 border-stone-400">
+                    CSS
+                  </span>
+                  <span class="bg-blue-100 text-blue-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-black dark:text-white border-2 border-stone-400">
+                    PHP
+                  </span>
+                  <span class="bg-blue-100 text-blue-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-black dark:text-white border-2 border-stone-400">
+                    JavaScript
+                  </span>
+                  <span class="bg-blue-100 text-blue-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-black dark:text-white border-2 border-stone-400">
+                    Bootstrap
+                  </span>
+                  <span class="bg-blue-100 text-blue-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-black dark:text-white border-2 border-stone-400">
+                    HTML
+                  </span>
+                </div>
 
-              {/* Boton de mas informacion */}
-              <a
-                href="#"
-                class="hidden inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-200 focus:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700"
-              >
-                <svg
-                  class="w-3.5 h-3.5 mr-2.5"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="currentColor"
-                  viewBox="0 0 20 20"
+                {/* Boton de mas informacion */}
+                <a
+                  href="#"
+                  class="hidden inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-200 focus:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700"
                 >
-                  <path d="M14.707 7.793a1 1 0 0 0-1.414 0L11 10.086V1.5a1 1 0 0 0-2 0v8.586L6.707 7.793a1 1 0 1 0-1.414 1.414l4 4a1 1 0 0 0 1.416 0l4-4a1 1 0 0 0-.002-1.414Z" />
-                  <path d="M18 12h-2.55l-2.975 2.975a3.5 3.5 0 0 1-4.95 0L4.55 12H2a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-4a2 2 0 0 0-2-2Zm-3 5a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z" />
-                </svg>{" "}
-                Mas informacion
-              </a>
-            </li>
-          </ol>
-        </div>
+                  <svg
+                    class="w-3.5 h-3.5 mr-2.5"
+                    aria-hidden="true"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                  >
+                    <path d="M14.707 7.793a1 1 0 0 0-1.414 0L11 10.086V1.5a1 1 0 0 0-2 0v8.586L6.707 7.793a1 1 0 1 0-1.414 1.414l4 4a1 1 0 0 0 1.416 0l4-4a1 1 0 0 0-.002-1.414Z" />
+                    <path d="M18 12h-2.55l-2.975 2.975a3.5 3.5 0 0 1-4.95 0L4.55 12H2a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-4a2 2 0 0 0-2-2Zm-3 5a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z" />
+                  </svg>{" "}
+                  Mas informacion
+                </a>
+              </li>
+            </ol>
+          </div>
+        </section>
+
+        {/* SECCION EXPERIENCIA */}
+
         <span className="hero_Glow__wiAEk-about"></span>
       </div>
     </>
