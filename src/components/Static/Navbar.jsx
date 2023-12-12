@@ -85,15 +85,15 @@ export default function Navbar() {
         <div className="max-w-8xl py-5 w-full px-0 lg:px-0">
           <div className="flex items-center justify-between md:justify-around">
             <div className="flex items-center">
-            <Tippy
-                  content="Este es mi emoji favorito :p"
-                  interactive={true}
-                  followCursor={true}
-                  animation="scale"
-                  theme="light"
-                  plugins={[followCursor]}
-                >
-              <Link href="/">
+              <Tippy
+                content="Este es mi emoji favorito :p"
+                interactive={true}
+                followCursor={true}
+                animation="scale"
+                theme="light"
+                plugins={[followCursor]}
+              >
+                <Link href="/">
                   <a className="border border-gray-600/25 hover:text-black hover:dark:text-white cursor-pointer bg-gray-400/5 p-1 w-12 h-12 flex items-center justify-center rounded-lg md:rounded-full mx-8 md:mx-0 font-bold mr-1 md:mr-0 transition duration-200">
                     <Image
                       src="/images/palomaepica.png"
@@ -105,17 +105,16 @@ export default function Navbar() {
                     />
                     {/* {eddyConfig.navbar} */}
                   </a>
-               
-              </Link>
+                </Link>
               </Tippy>
             </div>
-              {/* Menu de navegacion para pantallas grandes */}
-            <div className="hidden md:flex sticky top-6 z-10 flex bg-black border-2 border-[rgba(72,72,72,0.48)] px-8 rounded-full py-3 items-center">
+            {/* Menu de navegacion para pantallas grandes */}
+            <div className="hidden md:flex sticky top-6 z-10 flex bg-gray-500/5 dark:bg-black border-2 border-gray-500/10 dark:border-[rgba(72,72,72,0.48)] px-8 rounded-full py-3 items-center">
               <ul className="flex gap-8 transition transition-duration-300">
                 <li>
                   <Link href={`/`}>
                     <a
-                      className="font-medium transition transition-duration-200  text-white/60 hover:text-white/80 focus:text-white focus:shadow-sm focus:shadow-white"
+                      className="font-medium transition transition-duration-200 text-black/90 text-black/90 dark:text-white/60 hover:text-black/40 dark:hover:text-white/80 focus:text-white focus:shadow-sm focus:shadow-white"
                       href=""
                     >
                       Inicio
@@ -125,7 +124,7 @@ export default function Navbar() {
                 <li>
                   <Link href={`/about`}>
                     <a
-                      className="font-medium transition transition-duration-200  text-white/60 hover:text-white/80 focus:text-white focus:shadow-sm focus:shadow-white"
+                      className="font-medium transition transition-duration-200  text-black/90 dark:text-white/60 hover:text-black/40 dark:hover:text-white/80 focus:text-white focus:shadow-sm focus:shadow-white"
                       href=""
                     >
                       Sobre mi
@@ -136,7 +135,7 @@ export default function Navbar() {
                 <li>
                   <Link href={`/projects`}>
                     <a
-                      className="font-medium transition transition-duration-200  text-white/60 hover:text-white/80 focus:text-white focus:shadow-sm focus:shadow-white"
+                      className="font-medium transition transition-duration-200  text-black/90 dark:text-white/60 hover:text-black/40 dark:hover:text-white/80 focus:text-white focus:shadow-sm focus:shadow-white"
                       href=""
                     >
                       Proyectos
@@ -152,22 +151,22 @@ export default function Navbar() {
                   theme="light"
                   plugins={[followCursor]}
                 >
-                <li className="">
-                  <Link href={`/designs`}>
-                    <a
-                      className="font-medium transition transition-duration-300 text-white/30 hover:text- focus:text-white focus:shadow-sm focus:shadow-white focus:shadow-sm focus:shadow-white"
-                      href=""
-                    >
-                      Diseños
-                    </a>
-                  </Link>
-                </li>
+                  <li className="">
+                    <Link href={`/designs`}>
+                      <a
+                        className="font-medium transition transition-duration-300 text-black/30 dark:text-white/30 hover:text- focus:text-white focus:shadow-sm focus:shadow-white focus:shadow-sm focus:shadow-white"
+                        href=""
+                      >
+                        Diseños
+                      </a>
+                    </Link>
+                  </li>
                 </Tippy>
 
                 <li>
                   <Link href={`/posts`}>
                     <a
-                      className="font-medium transition transition-duration-200  text-white/60 hover:text-white/80 focus:text-white focus:shadow-sm focus:shadow-white"
+                      className="font-medium transition transition-duration-200  text-black/90 dark:text-white/60 hover:text-black/40 dark:hover:text-white/80 focus:text-white focus:shadow-sm focus:shadow-white"
                       href=""
                     >
                       Blog
@@ -180,7 +179,7 @@ export default function Navbar() {
             <div className="flex items-center gap-4 mx-9 md:mx-0 ">
               <div
                 onClick={() => toastMessage()}
-                // onClick={() => toggleTheme()}
+                onClick={() => toggleTheme()}
                 className="text-2xl text-slate-300 text-zinc-400 border border-gray-600/25 hover:text-black hover:dark:text-white cursor-pointer bg-gray-400/5 w-12 h-12 flex items-center justify-center rounded-lg md:rounded-full transition-all duration-200"
               >
                 {isTheme === "dark" ? (
