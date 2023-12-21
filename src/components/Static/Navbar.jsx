@@ -114,7 +114,7 @@ export default function Navbar() {
                 <li>
                   <Link href={`/`}>
                     <a
-                      className="font-medium transition transition-duration-200 text-black/90 text-black/90 dark:text-white/60 hover:text-black/40 dark:hover:text-white/80 focus:text-gray-700/40 dark:focus:text-white focus:shadow-sm focus:shadow-black/40 dark:focus:shadow-white"
+                      className="font-medium rounded-xl p-1.5 transition transition-duration-200 text-black/90 text-black/90 dark:text-white/60 hover:text-black/40 dark:hover:text-white/80 focus:text-gray-700/40 dark:focus:text-white focus:shadow-sm focus:shadow-black/40 dark:focus:shadow-white"
                       href=""
                     >
                       Inicio
@@ -124,7 +124,7 @@ export default function Navbar() {
                 <li>
                   <Link href={`/about`}>
                     <a
-                      className="font-medium transition transition-duration-200 text-black/90 text-black/90 dark:text-white/60 hover:text-black/40 dark:hover:text-white/80 focus:text-gray-700/40 dark:focus:text-white focus:shadow-sm focus:shadow-black/40 dark:focus:shadow-white"
+                      className="font-medium rounded-full px-2 py-2 transition transition-duration-200 text-black/90 text-black/90 dark:text-white/60 hover:text-black/40 dark:hover:text-white/80 focus:text-gray-700/40 dark:focus:text-white focus:shadow-sm focus:shadow-black/40 dark:focus:shadow-white"
                       href=""
                     >
                       Sobre mi
@@ -135,7 +135,7 @@ export default function Navbar() {
                 <li>
                   <Link href={`/projects`}>
                     <a
-                      className="font-medium transition transition-duration-200 text-black/90 text-black/90 dark:text-white/60 hover:text-black/40 dark:hover:text-white/80 focus:text-gray-700/40 dark:focus:text-white focus:shadow-sm focus:shadow-black/40 dark:focus:shadow-white"
+                      className="font-medium rounded-xl p-1.5 transition transition-duration-200 text-black/90 text-black/90 dark:text-white/60 hover:text-black/40 dark:hover:text-white/80 focus:text-gray-700/40 dark:focus:text-white focus:shadow-sm focus:shadow-black/40 dark:focus:shadow-white"
                       href=""
                     >
                       Proyectos
@@ -154,7 +154,7 @@ export default function Navbar() {
                   <li className="">
                     <Link href={`/designs`}>
                       <a
-                        className="font-medium transition transition-duration-300 text-black/30 dark:text-white/30 hover:text- focus:text-white focus:shadow-sm focus:shadow-white focus:shadow-sm focus:shadow-white"
+                        className="font-medium rounded-xl p-1.5 transition transition-duration-300 text-black/30 dark:text-white/30 hover:text- focus:text-white focus:shadow-sm focus:shadow-white focus:shadow-sm focus:shadow-white"
                         href=""
                       >
                         Diseños
@@ -166,7 +166,7 @@ export default function Navbar() {
                 <li>
                   <Link href={`/posts`}>
                     <a
-                      className="font-medium transition transition-duration-200 text-black/90 text-black/90 dark:text-white/60 hover:text-black/40 dark:hover:text-white/80 focus:text-gray-700/40 dark:focus:text-white focus:shadow-sm focus:shadow-black/40 dark:focus:shadow-white"
+                      className="font-medium rounded-xl p-1.5 transition transition-duration-200 text-black/90 text-black/90 dark:text-white/60 hover:text-black/40 dark:hover:text-white/80 focus:text-gray-700/40 dark:focus:text-white focus:shadow-sm focus:shadow-black/40 dark:focus:shadow-white"
                       href=""
                     >
                       Blog
@@ -229,7 +229,7 @@ export default function Navbar() {
 
             <div className="mt-8 space-y-2">
               <div className="flex items-center gap-2">
-                <p className="text-xs font-medium uppercase text-black/50 dark:text-white/10">
+                <p className="text-xs font-medium rounded-xl p-1.5 uppercase text-black/50 dark:text-white/10">
                   Menu
                 </p>
                 <div className="w-full h-0.5 bg-black/50 dark:bg-white/10" />
@@ -260,7 +260,7 @@ export default function Navbar() {
 
             <div className="mt-6 space-y-2">
               <div className="flex items-center gap-2">
-                <p className="text-xs font-medium uppercase text-black/50 dark:text-white/10">
+                <p className="text-xs font-medium rounded-xl p-1.5 uppercase text-black/50 dark:text-white/10">
                   Redes Sociales
                 </p>
                 <div className="w-full h-0.5 bg-black/50 dark:bg-white/10" />
