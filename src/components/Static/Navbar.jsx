@@ -114,7 +114,7 @@ export default function Navbar() {
                 <li>
                   <Link href={`/`}>
                     <a
-                      className="font-medium rounded-full px-3 py-2 transition transition-duration-200 text-black/90 text-black/90 dark:text-white/60 focus:bg-white/20 hover:text-black/40 dark:hover:text-white/80 focus:text-gray-700/40 dark:focus:text-white focus:shadow-sm"
+                      className="font-medium rounded-full px-3 py-2 transition transition-duration-200 text-black/90 text-black/90 dark:text-white/60 focus:bg-neutral-400/50 dark:focus:bg-white/20 hover:text-black/40 dark:hover:text-white/80 focus:text-black dark:focus:text-gray-700/40 dark:focus:text-white focus:shadow-sm"
                       href=""
                     >
                       Inicio
@@ -124,7 +124,7 @@ export default function Navbar() {
                 <li>
                   <Link href={`/about`}>
                     <a
-                      className="font-medium rounded-full px-3 py-2 transition transition-duration-200 text-black/90 text-black/90 dark:text-white/60 focus:bg-white/20 hover:text-black/40 dark:hover:text-white/80 focus:text-gray-700/40 dark:focus:text-white focus:shadow-sm"
+                      className="font-medium rounded-full px-3 py-2 transition transition-duration-200 text-black/90 text-black/90 dark:text-white/60 focus:bg-neutral-400/50 dark:focus:bg-white/20 hover:text-black/40 dark:hover:text-white/80 focus:text-black dark:focus:text-gray-700/40 dark:focus:text-white focus:shadow-sm"
                       href=""
                     >
                       Sobre mi
@@ -135,7 +135,7 @@ export default function Navbar() {
                 <li>
                   <Link href={`/projects`}>
                     <a
-                      className="font-medium rounded-full px-3 py-2 transition transition-duration-200 text-black/90 text-black/90 dark:text-white/60 focus:bg-white/20 hover:text-black/40 dark:hover:text-white/80 focus:text-gray-700/40 dark:focus:text-white focus:shadow-sm"
+                      className="font-medium rounded-full px-3 py-2 transition transition-duration-200 text-black/90 text-black/90 dark:text-white/60 focus:bg-neutral-400/50 dark:focus:bg-white/20 hover:text-black/40 dark:hover:text-white/80 focus:text-black dark:focus:text-gray-700/40 dark:focus:text-white focus:shadow-sm"
                       href=""
                     >
                       Proyectos
@@ -166,7 +166,7 @@ export default function Navbar() {
                 <li>
                   <Link href={`/posts`}>
                     <a
-                      className="font-medium rounded-full px-3 py-2 transition transition-duration-200 text-black/90 text-black/90 dark:text-white/60 focus:bg-white/20 hover:text-black/40 dark:hover:text-white/80 focus:text-gray-700/40 dark:focus:text-white focus:shadow-sm"
+                      className="font-medium rounded-full px-3 py-2 transition transition-duration-200 text-black/90 text-black/90 dark:text-white/60 focus:bg-neutral-400/50 dark:focus:bg-white/20 hover:text-black/40 dark:hover:text-white/80 focus:text-black dark:focus:text-gray-700/40 dark:focus:text-white focus:shadow-sm"
                       href=""
                     >
                       Blog
