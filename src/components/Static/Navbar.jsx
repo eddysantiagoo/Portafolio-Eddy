@@ -114,7 +114,7 @@ export default function Navbar() {
                 <li>
                   <Link href={`/`}>
                     <a
-                      className="font-medium transition transition-duration-200 text-black/90 text-black/90 dark:text-white/60 hover:text-black/40 dark:hover:text-white/80 focus:text-white focus:shadow-sm focus:shadow-white"
+                      className="font-medium transition transition-duration-200 text-black/90 text-black/90 dark:text-white/60 hover:text-black/40 dark:hover:text-white/80 focus:text-gray-700/40 dark:focus:text-white focus:shadow-sm focus:shadow-black/40 dark:focus:shadow-white"
                       href=""
                     >
                       Inicio
@@ -124,7 +124,7 @@ export default function Navbar() {
                 <li>
                   <Link href={`/about`}>
                     <a
-                      className="font-medium transition transition-duration-200  text-black/90 dark:text-white/60 hover:text-black/40 dark:hover:text-white/80 dark:focus:text-white focus:shadow-sm focus:shadow-white"
+                      className="font-medium transition transition-duration-200 text-black/90 text-black/90 dark:text-white/60 hover:text-black/40 dark:hover:text-white/80 focus:text-gray-700/40 dark:focus:text-white focus:shadow-sm focus:shadow-black/40 dark:focus:shadow-white"
                       href=""
                     >
                       Sobre mi
@@ -135,7 +135,7 @@ export default function Navbar() {
                 <li>
                   <Link href={`/projects`}>
                     <a
-                      className="font-medium transition transition-duration-200  text-black/90 dark:text-white/60 hover:text-black/40 dark:hover:text-white/80 focus:text-white focus:shadow-sm focus:shadow-white"
+                      className="font-medium transition transition-duration-200 text-black/90 text-black/90 dark:text-white/60 hover:text-black/40 dark:hover:text-white/80 focus:text-gray-700/40 dark:focus:text-white focus:shadow-sm focus:shadow-black/40 dark:focus:shadow-white"
                       href=""
                     >
                       Proyectos
@@ -166,7 +166,7 @@ export default function Navbar() {
                 <li>
                   <Link href={`/posts`}>
                     <a
-                      className="font-medium transition transition-duration-200  text-black/90 dark:text-white/60 hover:text-black/40 dark:hover:text-white/80 focus:text-white focus:shadow-sm focus:shadow-white"
+                      className="font-medium transition transition-duration-200 text-black/90 text-black/90 dark:text-white/60 hover:text-black/40 dark:hover:text-white/80 focus:text-gray-700/40 dark:focus:text-white focus:shadow-sm focus:shadow-black/40 dark:focus:shadow-white"
                       href=""
                     >
                       Blog
