@@ -94,7 +94,7 @@ export default function Navbar() {
                 plugins={[followCursor]}
               >
                 <Link href="/">
-                  <a className="border border-gray-600/25 hover:text-black hover:dark:text-white cursor-pointer bg-gray-400/5 p-1 w-12 h-12 flex items-center justify-center rounded-lg md:rounded-full mx-8 md:mx-0 font-bold mr-1 md:mr-0 transition duration-200">
+                  <a className="bg-stone-400/50 dark:bg-black/50 border border-gray-600/25 p-2 hover:text-black hover:dark:text-white cursor-pointer bg-gray-400/5 p-1 w-12 h-12 flex items-center justify-center rounded-lg md:rounded-full mx-8 md:mx-0 font-bold mr-1 md:mr-0 transition duration-200">
                     <Image
                       src="/images/palomaepica.png"
                       className="grayscale transition duration-800 ease-in-out hover:grayscale-0"
@@ -109,7 +109,7 @@ export default function Navbar() {
               </Tippy>
             </div>
             {/* Menu de navegacion para pantallas grandes */}
-            <div className="hidden md:flex sticky top-6 z-10 flex bg-gray-500/5 dark:bg-black border-2 border-gray-500/10 dark:border-[rgba(72,72,72,0.48)] px-8 rounded-full py-3 items-center">
+            <div className="hidden md:flex sticky top-6 z-10 flex bg-neutral-200 dark:bg-black border-2 border-gray-500/10 dark:border-[rgba(72,72,72,0.48)] px-8 rounded-full py-3 items-center">
               <ul className="flex gap-8 transition transition-duration-300">
                 <li>
                   <Link href={`/`}>
@@ -124,7 +124,7 @@ export default function Navbar() {
                 <li>
                   <Link href={`/about`}>
                     <a
-                      className="font-medium transition transition-duration-200  text-black/90 dark:text-white/60 hover:text-black/40 dark:hover:text-white/80 focus:text-white focus:shadow-sm focus:shadow-white"
+                      className="font-medium transition transition-duration-200  text-black/90 dark:text-white/60 hover:text-black/40 dark:hover:text-white/80 dark:focus:text-white focus:shadow-sm focus:shadow-white"
                       href=""
                     >
                       Sobre mi
