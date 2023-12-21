@@ -120,7 +120,7 @@ export default function About() {
             rel="noopener noreferrer"
           >
             <div className="grid-cols-1 justify-start md:grid-cols-1 lg:grid-cols-2 gap-4 my-4 chroma">
-              <div className="group flex items-center relative bg-gray-600/5 dark:shadow-2xl overflow-hidden border border-gray-500/25 hover:border-primary hover:shadow-xl rounded-lg overflow-hidden p-2.5 transition-all duration-200">
+              <div className="group flex items-center relative bg-neutral-200 dark:bg-gray-600/5  hover:bg-neutral-300 overflow-hidden border dark:border-gray-500/25 dark:hover:border-primary rounded-lg overflow-hidden p-2.5 transition-all duration-200 place-content-center">
                 <div className="relative">
                   <h2 className="ml-2 font-display text-lg sm:text-xl font-medium text-black dark:text-white">
                     ¿Quieres conocer más sobre mí? Revisa mi CV aquí :)
@@ -138,7 +138,7 @@ export default function About() {
             </h1>
 
             <div className="grid grid-cols-1 justify-start gap-4 my-4">
-              <div className="group flex items-center relative bg-gray-600/5 dark:shadow-2xl overflow-hidden border border-gray-500/25 hover:border-primary hover:shadow-xl rounded-lg overflow-hidden p-2.5 transition-all duration-200">
+              <div className="group flex items-center relative bg-neutral-200 dark:bg-gray-600/5  hover:bg-neutral-300 overflow-hidden border dark:border-gray-500/25 dark:hover:border-primary rounded-lg overflow-hidden p-2.5 transition-all duration-200 place-content-center">
                 <img
                   src="https://media.licdn.com/dms/image/C4E0BAQHMgYEnxoVtxw/company-logo_200_200/0/1651508107143?e=2147483647&v=beta&t=ueYquiqI1_dejh2VyS1XzZ2D8Q2W4WjWw2VDBNC5OYU"
                   alt="Logo de la IU Digital de Antioquia"
@@ -153,7 +153,7 @@ export default function About() {
                   </h2>
                 </div>
               </div>
-              <div className="group flex items-center relative bg-gray-600/5 dark:shadow-2xl overflow-hidden border border-gray-500/25 hover:border-primary hover:shadow-xl rounded-lg overflow-hidden p-2.5 transition-all duration-200">
+              <div className="group flex items-center relative bg-neutral-200 dark:bg-gray-600/5 hover:bg-neutral-300 overflow-hidden border dark:border-gray-500/25 dark:hover:border-primary rounded-lg overflow-hidden p-2.5 transition-all duration-200 ">
                 <img
                   src="https://media.licdn.com/dms/image/C4E0BAQHMgYEnxoVtxw/company-logo_200_200/0/1651508107143?e=2147483647&v=beta&t=ueYquiqI1_dejh2VyS1XzZ2D8Q2W4WjWw2VDBNC5OYU"
                   alt="Logo de la IU Digital de Antioquia"
@@ -170,7 +170,7 @@ export default function About() {
             </div>
 
             <div className="grid grid-cols-1 justify-start gap-4 my-4">
-              <div className="group flex items-center relative bg-gray-600/5 dark:shadow-2xl overflow-hidden border border-gray-500/25 hover:border-primary hover:shadow-xl rounded-lg overflow-hidden p-2.5 transition-all duration-200">
+              <div className="group flex items-center relative bg-neutral-200 dark:bg-gray-600/5  hover:bg-neutral-300 overflow-hidden border dark:border-gray-500/25 dark:hover:border-primary rounded-lg overflow-hidden p-2.5 transition-all duration-200 place-content-center">
                 <img
                   src="https://upload.wikimedia.org/wikipedia/commons/9/97/Coursera-Logo_600x600.svg"
                   alt="Logo de la IU Digital de Antioquia"
