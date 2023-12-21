@@ -105,7 +105,7 @@ export default function About() {
 
         {/* SECCION EDUCACIÓN */}
 
-        <section className="grid lg:grid-cols-2 gap-12 mt-12">  
+        <section className="grid lg:grid-cols-2 gap-12 mt-12">
           <div className="mx-auto max-w-7xl">
             {/* <h1 className="mt-1 text-4xl font-bold font-secundary">
             {"Mi "}
@@ -223,12 +223,12 @@ export default function About() {
                   >
                     GestorU
                   </a>
-                  <span class="bg-blue-100 text-blue-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-white dark:text-black border-2 ml-3">
+                  <span class="bg-neutral-200 text-stone-600 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-white dark:text-black border-2 ml-3">
                     Actual
                   </span>
                 </h3>
                 <div className="grid md:flex items-center">
-                  <time class="bg-[#313131] w-fit py-2 px-3 rounded-md text-sm font-normal leading-none text-gray-400 dark:text-white">
+                  <time class="bg-neutral-400 dark:bg-[#313131] w-fit py-2 px-3 rounded-md text-sm font-normal leading-none dark:text-gray-400 dark:text-white">
                     Desde Junio del 2023 ({diferenciaMeses} meses)
                   </time>
                   <span className="ml-2 text-sm">
@@ -242,28 +242,28 @@ export default function About() {
                 nostrum accusamus rem architecto nemo? */}
                 </p>
                 <div className="flex flex-wrap gap-y-3 justify-left">
-                  <span class="bg-blue-100 text-blue-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-black dark:text-white border-2 border-stone-400">
+                  <span class="bg-neutral-200 text-stone-600 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-black dark:text-white border-2 border-stone-400">
                     Laravel
                   </span>
-                  <span class="bg-blue-100 text-blue-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-black dark:text-white border-2 border-stone-400">
+                  <span class="bg-neutral-200 text-stone-600 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-black dark:text-white border-2 border-stone-400">
                     Figma
                   </span>
-                  <span class="bg-blue-100 text-blue-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-black dark:text-white border-2 border-stone-400">
+                  <span class="bg-neutral-200 text-stone-600 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-black dark:text-white border-2 border-stone-400">
                     Tailwind
                   </span>
-                  <span class="bg-blue-100 text-blue-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-black dark:text-white border-2 border-stone-400">
+                  <span class="bg-neutral-200 text-stone-600 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-black dark:text-white border-2 border-stone-400">
                     CSS
                   </span>
-                  <span class="bg-blue-100 text-blue-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-black dark:text-white border-2 border-stone-400">
+                  <span class="bg-neutral-200 text-stone-600 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-black dark:text-white border-2 border-stone-400">
                     PHP
                   </span>
-                  <span class="bg-blue-100 text-blue-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-black dark:text-white border-2 border-stone-400">
+                  <span class="bg-neutral-200 text-stone-600 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-black dark:text-white border-2 border-stone-400">
                     JavaScript
                   </span>
-                  <span class="bg-blue-100 text-blue-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-black dark:text-white border-2 border-stone-400">
+                  <span class="bg-neutral-200 text-stone-600 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-black dark:text-white border-2 border-stone-400">
                     Bootstrap
                   </span>
-                  <span class="bg-blue-100 text-blue-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-black dark:text-white border-2 border-stone-400">
+                  <span class="bg-neutral-200 text-stone-600 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-black dark:text-white border-2 border-stone-400">
                     HTML
                   </span>
                 </div>
