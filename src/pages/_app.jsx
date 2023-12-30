@@ -13,6 +13,7 @@ import { Analytics } from '@vercel/analytics/react';
 import "tippy.js/dist/tippy.css";
 import "tippy.js/themes/light.css";
 import "tippy.js/animations/scale.css";
+import ScrollArrow from 'components/Global/ScrollArrow';
 
 
 function MyApp({ Component, pageProps }) {
@@ -41,6 +42,7 @@ function MyApp({ Component, pageProps }) {
             <main className="min-h-[67vh] px-6 lg:px-0">
               <Component {...pageProps} />
               <Analytics />
+              <ScrollArrow />
             </main>
             <Footer />
           </ContextMenu>

@@ -25,7 +25,7 @@ const ScrollArrow = () => {
 
   return (
     <div
-      class="scrollArrow"
+      class="scrollArrow text-white"
       style={{ display: showScroll ? "flex" : "none" }}
       onClick={scrollTop}
     >
