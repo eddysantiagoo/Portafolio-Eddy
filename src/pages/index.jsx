@@ -50,7 +50,7 @@ export default function Home() {
         }}
       />
       <div className="sm:h-[40rem] h-[36em] flex flex-col justify-center items-center">
-        <h1 className="mx-auto max-w-5xl font-display text-4xl font-extrabold font-secundary tracking-tighter sm:text-7xl text-black dark:text-white text-center">
+        <h1 className="mx-auto max-w-5xl font-display text-4xl font-extrabold font-secundary tracking-tighter sm:text-7xl text-neutral-600 dark:text-white text-center">
           Eddy{" "}
         </h1>
         <h1 className="mx-auto max-w-5xl font-display text-4xl font-extrabold font-secundary tracking-tighter sm:text-7xl text-black dark:text-white text-center">

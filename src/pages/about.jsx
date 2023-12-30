@@ -59,7 +59,7 @@ export default function About() {
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-col lg:flex-row justify-between w-full h-full py-14 gap-24 pb-2">
           <div>
-            <h1 className="font-display gap-2 md:gap-4 flex inline-flex items-center text-5xl font-bold sm:text-7xl text-black dark:text-white">
+            <h1 className="font-display gap-2 md:gap-4 flex inline-flex items-center text-5xl font-bold sm:text-7xl text-neutral-600 dark:text-white">
               ¿Quién
               <span className="relative whitespace-nowrap text-primary">
                 <span className="text-deg-principal">soy?</span>
@@ -130,7 +130,7 @@ export default function About() {
             </div> 
           </a>*/}
 
-            <h1 className="mt-1 text-4xl font-bold font-secundary">
+            <h1 className="mt-1 text-4xl font-bold text-neutral-600 dark:text-white  font-secundary">
               {"Educación"}
               <span className="relative whitespace-nowrap text-primary">
                 {/* VACIO */}
@@ -188,7 +188,7 @@ export default function About() {
             </div>
           </div>
           <div>
-            <h1 className="mt-1 text-4xl font-bold font-secundary mb-4">
+            <h1 className="mt-1 text-4xl font-bold text-neutral-600 dark:text-white font-secundary mb-4">
               {"Experiencia"}
               <span className="relative whitespace-nowrap text-primar">
                 {/* VACIO */}
