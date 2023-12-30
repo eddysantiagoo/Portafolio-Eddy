@@ -427,7 +427,7 @@ export default function Home() {
 
           <article className="grid gap-2">
             <img src="https://spotify-dynamic-readme.vercel.app/spotify" />
-            <h1 className="font-semibold wrapper__index-grid--spotify bg-neutral-300 dark:bg-[#1a1616] hover:bg-[#1db954] hover:text-[#1a1616] transition px-4 py-2 text-center rounded-2xl">
+            <h1 className="font-semibold wrapper__index-grid--spotify bg-neutral-300 dark:bg-[#1a1616] hover:bg-[#1db954] dark:hover:bg-[#1db954] hover:text-[#1a1616] transition px-4 py-2 text-center rounded-2xl">
               ¿Quieres implementar este mismo SVG con tu cuenta de Spotify?
               <a
                 href="https://spotify-dynamic-readme.vercel.app/"
