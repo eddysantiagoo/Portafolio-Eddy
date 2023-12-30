@@ -206,7 +206,7 @@ export default function About() {
         <p class="text-base font-normal text-gray-500 dark:text-gray-400">All of the pages and components are first designed in Figma and we keep a parity between the two versions even as we update the project.</p>
     </li> */}
               <li class="mt-6 mb-10 ml-8 ">
-                <span class="absolute flex items-center justify-center w-8 h-8 bg-[#313131] p-[6px] rounded-md -left-4">
+                <span class="absolute flex items-center justify-center w-8 h-8 bg-neutral-600 dark:bg-[#313131] p-[6px] rounded-md -left-4">
                   <img
                     src="https://principal.gestoru.com/wp-content/uploads/2022/05/Gestoru-Favicon.png"
                     alt=""
@@ -223,7 +223,7 @@ export default function About() {
                   >
                     GestorU
                   </a>
-                  <span class="bg-neutral-300/80 text-stone-600 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-white dark:text-black border-2 ml-3">
+                  <span class="bg-neutral-300/80 text-stone-700 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-white dark:text-black border-2 ml-3">
                     Actual
                   </span>
                 </h3>
