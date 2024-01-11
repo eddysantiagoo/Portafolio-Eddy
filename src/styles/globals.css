@@ -412,7 +412,7 @@ body {
     opacity: 1;
 
     @media screen and (max-width: 1024px) {
-      left: 10rem;
+      left: 12rem;
       top: 0px;
       width: 17rem;
       opacity: 1;
@@ -463,8 +463,8 @@ body {
   width: 17rem;
   opacity: 0.7;
 
-  @media screen and (max-width: 1024px) {
-    left: 12rem;
+  @media screen and (max-width: 768px) {
+    left: 210px;
     top: 0px;
     width: 17rem;
     opacity: 0.7;
