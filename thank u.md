@@ -1,4 +1,4 @@
-# Specially thanks to all persons that made possible make things like eddysantiago.dev with their contributions
+# Specially thanks to all persons that made possible make things like www.eddyy.dev with their contributions
 
 ## Resources used
 
@@ -17,4 +17,4 @@
 - React Hot Toast (https://react-hot-toast.com/)
 
 
-![](https://em-content.zobj.net/thumbs/160/whatsapp/273/bird_1f426.png) 
+![](https://em-content.zobj.net/thumbs/160/whatsapp/273/bird_1f426.png)
