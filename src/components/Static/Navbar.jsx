@@ -94,7 +94,7 @@ export default function Navbar() {
                 plugins={[followCursor]}
               >
                 <Link href="/">
-                  <a className="bg-stone-300 dark:bg-black/50 border border-gray-600/25 p-2 hover:text-black hover:dark:text-white cursor-pointer bg-gray-400/5 p-1 w-12 h-12 flex items-center justify-center rounded-lg md:rounded-full mx-8 md:mx-0 font-bold mr-1 md:mr-0 transition duration-200">
+                  <a className="bg-stone-300 dark:bg-black/50 border border-gray-600/25 p-2 hover:text-black hover:dark:text-white cursor-pointer bg-gray-400/5 p-1 w-12 h-12 flex items-center justify-center rounded-lg md:rounded-full mx-8 md:mx-0 font-bold mr-1 md:mr-0 transition duration-200 teams-icon-card--nav">
                     <Image
                       src="/images/palomaepica.png"
                       className="grayscale transition duration-800 ease-in-out hover:grayscale-0"
@@ -179,8 +179,7 @@ export default function Navbar() {
             <div className="flex items-center gap-4 mx-9 md:mx-0 ">
               <div
                 onClick={() => toastMessage()}
-                onClick={() => toggleTheme()}
-                className="bg-stone-300 dark:bg-black/50 text-2xl text-black/60 dark:text-slate-300 border border-gray-600/25 hove:text-stone-400 dark:hover:text-neutral hover:dark:text-white cursor-pointer bg-gray-400/5 w-12 h-12 flex items-center justify-center rounded-lg md:rounded-full transition-all duration-200"
+                className="bg-stone-300 dark:bg-black/50 text-2xl text-black/60 dark:text-slate-300 border border-gray-600/25 hove:text-stone-400 dark:hover:text-neutral hover:dark:text-white cursor-pointer bg-gray-400/5 w-12 h-12 flex items-center justify-center rounded-lg md:rounded-full transition-all duration-200 teams-icon-card--nav"
               >
                 {isTheme === "dark" ? (
                   <i className="fas fa-moon " />
@@ -190,7 +189,7 @@ export default function Navbar() {
               </div>
               <i
                 onClick={() => setIsOpen(true)}
-                className="visible md:hidden bg-stone-300 dark:bg-black/50 fas fa-bars text-black/60 dark:text-slate-300 text-2xl hover:text-black hover:dark:text-white cursor-pointer border border-gray-600/25 bg-gray-400/5 w-12 h-12 flex items-center justify-center rounded-lg transition-all duration-200 "
+                className="visible md:hidden bg-stone-300 dark:bg-black/50 fas fa-bars text-black/60 dark:text-slate-300 text-2xl hover:text-black hover:dark:text-white cursor-pointer border border-gray-600/25 bg-gray-400/5 w-12 h-12 flex items-center justify-center rounded-lg transition-all duration-200 teams-icon-card--nav"
               />
             </div>
           </div>
