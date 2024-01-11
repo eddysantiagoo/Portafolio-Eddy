@@ -53,8 +53,8 @@ export default function Home() {
       <div className="grid grid-cols-2 gap-4 p-8 place-items-center max-w-7xl m-auto relative top-32">
         <div className="h-full bento-grid w-full flex flex-col justify-center items-center">
           <h1 className="mx-auto max-w-5xl font-display text-4xl font-extrabold font-secundary tracking-tighter sm:text-7xl text-neutral-600 dark:text-white text-center">
-            Eddy{" "}
-            <span className="relative whitespace-nowrap text-deg-principal">
+            Eddy Santiago
+            {/* <span className="relative whitespace-nowrap text-deg-principal">
               <svg
                 aria-hidden="true"
                 viewBox="0 0 418 42"
@@ -64,12 +64,12 @@ export default function Home() {
                 <path d="M203.371.916c-26.013-2.078-76.686 1.963-124.73 9.946L67.3 12.749C35.421 18.062 18.2 21.766 6.004 25.934 1.244 27.561.828 27.778.874 28.61c.07 1.214.828 1.121 9.595-1.176 9.072-2.377 17.15-3.92 39.246-7.496C123.565 7.986 157.869 4.492 195.942 5.046c7.461.108 19.25 1.696 19.17 2.582-.107 1.183-7.874 4.31-25.75 10.366-21.992 7.45-35.43 12.534-36.701 13.884-2.173 2.308-.202 4.407 4.442 4.734 2.654.187 3.263.157 15.593-.78 35.401-2.686 57.944-3.488 88.365-3.143 46.327.526 75.721 2.23 130.788 7.584 19.787 1.924 20.814 1.98 24.557 1.332l.066-.011c1.201-.203 1.53-1.825.399-2.335-2.911-1.31-4.893-1.604-22.048-3.261-57.509-5.556-87.871-7.36-132.059-7.842-23.239-.254-33.617-.116-50.627.674-11.629.54-42.371 2.494-46.696 2.967-2.359.259 8.133-3.625 26.504-9.81 23.239-7.825 27.934-10.149 28.304-14.005.417-4.348-3.529-6-16.878-7.066Z" />
               </svg>
               Santiago
-            </span>
+            </span> */}
           </h1>
 
-          <p className="mx-auto max-w-5xl font-display font-medium md:font-bold text-2xl md:text-3xl text-neutral-400 dark:text-gray-400/50 mt-2 text-center">
+          {/* <p className="mx-auto max-w-5xl font-display font-medium md:font-bold text-2xl md:text-3xl text-neutral-400 dark:text-gray-400/50 mt-2 text-center">
             Desarrollador de Software
-          </p>
+          </p> */}
           {/* Seccion de los botones de tecnologias, repositorios etc... */}
           <span className="hero_Glow__wiAEk"></span>
         </div>
@@ -80,7 +80,7 @@ export default function Home() {
           <article className="bento-grid">
             <h2 className="font-bold text-2xl font-secundary mb-4">Contacto</h2>
 
-            <div className="flex align-center gap-4">
+            <di1v className="flex align-center gap-4">
               <a
                 target="_blank"
                 rel="noreferrer"
@@ -161,18 +161,19 @@ export default function Home() {
                   </div>
                 </div>
               </a>
-            </div>
+            </di1v>
           </article>
 
-          <article className="bento-grid relative h-56 flex justify-center text-center">
-            <h2 className="font-bold text-6xl font-secundary mb-4">CV</h2>
-            <img
-              className="img-cv"
-              src="https://assets-global.website-files.com/5f3a64853eba5d020f364879/632454c25b8542169c35b3d0_visual-checklist-flux.webp"
-              alt=""
-              srcset=""
-            />
-          </article>
+          <a href="#" target="_blank" rel="noopener noreferrer">
+            <article className="bento-grid relative h-56 flex justify-center text-center">
+              <h2 className="font-bold text-6xl font-secundary mb-4">CV</h2>
+              <img
+                className="img-cv"
+                src="images/cv-stock.webp"
+                alt="Curriculum"
+              />
+            </article>
+          </a>
         </section>
       </div>
 
