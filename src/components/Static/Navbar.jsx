@@ -15,8 +15,6 @@ export default function Navbar() {
   const router = useRouter();
   let [isOpen, setMenu] = useState(false);
 
-  const { isTheme, toggleTheme } = useTheme();
-
   // RUTAS
 
   const pages = [
@@ -94,7 +92,7 @@ export default function Navbar() {
                 plugins={[followCursor]}
               >
                 <Link href="/">
-                  <a className="bg-stone-300 dark:bg-black/50 border border-gray-600/25 p-2 hover:text-black hover:dark:text-white cursor-pointer bg-gray-400/5 p-1 w-12 h-12 flex items-center justify-center rounded-lg md:rounded-full mx-8 md:mx-0 font-bold mr-1 md:mr-0 transition duration-200 teams-icon-card--nav">
+                  <a  className="bg-stone-300 text-2xl text-black/60 dark:text-slate-300 border border-gray-600/25 dark:border-gray-800 hover:text-stone-400 dark:hover:text-neutral hover:dark:text-white cursor-pointer bg-gray-400/5 dark:bg-gray-800/5 w-12 h-12 flex items-center justify-center rounded-lg md:rounded-full transition-all duration-200 p-2.5">
                     <Image
                       src="/images/palomaepica.png"
                       className="grayscale transition duration-800 ease-in-out hover:grayscale-0"
@@ -109,12 +107,12 @@ export default function Navbar() {
               </Tippy>
             </div>
             {/* Menu de navegacion para pantallas grandes */}
-            <div className="hidden md:flex sticky top-6 z-10 flex bg-neutral-200 dark:bg-black border-2 border-gray-500/10 dark:border-[rgba(72,72,72,0.48)] px-3 rounded-full py-3">
+            <div className="hidden md:flex sticky top-6 z-10 bg-black border-2 border-[rgba(72,72,72,0.48)] px-3 rounded-full py-3">
               <ul className="flex gap-2 transition transition-duration-300">
                 <li>
                   <Link href={`/`}>
                     <a
-                      className="font-medium rounded-full px-3 py-2 transition transition-duration-200 text-black/90 text-black/90 dark:text-white/60 focus:bg-neutral-400/50 dark:focus:bg-white/20 hover:text-black/40 dark:hover:text-white/80 focus:text-black dark:focus:text-gray-700/40 dark:focus:text-white focus:shadow-sm"
+                      className="font-medium rounded-full px-3 py-2 transition transition-duration-200 text-white/60 focus:bg-white/20 hover:text-white/80 focus:text-white"
                       href=""
                     >
                       Inicio
@@ -124,7 +122,7 @@ export default function Navbar() {
                 <li>
                   <Link href={`/about`}>
                     <a
-                      className="font-medium rounded-full px-3 py-2 transition transition-duration-200 text-black/90 text-black/90 dark:text-white/60 focus:bg-neutral-400/50 dark:focus:bg-white/20 hover:text-black/40 dark:hover:text-white/80 focus:text-black dark:focus:text-gray-700/40 dark:focus:text-white focus:shadow-sm"
+                      className="font-medium rounded-full px-3 py-2 transition transition-duration-200 text-white/60 focus:bg-white/20 hover:text-white/80 focus:text-white"
                       href=""
                     >
                       Sobre mi
@@ -135,14 +133,14 @@ export default function Navbar() {
                 <li>
                   <Link href={`/projects`}>
                     <a
-                      className="font-medium rounded-full px-3 py-2 transition transition-duration-200 text-black/90 text-black/90 dark:text-white/60 focus:bg-neutral-400/50 dark:focus:bg-white/20 hover:text-black/40 dark:hover:text-white/80 focus:text-black dark:focus:text-gray-700/40 dark:focus:text-white focus:shadow-sm"
+                      className="font-medium rounded-full px-3 py-2 transition transition-duration-200 text-white/60 focus:bg-white/20 hover:text-white/80 focus:text-white"
                       href=""
                     >
                       Proyectos
                     </a>
                   </Link>
                 </li>
-                <Tippy
+                {/* <Tippy
                   content="Esta seccion aun esta en desarrollo"
                   interactive={true}
                   placement="bottom"
@@ -161,12 +159,12 @@ export default function Navbar() {
                       </a>
                     </Link>
                   </li>
-                </Tippy>
+                </Tippy> */}
 
                 <li>
                   <Link href={`/posts`}>
                     <a
-                      className="font-medium rounded-full px-3 py-2 transition transition-duration-200 text-black/90 text-black/90 dark:text-white/60 focus:bg-neutral-400/50 dark:focus:bg-white/20 hover:text-black/40 dark:hover:text-white/80 focus:text-black dark:focus:text-gray-700/40 dark:focus:text-white focus:shadow-sm"
+                      className="font-medium rounded-full px-3 py-2 transition transition-duration-200 text-white/60 focus:bg-white/20 hover:text-white/80 focus:text-white"
                       href=""
                     >
                       Blog
@@ -178,14 +176,8 @@ export default function Navbar() {
 
             <div className="flex items-center gap-4 mx-9 md:mx-0 ">
               <div
-                onClick={() => toastMessage()}
-                className="bg-stone-300 dark:bg-black/50 text-2xl text-black/60 dark:text-slate-300 border border-gray-600/25 hove:text-stone-400 dark:hover:text-neutral hover:dark:text-white cursor-pointer bg-gray-400/5 w-12 h-12 flex items-center justify-center rounded-lg md:rounded-full transition-all duration-200 teams-icon-card--nav"
-              >
-                {isTheme === "dark" ? (
-                  <i className="fas fa-moon " />
-                ) : (
-                  <i className="fas fa-sun" />
-                )}
+                onClick={() => toggleTheme()}
+                className="bg-stone-300 text-2xl text-black/60 dark:text-slate-300 border border-gray-600/25 dark:border-gray-800 hover:text-stone-400 dark:hover:text-neutral hover:dark:text-white cursor-pointer bg-gray-400/5 dark:bg-gray-800/5 w-12 h-12 flex items-center justify-center rounded-lg md:rounded-full transition-all duration-200">
               </div>
               <i
                 onClick={() => setIsOpen(true)}

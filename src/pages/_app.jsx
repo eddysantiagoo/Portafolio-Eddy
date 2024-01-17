@@ -19,7 +19,6 @@ import ScrollArrow from 'components/Global/ScrollArrow';
 function MyApp({ Component, pageProps }) {
 
   return <>
-    <ThemeProvider>
       <PageProvider>
         <main>
           <head>
@@ -49,7 +48,6 @@ function MyApp({ Component, pageProps }) {
          
         </main>
       </PageProvider>
-    </ThemeProvider>
   </>
 }
 
