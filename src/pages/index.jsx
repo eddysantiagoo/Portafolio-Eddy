@@ -51,9 +51,23 @@ export default function Home() {
       />
 
       <section className="wrapper flex flex-col items-center pt-6 md:p-0 md:h-[73vh]">
-        <div className="grid md:grid-cols-2 gap-4 md:p-8 place-items-center max-w-7xl m-auto">
-          <div className="h-full bento-grid w-full flex flex-col justify-center items-center">
-            <img src="images/text-name.webp" alt="Eddy Santiago" srcset="" />
+        <div className="grid md:grid-cols-2 gap-4 md:p-8 place-items-center w-8/12 m-auto">
+          <div className="h-full bento-grid">
+            <div className="flex items-center gap-4">
+              <img
+                src="/images/icono-200.webp"
+                alt="Imagen de Eddy Santiago"
+                className="shadow-lg relative z-1 h-16 rounded-full transition duration-150 hover:scale-125 ring-0 ring-gray-500/50 hover:ring-1 "
+              />
+              <div className="font-secundary">
+                <h1 className="font-secundary font-bold">Eddy Santiago</h1>
+                <span className="font-secundary text-neutral-500">
+                  Frontend developer
+                </span>
+              </div>
+            </div>
+
+            <h1 className="tercera-font text-4xl md:text-6xl mt-12">Donde todo empieza</h1>
 
             {/* <p className="mx-auto max-w-5xl font-display font-medium md:font-bold text-2xl md:text-3xl text-neutral-400 dark:text-gray-400/50 mt-2 text-center">
             Desarrollador de Software
@@ -66,9 +80,9 @@ export default function Home() {
 
           <section className="flex flex-col gap-4 w-full">
             <article className="bento-grid">
-              <h2 className="font-bold text-2xl font-secundary mb-4">
+              {/* <h2 className="font-bold text-2xl font-secundary mb-4">
                 Contacto
-              </h2>
+              </h2> */}
 
               <di1v className="flex align-center gap-4">
                 <a
@@ -78,7 +92,7 @@ export default function Home() {
                   href="https://github.com/eddysantiagoo"
                 >
                   <div className="teams-icon-card">
-                    <div className="inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 h-22 w-9 hover:bg-neutral-300 dark:hover:bg-[#27272a]">
+                    <div className="inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 h-22 w-9 hover:bg-[#27272a]">
                       <svg viewBox="0 0 438.549 438.549" className="w-6/2 p-2">
                         <path
                           fill="currentColor"
@@ -96,7 +110,7 @@ export default function Home() {
                   href="https://github.com/eddysantiagoo"
                 >
                   <div className="teams-icon-card">
-                    <div className="inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 h-22 w-9 hover:bg-neutral-300 dark:hover:bg-[#27272a]">
+                    <div className="inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 h-22 w-9 hover:bg-[#27272a]">
                       <svg
                         viewBox="0 0 24 24"
                         fill="none"
@@ -128,7 +142,7 @@ export default function Home() {
                   href="https://github.com/eddysantiagoo"
                 >
                   <div className="teams-icon-card">
-                    <div className="inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 h-22 w-9 hover:bg-neutral-300 dark:hover:bg-[#27272a]">
+                    <div className="inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 h-22 w-9 hover:bg-[#27272a]">
                       <svg
                         fill="currentColor"
                         className="relative left-1"
