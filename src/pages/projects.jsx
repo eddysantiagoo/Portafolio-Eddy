@@ -43,7 +43,7 @@ export default function Projects() {
 
       <div className="max-w-7xl mx-auto">
         <div className="py-24">
-          <h1 className="font-display text-5xl font-bold sm:text-7xl text-neutral-600 dark:text-white ">
+          <h1 className="font-display text-5xl font-bold sm:text-7xl text-white ">
             Mis{" "}
             <span className="relative whitespace-nowrap text-primary">
               <svg

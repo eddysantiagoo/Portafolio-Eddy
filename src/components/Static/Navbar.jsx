@@ -83,7 +83,7 @@ export default function Navbar() {
         <div className="max-w-8xl py-5 w-full px-0 lg:px-0">
           <div className="flex items-center justify-between md:justify-around">
             <div className="flex items-center">
-              <Tippy
+              {/* <Tippy
                 content="Este es mi emoji favorito :p"
                 interactive={true}
                 followCursor={true}
@@ -101,10 +101,10 @@ export default function Navbar() {
                       alt="Fav emoji, the bird"
                       id="singleElement"
                     />
-                    {/* {eddyConfig.navbar} */}
+                    * {eddyConfig.navbar} *
                   </a>
                 </Link>
-              </Tippy>
+              </Tippy> */}
             </div>
             {/* Menu de navegacion para pantallas grandes */}
             <div className="hidden md:flex sticky top-6 z-10 bg-black border-2 border-[rgba(72,72,72,0.48)] px-3 rounded-full py-3">
@@ -175,14 +175,14 @@ export default function Navbar() {
             </div>
 
             <div className="flex items-center gap-4 mx-9 md:mx-0 ">
-              <div
+              {/* <div
                 onClick={() => toggleTheme()}
                 className="bg-stone-300 text-2xl text-black/60 dark:text-slate-300 border border-gray-600/25 dark:border-gray-800 hover:text-stone-400 dark:hover:text-neutral hover:dark:text-white cursor-pointer bg-gray-400/5 dark:bg-gray-800/5 w-12 h-12 flex items-center justify-center rounded-lg md:rounded-full transition-all duration-200">
               </div>
               <i
                 onClick={() => setIsOpen(true)}
                 className="visible md:hidden bg-stone-300 dark:bg-black/50 fas fa-bars text-black/60 dark:text-slate-300 text-2xl hover:text-black hover:dark:text-white cursor-pointer border border-gray-600/25 bg-gray-400/5 w-12 h-12 flex items-center justify-center rounded-lg transition-all duration-200 teams-icon-card--nav"
-              />
+              /> */}
             </div>
           </div>
         </div>
