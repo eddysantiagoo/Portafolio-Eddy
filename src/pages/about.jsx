@@ -130,7 +130,7 @@ export default function About() {
             </div> 
           </a>*/}
 
-            <h1 className="mt-1 text-4xl font-bold text-neutral-600 dark:text-white  font-secundary">
+            <h1 className="mt-1 text-4xl font-bold text-white font-secundary">
               {"Educación"}
               <span className="relative whitespace-nowrap text-primary">
                 {/* VACIO */}
@@ -138,7 +138,7 @@ export default function About() {
             </h1>
 
             <div className="grid grid-cols-1 justify-start gap-4 my-4">
-              <div className="group flex items-center relative bg-neutral-200 dark:bg-gray-600/5  hover:bg-neutral-300 overflow-hidden border dark:border-gray-500/25 dark:hover:border-primary rounded-lg overflow-hidden p-2.5 transition-all duration-200 place-content-center">
+              <div className="group flex items-center relative bg-gray-600/5 overflow-hidden border border-gray-500/25 hover:border-primary rounded-lg overflow-hidden p-2.5 transition-all duration-200 place-content-center">
                 <img
                   src="https://media.licdn.com/dms/image/C4E0BAQHMgYEnxoVtxw/company-logo_200_200/0/1651508107143?e=2147483647&v=beta&t=ueYquiqI1_dejh2VyS1XzZ2D8Q2W4WjWw2VDBNC5OYU"
                   alt="Logo de la IU Digital de Antioquia"
@@ -147,13 +147,13 @@ export default function About() {
                   className="bg-white/5 p-1 w-[65px] h-[65px] rounded-xl "
                 />
                 <div className="relative">
-                  <h2 className="ml-4 font-display text-xl md:text-lg font-medium text-black dark:text-white">
+                  <h2 className="ml-4 font-display text-xl md:text-lg font-medium text-white">
                     Institución Universitaria Digital de Antioquia - Tecnologia
                     en Desarrollo de Software ( Ene 2020 - Sep 2023 )
                   </h2>
                 </div>
               </div>
-              <div className="group flex items-center relative bg-neutral-200 dark:bg-gray-600/5 hover:bg-neutral-300 overflow-hidden border dark:border-gray-500/25 dark:hover:border-primary rounded-lg overflow-hidden p-2.5 transition-all duration-200 ">
+              <div className="group flex items-center relative bg-gray-600/5 overflow-hidden border border-gray-500/25 hover:border-primary rounded-lg overflow-hidden p-2.5 transition-all duration-200">
                 <img
                   src="https://media.licdn.com/dms/image/C4E0BAQHMgYEnxoVtxw/company-logo_200_200/0/1651508107143?e=2147483647&v=beta&t=ueYquiqI1_dejh2VyS1XzZ2D8Q2W4WjWw2VDBNC5OYU"
                   alt="Logo de la IU Digital de Antioquia"
@@ -162,7 +162,7 @@ export default function About() {
                   className="bg-white/5 p-1 w-[65px] h-[65px] rounded-xl"
                 />
                 <div className="relative">
-                  <h2 className="ml-4 justify-start font-display text-xl md:text-lg font-medium text-black dark:text-white">
+                  <h2 className="ml-4 justify-start font-display text-xl md:text-lg font-medium text-white">
                     Diplomado en Desarrollo Web (2022)
                   </h2>
                 </div>
@@ -170,7 +170,7 @@ export default function About() {
             </div>
 
             <div className="grid grid-cols-1 justify-start gap-4 my-4">
-              <div className="group flex items-center relative bg-neutral-200 dark:bg-gray-600/5  hover:bg-neutral-300 overflow-hidden border dark:border-gray-500/25 dark:hover:border-primary rounded-lg overflow-hidden p-2.5 transition-all duration-200 place-content-center">
+              <div className="group flex items-center relativebg-gray-600/5 overflow-hidden border border-gray-500/25 hover:border-primary rounded-lg overflow-hidden p-2.5 transition-all duration-200 place-content-center">
                 <img
                   src="https://upload.wikimedia.org/wikipedia/commons/9/97/Coursera-Logo_600x600.svg"
                   alt="Logo de la IU Digital de Antioquia"
@@ -179,7 +179,7 @@ export default function About() {
                   className="bg-white/5 p-1 w-[65px] h-[65px] rounded-xl"
                 />
                 <div className="relative">
-                  <h2 className="ml-4 font-display text-xl md:text-lg font-medium text-black dark:text-white">
+                  <h2 className="ml-4 font-display text-xl md:text-lg font-medium text-white">
                     Certificado en diseño de experiencia del usuario (UX) de
                     Google (Mayo 2023 - Actualmente)
                   </h2>
@@ -188,13 +188,13 @@ export default function About() {
             </div>
           </div>
           <div>
-            <h1 className="mt-1 text-4xl font-bold text-neutral-600 dark:text-white font-secundary mb-4">
+            <h1 className="mt-1 text-4xl font-bold text-white font-secundary mb-4">
               {"Experiencia"}
               <span className="relative whitespace-nowrap text-primar">
                 {/* VACIO */}
               </span>
             </h1>
-            <ol class="relative border-l border-gray-400/80 dark:border-[#464B50]">
+            <ol class="relative border-l border-[#464B50]">
               {/* <li class="mb-10 ml-6">
         <span class="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
             <svg class="w-2.5 h-2.5 text-blue-800 dark:text-blue-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
@@ -213,7 +213,7 @@ export default function About() {
                     srcset=""
                   />
                 </span>
-                <h3 class="inline-block md:flex items-center mb-1 text-md lg:text-lg font-semibold text-gray-900 dark:text-white">
+                <h3 class="inline-block md:flex items-center mb-1 text-md lg:text-lg font-semibold :text-white">
                   Desarrollador Frontend y Diseñador UI UX
                   <span className="mx-2">en</span>
                   <a
@@ -223,47 +223,47 @@ export default function About() {
                   >
                     GestorU
                   </a>
-                  <span class="bg-neutral-300/80 text-stone-700 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-white dark:text-black border-2 ml-3">
+                  <span class="text-sm font-medium mr-2 px-2.5 py-0.5 rounded bg-white text-black border-2 ml-3">
                     Actual
                   </span>
                 </h3>
                 <div className="grid md:flex items-center">
-                  <time class="bg-neutral-300/80 dark:bg-[#313131] w-fit py-2 px-3 rounded-md text-sm font-medium dark:font-normal leading-none text-stone-700 dark:text-gray-400 dark:text-white">
+                  <time class="bg-[#313131] w-fit py-2 px-3 rounded-md text-sm font-normal leading-none text-white">
                     Desde Junio del 2023 ({diferenciaMeses} meses)
                   </time>
                   <span className="ml-2 text-sm">
                     Medellín, Colombia (Hibrido)
                   </span>
                 </div>
-                <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
+                <p class="mb-4 text-base font-normal text-gray-400">
                   {/* Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
                 alias velit nostrum. Maxime debitis numquam reiciendis aperiam,
                 excepturi a, sapiente, quidem earum incidunt eaque possimus
                 nostrum accusamus rem architecto nemo? */}
                 </p>
                 <div className="flex flex-wrap gap-y-3 justify-left">
-                  <span class="bg-neutral-200 text-stone-600 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-black dark:text-white border-2 border-stone-400/60 dark:border-stone-400/60 dark:border-stone-400/60 dark:border-stone-400">
+                  <span class="text-sm font-medium mr-2 px-2.5 py-0.5 rounded bg-black text-white border-2 border-stone-400">
                     Laravel
                   </span>
-                  <span class="bg-neutral-200 text-stone-600 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-black dark:text-white border-2 border-stone-400/60 dark:border-stone-400">
+                  <span class="text-sm font-medium mr-2 px-2.5 py-0.5 rounded bg-black text-white border-2 border-stone-400">
                     Figma
                   </span>
-                  <span class="bg-neutral-200 text-stone-600 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-black dark:text-white border-2 border-stone-400/60 dark:border-stone-400">
+                  <span class="text-sm font-medium mr-2 px-2.5 py-0.5 rounded bg-black text-white border-2 border-stone-400">
                     Tailwind
                   </span>
-                  <span class="bg-neutral-200 text-stone-600 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-black dark:text-white border-2 border-stone-400/60 dark:border-stone-400">
+                  <span class="text-sm font-medium mr-2 px-2.5 py-0.5 rounded bg-black text-white border-2 border-stone-400">
                     CSS
                   </span>
-                  <span class="bg-neutral-200 text-stone-600 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-black dark:text-white border-2 border-stone-400/60 dark:border-stone-400">
+                  <span class="text-sm font-medium mr-2 px-2.5 py-0.5 rounded bg-black text-white border-2 border-stone-400">
                     PHP
                   </span>
-                  <span class="bg-neutral-200 text-stone-600 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-black dark:text-white border-2 border-stone-400/60 dark:border-stone-400">
+                  <span class="text-sm font-medium mr-2 px-2.5 py-0.5 rounded bg-black text-white border-2 border-stone-400">
                     JavaScript
                   </span>
-                  <span class="bg-neutral-200 text-stone-600 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-black dark:text-white border-2 border-stone-400/60 dark:border-stone-400">
+                  <span class="text-sm font-medium mr-2 px-2.5 py-0.5 rounded bg-black text-white border-2 border-stone-400">
                     Bootstrap
                   </span>
-                  <span class="bg-neutral-200 text-stone-600 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-black dark:text-white border-2 border-stone-400/60 dark:border-stone-400">
+                  <span class="text-sm font-medium mr-2 px-2.5 py-0.5 rounded bg-black text-white border-2 border-stone-400">
                     HTML
                   </span>
                 </div>
