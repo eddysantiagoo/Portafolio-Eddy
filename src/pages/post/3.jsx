@@ -58,7 +58,7 @@ function EjemploRuta() {
             <span className="text-zinc-400 ml-2">2 de mayo de 2023</span>
           </div>
         </div>
-        <article className="mt-12 prose prose-sm lg:prose-lg dark:prose-invert prose-img:rounded-lg prose-a:text-blue-500 prose-a:no-underline">
+        <article className="mt-12 prose prose-sm lg:prose-lg prose-invert prose-img:rounded-lg prose-a:text-blue-500 prose-a:no-underline">
           Últimamente este formato de podcast ha dado mucho de que hablar y debido
           al boom de este se ha empezado a popularizar mucho. Aquí comparto 5 +
           1 podcasts que son de mi gusto y podrían llegar a interesarte.

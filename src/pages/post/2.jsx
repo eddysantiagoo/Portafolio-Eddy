@@ -62,7 +62,7 @@ function EjemploRuta() {
             <span className="text-zinc-400 ml-2">13 de abril de 2023</span>
           </div>
         </div>
-        <article className="mt-12 prose prose-sm lg:prose-lg dark:prose-invert prose-img:rounded-lg prose-a:text-blue-500 prose-a:no-underline">
+        <article className="mt-12 prose prose-sm lg:prose-lg prose-invert prose-img:rounded-lg prose-a:text-blue-500 prose-a:no-underline">
           En el año 2020, después de ahorrar mucho tiempo, tuve la oportunidad
           de comprarme mi PlayStation 4. A pesar de que fue una experiencia
           curiosa (ya que casi no me la envian), finalmente la consola llegó.

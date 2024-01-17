@@ -60,7 +60,7 @@ function EjemploRuta() {
             <span className="text-zinc-400 ml-2">25 de marzo de 2023</span>
           </div>
         </div>
-        <article className="mt-12 prose prose-sm lg:prose-lg dark:prose-invert prose-img:rounded-lg prose-a:text-blue-500 prose-a:no-underline">
+        <article className="mt-12 prose prose-sm lg:prose-lg prose-invert prose-img:rounded-lg prose-a:text-blue-500 prose-a:no-underline">
           <h3>
             Preguntandole al famoso ChatGPT hace unos dias "Cuántos blogs crees
             que existen hoy en dia en la internet?"

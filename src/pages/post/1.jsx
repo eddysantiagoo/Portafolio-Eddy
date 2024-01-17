@@ -60,7 +60,7 @@ function EjemploRuta() {
             <span className="text-zinc-400 ml-2">28 de marzo de 2023</span>
           </div>
         </div>
-        <article className="mt-12 prose prose-sm lg:prose-lg dark:prose-invert prose-img:rounded-lg prose-a:text-blue-500 prose-a:no-underline">
+        <article className="mt-12 prose prose-sm lg:prose-lg prose-invert prose-img:rounded-lg prose-a:text-blue-500 prose-a:no-underline">
           <h2 className="text-[#EDBB00]">Sus inicios</h2>
           <strong>
             Nacido un 7 de mayo del año 1984 en Fuentealbilla,
