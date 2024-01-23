@@ -174,14 +174,25 @@ export default function Navbar() {
             </div>
 
             <div className="flex items-center gap-4 mx-9 md:mx-0 ">
-              {/* <div
-                onClick={() => toggleTheme()}
-                className="bg-stone-300 text-2xl text-black/60 dark:text-slate-300 border border-gray-600/25 dark:border-gray-800 hover:text-stone-400 dark:hover:text-neutral hover:dark:text-white cursor-pointer bg-gray-400/5 dark:bg-gray-800/5 w-12 h-12 flex items-center justify-center rounded-lg md:rounded-full transition-all duration-200">
-              </div>
               <i
                 onClick={() => setIsOpen(true)}
-                className="visible md:hidden bg-stone-300 dark:bg-black/50 fas fa-bars text-black/60 dark:text-slate-300 text-2xl hover:text-black hover:dark:text-white cursor-pointer border border-gray-600/25 bg-gray-400/5 w-12 h-12 flex items-center justify-center rounded-lg transition-all duration-200 teams-icon-card--nav"
-              /> */}
+                className="visible md:hidden text-slate-300 text-2xldark:text-white cursor-pointer border border-gray-600/25 bg-gray-400/5 w-12 h-12 flex items-center justify-center rounded-lg transition-all duration-200 teams-icon-card--nav"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="white"
+                >
+                  <path
+                    d="M10.5 18H20M4 12H20M4 6H20"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                  />
+                </svg>
+              </i>
             </div>
           </div>
         </div>
