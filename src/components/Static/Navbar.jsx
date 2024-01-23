@@ -2,7 +2,6 @@ import { Transition } from "@headlessui/react";
 import toast, { Toaster } from "react-hot-toast";
 import Button from "components/Global/Button";
 import { useTheme } from "context/theme";
-import useSWR from "hooks/useSWR";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import { Fragment, useState } from "react";

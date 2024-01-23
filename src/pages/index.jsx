@@ -1,6 +1,5 @@
 import { usePage } from "context/page";
 import { useState, useEffect } from "react";
-import useSWR from "hooks/useSWR";
 import Head from "next/head";
 import Image from "next/image";
 import { Transition, Dialog } from "@headlessui/react";
@@ -15,11 +14,7 @@ import { followCursor } from "tippy.js";
 
 export default function Home() {
   const { page } = usePage();
-
-  //Uso API GIT HUB
-  const { data: $repositories } = useSWR("/api/repos");
-  const repositories = $repositories?.data;
-
+  
   return (
     <>
       {/* SEO CON NEXT */}

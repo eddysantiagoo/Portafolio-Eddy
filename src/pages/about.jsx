@@ -1,5 +1,4 @@
 import { usePage } from "context/page";
-import useSWR from "hooks/useSWR";
 import Head from "next/head";
 import Image from "next/image";
 import { Transition, Dialog } from "@headlessui/react";

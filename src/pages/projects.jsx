@@ -1,5 +1,4 @@
 import { usePage } from "context/page";
-import useSWR from "hooks/useSWR";
 import Head from "next/head";
 import Image from "next/image";
 import { Transition, Dialog } from "@headlessui/react";
@@ -13,7 +12,6 @@ import { SiNextdotjs, SiTailwindcss } from "react-icons/si";
 export default function Projects() {
   const { page } = usePage();
 
-  const { data: $projects } = useSWR("/api/projects");
   const projects = $projects?.data;
 
   return (
