@@ -12,8 +12,6 @@ import { SiNextdotjs, SiTailwindcss } from "react-icons/si";
 export default function Projects() {
   const { page } = usePage();
 
-  const projects = $projects?.data;
-
   return (
     <>
       {/* SEO CON NEXT */}
