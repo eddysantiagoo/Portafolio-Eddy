@@ -420,7 +420,7 @@ body {
 
 .gif {
   padding: 0px !important;
-  background:  url("../../public/images/index.gif") fixed center center;
+  background: url("/images/index.gif") fixed center center;
 }
 
 .teams-icon-card {
