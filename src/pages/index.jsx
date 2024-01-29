@@ -63,7 +63,10 @@ export default function Home() {
                 </div>
               </div>
 
-              <a className="flex text-white font-semibold items-center gap-2 py-2 transition-colors duration-75 hover:opacity-80 appearance-none scale-100 transition-transform active:scale-[0.90]" href="#">
+              <a
+                className="flex text-white font-semibold items-center gap-2 py-2 transition-colors duration-75 hover:opacity-80 appearance-none scale-100 transition-transform active:scale-[0.90]"
+                href="#"
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="28"
@@ -185,16 +188,7 @@ export default function Home() {
               </di1v>
             </article>
 
-            <a href="#" target="_blank" rel="noopener noreferrer">
-              <article className="bento-grid relative h-56 flex justify-center text-center">
-                <h2 className="font-bold text-6xl font-secundary mb-4">CV</h2>
-                <img
-                  className="img-cv"
-                  src="images/cv-stock.webp"
-                  alt="Curriculum"
-                />
-              </article>
-            </a>
+            <article className="bento-grid gif relative h-56 flex justify-center text-center"></article>
           </section>
         </div>
       </section>

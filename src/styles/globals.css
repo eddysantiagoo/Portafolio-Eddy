@@ -17,7 +17,7 @@
 }
 
 .tercera-font {
-  font-family: 'Literata', serif;
+  font-family: "Literata", serif;
 }
 
 .hero_Glow__wiAEk {
@@ -416,6 +416,11 @@ body {
       opacity: 1;
     }
   }
+}
+
+.gif {
+  padding: 0px !important;
+  background:  url("../../public/images/index.gif") fixed center center;
 }
 
 .teams-icon-card {
