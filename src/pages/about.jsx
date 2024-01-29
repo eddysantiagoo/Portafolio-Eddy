@@ -63,11 +63,6 @@ export default function About() {
               <span className="relative whitespace-nowrap text-primary">
                 <span className="text-deg-principal">soy?</span>
               </span>
-              <img
-                src="/images/icono-200.webp"
-                alt="Imagen de Eddy Santiago"
-                className="shadow-lg relative z-1 h-12 md:h-24 rounded-full transition duration-150 hover:scale-125 ring-0 ring-gray-500/50 hover:ring-1 "
-              />
             </h1>
             <p className="text-xl mt-4">
               Profesionalmente, actualmente resido en Colombia, desarrollador

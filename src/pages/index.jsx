@@ -23,7 +23,7 @@ export default function Home() {
       style: {
         background: "#333",
         border: "1px solid #636363",
-      }
+      },
     });
 
   return (
@@ -56,8 +56,8 @@ export default function Home() {
         }}
       />
 
-      <section className="wrapper flex flex-col items-center pt-6 md:p-0 md:h-[73vh]">
-        <div className="grid md:grid-cols-2 gap-4 md:p-8 place-items-center md:w-8/12 m-auto">
+      <section className="wrapper flex flex-col items-center pt-6 md:p-0 lg:h-[73vh]">
+        <div className="grid lg:grid-cols-2 gap-4 md:p-8 place-items-center md:w-8/12 m-auto">
           <div className="h-full bento-grid">
             <article className="flex items-center gap-4 justify-between">
               <div className="flex items-center gap-4">
@@ -75,7 +75,7 @@ export default function Home() {
               </div>
 
               <button
-                className="flex text-white font-semibold items-center gap-2 py-2 transition-colors duration-75 hover:opacity-80 appearance-none scale-100 transition-transform active:scale-[0.90]"
+                className="hidden md:flex text-white font-semibold items-center gap-2 py-2 duration-75 hover:opacity-80 appearance-none scale-100 transition-transform active:scale-[0.90]"
                 onClick={() => notify()}
               >
                 <svg
@@ -98,6 +98,26 @@ export default function Home() {
 
             <h1 className="tercera-font text-4xl md:text-6xl mt-12">
               Donde todo empieza
+              <button
+                className="absolute right-6 md:hidden text-white font-semibold items-center gap-2 py-2 duration-75 hover:opacity-80 appearance-none scale-100 transition-transform active:scale-[0.90]"
+                onClick={() => notify()}
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="28"
+                  height="28"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                >
+                  <path
+                    d="M11.6998 21.6001H5.69979C4.37431 21.6001 3.2998 20.5256 3.2998 19.2001L3.2999 4.80013C3.29991 3.47466 4.37442 2.40015 5.6999 2.40015H16.5002C17.8256 2.40015 18.9002 3.47466 18.9002 4.80015V9.60015M7.50018 7.20015H14.7002M7.50018 10.8001H14.7002M14.7002 15.5541V18.4985C14.7002 19.9534 16.2516 21.2879 17.7065 21.2879C19.1615 21.2879 20.7002 19.9535 20.7002 18.4985V14.7793C20.7002 14.009 20.2574 13.2273 19.2723 13.2273C18.2186 13.2273 17.7065 14.009 17.7065 14.7793V18.3435M7.50018 14.4001H11.1002"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </button>
             </h1>
 
             {/* <p className="mx-auto max-w-5xl font-display font-medium md:font-bold text-2xl md:text-3xl text-neutral-400 dark:text-gray-400/50 mt-2 text-center">
