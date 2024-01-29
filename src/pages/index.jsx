@@ -11,9 +11,20 @@ import Link from "next/link";
 import { NextSeo } from "next-seo";
 import Tippy from "@tippyjs/react";
 import { followCursor } from "tippy.js";
+import toast from "react-hot-toast";
 
 export default function Home() {
   const { page } = usePage();
+  const notify = () =>
+    toast("🐻", {
+      duration: 1000,
+      position: "top-center",
+
+      style: {
+        background: "#333",
+        border: "1px solid #636363",
+      }
+    });
 
   return (
     <>
@@ -58,14 +69,14 @@ export default function Home() {
                 <div className="font-secundary">
                   <h1 className="font-secundary font-bold">Eddy Santiago</h1>
                   <span className="font-secundary text-neutral-500">
-                    Frontend developer
+                    Desarrollador Frontend y diseñador UI/UX
                   </span>
                 </div>
               </div>
 
-              <a
+              <button
                 className="flex text-white font-semibold items-center gap-2 py-2 transition-colors duration-75 hover:opacity-80 appearance-none scale-100 transition-transform active:scale-[0.90]"
-                href="#"
+                onClick={() => notify()}
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -82,7 +93,7 @@ export default function Home() {
                     stroke-linejoin="round"
                   />
                 </svg>
-              </a>
+              </button>
             </article>
 
             <h1 className="tercera-font text-4xl md:text-6xl mt-12">

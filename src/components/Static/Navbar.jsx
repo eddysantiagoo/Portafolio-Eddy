@@ -173,7 +173,16 @@ export default function Navbar() {
               </ul>
             </div>
 
-            <div className="flex items-center gap-4 mx-9 md:mx-0 ">
+            <div className="flex items-center justify-between gap-4 mx-9 md:mx-0 w-full md:w-auto">
+              <Link href={`/`}>
+                <a
+                  className="visible md:hidden font-bold font-secundary rounded-xl px-3 py-2 transition transition-duration-200 text-white/60 focus:bg-white/10 hover:text-white/80 focus:text-white"
+                  href=""
+                >
+                  Inicio 
+                </a>
+              </Link>
+
               <i
                 onClick={() => setIsOpen(true)}
                 className="visible md:hidden text-slate-300 text-2xldark:text-white cursor-pointer border border-gray-600/25 bg-gray-400/5 w-12 h-12 flex items-center justify-center rounded-lg transition-all duration-200 teams-icon-card--nav"
@@ -263,14 +272,8 @@ export default function Navbar() {
                         page.active
                           ? "bg-gray-500/5  text-white font-semibold"
                           : "hover:bg-gray-500/10 text-zinc-400 hover:text-white"
-                      } px-4 py-3 rounded-lg`}
+                      } py-3 rounded-lg`}
                     >
-                      <i
-                        className={
-                          (page.active ? page.icon.active : page.icon.default) +
-                          " w-6"
-                        }
-                      />
                       <p>{page.label}</p>
                     </a>
                   </Link>
@@ -280,10 +283,10 @@ export default function Navbar() {
 
             <div className="mt-6 space-y-2">
               <div className="flex items-center gap-2">
-                <p className="text-xs font-medium rounded-xl p-1.5 uppercase text-black/50 dark:text-white/10">
+                <p className="text-xs font-medium rounded-xl p-1.5 w-full uppercase text-white/50">
                   Redes Sociales
                 </p>
-                <div className="w-full h-0.5 bg-black/50 dark:bg-white/10" />
+                <div className="w-full h-0.5 bg-white/10" />
               </div>
               <div className="flex items-center gap-2">
                 <a
