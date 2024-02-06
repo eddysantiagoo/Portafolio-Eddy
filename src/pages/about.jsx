@@ -207,7 +207,7 @@ export default function About() {
                     srcset=""
                   />
                 </span>
-                <h3 class="inline-block md:flex items-center mb-1 text-md lg:text-lg font-semibold :text-white">
+                <h3 class="inline-block md:flex items-centers text-md lg:text-lg font-semibold">
                   Desarrollador Frontend y Diseñador UI UX
                   <span className="mx-2">en</span>
                   <a
@@ -217,53 +217,53 @@ export default function About() {
                   >
                     GestorU
                   </a>
-                  <span class="text-sm font-medium mr-2 px-2.5 py-0.5 rounded bg-white text-black border-2 ml-3">
+                  <span class="text-sm font-medium mr-2 px-2.5 py-0.5 rounded bg-white text-black  ml-3">
                     Actual
                   </span>
                 </h3>
-                <div className="grid md:flex items-center">
-                  <time class="bg-[#313131] w-fit py-2 px-3 rounded-md text-sm font-normal leading-none text-white">
+                <div className="grid md:flex items-center my-3">
+                  <time class="bg-[#313131] w-fit py-2 px-3 rounded-md text-sm font-normal leading-none text-white border border-[#606463]">
                     Desde Junio del 2023 ({diferenciaMeses} meses)
                   </time>
                   <span className="ml-2 text-sm">
                     Medellín, Colombia (Hibrido)
                   </span>
                 </div>
-                <p class="mb-4 text-base font-normal text-gray-400">
-                  {/* Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
-                alias velit nostrum. Maxime debitis numquam reiciendis aperiam,
-                excepturi a, sapiente, quidem earum incidunt eaque possimus
-                nostrum accusamus rem architecto nemo? */}
-                </p>
+                {/* <p class="mb-4 text-base font-normal text-gray-400">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
+                  alias velit nostrum. Maxime debitis numquam reiciendis
+                  aperiam, excepturi a, sapiente, quidem earum incidunt eaque
+                  possimus nostrum accusamus rem architecto nemo?
+                </p> */}
                 <div className="flex flex-wrap gap-y-3 justify-left">
-                  <span class="text-sm font-medium mr-2 px-2.5 py-0.5 rounded bg-black text-white border-2 border-stone-400">
+                  <span class="text-sm font-medium mr-2 px-2.5 py-0.5 rounded bg-[#313131] text-white  border-[#515050]">
                     Laravel
                   </span>
-                  <span class="text-sm font-medium mr-2 px-2.5 py-0.5 rounded bg-black text-white border-2 border-stone-400">
+                  <span class="text-sm font-medium mr-2 px-2.5 py-0.5 rounded bg-[#313131] text-white  border-[#515050]">
                     Figma
                   </span>
-                  <span class="text-sm font-medium mr-2 px-2.5 py-0.5 rounded bg-black text-white border-2 border-stone-400">
+                  <span class="text-sm font-medium mr-2 px-2.5 py-0.5 rounded bg-[#313131] text-white  border-[#515050]">
                     Tailwind
                   </span>
-                  <span class="text-sm font-medium mr-2 px-2.5 py-0.5 rounded bg-black text-white border-2 border-stone-400">
+                  <span class="text-sm font-medium mr-2 px-2.5 py-0.5 rounded bg-[#313131] text-white  border-[#515050]">
                     WordPress
                   </span>
-                  <span class="text-sm font-medium mr-2 px-2.5 py-0.5 rounded bg-black text-white border-2 border-stone-400">
+                  <span class="text-sm font-medium mr-2 px-2.5 py-0.5 rounded bg-[#313131] text-white  border-[#515050]">
                     CSS
                   </span>
-                  <span class="text-sm font-medium mr-2 px-2.5 py-0.5 rounded bg-black text-white border-2 border-stone-400">
+                  <span class="text-sm font-medium mr-2 px-2.5 py-0.5 rounded bg-[#313131] text-white  border-[#515050]">
                     PHP
                   </span>
-                  <span class="text-sm font-medium mr-2 px-2.5 py-0.5 rounded bg-black text-white border-2 border-stone-400">
+                  <span class="text-sm font-medium mr-2 px-2.5 py-0.5 rounded bg-[#313131] text-white  border-[#515050]">
                     JavaScript
                   </span>
-                  <span class="text-sm font-medium mr-2 px-2.5 py-0.5 rounded bg-black text-white border-2 border-stone-400">
+                  <span class="text-sm font-medium mr-2 px-2.5 py-0.5 rounded bg-[#313131] text-white  border-[#515050]">
                     Bootstrap
                   </span>
-                  <span class="text-sm font-medium mr-2 px-2.5 py-0.5 rounded bg-black text-white border-2 border-stone-400">
+                  <span class="text-sm font-medium mr-2 px-2.5 py-0.5 rounded bg-[#313131] text-white  border-[#515050]">
                     HTML
                   </span>
-                  <span class="text-sm font-medium mr-2 px-2.5 py-0.5 rounded bg-black text-white border-2 border-stone-400">
+                  <span class="text-sm font-medium mr-2 px-2.5 py-0.5 rounded bg-[#313131] text-white  border-[#515050]">
                     Elementor
                   </span>
                 </div>
