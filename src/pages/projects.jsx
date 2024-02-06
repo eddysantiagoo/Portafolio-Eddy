@@ -4,10 +4,11 @@ import Image from "next/image";
 import { Transition, Dialog } from "@headlessui/react";
 import { Fragment } from "react";
 import eddyConfig from "../../eddy.config";
+import { FaJs, FaPython, FaHtml5, FaCss3Alt, FaReact } from "react-icons/fa";
+import { RiJavascriptFill } from "react-icons/ri";
 import Button from "components/Global/Button";
 import Carousel from "react-multi-carousel";
 import { NextSeo } from "next-seo";
-import { SiNextdotjs, SiTailwindcss } from "react-icons/si";
 
 export default function Projects() {
   const { page } = usePage();
@@ -74,22 +75,22 @@ export default function Projects() {
                 </div>
                 <div className="mt-4">
                   <p className="text-xl font-semibold">The Bonfire</p>
-                  <p className="text-sm max-h-24 h-24 font-normal text-gray-500">
+                  <p className="text-sm  font-normal text-gray-500">
                     Reproductor de música ambientado en el videojuego Dark
                     Souls. Además de su diseño, el reproductor cuenta con una
                     selección de soundtracks oficiales de varios juegos de la
                     saga.
                   </p>
-                  <div className="mt-5">
-                    <i class="fa-brands fa-js fa-xl fa-pull-left"></i>
-                    <i class="fa-brands fa-react fa-xl fa-pull-left"></i>
+                  <div className="mt-6 flex gap-1">
+                    <FaReact className="text-3xl bg-[#343434] p-1 rounded-md" />
+                    <FaJs className="text-3xl bg-[#343434] p-1 rounded-md" />
                   </div>
                 </div>
 
-                <div className="flex items-center mt-14">
+                <div className="flex items-center mt-6">
                   <a
                     target="_blank"
-                    class="flex w-full justify-center items-center gap-3 text-center btn-princ-white p-2 rounded-lg relative rounded-lg group font-medium text-black font-medium inline-block"
+                    class="flex w-full justify-center items-center gap-3 text-center btn-princ-white p-2 rounded-lg relative group text-black"
                   >
                     <span class="relative font-semibold text-center">
                       Visitar sitio
@@ -97,86 +98,15 @@ export default function Projects() {
                     <i class="fa-solid fa-link" />
                   </a>
                 </div>
-              </a>
-
-              <a
-                href="https://web-restaurante-enfasis.vercel.app"
-                target="_blank"
-                rel="noreferrer"
-                className="transition-all hover:scale-100 md: border border-zinc-600 cursor-pointer w-full bg-gray-500/5 p-4 rounded-lg transition-all duration-200 hover:bg-gray-500/10"
-              >
-                <div className="h-30 w-full  relative rounded-lg shadow-xl overflow-hidden object-cover object-center sm:object-contain"></div>
-                <div className="mt-4">
-                  <p className="text-xl font-semibold">Papa's Burgeria</p>
-                  <p className="text-sm max-h-24 h-24 font-normal text-gray-500">
-                    Diseño y desarrollo de una landing page para un restaurante,
-                    empleando JavaScript para la funcionalidad, CSS para
-                    estilos, y animaciones tanto con CSS como JavaScript, diseño
-                    responsive.
-                  </p>
-                  <div className="mt-5">
-                    <i class="fa-brands fa-html5 fa-xl fa-pull-left"></i>
-                    <i class="fa-brands fa-css3-alt fa-xl fa-pull-left"></i>
-                    <i class="fa-brands fa-js fa-xl fa-pull-left"></i>
-                  </div>
-                </div>
-
-                <div className="flex items-center mt-14">
-                  <a
-                    target="_blank"
-                    class="flex w-full justify-center items-center gap-3 text-center btn-princ-white p-2 rounded-lg relative rounded-lg group font-medium text-black font-medium inline-block"
-                  >
-                    <span class="relative font-semibold text-center">
-                      Visitar sitio
-                    </span>
-                    <i class="fa-solid fa-link" />
-                  </a>
-                </div>
-                {/* 
-              <p className="text-xs italic mt-10">
-                <i class="fa-solid fa-link mr-1" />
-                https://web-restaurante-enfasis.vercel.app
-              </p> */}
               </a>
             </div>
 
             <div className="grid grid-cols-1 gap-y-4 place-content-baseline">
               <a
-                href="javascript:void(0)"
-                rel="noreferrer"
-                className="border transition-all  hover:scale-100 md: border-zinc-600 cursor-pointer w-full h-fit bg-gray-500/5 p-4 rounded-lg transition-all duration-200 hover:bg-gray-500/10"
-              >
-                <div className="h-30 w-full relative rounded-lg shadow-xl overflow-hidden object-cover object-center sm:object-contain">
-                  {/* <img
-                    src="images/Proyecto-PortafolioPersonal.jpg"
-                    alt="Imagen proyecto portafolio personal"
-                  /> */}
-                </div>
-                <div className="mt-4">
-                  <p className="text-xl font-semibold">Portafolio Personal</p>
-                  <p className="text-sm max-h-24 h-24 font-normal text-gray-500">
-                    Manejo de rutas dinamicas, manejo de componentes, consumo de
-                    APIS, estilos con Tailwind, manejo de errores http, SEO,
-                    animaciones con librerias externas y diseño responsive.
-                  </p>
-
-                  <div className="flex items-center">
-                    <a
-                      target="_blank"
-                      class="flex w-full justify-center items-center cursor-not-allowed gap-3 opacity-50 text-center text-slate-200 border p-2 rounded-lg relative rounded-lg group font-medium text-black font-medium inline-block"
-                    >
-                      <span class="relative font-semibold text-center">
-                        Ya estas aquí
-                      </span>
-                    </a>
-                  </div>
-                </div>
-              </a>
-              <a
                 href="https://spotify-dynamic-readme.vercel.app"
                 target="_blank"
                 rel="noreferrer"
-                className="transition-all hover:scale-100 md: border border-zinc-600 cursor-pointer w-full h-fit bg-gray-500/5 p-4 rounded-lg transition-all duration-200 hover:bg-gray-500/10"
+                className="border border-zinc-600 cursor-pointer w-full h-fit bg-gray-500/5 p-4 rounded-lg transition-all duration-200 hover:bg-gray-500/10"
               >
                 <div className="w-full relative rounded-lg shadow-xl overflow-hidden object-cover object-center sm:object-contain">
                   <img
@@ -187,20 +117,20 @@ export default function Projects() {
                 </div>
                 <div className="mt-4">
                   <p className="text-xl font-semibold">Spotify Widget</p>
-                  <p className="text-sm max-h-24 h-24 font-normal text-gray-500 overflow-auto font-normal text-gray-500">
+                  <p className="text-sm font-norma overflow-auto text-gray-500">
                     Proyecto basado en código Open Source, widget SVG para
                     consumir la API de Spotify y mostrar datos del usuario
                     dinámicamante.
                   </p>
-                  <div className="mt-1">
-                    <i class="fa-brands fa-python fa-xl fa-pull-left"></i>
-                    <i class="fa-brands fa-js fa-xl fa-pull-left"></i>
-                    <i class="fa-brands fa-html5 fa-xl fa-pull-left"></i>
-                    <i class="fa-brands fa-css3-alt fa-xl fa-pull-left"></i>
+                  <div className="mt-6 flex gap-1">
+                    <FaPython className="text-3xl bg-[#343434] p-1 rounded-md" />
+                    <FaCss3Alt className="text-3xl bg-[#343434] p-1 rounded-md" />
+                    <FaHtml5 className="text-3xl bg-[#343434] p-1 rounded-md" />
+                    <FaJs className="text-3xl bg-[#343434] p-1 rounded-md" />
                   </div>
                 </div>
 
-                <div className="flex items-center mt-14">
+                <div className="flex items-center mt-6">
                   <a
                     target="_blank"
                     class="flex w-full justify-center items-center gap-3 text-center btn-princ-white p-2 rounded-lg relative rounded-lg group font-medium text-black font-medium inline-block"
