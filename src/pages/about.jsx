@@ -221,11 +221,11 @@ export default function About() {
                     Actual
                   </span>
                 </h3>
-                <div className="grid md:flex items-center my-3">
+                <div className="grid md:flex gap-2 md:gap-0 items-center my-3">
                   <time class="bg-[#313131] w-fit py-2 px-3 rounded-md text-sm font-normal leading-none text-white border border-[#606463]">
                     Desde Junio del 2023 ({diferenciaMeses} meses)
                   </time>
-                  <span className="ml-2 text-sm">
+                  <span className="ml-1 md:ml-2 text-sm">
                     Medellín, Colombia (Hibrido)
                   </span>
                 </div>
