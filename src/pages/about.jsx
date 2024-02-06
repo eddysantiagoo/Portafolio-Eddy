@@ -246,6 +246,9 @@ export default function About() {
                     Tailwind
                   </span>
                   <span class="text-sm font-medium mr-2 px-2.5 py-0.5 rounded bg-black text-white border-2 border-stone-400">
+                    WordPress
+                  </span>
+                  <span class="text-sm font-medium mr-2 px-2.5 py-0.5 rounded bg-black text-white border-2 border-stone-400">
                     CSS
                   </span>
                   <span class="text-sm font-medium mr-2 px-2.5 py-0.5 rounded bg-black text-white border-2 border-stone-400">
@@ -259,6 +262,9 @@ export default function About() {
                   </span>
                   <span class="text-sm font-medium mr-2 px-2.5 py-0.5 rounded bg-black text-white border-2 border-stone-400">
                     HTML
+                  </span>
+                  <span class="text-sm font-medium mr-2 px-2.5 py-0.5 rounded bg-black text-white border-2 border-stone-400">
+                    Elementor
                   </span>
                 </div>
 

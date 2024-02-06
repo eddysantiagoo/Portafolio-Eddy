@@ -40,7 +40,7 @@ export default function Footer() {
                 onClick={() => {
                   setHeartColor(randomColor());
                 }}
-                className="fas fa-heart animate__animated animate__heartBeat animate__infinite mx-2"
+                className="mx-2"
                 style={{ color: heartColor, cursor: "pointer" }}
               >
                 <svg
