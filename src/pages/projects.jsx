@@ -39,7 +39,7 @@ export default function Projects() {
 
       <div className="max-w-7xl mx-auto">
         <div className="py-24">
-          <h1 className="font-display text-5xl font-bold sm:text-7xl text-white ">
+          <h1 className="font-display text-5xl font-bold sm:text-7xl text-white font-secundary">
             Mis{" "}
             <span className="relative whitespace-nowrap text-primary">
               <svg
@@ -50,15 +50,13 @@ export default function Projects() {
               >
                 <path d="M203.371.916c-26.013-2.078-76.686 1.963-124.73 9.946L67.3 12.749C35.421 18.062 18.2 21.766 6.004 25.934 1.244 27.561.828 27.778.874 28.61c.07 1.214.828 1.121 9.595-1.176 9.072-2.377 17.15-3.92 39.246-7.496C123.565 7.986 157.869 4.492 195.942 5.046c7.461.108 19.25 1.696 19.17 2.582-.107 1.183-7.874 4.31-25.75 10.366-21.992 7.45-35.43 12.534-36.701 13.884-2.173 2.308-.202 4.407 4.442 4.734 2.654.187 3.263.157 15.593-.78 35.401-2.686 57.944-3.488 88.365-3.143 46.327.526 75.721 2.23 130.788 7.584 19.787 1.924 20.814 1.98 24.557 1.332l.066-.011c1.201-.203 1.53-1.825.399-2.335-2.911-1.31-4.893-1.604-22.048-3.261-57.509-5.556-87.871-7.36-132.059-7.842-23.239-.254-33.617-.116-50.627.674-11.629.54-42.371 2.494-46.696 2.967-2.359.259 8.133-3.625 26.504-9.81 23.239-7.825 27.934-10.149 28.304-14.005.417-4.348-3.529-6-16.878-7.066Z" />
               </svg>
-              <span className="text-deg-principal">
-                proyectos
-              </span>
+              <span className="text-deg-principal">proyectos</span>
             </span>
           </h1>
 
           {/* SECCION PROYECTOS */}
 
-          <div className="grid grid-cols-1 lg:grid-cols-2 p-0 md:p-4 gap-8 overflow-y-hidden mt-16">
+          <div className="grid grid-cols-1 lg:grid-cols-2 p-0 md:p-4 gap-4 overflow-y-hidden mt-16">
             {/* PROYECTO 1 */}
 
             <div className="grid grid-cols-1 gap-y-4 place-content-baseline">
@@ -144,39 +142,6 @@ export default function Projects() {
 
             <div className="grid grid-cols-1 gap-y-4 place-content-baseline">
               <a
-                href="https://multi-traductor.vercel.app/"
-                rel="noreferrer"
-                className="border h-fit border-zinc-600 cursor-pointer w-full bg-gray-500/5 p-4 rounded-lg transition-all duration-200 hover:bg-gray-500/10"
-              >
-                <div className="h-auto w-full relative rounded-lg shadow-xl overflow-hidden object-cover object-center sm:object-contain">
-                  {/* <img
-                    src="images/Proyecto-PortafolioPersonal.jpg"
-                    alt="Imagen proyecto portafolio personal"
-                  /> */}
-                </div>
-                <div className="mt-4">
-                  <p className="text-xl font-semibold mb-2">
-                    Actualmente estoy trabajando en: MultiTraductor
-                  </p>
-                  <p className="text-sm max-h-24 h-auto font-normal text-gray-500">
-                    Sitio web para traducir un texto simultaneamente a varios
-                    idiomas
-                  </p>
-                  <div className="flex items-center mt-14">
-                    <a
-                      href="https://multi-traductor.vercel.app/"
-                      target="_blank"
-                      class="flex w-full justify-center items-center gap-3 text-center border border-2 border-neutral-400  p-2 rounded-lg relative rounded-lg group font-medium transition duration-300 font-medium inline-block"
-                    >
-                      <span class="relative font-semibold text-center">
-                        En Alpha
-                      </span>
-                      <i class="fa-solid fa-lock-open"></i>
-                    </a>
-                  </div>
-                </div>
-              </a>
-              <a
                 href="javascript:void(0)"
                 rel="noreferrer"
                 className="border transition-all  hover:scale-100 md: border-zinc-600 cursor-pointer w-full h-fit bg-gray-500/5 p-4 rounded-lg transition-all duration-200 hover:bg-gray-500/10"
@@ -194,21 +159,8 @@ export default function Projects() {
                     APIS, estilos con Tailwind, manejo de errores http, SEO,
                     animaciones con librerias externas y diseño responsive.
                   </p>
-                  <div className="mt-6">
-                    <i class="fa-brands fa-react fa-xl fa-pull-left"></i>
-                    <i class="fa-brands fa-js fa-xl fa-pull-left"></i>
-                    <i class="fa-brands fa-css3-alt fa-xl fa-pull-left"></i>
-                    <i class="fa-brands fa-font-awesome fa-xl fa-pull-left"></i>
-                    <i class="fa-brands fa-node fa-xl fa-pull-left"></i>
-                    <i
-                      class="fa-xl fa-pull-left"
-                      style={{ margin: "-11px -2px" }}
-                    >
-                      <SiNextdotjs />
-                    </i>
-                  </div>
 
-                  <div className="flex items-center mt-14">
+                  <div className="flex items-center">
                     <a
                       target="_blank"
                       class="flex w-full justify-center items-center cursor-not-allowed gap-3 opacity-50 text-center text-slate-200 border p-2 rounded-lg relative rounded-lg group font-medium text-black font-medium inline-block"
@@ -226,10 +178,11 @@ export default function Projects() {
                 rel="noreferrer"
                 className="transition-all hover:scale-100 md: border border-zinc-600 cursor-pointer w-full h-fit bg-gray-500/5 p-4 rounded-lg transition-all duration-200 hover:bg-gray-500/10"
               >
-                <div className="h-30 w-full relative rounded-lg shadow-xl overflow-hidden object-cover object-center sm:object-contain">
+                <div className="w-full relative rounded-lg shadow-xl overflow-hidden object-cover object-center sm:object-contain">
                   <img
                     src="images/Spotify-Widget.jpg"
                     alt="Imagen proyecto Spotify Widget"
+                    className="w-full h-52 object-cover"
                   />
                 </div>
                 <div className="mt-4">

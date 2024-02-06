@@ -47,7 +47,7 @@ export default function Posts() {
 
       <div className="max-w-7xl mx-auto ">
         <div className="py-24">
-          <h1 className="font-display text-5xl font-bold sm:text-7xl text-white">
+          <h1 className="font-secundary text-5xl font-bold sm:text-7xl text-white">
             Mi{" "}
             <span className="relative whitespace-nowrap text-primary">
               <svg

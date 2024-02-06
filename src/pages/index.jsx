@@ -158,7 +158,7 @@ export default function Home() {
                   target="_blank"
                   rel="noreferrer"
                   className="w-full"
-                  href="https://github.com/eddysantiagoo"
+                  href="https://linkedin.com/in/eddysantiagoo"
                 >
                   <div className="teams-icon-card">
                     <div className="inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 h-22 w-9 hover:bg-[#27272a]">
@@ -190,7 +190,7 @@ export default function Home() {
                   target="_blank"
                   rel="noreferrer"
                   className="w-2/4"
-                  href="https://github.com/eddysantiagoo"
+                  href="https://instagram.com/eddy.santiagoo"
                 >
                   <div className="teams-icon-card">
                     <div className="inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 h-22 w-9 hover:bg-[#27272a]">
