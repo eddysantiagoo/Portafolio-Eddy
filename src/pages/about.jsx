@@ -114,7 +114,7 @@ export default function About() {
             rel="noopener noreferrer"
           >
             <div className="grid-cols-1 justify-start md:grid-cols-1 lg:grid-cols-2 gap-4 my-4 chroma">
-              <div className="group flex items-center relative bg-neutral-200 dark:bg-gray-600/5  hover:bg-neutral-300 overflow-hidden border dark:border-gray-500/25 dark:hover:border-primary rounded-lg overflow-hidden p-2.5 transition-all duration-200 place-content-center">
+              <div className="group grid place-items-center  relative bg-neutral-200 dark:bg-gray-600/5  hover:bg-neutral-300 overflow-hidden border dark:border-gray-500/25 dark:hover:border-primary rounded-lg overflow-hidden p-2.5 transition-all duration-200 place-content-center">
                 <div className="relative">
                   <h2 className="ml-2 font-display text-lg sm:text-xl font-medium text-black dark:text-white">
                     ¿Quieres conocer más sobre mí? Revisa mi CV aquí :)
@@ -132,7 +132,7 @@ export default function About() {
             </h1>
 
             <div className="grid grid-cols-1 justify-start gap-4 my-4">
-              <div className="group flex items-center relative bg-gray-600/5 overflow-hidden border border-gray-500/25 hover:border-primary rounded-lg overflow-hidden p-2.5 transition-all duration-200 place-content-center">
+              <div className="group flex place-items-center  relative bg-gray-600/5 overflow-hidden border border-gray-500/25 hover:border-primary rounded-lg overflow-hidden p-2.5 transition-all duration-200">
                 <img
                   src="https://media.licdn.com/dms/image/C4E0BAQHMgYEnxoVtxw/company-logo_200_200/0/1651508107143?e=2147483647&v=beta&t=ueYquiqI1_dejh2VyS1XzZ2D8Q2W4WjWw2VDBNC5OYU"
                   alt="Logo de la IU Digital de Antioquia"
@@ -141,13 +141,13 @@ export default function About() {
                   className="bg-white/5 p-1 w-[65px] h-[65px] rounded-xl "
                 />
                 <div className="relative">
-                  <h2 className="ml-4 font-display text-xl md:text-lg font-medium text-white">
+                  <h2 className="ml-4 font-display text-sm md:text-lg font-medium text-white">
                     Institución Universitaria Digital de Antioquia - Tecnologia
                     en Desarrollo de Software ( Ene 2020 - Sep 2023 )
                   </h2>
                 </div>
               </div>
-              <div className="group flex items-center relative bg-gray-600/5 overflow-hidden border border-gray-500/25 hover:border-primary rounded-lg overflow-hidden p-2.5 transition-all duration-200">
+              <div className="group flex place-items-center  relative bg-gray-600/5 overflow-hidden border border-gray-500/25 hover:border-primary rounded-lg overflow-hidden p-2.5 transition-all duration-200">
                 <img
                   src="https://media.licdn.com/dms/image/C4E0BAQHMgYEnxoVtxw/company-logo_200_200/0/1651508107143?e=2147483647&v=beta&t=ueYquiqI1_dejh2VyS1XzZ2D8Q2W4WjWw2VDBNC5OYU"
                   alt="Logo de la IU Digital de Antioquia"
@@ -156,15 +156,12 @@ export default function About() {
                   className="bg-white/5 p-1 w-[65px] h-[65px] rounded-xl"
                 />
                 <div className="relative">
-                  <h2 className="ml-4 justify-start font-display text-xl md:text-lg font-medium text-white">
+                  <h2 className="ml-4 justify-start font-display text-sm md:text-lg font-medium text-white">
                     Diplomado en Desarrollo Web (2022)
                   </h2>
                 </div>
               </div>
-            </div>
-
-            <div className="grid grid-cols-1 justify-start gap-4 my-4">
-              <div className="group flex items-center relativebg-gray-600/5 overflow-hidden border border-gray-500/25 hover:border-primary rounded-lg overflow-hidden p-2.5 transition-all duration-200 place-content-center">
+              <div className="group flex place-items-center  relative bg-gray-600/5 overflow-hidden border border-gray-500/25 hover:border-primary rounded-lg overflow-hidden p-2.5 transition-all duration-200">
                 <img
                   src="https://upload.wikimedia.org/wikipedia/commons/9/97/Coursera-Logo_600x600.svg"
                   alt="Logo de la IU Digital de Antioquia"
@@ -173,7 +170,7 @@ export default function About() {
                   className="bg-white/5 p-1 w-[65px] h-[65px] rounded-xl"
                 />
                 <div className="relative">
-                  <h2 className="ml-4 font-display text-xl md:text-lg font-medium text-white">
+                  <h2 className="ml-4 font-display text-sm md:text-lg font-medium text-white">
                     Certificado en diseño de experiencia del usuario (UX) de
                     Google (Mayo 2023 - Actualmente)
                   </h2>
@@ -188,7 +185,7 @@ export default function About() {
                 {/* VACIO */}
               </span>
             </h1>
-            <ol class="relative border-l border-[#464B50]">
+            <ol class="relative ml-[16px] border-l border-[#464B50]">
               {/* <li class="mb-10 ml-6">
         <span class="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
             <svg class="w-2.5 h-2.5 text-blue-800 dark:text-blue-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
