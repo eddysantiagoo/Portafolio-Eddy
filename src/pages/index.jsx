@@ -97,6 +97,11 @@ export default function Home() {
             </article>
 
             <h1 className="cuarta-font mt-8">
+              <ul className="text-xl grid gap-4">
+                <li className="cuarta-font font-normal">aveces pienso que menos es mas</li>
+
+                <li className="text-sm font-light"><span className="text-[#FF4F4F] mr-1">*</span>Poco, pero conciso.</li>
+              </ul>
               <button
                 className="absolute right-6 md:hidden text-white font-semibold items-center gap-2 py-2 duration-75 hover:opacity-80 appearance-none scale-100 transition-transform active:scale-[0.90]"
                 onClick={() => notify()}
@@ -126,13 +131,8 @@ export default function Home() {
             <span className="hero_Glow__wiAEk"></span>
           </div>
 
-          {/* SECCION TODAS LAS SKILLS */}
-
-          <section className="flex flex-col gap-4 w-full">
+          <section className="flex flex-col gap-4 w-full h-full">
             <article className="bento-grid">
-              {/* <h2 className="font-bold text-2xl font-secundary mb-4">
-                Contacto
-              </h2> */}
 
               <di1v className="flex align-center gap-4">
                 <a
@@ -218,7 +218,7 @@ export default function Home() {
               </di1v>
             </article>
 
-            <article className="bento-grid gif relative flex justify-center text-center"></article>
+            <article className="bento-grid gif relative flex justify-center text-center h-full"></article>
           </section>
         </div>
       </section>
