@@ -96,8 +96,7 @@ export default function Home() {
               </button>
             </article>
 
-            <h1 className="tercera-font text-4xl md:text-6xl mt-12">
-              Donde todo empieza
+            <h1 className="cuarta-font mt-8">
               <button
                 className="absolute right-6 md:hidden text-white font-semibold items-center gap-2 py-2 duration-75 hover:opacity-80 appearance-none scale-100 transition-transform active:scale-[0.90]"
                 onClick={() => notify()}
@@ -219,7 +218,7 @@ export default function Home() {
               </di1v>
             </article>
 
-            <article className="bento-grid gif relative h-56 flex justify-center text-center"></article>
+            <article className="bento-grid gif relative flex justify-center text-center"></article>
           </section>
         </div>
       </section>
