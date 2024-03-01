@@ -55,129 +55,29 @@ export default function About() {
         }}
       />
 
-      <div className="max-w-7xl mx-auto">
-        <div className="flex flex-col lg:flex-row justify-between w-full h-full py-14 gap-24 pb-2">
-          <div>
-            <h1 className="font-display gap-2 md:gap-4 flex font-secundary items-center text-5xl font-bold sm:text-7xl text-white">
-              ¿Quién
-              <span className="relative whitespace-nowrap text-primary">
-                <span className="text-deg-principal">soy?</span>
-              </span>
-            </h1>
-            <p className="text-xl mt-4">
-              Actualmente resido en Colombia, desarrollador
-              web enfocado en contruir sitios webs modernos, accesibles y
-              diseñados para ser intuitivos. <br /> <br />
-              <p>
-                Ahora, personalmente hablando soy un entusiasta del UX y UI, me gustan los
-                deportes, el open source, me gusta jugar videojuegos y leer.
-                También tengo un interés en las artes y a veces escribo algo en{" "}
-                <Link href={`/posts`}>
-                  <a className="text-[#f83b4c] hover:text-[#a12833] font-semibold underline">
-                    Mi Blog
-                  </a>
-                </Link>{" "}
-              </p>
-              {/* <br />
-              <br />
-              En el año 2020, tuve la oportunidad de estudiar Desarrollo de
-              Software de manera profesional, la cual no dudé en tomar y hasta
-              el día de hoy, siento que no me equivoqué en mi elección. Disfruto
-              mucho del desarrollo, aunque como cualquier profesión en el mundo,
-              tiene sus altibajos y puede ser estresante. En mi vida, aplico la
-              comunicación asertiva, la capacidad de planificación y
-              administración efectiva del tiempo, busco estar actualizado sobre
-              las últimas tecnologías, veo los problemas como oportunidades para
-              crear soluciones y sobre todo trabajo día a día para convertirme
-              en la persona que deseo ser. */}
+      <div className="max-w-7xl grid lg:grid-cols-2 gap-8 mx-auto mt-12">
+        <div className="h-fit bento-grid overflow-hidden static lg:sticky lg:top-[110px]">
+          <p className="text-xl mt-4">
+            Actualmente resido en Colombia, desarrollador web enfocado en
+            contruir sitios webs modernos, accesibles y diseñados para ser
+            intuitivos. <br /> <br />
+            <p>
+              Ahora, personalmente hablando soy un entusiasta del UX y UI, me
+              gustan los deportes, el open source, me gusta jugar videojuegos y
+              leer. También tengo un interés en las artes y a veces escribo algo
+              en{" "}
+              <Link href={`/posts`}>
+                <a className="text-[#f83b4c] hover:text-[#a12833] font-semibold underline">
+                  Mi Blog
+                </a>
+              </Link>{" "}
             </p>
-            <ReactMarkdown className="mt-4 text-primary text-2xl">
-              The security is there, but for how long? **- Eddy Santiago**
-            </ReactMarkdown>
-          </div>
+          </p>
         </div>
 
-        {/* SECCION EDUCACIÓN */}
+        {/* SECCION EDUCACIÓN Y EXPERIENCIA */}
 
-        <section className="grid lg:grid-cols-2 gap-12 mt-12">
-          <div className="mx-auto max-w-7xl">
-            {/* <h1 className="mt-1 text-4xl font-bold font-secundary">
-            {"Mi "}
-            <span className="relative whitespace-nowrap text-primary font-secundary">
-              Curriculum
-            </span>
-          </h1>
-
-          <a
-            href="https://drive.google.com/file/d/1Jdq-dbLBCk86g6c0Gwr0vGS4Ly64d5_V/view"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <div className="grid-cols-1 justify-start md:grid-cols-1 lg:grid-cols-2 gap-4 my-4 chroma">
-              <div className="group grid place-items-center  relative bg-neutral-200 dark:bg-gray-600/5  hover:bg-neutral-300 overflow-hidden border dark:border-gray-500/25 dark:hover:border-primary rounded-lg overflow-hidden p-2.5 transition-all duration-200 place-content-center">
-                <div className="relative">
-                  <h2 className="ml-2 font-display text-lg sm:text-xl font-medium text-black dark:text-white">
-                    ¿Quieres conocer más sobre mí? Revisa mi CV aquí :)
-                  </h2>
-                </div>
-              </div>
-            </div> 
-          </a>*/}
-
-            <h1 className="mt-1 text-4xl font-bold text-white font-secundary">
-              {"Educación"}
-              <span className="relative whitespace-nowrap text-primary">
-                {/* VACIO */}
-              </span>
-            </h1>
-
-            <div className="grid grid-cols-1 justify-start gap-4 my-4">
-              <div className="group flex place-items-center  relative bg-gray-600/5 overflow-hidden border border-gray-500/25 hover:border-primary rounded-lg overflow-hidden p-2.5 transition-all duration-200">
-                <img
-                  src="https://media.licdn.com/dms/image/C4E0BAQHMgYEnxoVtxw/company-logo_200_200/0/1651508107143?e=2147483647&v=beta&t=ueYquiqI1_dejh2VyS1XzZ2D8Q2W4WjWw2VDBNC5OYU"
-                  alt="Logo de la IU Digital de Antioquia"
-                  width="65"
-                  height="65"
-                  className="bg-white/5 p-1 w-[65px] h-[65px] rounded-xl "
-                />
-                <div className="relative">
-                  <h2 className="ml-4 font-display text-sm md:text-lg font-medium text-white">
-                    Institución Universitaria Digital de Antioquia - Tecnologia
-                    en Desarrollo de Software ( Ene 2020 - Sep 2023 )
-                  </h2>
-                </div>
-              </div>
-              <div className="group flex place-items-center  relative bg-gray-600/5 overflow-hidden border border-gray-500/25 hover:border-primary rounded-lg overflow-hidden p-2.5 transition-all duration-200">
-                <img
-                  src="https://media.licdn.com/dms/image/C4E0BAQHMgYEnxoVtxw/company-logo_200_200/0/1651508107143?e=2147483647&v=beta&t=ueYquiqI1_dejh2VyS1XzZ2D8Q2W4WjWw2VDBNC5OYU"
-                  alt="Logo de la IU Digital de Antioquia"
-                  width="65"
-                  height="65"
-                  className="bg-white/5 p-1 w-[65px] h-[65px] rounded-xl"
-                />
-                <div className="relative">
-                  <h2 className="ml-4 justify-start font-display text-sm md:text-lg font-medium text-white">
-                    Diplomado en Desarrollo Web (2022)
-                  </h2>
-                </div>
-              </div>
-              <div className="group flex place-items-center  relative bg-gray-600/5 overflow-hidden border border-gray-500/25 hover:border-primary rounded-lg overflow-hidden p-2.5 transition-all duration-200">
-                <img
-                  src="https://upload.wikimedia.org/wikipedia/commons/9/97/Coursera-Logo_600x600.svg"
-                  alt="Logo de la IU Digital de Antioquia"
-                  width="65"
-                  height="65"
-                  className="bg-white/5 p-1 w-[65px] h-[65px] rounded-xl"
-                />
-                <div className="relative">
-                  <h2 className="ml-4 font-display text-sm md:text-lg font-medium text-white">
-                    Certificado en diseño de experiencia del usuario (UX) de
-                    Google (Mayo 2023 - Actualmente)
-                  </h2>
-                </div>
-              </div>
-            </div>
-          </div>
+        <section className="grid ">
           <div>
             <h1 className="mt-1 text-4xl font-bold text-white font-secundary mb-4">
               {"Experiencia"}
@@ -285,9 +185,62 @@ export default function About() {
               </li>
             </ol>
           </div>
-        </section>
+          <div className="mx-auto max-w-7xl">
+            <h1 className="mt-1 text-4xl font-bold text-white font-secundary">
+              {"Educación"}
+              <span className="relative whitespace-nowrap text-primary">
+                {/* VACIO */}
+              </span>
+            </h1>
 
-        {/* SECCION EXPERIENCIA */}
+            <div className="grid grid-cols-1 justify-start gap-4 my-4">
+              <div className="group flex place-items-center  relative bg-gray-600/5 overflow-hidden border border-gray-500/25 hover:border-primary rounded-lg overflow-hidden p-2.5 transition-all duration-200">
+                <img
+                  src="https://media.licdn.com/dms/image/C4E0BAQHMgYEnxoVtxw/company-logo_200_200/0/1651508107143?e=2147483647&v=beta&t=ueYquiqI1_dejh2VyS1XzZ2D8Q2W4WjWw2VDBNC5OYU"
+                  alt="Logo de la IU Digital de Antioquia"
+                  width="65"
+                  height="65"
+                  className="bg-white/5 p-1 w-[65px] h-[65px] rounded-xl "
+                />
+                <div className="relative">
+                  <h2 className="ml-4 font-display text-sm md:text-lg font-medium text-white">
+                    Institución Universitaria Digital de Antioquia - Tecnologia
+                    en Desarrollo de Software ( Ene 2020 - Sep 2023 )
+                  </h2>
+                </div>
+              </div>
+              <div className="group flex place-items-center  relative bg-gray-600/5 overflow-hidden border border-gray-500/25 hover:border-primary rounded-lg overflow-hidden p-2.5 transition-all duration-200">
+                <img
+                  src="https://media.licdn.com/dms/image/C4E0BAQHMgYEnxoVtxw/company-logo_200_200/0/1651508107143?e=2147483647&v=beta&t=ueYquiqI1_dejh2VyS1XzZ2D8Q2W4WjWw2VDBNC5OYU"
+                  alt="Logo de la IU Digital de Antioquia"
+                  width="65"
+                  height="65"
+                  className="bg-white/5 p-1 w-[65px] h-[65px] rounded-xl"
+                />
+                <div className="relative">
+                  <h2 className="ml-4 justify-start font-display text-sm md:text-lg font-medium text-white">
+                    Diplomado en Desarrollo Web (2022)
+                  </h2>
+                </div>
+              </div>
+              <div className="group flex place-items-center  relative bg-gray-600/5 overflow-hidden border border-gray-500/25 hover:border-primary rounded-lg overflow-hidden p-2.5 transition-all duration-200">
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/9/97/Coursera-Logo_600x600.svg"
+                  alt="Logo de la IU Digital de Antioquia"
+                  width="65"
+                  height="65"
+                  className="bg-white/5 p-1 w-[65px] h-[65px] rounded-xl"
+                />
+                <div className="relative">
+                  <h2 className="ml-4 font-display text-sm md:text-lg font-medium text-white">
+                    Certificado en diseño de experiencia del usuario (UX) de
+                    Google (Mayo 2023 - Actualmente)
+                  </h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
 
         <span className="hero_Glow__wiAEk-about"></span>
       </div>
