@@ -349,7 +349,7 @@ export default function Navbar() {
                     </svg>
                   </i>
                 </a>
-                <Link href="/contact">
+                {/* <Link href="/contact">
                   <a
                     onClick={() => setIsOpen(false)}
                     className="flex gap-2 px-4 items-center w-full h-12 bg-gray-500/5 rounded-lg hover:bg-gray-500/10 transition-all duration-200 text-zinc-400 hover:text-black hover:dark:text-white"
@@ -357,39 +357,39 @@ export default function Navbar() {
                     <i className="fas fa-envelope text-2xl" />
                     <p className="font-semibold">Contacto</p>
                   </a>
-                </Link>
-              </div>
-              <div>
-                <Link href="https://www.instagram.com/eddy.santiagoo/">
-                  <a
-                    onClick={() => setIsOpen(false)}
-                    target="_blank"
-                    className="flex gap-2 px-4 items-center w-full h-12 bg-gray-500/5 rounded-lg hover:text-orange-600 hover:bg-gray-500/10 transition-all duration-200 text-zinc-400 hover:text-black hover:dark:text-white "
-                  >
-                    <svg
-                      fill="#a1a1aa"
-                      height="37px"
-                      className="hover:fill-white transition-all duration-200"
-                      style={{ margin: "0 -4px" }}
-                      viewBox="-3.2 -3.2 38.40 38.40"
-                      version="1.1"
-                      xmlns="http://www.w3.org/2000/svg"
+                </Link> */}
+                <div className="w-full">
+                  <Link href="https://www.instagram.com/eddy.santiagoo/">
+                    <a
+                      onClick={() => setIsOpen(false)}
+                      target="_blank"
+                      className="flex gap-2 px-4 items-center w-full h-12 bg-gray-500/5 rounded-lg hover:text-orange-600 hover:bg-gray-500/10 transition-all duration-200 text-zinc-400 hover:text-black hover:dark:text-white "
                     >
-                      <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-                      <g
-                        id="SVGRepo_tracerCarrier"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      ></g>
-                      <g id="SVGRepo_iconCarrier">
-                        {" "}
-                        <title>instagram</title>{" "}
-                        <path d="M21.25 14.188v-6.469c0-1.156-0.969-2.125-2.125-2.125h-17c-1.156 0-2.125 0.969-2.125 2.125v6.469h5.156c0.813-2.219 2.969-3.813 5.469-3.813s4.656 1.594 5.469 3.813h5.156zM21.25 16.063h-4.781v0.156c0 3.219-2.625 5.844-5.844 5.844s-5.844-2.625-5.844-5.844v-0.156h-4.781v8.656c0 1.156 0.969 2.125 2.125 2.125h17c1.156 0 2.125-0.969 2.125-2.125v-8.656zM1.844 7.469h1.063v4.875h-1.063v-4.875zM3.969 7.469h1.063v4.875h-1.063v-4.875zM6.094 7.469h1.063v3.063c-0.344 0.25-0.719 0.531-1.063 0.813v-3.875zM10.625 20.219c2.219 0 3.969-1.781 3.969-4s-1.75-3.969-3.969-3.969-4 1.75-4 3.969 1.781 4 4 4zM14.344 7.469h5.031v4.875h-3.375c-0.438-0.656-1.031-1.188-1.656-1.625v-3.25z"></path>{" "}
-                      </g>
-                    </svg>
-                    <p className="ml-[-8px]">Instagram</p>
-                  </a>
-                </Link>
+                      <svg
+                        fill="#a1a1aa"
+                        height="37px"
+                        className="hover:fill-white transition-all duration-200"
+                        style={{ margin: "0 -4px" }}
+                        viewBox="-3.2 -3.2 38.40 38.40"
+                        version="1.1"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g
+                          id="SVGRepo_tracerCarrier"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        ></g>
+                        <g id="SVGRepo_iconCarrier">
+                          {" "}
+                          <title>instagram</title>{" "}
+                          <path d="M21.25 14.188v-6.469c0-1.156-0.969-2.125-2.125-2.125h-17c-1.156 0-2.125 0.969-2.125 2.125v6.469h5.156c0.813-2.219 2.969-3.813 5.469-3.813s4.656 1.594 5.469 3.813h5.156zM21.25 16.063h-4.781v0.156c0 3.219-2.625 5.844-5.844 5.844s-5.844-2.625-5.844-5.844v-0.156h-4.781v8.656c0 1.156 0.969 2.125 2.125 2.125h17c1.156 0 2.125-0.969 2.125-2.125v-8.656zM1.844 7.469h1.063v4.875h-1.063v-4.875zM3.969 7.469h1.063v4.875h-1.063v-4.875zM6.094 7.469h1.063v3.063c-0.344 0.25-0.719 0.531-1.063 0.813v-3.875zM10.625 20.219c2.219 0 3.969-1.781 3.969-4s-1.75-3.969-3.969-3.969-4 1.75-4 3.969 1.781 4 4 4zM14.344 7.469h5.031v4.875h-3.375c-0.438-0.656-1.031-1.188-1.656-1.625v-3.25z"></path>{" "}
+                        </g>
+                      </svg>
+                      <p className="ml-[-8px]">Instagram</p>
+                    </a>
+                  </Link>
+                </div>
               </div>
             </div>
           </div>
