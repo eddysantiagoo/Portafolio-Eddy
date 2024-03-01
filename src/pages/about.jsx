@@ -97,10 +97,11 @@ export default function About() {
         <p class="text-base font-normal text-gray-500 dark:text-gray-400">All of the pages and components are first designed in Figma and we keep a parity between the two versions even as we update the project.</p>
     </li> */}
               <li class="mt-6 mb-10 ml-8 ">
-                <span class="absolute flex items-center justify-center w-8 h-8 bg-[#313131] p-[6px] rounded-md -left-4">
+                <span class="absolute flex items-center justify-center w-8 h-8 bg-[#313131] p-[4px] rounded-md -left-4">
                   <img
-                    src="https://principal.gestoru.com/wp-content/uploads/2022/05/Gestoru-Favicon.png"
-                    alt=""
+                    src="images/gestoru.webp"
+                    className="rounded-md"
+                    alt="Logo"
                     srcset=""
                   />
                 </span>
@@ -118,7 +119,7 @@ export default function About() {
                     Actual
                   </span>
                 </h3>
-                <div className="grid md:flex gap-2 md:gap-0 items-center my-3">
+                <div className="grid md:flex gap-2 md:gap-0 items-center my-2">
                   <time class="bg-[#313131] w-full md:w-fit py-2 px-3 rounded-md text-sm font-normal leading-none text-white border border-[#606463]">
                     Desde Junio del 2023 ({diferenciaMeses} meses)
                   </time>
@@ -132,35 +133,35 @@ export default function About() {
                   aperiam, excepturi a, sapiente, quidem earum incidunt eaque
                   possimus nostrum accusamus rem architecto nemo?
                 </p> */}
-                <div className="flex flex-wrap gap-y-3 justify-between md:justify-start">
-                  <span class="text-sm font-medium mr-2 px-2.5 py-0.5 rounded bg-[#313131] text-white  border-[#515050] flex-grow text-center">
+                <div className="flex flex-wrap justify-between md:justify-start gap-2">
+                  <span class="text-sm font-medium px-2.5 py-0.5 rounded bg-[#313131] text-white  border-[#515050] flex-grow text-center">
                     Laravel
                   </span>
-                  <span class="text-sm font-medium mr-2 px-2.5 py-0.5 rounded bg-[#313131] text-white  border-[#515050] flex-grow text-center">
+                  <span class="text-sm font-medium px-2.5 py-0.5 rounded bg-[#313131] text-white  border-[#515050] flex-grow text-center">
                     Figma
                   </span>
-                  <span class="text-sm font-medium mr-2 px-2.5 py-0.5 rounded bg-[#313131] text-white  border-[#515050] flex-grow text-center">
+                  <span class="text-sm font-medium px-2.5 py-0.5 rounded bg-[#313131] text-white  border-[#515050] flex-grow text-center">
                     Tailwind
                   </span>
-                  <span class="text-sm font-medium mr-2 px-2.5 py-0.5 rounded bg-[#313131] text-white  border-[#515050] flex-grow text-center">
+                  <span class="text-sm font-medium px-2.5 py-0.5 rounded bg-[#313131] text-white  border-[#515050] flex-grow text-center">
                     WordPress
                   </span>
-                  <span class="text-sm font-medium mr-2 px-2.5 py-0.5 rounded bg-[#313131] text-white  border-[#515050] flex-grow text-center">
+                  <span class="text-sm font-medium px-2.5 py-0.5 rounded bg-[#313131] text-white  border-[#515050] flex-grow text-center">
                     CSS
                   </span>
-                  <span class="text-sm font-medium mr-2 px-2.5 py-0.5 rounded bg-[#313131] text-white  border-[#515050] flex-grow text-center">
+                  <span class="text-sm font-medium px-2.5 py-0.5 rounded bg-[#313131] text-white  border-[#515050] flex-grow text-center">
                     PHP
                   </span>
-                  <span class="text-sm font-medium mr-2 px-2.5 py-0.5 rounded bg-[#313131] text-white  border-[#515050] flex-grow text-center">
+                  <span class="text-sm font-medium px-2.5 py-0.5 rounded bg-[#313131] text-white  border-[#515050] flex-grow text-center">
                     JavaScript
                   </span>
-                  <span class="text-sm font-medium mr-2 px-2.5 py-0.5 rounded bg-[#313131] text-white  border-[#515050] flex-grow text-center">
+                  <span class="text-sm font-medium px-2.5 py-0.5 rounded bg-[#313131] text-white  border-[#515050] flex-grow text-center">
                     Bootstrap
                   </span>
-                  <span class="text-sm font-medium mr-2 px-2.5 py-0.5 rounded bg-[#313131] text-white  border-[#515050] flex-grow text-center">
+                  <span class="text-sm font-medium px-2.5 py-0.5 rounded bg-[#313131] text-white  border-[#515050] flex-grow text-center">
                     HTML
                   </span>
-                  <span class="text-sm font-medium mr-2 px-2.5 py-0.5 rounded bg-[#313131] text-white  border-[#515050] flex-grow text-center ">
+                  <span class="text-sm font-medium px-2.5 py-0.5 rounded bg-[#313131] text-white  border-[#515050] flex-grow text-center ">
                     Elementor
                   </span>
                 </div>

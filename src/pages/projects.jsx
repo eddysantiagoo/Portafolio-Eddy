@@ -57,7 +57,7 @@ export default function Projects() {
 
           {/* SECCION PROYECTOS */}
 
-          <div className="grid grid-cols-1 lg:grid-cols-2 p-0 md:p-4 gap-4 overflow-y-hidden mt-16">
+          <div className="grid grid-cols-1 lg:grid-cols-3 p-0 md:p-4 gap-4 overflow-y-hidden mt-16">
             {/* PROYECTO 1 */}
 
             <div className="grid grid-cols-1 gap-y-4 place-content-baseline">
