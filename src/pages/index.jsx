@@ -58,14 +58,9 @@ export default function Home() {
 
       <section className="wrapper flex flex-col items-center pt-6 md:p-0 lg:h-[73vh]">
         <div className="grid lg:grid-cols-2 gap-4 md:p-8 place-items-center md:w-8/12 m-auto">
-          <div className="h-full bento-grid">
+          <div className="h-full bento-grid overflow-hidden">
             <article className="flex items-center gap-4 justify-between">
               <div className="flex items-center gap-4">
-                <img
-                  src="/images/icono-200.webp"
-                  alt="Imagen de Eddy Santiago"
-                  className="shadow-lg relative z-1 h-16 rounded-full transition duration-150 hover:scale-125 ring-0 ring-gray-500/50 hover:ring-1 "
-                />
                 <div className="font-secundary">
                   <h1 className="font-secundary font-bold">Eddy Santiago</h1>
                   <span className="font-secundary text-neutral-500">
@@ -75,7 +70,7 @@ export default function Home() {
               </div>
 
               <button
-                className="hidden md:flex text-white font-semibold items-center gap-2 py-2 duration-75 hover:opacity-80 appearance-none scale-100 transition-transform active:scale-[0.90]"
+                className="text-white font-semibold items-center gap-2 py-2 duration-75 hover:opacity-80 appearance-none scale-100 transition-transform active:scale-[0.90]"
                 onClick={() => notify()}
               >
                 <svg
@@ -97,31 +92,20 @@ export default function Home() {
             </article>
 
             <h1 className="cuarta-font mt-8">
-              <ul className="text-xl grid gap-4">
-                <li className="cuarta-font font-normal">aveces pienso que menos es mas</li>
+              <ul className="text-md grid gap-4">
+                <li className="cuarta-font font-normal">
+                  a veces pienso que menos es más
+                </li>
+                <li className="cuarta-font font-normal">
+                  pienso que lo que elegimos desarrollar es tan crucial como lo
+                  que decidimos omitir
+                </li>
 
-                <li className="text-sm font-light"><span className="text-[#FF4F4F] mr-1">*</span>Poco, pero conciso.</li>
+                <li className="text-xs mt-12 font-light">
+                  <span className="text-[#FF4F4F] mr-1">*</span>Poco, pero
+                  conciso.
+                </li>
               </ul>
-              <button
-                className="absolute right-6 md:hidden text-white font-semibold items-center gap-2 py-2 duration-75 hover:opacity-80 appearance-none scale-100 transition-transform active:scale-[0.90]"
-                onClick={() => notify()}
-              >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="28"
-                  height="28"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                >
-                  <path
-                    d="M11.6998 21.6001H5.69979C4.37431 21.6001 3.2998 20.5256 3.2998 19.2001L3.2999 4.80013C3.29991 3.47466 4.37442 2.40015 5.6999 2.40015H16.5002C17.8256 2.40015 18.9002 3.47466 18.9002 4.80015V9.60015M7.50018 7.20015H14.7002M7.50018 10.8001H14.7002M14.7002 15.5541V18.4985C14.7002 19.9534 16.2516 21.2879 17.7065 21.2879C19.1615 21.2879 20.7002 19.9535 20.7002 18.4985V14.7793C20.7002 14.009 20.2574 13.2273 19.2723 13.2273C18.2186 13.2273 17.7065 14.009 17.7065 14.7793V18.3435M7.50018 14.4001H11.1002"
-                    stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  />
-                </svg>
-              </button>
             </h1>
 
             {/* <p className="mx-auto max-w-5xl font-display font-medium md:font-bold text-2xl md:text-3xl text-neutral-400 dark:text-gray-400/50 mt-2 text-center">
@@ -133,8 +117,7 @@ export default function Home() {
 
           <section className="flex flex-col gap-4 w-full h-full">
             <article className="bento-grid">
-
-              <di1v className="flex align-center gap-4">
+              <div className="flex align-center gap-4">
                 <a
                   target="_blank"
                   rel="noreferrer"
@@ -192,13 +175,16 @@ export default function Home() {
                   href="https://instagram.com/eddy.santiagoo"
                 >
                   <div className="teams-icon-card">
-                    <div className="inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 h-22 w-9 hover:bg-[#27272a]">
+                    <div className="flex items-center justify-center rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 h-22 w-9 hover:bg-[#27272a]">
                       <svg
-                        fill="currentColor"
-                        className="relative left-1"
-                        viewBox="-3.2 -3.2 38.40 38.40"
+                        fill="#ffffff"
                         version="1.1"
                         xmlns="http://www.w3.org/2000/svg"
+                        xmlnsXlink="http://www.w3.org/1999/xlink"
+                        viewBox="0 0 512 512"
+                        enable-background="new 0 0 512 512"
+                        className="w-6/2 p-2"
+                        stroke="#ffffff"
                       >
                         <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
                         <g
@@ -208,17 +194,32 @@ export default function Home() {
                         ></g>
                         <g id="SVGRepo_iconCarrier">
                           {" "}
-                          <title>instagram</title>{" "}
-                          <path d="M21.25 14.188v-6.469c0-1.156-0.969-2.125-2.125-2.125h-17c-1.156 0-2.125 0.969-2.125 2.125v6.469h5.156c0.813-2.219 2.969-3.813 5.469-3.813s4.656 1.594 5.469 3.813h5.156zM21.25 16.063h-4.781v0.156c0 3.219-2.625 5.844-5.844 5.844s-5.844-2.625-5.844-5.844v-0.156h-4.781v8.656c0 1.156 0.969 2.125 2.125 2.125h17c1.156 0 2.125-0.969 2.125-2.125v-8.656zM1.844 7.469h1.063v4.875h-1.063v-4.875zM3.969 7.469h1.063v4.875h-1.063v-4.875zM6.094 7.469h1.063v3.063c-0.344 0.25-0.719 0.531-1.063 0.813v-3.875zM10.625 20.219c2.219 0 3.969-1.781 3.969-4s-1.75-3.969-3.969-3.969-4 1.75-4 3.969 1.781 4 4 4zM14.344 7.469h5.031v4.875h-3.375c-0.438-0.656-1.031-1.188-1.656-1.625v-3.25z"></path>{" "}
+                          <g id="5151e0c8492e5103c096af88a50059a5">
+                            {" "}
+                            <path
+                              display="inline"
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M66.084,0.5h379.819c36.079,0,65.597,29.505,65.597,65.584 v379.819c0,36.079-29.518,65.597-65.597,65.597H66.084C30.005,511.5,0.5,481.982,0.5,445.903V66.084 C0.5,30.005,30.005,0.5,66.084,0.5L66.084,0.5z M372.734,57.264c-12.65,0-23.005,10.355-23.005,23.005v55.067 c0,12.65,10.354,23.005,23.005,23.005h57.762c12.65,0,23.005-10.354,23.005-23.005V80.269c0-12.65-10.354-23.005-23.005-23.005 H372.734L372.734,57.264z M453.738,216.59h-44.975c4.254,13.897,6.55,28.606,6.55,43.852c0,84.996-71.111,153.898-158.839,153.898 c-87.716,0-158.827-68.902-158.827-153.898c0-15.245,2.295-29.954,6.55-43.852H57.276v215.853c0,11.178,9.132,20.322,20.311,20.322 h355.841c11.166,0,20.311-9.145,20.311-20.322V216.59L453.738,216.59z M256.475,155.447c-56.677,0-102.625,44.525-102.625,99.443 s45.948,99.443,102.625,99.443c56.688,0,102.636-44.525,102.636-99.443S313.163,155.447,256.475,155.447z"
+                            >
+                              {" "}
+                            </path>{" "}
+                          </g>{" "}
                         </g>
                       </svg>
                     </div>
                   </div>
                 </a>
-              </di1v>
+              </div>
             </article>
-
-            <article className="bento-grid gif relative flex justify-center text-center h-full"></article>
+            <article className="bento-grid flex h-full">
+              <img
+                src="images/turtle.png"
+                alt="Tortuga"
+                srcset=""
+                className="w-12"
+              />
+            </article>
           </section>
         </div>
       </section>

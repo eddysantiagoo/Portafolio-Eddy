@@ -65,11 +65,11 @@ export default function About() {
               </span>
             </h1>
             <p className="text-xl mt-4">
-              Profesionalmente, actualmente resido en Colombia, desarrollador
+              Actualmente resido en Colombia, desarrollador
               web enfocado en contruir sitios webs modernos, accesibles y
               diseñados para ser intuitivos. <br /> <br />
               <p>
-                Personalmente, soy un entusiasta del UX y UI, me gustan los
+                Ahora, personalmente hablando soy un entusiasta del UX y UI, me gustan los
                 deportes, el open source, me gusta jugar videojuegos y leer.
                 También tengo un interés en las artes y a veces escribo algo en{" "}
                 <Link href={`/posts`}>

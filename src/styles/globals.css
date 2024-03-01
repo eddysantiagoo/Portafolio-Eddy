@@ -3,7 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
 @import url("https://fonts.cdnfonts.com/css/rubik");
 @import url("https://fonts.cdnfonts.com/css/sf-pro-display");
-@import url('https://fonts.cdnfonts.com/css/graphik-trial');
+@import url("https://fonts.cdnfonts.com/css/graphik-trial");
 
 @tailwind base;
 @tailwind components;
@@ -394,7 +394,6 @@ body {
 
 .bento-grid {
   position: relative;
-  overflow: hidden;
   width: 100%;
   background-image: linear-gradient(45deg, #1a1a1b, transparent, #1a1a1b80);
   border: 1px solid rgba(255, 255, 255, 0.11);
@@ -423,11 +422,13 @@ body {
   }
 }
 
-.gif {
-  padding: 0px !important;
-  height: 191px;
-  background: url("/images/index.gif") fixed center center;
+.bento-grid__text {
+  background: linear-gradient(261deg, #fff -0.05%, #938db6 99.95%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
+
 
 .teams-icon-card {
   width: 100%;
