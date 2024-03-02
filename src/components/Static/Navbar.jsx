@@ -62,9 +62,6 @@ export default function Navbar() {
       document.body.style.overflow = "auto";
     }
     setMenu(value);
-
-    const audio = new Audio("/images/post.mp3");
-    audio.play();
   };
 
   const toastMessage = () => {
