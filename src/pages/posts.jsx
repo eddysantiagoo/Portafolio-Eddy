@@ -19,6 +19,11 @@ export default function Posts() {
     setCount(count + 1);
   };
 
+  const handleHoverClick = () => {
+    const audio = new Audio("/images/post.mp3");
+    audio.play();
+  };
+
   return (
     <>
       {/* SEO CON NEXT */}
@@ -67,7 +72,7 @@ export default function Posts() {
               <a
                 key={""}
                 className="cursor-pointer w-full bg-gray-500/5 p-4 rounded-lg transition-all duration-200 hover:bg-gray-500/10"
-                onClick={handleClick}
+                onMouseEnter={handleHoverClick}
               >
                 <div>
                   <p className="text-xl font-semibold">
@@ -99,7 +104,7 @@ export default function Posts() {
               <a
                 key={""}
                 className="cursor-pointer w-full bg-gray-500/5 p-4 rounded-lg transition-all duration-200 hover:bg-gray-500/10"
-                onClick={handleClick}
+                onMouseEnter={handleHoverClick}
               >
                 <div>
                   <p className="text-xl font-semibold">
@@ -134,7 +139,7 @@ export default function Posts() {
               <a
                 key={""}
                 className="cursor-pointer w-full bg-gray-500/5 p-4 rounded-lg transition-all duration-200 hover:bg-gray-500/10"
-                onClick={handleClick}
+                onMouseEnter={handleHoverClick}
               >
                 <div>
                   <p className="text-xl font-semibold">Andrés Iniesta Luján</p>
@@ -163,7 +168,7 @@ export default function Posts() {
               <a
                 key={""}
                 className="cursor-pointer w-full bg-gray-500/5 p-4 rounded-lg transition-all duration-200 hover:bg-gray-500/10"
-                onClick={handleClick}
+                onMouseEnter={handleHoverClick}
               >
                 <div>
                   <p className="text-xl font-semibold">

@@ -75,6 +75,16 @@ export default function Navbar() {
     });
   };
 
+  const handleItemClick = () => {
+    const audio = new Audio("/images/entry.mp3");
+    audio.play();
+  };
+
+  const handleHoverClick = () => {
+    const audio = new Audio("/images/iphone-tock.mp3");
+    audio.play();
+  };
+
   return (
     <>
       <Toaster position="bottom-center" />
@@ -113,6 +123,8 @@ export default function Navbar() {
                     <a
                       className="font-medium rounded-full px-3 py-2 transition transition-duration-200 text-white/60 focus:bg-white/20 hover:text-white/80 focus:text-white"
                       href=""
+                      onMouseEnter={handleHoverClick}
+                      onClick={handleItemClick}
                     >
                       Inicio
                     </a>
@@ -123,6 +135,8 @@ export default function Navbar() {
                     <a
                       className="font-medium rounded-full px-3 py-2 transition transition-duration-200 text-white/60 focus:bg-white/20 hover:text-white/80 focus:text-white"
                       href=""
+                      onMouseEnter={handleHoverClick}
+                      onClick={handleItemClick}
                     >
                       Sobre mi
                     </a>
@@ -134,6 +148,8 @@ export default function Navbar() {
                     <a
                       className="font-medium rounded-full px-3 py-2 transition transition-duration-200 text-white/60 focus:bg-white/20 hover:text-white/80 focus:text-white"
                       href=""
+                      onMouseEnter={handleHoverClick}
+                      onClick={handleItemClick}
                     >
                       Proyectos
                     </a>
@@ -165,6 +181,8 @@ export default function Navbar() {
                     <a
                       className="font-medium rounded-full px-3 py-2 transition transition-duration-200 text-white/60 focus:bg-white/20 hover:text-white/80 focus:text-white"
                       href=""
+                      onMouseEnter={handleHoverClick}
+                      onClick={handleItemClick}
                     >
                       Blog
                     </a>

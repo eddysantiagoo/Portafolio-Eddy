@@ -15,16 +15,19 @@ import toast from "react-hot-toast";
 
 export default function Home() {
   const { page } = usePage();
-  const notify = () =>
+  const notify = () => {
+    const audio = new Audio("/images/entry.mp3");
+    audio.play();
+
     toast("🐻", {
       duration: 1000,
       position: "top-center",
-
       style: {
         background: "#333",
         border: "1px solid #636363",
       },
     });
+  };
 
   return (
     <>
