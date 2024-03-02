@@ -62,6 +62,9 @@ export default function Navbar() {
       document.body.style.overflow = "auto";
     }
     setMenu(value);
+
+    const audio = new Audio("/images/entry.mp3");
+    audio.play();
   };
 
   const toastMessage = () => {
@@ -196,6 +199,7 @@ export default function Navbar() {
                 <a
                   className="visible md:hidden font-bold font-secundary rounded-xl px-3 py-2 transition transition-duration-200 text-white/60 focus:bg-white/10 hover:text-white/80 focus:text-white"
                   href=""
+                  onClick={handleHoverClick}
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
