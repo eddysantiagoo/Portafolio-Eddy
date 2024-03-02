@@ -63,7 +63,7 @@ export default function Navbar() {
     }
     setMenu(value);
 
-    const audio = new Audio("/images/entry.mp3");
+    const audio = new Audio("/images/post.mp3");
     audio.play();
   };
 
