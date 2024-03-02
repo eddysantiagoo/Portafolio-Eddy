@@ -115,7 +115,7 @@ export default function About() {
                   >
                     GestorU
                   </a>
-                  <span class="flex items-center text-sm font-medium mr-2 px-2.5 py-0.5 rounded bg-white text-black  ml-3">
+                  <span class="md:flex items-center text-sm font-medium mr-2 px-2.5 py-0.5 rounded bg-white text-black  ml-3">
                     Actual
                   </span>
                 </h3>
