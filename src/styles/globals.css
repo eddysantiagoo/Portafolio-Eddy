@@ -13,6 +13,11 @@
   font-family: "Inter", sans-serif;
 }
 
+body {
+  background: url("/images/bg-dark.png") center / cover;
+  color: #fff;
+  overflow-x: hidden !important;
+}
 .font-secundary {
   font-family: "SF Pro Display", sans-serif;
 }
@@ -112,11 +117,6 @@
     );
 }
 
-body {
-  background: #0e0d0d;
-  color: #fff;
-  overflow-x: hidden !important;
-}
 
 .weight-900 {
   font-weight: 900;
