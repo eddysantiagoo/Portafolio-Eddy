@@ -32,4 +32,4 @@
 # Despliegue y versiones<br/>
 
 * Despliegue: [Desplegado eddy-portafolio.vercel.app](https://eddyy.dev)
-#### Version: '1.2', //Ultima revision el 4 de mayo del 2023
+#### Version: '2.0', //Ultima revision el 4 de mayo del 2023
