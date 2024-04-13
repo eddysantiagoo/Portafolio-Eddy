@@ -502,3 +502,20 @@ body {
 .img-map{
   z-index: -1;
 }
+
+.animate-pulse{
+  display: flex;
+  animation: pulse-animation 2s infinite;
+  box-shadow: 0 0 0 12px rgba(255, 255, 255, 0.849);
+}
+
+
+@keyframes pulse-animation {
+  0% {
+    box-shadow: 0 0 0 0px rgba(255, 255, 255, 0.849);
+  }
+  100% {
+    box-shadow: 0 0 0 20px rgba(36, 36, 36, 0);
+  }
+}
+

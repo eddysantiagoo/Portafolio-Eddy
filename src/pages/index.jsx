@@ -12,6 +12,7 @@ import { NextSeo } from "next-seo";
 import Tippy from "@tippyjs/react";
 import { followCursor } from "tippy.js";
 import toast from "react-hot-toast";
+import TimeZone from "components/Global/TimeZone";
 
 export default function Home() {
   const { page } = usePage();
@@ -93,34 +94,24 @@ export default function Home() {
                 </svg>
               </button>
             </article>
-            <article className="h-[100px] overflow-hidden relative">
-              <div className="">
-                <span>Medellin, Col</span>
-              </div>
-              <img
-                decoding="async"
-                className="absolute top-0 left-0 w-full h-full object-cover img-map"
-                srcset="https://framerusercontent.com/images/HFLO9jxwhZXs3FhX4jM8zPTcs.png?scale-down-to=512 512w,https://framerusercontent.com/images/HFLO9jxwhZXs3FhX4jM8zPTcs.png 760w"
-                src="https://framerusercontent.com/images/HFLO9jxwhZXs3FhX4jM8zPTcs.png"
-                alt="Mapa"
-              />
-            </article>
-            <h1 className="cuarta-font mt-8">
+            <p className="cuarta-font bg-[#101010] p-4 rounded-2xl my-2">
               <ul className="text-md grid gap-4">
-                <li className="cuarta-font font-normal">
+                <li className="cuarta-font text-sm font-normal">
                   a veces pienso que menos es más
                 </li>
-                <li className="cuarta-font font-normal">
+                <li className="cuarta-font text-sm font-normal">
                   pienso que lo que elegimos desarrollar es tan crucial como lo
                   que decidimos omitir
                 </li>
 
-                <li className="text-xs mt-12 font-light">
+                <li className="text-xs mt-2 font-light">
                   <span className="text-[#FF4F4F] mr-1">*</span>Poco, pero
                   conciso.
                 </li>
               </ul>
-            </h1>
+            </p>
+
+            <TimeZone />
           </div>
 
           <section className="flex flex-col gap-4 w-full h-full">
