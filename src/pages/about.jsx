@@ -58,12 +58,11 @@ export default function About() {
       <div className="max-w-7xl grid lg:grid-cols-2 gap-8 mx-auto mt-12">
         <div className="h-fit bento-grid overflow-hidden static lg:sticky lg:top-[110px]">
           <p className="text-lg">
-            Actualmente resido en Colombia, desarrollador web enfocado en
-            contruir sitios webs modernos, accesibles y diseñados para ser
-            intuitivos. <br /> <br />
+            Desarrollador web enfocado en contruir sitios webs modernos,
+            accesibles y diseñados para ser intuitivos. <br /> <br />
             <p>
-              Ahora, personalmente hablando soy un entusiasta del UX y UI, me
-              gustan los deportes, el open source, me gusta jugar videojuegos y
+              Personalmente hablando soy un entusiasta del UX y UI, me
+              gustan los deportes, me gusta jugar videojuegos y
               leer. También tengo un interés en las artes y a veces escribo algo
               en{" "}
               <Link href={`/posts`}>

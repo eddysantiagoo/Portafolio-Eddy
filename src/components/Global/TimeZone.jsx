@@ -20,8 +20,8 @@ function TimeZone() {
   return (
     <article className="h-[100px] overflow-hidden relative rounded-2xl my-2">
       <div className="grid absolute top-1/4 left-[20px]">
-        <span className="font-bold text-lg">Medellin, COL</span>
-        <span className="font-thin text-sm text-[#7e7e7e]">{time} Local Time</span>
+        <span className="font-bold text-lg">Medellín, COL</span>
+        <span className="font-thin text-sm text-neutral-500">{time} Local Time</span>
       </div>
       <img
         decoding="async"
