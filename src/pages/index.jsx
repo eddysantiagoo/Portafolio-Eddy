@@ -208,7 +208,7 @@ export default function Home() {
           </div>
 
           <section className="flex flex-col gap-4 w-full h-full">
-            <article className="flex h-full p-0">
+            <article className="flex p-0 h-[60vh]">
               <SplineCard />
             </article>
           </section>
