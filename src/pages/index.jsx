@@ -61,7 +61,7 @@ export default function Home() {
 
       <section className="wrapper flex flex-col items-center pt-6 md:p-0 lg:h-[73vh]">
         <div className="grid lg:grid-cols-2 gap-4 md:p-8 place-items-center md:w-8/12 m-auto">
-          <div className="h-full bento-grid overflow-hidden">
+          <div className="h-full overflow-hidden">
             <article className="flex items-center gap-4 justify-between">
               <div className="flex items-center gap-4">
                 <div className="font-secundary">
@@ -93,7 +93,18 @@ export default function Home() {
                 </svg>
               </button>
             </article>
-
+            <article className="h-[100px] overflow-hidden relative">
+              <div className="">
+                <span>Medellin, Col</span>
+              </div>
+              <img
+                decoding="async"
+                className="absolute top-0 left-0 w-full h-full object-cover img-map"
+                srcset="https://framerusercontent.com/images/HFLO9jxwhZXs3FhX4jM8zPTcs.png?scale-down-to=512 512w,https://framerusercontent.com/images/HFLO9jxwhZXs3FhX4jM8zPTcs.png 760w"
+                src="https://framerusercontent.com/images/HFLO9jxwhZXs3FhX4jM8zPTcs.png"
+                alt="Mapa"
+              />
+            </article>
             <h1 className="cuarta-font mt-8">
               <ul className="text-md grid gap-4">
                 <li className="cuarta-font font-normal">
@@ -110,12 +121,6 @@ export default function Home() {
                 </li>
               </ul>
             </h1>
-
-            {/* <p className="mx-auto max-w-5xl font-display font-medium md:font-bold text-2xl md:text-3xl text-neutral-400 dark:text-gray-400/50 mt-2 text-center">
-            Desarrollador de Software
-          </p> */}
-            {/* Seccion de los botones de tecnologias, repositorios etc... */}
-            <span className="hero_Glow__wiAEk"></span>
           </div>
 
           <section className="flex flex-col gap-4 w-full h-full">

@@ -132,7 +132,7 @@ export default function Projects() {
                 </div>
               </a>
             </div>
-            <span className="hero_Glow__wiAEk-projects"></span>
+            {/* <span className="hero_Glow__wiAEk-projects"></span> */}
           </div>
         </div>
       </div>

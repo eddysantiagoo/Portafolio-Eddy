@@ -243,7 +243,7 @@ export default function About() {
           </div>
         </section>
 
-        <span className="hero_Glow__wiAEk-about"></span>
+        {/* <span className="hero_Glow__wiAEk-about"></span> */}
       </div>
     </>
   );

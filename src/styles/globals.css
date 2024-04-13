@@ -10,7 +10,7 @@
 @tailwind utilities;
 
 * {
-  font-family: "Inter", sans-serif;
+  font-family: "SF Pro Display", sans-serif;
 }
 
 body {
@@ -497,4 +497,8 @@ body {
   100% {
     background-position: 100% 0%;
   }
+}
+
+.img-map{
+  z-index: -1;
 }
