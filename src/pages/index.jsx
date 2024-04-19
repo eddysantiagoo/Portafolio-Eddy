@@ -68,7 +68,7 @@ export default function Home() {
 
       <section className="wrapper flex flex-col items-center pt-6 md:p-0 lg:h-[73vh]">
         <div className="grid lg:grid-cols-2 gap-4 md:p-8 place-items-center md:w-8/12 m-auto">
-          <div className="h-full overflow-hidden">
+          <div className=" overflow-hidden">
             <article className="flex items-center gap-4 justify-between">
               <div className="flex items-center gap-4">
                 <div className="font-secundary">
