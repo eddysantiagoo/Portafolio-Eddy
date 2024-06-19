@@ -42,7 +42,7 @@ export default function Home() {
       <NextSeo
         title="Desarrollador"
         titleTemplate=" Eddy Santiago | %s"
-        description="Inicio - Portafolio de Desarrollador de Software"
+        description="Inicio - Desarrollador de Software"
         // canonical="https://www.misitioweb.com/" "canonical" es una etiqueta que se utiliza en SEO para indicar a los motores de búsqueda la URL canónica de una página. Esto significa que se establece una URL preferida para una página específica, que ayuda a evitar contenido duplicado y mejora la clasificación en los motores de búsqueda. En este caso, "canonical=https://www.misitioweb.com/" significa que se está indicando que la URL canónica de la página es https://www.misitioweb.com/.
         keywords={[
           "portafolio",
