@@ -186,6 +186,34 @@ export default function Home() {
                   />
                 </svg>
               </a>
+              <a
+                className="p-2 hover:bg-[#101010] transition rounded-lg flex gap-1"
+                href="https://layers.to/eddysantiago"
+                onMouseEnter={handleHoverClick}
+              >
+                Layers.to
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  height="16"
+                  color="currentColor"
+                  fill="none"
+                >
+                  <path
+                    d="M17 7L6 18"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                  />
+                  <path
+                    d="M11 6.13151C11 6.13151 16.6335 5.65662 17.4885 6.51153C18.3434 7.36645 17.8684 13 17.8684 13"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </a>
             </div>
 
             <p className="cuarta-font bg-[#101010] p-4 rounded-2xl my-2">
