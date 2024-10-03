@@ -42,7 +42,7 @@ export default function Home() {
       <NextSeo
         title="Desarrollador"
         titleTemplate=" Eddy Santiago | %s"
-        description="Inicio - Portafolio de Desarrollador de Software"
+        description="Inicio - Desarrollador de Software"
         // canonical="https://www.misitioweb.com/" "canonical" es una etiqueta que se utiliza en SEO para indicar a los motores de búsqueda la URL canónica de una página. Esto significa que se establece una URL preferida para una página específica, que ayuda a evitar contenido duplicado y mejora la clasificación en los motores de búsqueda. En este caso, "canonical=https://www.misitioweb.com/" significa que se está indicando que la URL canónica de la página es https://www.misitioweb.com/.
         keywords={[
           "portafolio",
@@ -66,9 +66,9 @@ export default function Home() {
         }}
       />
 
-      <section className="wrapper flex flex-col items-center pt-6 md:p-0 lg:h-[73vh]">
+      <section className="wrapper flex flex-col items-center pt-24 md:p-0 lg:h-[73vh]">
         <div className="grid lg:grid-cols-2 gap-4 md:p-8 place-items-center md:w-8/12 m-auto">
-          <div className=" overflow-hidden">
+          <div className="overflow-hidden">
             <article className="flex items-center gap-4 justify-between">
               <div className="flex items-center gap-4">
                 <div className="font-secundary">
@@ -235,8 +235,8 @@ export default function Home() {
             <TimeZone />
           </div>
 
-          <section className="flex flex-col gap-4 w-full h-full">
-            <article className="flex p-0 h-[60vh]">
+          <section className="hidden sm:flex flex-col gap-4 w-full h-full">
+            <article className="p-0 h-[60vh]">
               <SplineCard />
             </article>
           </section>
