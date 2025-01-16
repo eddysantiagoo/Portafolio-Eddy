@@ -7,7 +7,7 @@ export const DATA = {
   url: "https://eddyy.dev/",
   location: "San Francisco, CA",
   locationLink: "https://www.google.com/maps/place/medellin",
-  description: "Un loco",
+  description: "Un loquito al mando",
   summary: "Trabajando en el summary!",
   avatarUrl: "https://avatars.githubusercontent.com/u/85720891?v=4",
   skills: [
@@ -103,12 +103,7 @@ export const DATA = {
       active: true,
       description:
         "Un widget SVG dedicado a mostrar tu música de Spotify en tu archivo README o en un sitio web",
-      technologies: [
-        "Jinja",
-        "JavaScript",
-        "Python",
-        "HTML",
-      ],
+      technologies: ["Jinja", "JavaScript", "Python", "HTML"],
       links: [
         {
           type: "Web",
@@ -117,8 +112,7 @@ export const DATA = {
         },
       ],
       image: "/Spotify-Widget.jpg",
-      video:
-        "",
+      video: "",
     },
   ],
   hackathons: [
