@@ -3,6 +3,7 @@ import BlurFade from "@/components/magicui/blur-fade";
 import BlurFadeText from "@/components/magicui/blur-fade-text";
 import { ProjectCard } from "@/components/project-card";
 import { ResumeCard } from "@/components/resume-card";
+import { ResumeCardSchool } from "@/components/resume-card-school";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
 import { DATA } from "@/data/resume";
@@ -86,7 +87,7 @@ export default function Page() {
               key={education.school}
               delay={BLUR_FADE_DELAY * 8 + id * 0.05}
             >
-              <ResumeCard
+              <ResumeCardSchool
                 key={education.school}
                 href={education.href}
                 logoUrl={education.logoUrl}
