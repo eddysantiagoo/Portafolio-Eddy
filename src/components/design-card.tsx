@@ -22,7 +22,7 @@ export function DesignCard() {
     const fetchDesigns = async () => {
       try {
         const response = await fetch(
-          `https://api.dribbble.com/v2/user/shots?access_token=${process.env.NEXT_PUBLIC_ACCESS_DRIBBLE_TOKEN}&per_page=4`
+          `https://api.dribbble.com/v2/user/shots?access_token=3e1ffc65c5dd8f719b8821fea9da09adedc10aba587e456ea10f9f64903e4331&per_page=4`
         );
         if (!response.ok) throw new Error("Error al obtener los diseños");
         const data: DribbleResponse[] = await response.json();
