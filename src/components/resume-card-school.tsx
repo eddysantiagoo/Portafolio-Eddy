@@ -44,7 +44,7 @@ export const ResumeCardSchool = ({
       className="block cursor-pointer"
       onClick={handleClick}
     >
-      <Card className="flex">
+      <Card noBg className="flex">
         <div className="flex-none">
           <Avatar className="border size-12 m-auto bg-muted-background dark:bg-foreground">
             <AvatarImage
@@ -84,7 +84,7 @@ export const ResumeCardSchool = ({
                 {period}
               </div>
             </div>
-            {subtitle && <div className="font-sans text-xs">{subtitle}</div>}
+            {subtitle && <div className="font-sans text-xs mt-1">{subtitle}</div>}
           </CardHeader>
           {description && (
             <motion.div

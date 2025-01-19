@@ -20,13 +20,14 @@ export default function Navbar() {
   return (
     <>
       <div
+      className="opacity-40 md:opacity-100"
         style={{
           position: "fixed",
           top: 0,
           right: 0,
           width: "100%",
           height: "100%",
-          backgroundImage: theme === "light" ? "none" : "url('/bg-dark.png')", // Conditionally set background
+          backgroundImage: theme === "light" ? "none" : "url('/bg-dark.jpg')", // Conditionally set background
           backgroundSize: "cover",
           backgroundPosition: "right",
           zIndex: -10,
