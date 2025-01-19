@@ -14,24 +14,25 @@ export function formatDate(date: string) {
   let timeDifference = Math.abs(currentDate - targetDate);
   let daysAgo = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
 
-  let fullDate = new Date(date).toLocaleString("en-us", {
+  let fullDate = new Date(date).toLocaleString("es-ES", {
     month: "long",
     day: "numeric",
     year: "numeric",
   });
 
   if (daysAgo < 1) {
-    return "Today";
+    return "Hoy";
   } else if (daysAgo < 7) {
-    return `${fullDate} (${daysAgo}d ago)`;
+    return `${fullDate} (hace ${daysAgo} día/s)`;
   } else if (daysAgo < 30) {
     const weeksAgo = Math.floor(daysAgo / 7);
-    return `${fullDate} (${weeksAgo}w ago)`;
+    return `${fullDate} (hace ${weeksAgo} semana/s)`;
   } else if (daysAgo < 365) {
     const monthsAgo = Math.floor(daysAgo / 30);
-    return `${fullDate} (${monthsAgo}mo ago)`;
+    return `${fullDate} (hace ${monthsAgo} mes/es)`;
   } else {
     const yearsAgo = Math.floor(daysAgo / 365);
-    return `${fullDate} (${yearsAgo}y ago)`;
+    return `${fullDate} (hace ${yearsAgo} año/s)`;
   }
+  
 }
