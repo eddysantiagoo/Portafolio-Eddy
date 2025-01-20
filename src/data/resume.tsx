@@ -9,7 +9,7 @@ export const DATA = {
   locationLink: "https://www.google.com/maps/place/medellin",
   description: "Un loquito al mando",
   summary: "Trabajando en el summary!",
-  avatarUrl: "https://avatars.githubusercontent.com/u/85720891?v=4",
+  avatarUrl: "/me.webp",
   skills: [
     "Laravel",
     "Next.js",
