@@ -18,6 +18,9 @@ export const metadata: Metadata = {
     default: DATA.name,
     template: `%s | ${DATA.name}`,
   },
+  alternates: {
+    canonical: DATA.url,
+  },
   description: DATA.description,
   openGraph: {
     title: `${DATA.name}`,
@@ -27,6 +30,7 @@ export const metadata: Metadata = {
     locale: "es_ES",
     type: "website",
   },
+  
   robots: {
     index: true,
     follow: true,
