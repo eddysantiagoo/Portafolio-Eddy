@@ -9,7 +9,7 @@ export const DATA = {
   locationLink: "https://www.google.com/maps/place/medellin",
   description: "Un loquito al mando",
   summary: "Trabajando en el summary!",
-  avatarUrl: "/me.webp",
+  avatarUrl: "/me.jpg",
   skills: [
     "Laravel",
     "Next.js",
@@ -112,6 +112,24 @@ export const DATA = {
         },
       ],
       image: "/Spotify-Widget.jpg",
+      video: "",
+    },
+    {
+      title: "Rendi",
+      href: "https://rendi.eddyy.dev/",
+      dates: "Dic 2024",
+      active: true,
+      description:
+        "Aplicación web para calcular y comparar rendimientos de diferentes cuentas de ahorro y depósitos de bajo monto en Colombia",
+      technologies: ["Next.js", "Zustand"],
+      links: [
+        {
+          type: "Web",
+          href: "https://rendi.eddyy.dev/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/rendi.png",
       video: "",
     },
   ],
