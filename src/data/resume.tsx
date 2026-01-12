@@ -7,8 +7,8 @@ export const DATA = {
   url: "https://eddyy.dev/",
   location: "San Francisco, CA",
   locationLink: "https://www.google.com/maps/place/medellin",
-  description: "Un loquito al mando",
-  summary: "Trabajando en el summary!",
+  description: "Desarrollador de Software",
+  summary: "Me enfoco en construir productos web escalables con tecnologías modernas y enfoque en UX y performance.",
   avatarUrl: "/me.jpg",
   skills: [
     "Laravel",
@@ -82,7 +82,19 @@ export const DATA = {
       start: "Jun 2023",
       end: "Presente",
       description:
-        "Desarrollo de aplicaciones web, diseño de interfaces de usuario y experiencia de usuario.",
+        "Diseñé e implementé soluciones web escalables y centradas en el usuario, creando componentes reutilizables, liderando el desarrollo de un catálogo de repuestos en línea para el mercado colombiano, integrando el frontend con backend en Laravel y APIs internas, optimizando el rendimiento en un 29% mediante lazy loading y code splitting, co-desarrollando herramientas de seguimiento de soporte, aplicando Design Thinking, realizando auditorías de accesibilidad, validando interfaces con wireframes y prototipos, y desarrollando sitios en WordPress con Elementor, WooCommerce y Jetpack para mejorar la experiencia del cliente.",
+    },
+    {
+      company: "Vibio Labs",
+      href: "https://principal.gestoru.com/",
+      badges: [],
+      location: "Medellin, Colombia",
+      title: "Co-fundador y Arquitecto Principal de Frontend",
+      logoUrl: "/vibio.png",
+      start: "Ene 2025",
+      end: "Dec 2025",
+      description:
+        "Diseñé y lideré la arquitectura de frontend en Next.js 15 para un CRM conversacional en tiempo real, estableciendo estándares de componentización y patrones de diseño que optimizaron la escalabilidad, el rendimiento y la colaboración con el backend, mientras contribuía a la visión del producto e integraba APIs internas y de terceros para automatizar embudos de ventas, campañas de mensajería masiva y flujos avanzados de interacción con clientes.",
     },
   ],
   education: [
