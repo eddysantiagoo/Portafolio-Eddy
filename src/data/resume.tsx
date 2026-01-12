@@ -128,7 +128,7 @@ export const DATA = {
     },
     {
       title: "Rendi",
-      href: "https://rendi.eddyy.dev/",
+      href: "https://rendi.eddyys.dev/",
       dates: "Dic 2024",
       active: true,
       description:
